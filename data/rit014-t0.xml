@@ -1124,7 +1124,7 @@
     <original></original>
     <corrected><c>,</c></corrected>
       <errors>
-        <error xtype="extra-conjunction" eid="0" />
+        <error xtype="missing-comma" eid="0" />
       </errors>
   </revision>
   <w>jafnvel</w>
@@ -1222,7 +1222,7 @@
     <original><w>eru</w></original>
     <corrected></corrected>
       <errors>
-        <error xtype="ind4sub" idX="79-1" eid="0" />
+        <error xtype="ind4sub" idx="79-1 " eid="0" />
       </errors>
   </revision>
   <w>óþekkt</w>
