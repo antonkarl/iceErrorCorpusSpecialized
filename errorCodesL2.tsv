@@ -1,5 +1,4 @@
 code	error	class	comment
-lower4upper-initial	lítill stafur í upphafi málsgreinar	capitalization	hann var seinn > Hann var seinn
 lower4upper-proper	lítill stafur í upphafi sérnafns	capitalization	ísland > Íslands
 lower4upper-acro	lítill stafur í hánefni	capitalization	Dv > DV
 upper4lower-common	stór stafur í upphafi samnafns	capitalization	20 Milljónir > 20 milljónir
@@ -15,6 +14,8 @@ agreement-pred	samræmi umsagnar við frumlag	grammar	Bakgrunnurinn er gullin > 
 agreement-pro	samræmi fornafns við undanfara	grammar	...vöðvahólf sem sé um dælinguna. Hann dælir blóðinu > Það dælir blóðinu
 case-verb	fallstjórn: samræmi sagnorðs við næsta orð	grammar	viltu hjálpa mig > mér
 case-prep	fallstjórn: samræmi innan forsetningarliðar		
+case-adj	fallstjórn: vitlaust fall vegna lýsingarorða	grammar	vera frábrugðið e-ð > vera frábrugðið e-m
+case-collocation	fallstjórn: vitlaust fall fylgir föst orðasambönd		
 ind4def	óákveðið fyrir ákveðið	grammar	gítartakta > gítartaktana
 def4ind	ákveðið fyrir óákveðið	grammar	skákinni > skák
 ind4sub	framsöguháttur fyrir vh.	grammar	Þrátt fyrir að konfúsíanismi er upprunninn > Þrátt fyrir að konfúsíanismi sé upprunninn
@@ -127,8 +128,8 @@ missing-bracket	sviga vantar	other	(í júní > (í júní)
 extra-bracket	sviga ofaukið	other	(í júní)) > (í júní)
 noun4pro	nafnorð í stað fornafns	grammar	menntun má nálgast > hana má nálgast
 pro4noun	fornafn í stað nafnorðs	grammar	þau voru spurð > parið var spurt
-reflexive4pro	afturbeygt fornafn í stað nafnorðs	grammar	félagið hélt aðalfund þess > félagið hélt aðalfund sinn
-pro4reflexive	nafnorð í stað afturbeygðs fornafns	grammar	gefur orku til fólks í kringum það > gefur orku til fólks í kringum sig
+reflexive4pro	afturbeygt fornafn í stað persónufornafns	grammar	í umhverfi sínu > í umhverfi þeirra
+pro4reflexive	persónufornafn í stað afturbeygðs fornafns	grammar	gefur orku til fólks í kringum það > gefur orku til fólks í kringum sig
 u4y	u í stað y	style	mundi > myndi
 extra-conjunction	samtengingu ofaukið	punctuation	hvort sem að > hvort sem
 pronun-writing	skrifað eftir framburði	spelling	kallar > karlar
@@ -136,7 +137,7 @@ semicolon4comma	semíkomma fyrir kommu	punctuation	hundar; kettir og önnur dýr
 conjunction4qm	samtenging fyrir spurningarmerki	punctuation	En er það sönn hamingja og hver eru... > En er það sönn hamingja? Hver eru...
 wrong-prep	röng notkun á forsetningu	tradition	Ég bý í Íslandi > Ég bý á Íslandi
 missing-prep	forsetningu vantar	omission	
-extra-prep	forsetning ofaukið	insertion	
+extra-prep	forsetningu ofaukið	insertion	
 pres4past	sögn í nútíð í stað þátíðar	grammar	Þeir fara út > Þeir fóru út
 past4pres	sögn í þátíð í stað nútíðar	grammar	þegar hún leigði spólur > þegar hún leigir spólur
 tense4perfect	nútíð/þátíð í stað lokins horfs		
@@ -163,7 +164,7 @@ marked4unmarked	markað í stað ómarks kyns (kvk. eða hk. notað sem ómarka�
 adj4adv	lýsingarorð í stað atviksorðs	grammar	krefst ekki meira > krefst ekki meir
 adv4adj	atviksorð í stað lýsingarorðs	grammar	hafa það betur > hafa það betra
 have	hafa / eiga / vera með	grammar	hafa fjölskyldu > eiga fjölskyldu
-context	rangt orð í samhengi	other	
+context	rangt orð í samhengi	lexical	
 cont4simple	vera að + nafnh. í stað nútíðar	grammar	ég er að sitja > ég sit
 missing-inf-part	vantar nafnháttarmerki	grammar	vera gera e-ð > vera að gera e-ð
 fw4ice	erlent orð þýtt yfir á íslensku	style	Elba > Saxelfur
@@ -216,27 +217,26 @@ semicolon4period	semíkomma fyrir punkt	punctuation	; > .
 period4semicolon	punktur fyrir semíkommu	punctuation	. > ;
 period4dash	punktur fyrir bandstrik	punctuation	. > -
 gen-escape	eignarfallsflótti	grammar	neysla ávöxtum > neysla ávaxta
-genitive	villur tengdar eignarfalli	grammar 
-symbol4number	tákn fyrir númer		2 ½ > 2,5 
-missing-square	vantar hornklofa	punctuation	þeir > [þeir] 
-slash4dash	skástrik fyrir bandstrik	punctuation	bresk-bandarísk > bresk/bandarísk 
-wrong-accent	broddur notaður vitlaust		óktober > október 
+genitive	villur tengdar eignarfalli	grammar	
+symbol4number	tákn fyrir númer		2 ½ > 2,5
+missing-square	vantar hornklofa	punctuation	þeir > [þeir]
+slash4dash	skástrik fyrir bandstrik	punctuation	bresk-bandarísk > bresk/bandarísk
+wrong-accent	broddur notaður vitlaust		óktober > október
 dem4noun	ábendingarfornafn í stað nafnorðs	grammar	hinn > maðurinn
 noun4dem	nafnorð í stað ábendingarfornafns	grammar	stærsta klukkan > sú stærsta
-ice4fw	íslenskt orð notað í staðinn erlends		Demókrata öldungarþings herferðarnefndina > Democratic Senatorial Campaign Committee  
-extra-commas	kommur ofaukið utan um innskot	punctuation Lárus Dagur, framkvæmdastjóri, ... > Lárus Dagur framkvæmdastjóri ...
+ice4fw	íslenskt orð notað í staðinn erlends		Demókrata öldungarþings herferðarnefndina > Democratic Senatorial Campaign Committee
+extra-commas	kommur ofaukið utan um innskot	punctuation	Lárus Dagur, framkvæmdastjóri, ... > Lárus Dagur framkvæmdastjóri ...
 number4symbol	númer fyrir tákn		5. >  V
 conjunction4semicolon	samtenging fyrir semíkommu	punctuation	en > ;
-wrong-conj	vitlaust notkun á samtengingu		og/en, sem/eins og
-interr-pro	rangt spurnarfornafn	lexical 
-repeat-word	orð endurtekið, orðin eru hliðstæð	insertion	maður sem sem fór > maður sem fór 
+interr-pro	rangt spurnarfornafn	lexical	
+repeat-word	orð endurtekið, orðin eru hliðstæð	insertion	maður sem sem fór > maður sem fór
 repeat-word-split	orð endurtekið en orð kemur á milli	insertion	var eitt ár var eftir > eitt ár var eftir
-þar4það	þar í stað það		þar voru dæmi  (there were examples of...)  
-extra-munu	sögnin munu ofnotuð (bæði í nh og viðt.h.)    
-missing-subj	vantar frumlag í setningunni	omission/grammar  
-missing-obj	vantar andlag í setningunni	omission/grammar  
-geta	geta + nafnháttur	grammar 
+þar4það	þar í stað það		þar voru dæmi  (there were examples of...) 
+extra-munu	sögnin munu ofnotuð (bæði í nh og viðt.h.)		
+missing-subj	vantar frumlag í setningunni	omission/grammar	
+missing-obj	vantar andlag í setningunni	omission/grammar	
+geta	geta + nafnháttur eða nútíð	grammar	
 adj4noun	lo í stað no	grammar	Áhrif ensks > Áhrif enskunnar
-noun4adj	no í stað lo		Það eru jafnmörg orð sem eru endingarleysi og   >  ...sem eru endingarlaus og 
-extra-subj	frumlagi ofaukið    
-missing-fin-verb	persónubeygða sögn vantar		þótt hún mjög virk > þótt hún sé mjög virk  
+noun4adj	no í stað lo		Það eru jafnmörg orð sem eru endingarleysi og   >  ...sem eru endingarlaus og
+extra-subj	frumlagi ofaukið		
+missing-fin-verb	persónubeygða sögn vantar		þótt hún mjög virk > þótt hún sé mjög virk
