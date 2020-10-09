@@ -1,4 +1,5 @@
 code	error	class	comment
+lower4upper-initial	lítill stafur í upphafi málsgreinar	capitalization	hann var seinn > Hann var seinn
 lower4upper-proper	lítill stafur í upphafi sérnafns	capitalization	ísland > Íslands
 lower4upper-acro	lítill stafur í hánefni	capitalization	Dv > DV
 upper4lower-common	stór stafur í upphafi samnafns	capitalization	20 Milljónir > 20 milljónir
@@ -83,9 +84,6 @@ split-compound	samsett orð slitið sundur	spacing	suðvestur horn > suðvesturh
 split-word	orð slitið sundur	spacing	lang efstir > langefstir
 split-words	fleiri en tvö orð slitin sundur	spacing	því um líkt > þvíumlíkt
 missing-dash	bandstrik vantar í samsetningu	spacing	Kyoto bókunin > Kyoto-bókunin
-dep	a dependent error	                             	
-zzz	to revisit	unannotated                           	
-xxx	unclassified	unclassified	
 extra-word	orði ofaukið	insertion	augun á mótherja > augu mótherja
 extra-words	orðum ofaukið	insertion	...ég fer að hugsa... > ...ég hugsa...
 extra-accent	broddi ofaukið	insertion	flétta > fletta
@@ -241,3 +239,7 @@ adj4noun	lo í stað no	grammar	Áhrif ensks > Áhrif enskunnar
 noun4adj	no í stað lo		Það eru jafnmörg orð sem eru endingarleysi og   >  ...sem eru endingarlaus og
 extra-subj	frumlagi ofaukið		
 missing-fin-verb	persónubeygða sögn vantar		þótt hún mjög virk > þótt hún sé mjög virk
+number-fail			123ja metra > 123 metra
+zzz	to revisit	unannotated	
+xxx	unclassified	unclassified	
+dep	a dependent error		
