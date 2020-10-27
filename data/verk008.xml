@@ -1,0 +1,983 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>verk008.xml</title>
+    </titleStmt>
+    <publicationStmt>
+      <distributor>Rannsóknarstofan Mál og tækni</distributor>
+    </publicationStmt>
+    <sourceDesc>
+      <biblStruct>
+        <monogr>
+          <author>Anonymous</author>
+        </monogr>
+      </biblStruct>
+    </sourceDesc>
+  </fileDesc>
+</teiHeader>
+<text><body><p n="1">
+<s n="1">
+  <w>Ég</w>
+  <w>heiti</w>
+  <w>Jonalie</w>
+  <c>.</c>
+</s>
+<s n="2">
+  <w>Ég</w>
+  <w>er</w>
+  <w>frá</w>
+  <w>Filippseyjum</w>
+  <w>og</w>
+  <w>er</w>
+  <w>fædd</w>
+  <revision id="1">
+    <original><w>á</w></original>
+    <corrected><w>í</w></corrected>
+      <errors>
+        <error xtype="wrong-prep" eid="0" />
+      </errors>
+  </revision>
+  <w>Olongapo</w>
+  <w>sem</w>
+  <w>er</w>
+  <revision id="2">
+    <original><w>fyrir</w><w>norðvestan</w></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="extra-prep" idx="2-1" eid="0" />
+        <error xtype="wording" idx="2-2" eid="0" />
+      </errors>
+  </revision>
+  <w>á</w>
+  <revision id="3">
+    <original><w>Filippseyjum</w></original>
+    <corrected><w>norðvestur-Filippseyjum</w></corrected>
+      <errors>
+        <error xtype="dep" depId="2-2" eid="0" />
+      </errors>
+  </revision>
+  <c>.</c>
+</s>
+<s n="3">
+  <w>Ég</w>
+  <w>á</w>
+  <w>afmæli</w>
+  <w>fjórða</w>
+  <w>júlí</w>
+  <w>og</w>
+  <w>er</w>
+  <w>þrjátíu</w>
+  <w>og</w>
+  <w>þriggja</w>
+  <w>ára</w>
+  <w>gömul</w>
+  <c>.</c>
+</s>
+<s n="4">
+  <w>Ég</w>
+  <revision id="4">
+    <original><w>útskrifaði</w></original>
+    <corrected><w>útskrifaðist</w></corrected>
+      <errors>
+        <error xtype="verb-inflection" eid="0" />
+      </errors>
+  </revision>
+  <w>úr</w>
+  <w>viðskiptafræði</w>
+  <w>og</w>
+  <w>lærði</w>
+  <w>líka</w>
+  <w>menntunarfræði</w>
+  <w>á</w>
+  <w>Filippseyjum</w>
+  <c>.</c>
+</s>
+<s n="5">
+  <w>Ég</w>
+  <w>hef</w>
+  <w>unnið</w>
+  <w>lengi</w>
+  <w>í</w>
+  <w>ferðaþjónustu</w>
+  <revision id="5">
+    <original></original>
+    <corrected><c>,</c><w>eða</w></corrected>
+      <errors>
+        <error xtype="missing-commas" idx="5-1" eid="0" />
+        <error xtype="missing-conjunction" idx="5-2" eid="0" />
+      </errors>
+  </revision>
+  <w>í</w>
+  <w>sjö</w>
+  <w>ár</w>
+  <revision id="6">
+    <original></original>
+    <corrected><c>,</c></corrected>
+      <errors>
+        <error xtype="dep" depId="5-1" eid="0" />
+      </errors>
+  </revision>
+  <w>á</w>
+  <w>Filippseyjum</w>
+  <c>.</c>
+</s>
+<s n="6">
+  <w>Ég</w>
+  <w>vann</w>
+  <w>sem</w>
+  <w>móttökuritari</w>
+  <w>og</w>
+  <w>sölumaður</w>
+  <w>á</w>
+  <revision id="7">
+    <original><w>hótelinu</w></original>
+    <corrected><w>hóteli</w></corrected>
+      <errors>
+        <error xtype="def4ind" eid="0" />
+      </errors>
+  </revision>
+  <c>.</c>
+</s>
+<s n="7">
+  <revision id="8">
+    <original><w>Fjölskylda</w></original>
+    <corrected><w>Fjölskyldan</w></corrected>
+      <errors>
+        <error xtype="ind4def" eid="0" />
+      </errors>
+  </revision>
+  <w>mín</w>
+  <w>býr</w>
+  <w>á</w>
+  <w>Filippseyjum</w>
+  <c>.</c>
+</s>
+<s n="8">
+  <w>Ég</w>
+  <w>á</w>
+  <w>stóra</w>
+  <w>fjölskyldu</w>
+  <w>og</w>
+  <w>á</w>
+  <w>fimm</w>
+  <w>systkini</w>
+  <c>.</c>
+</s>
+<s n="9">
+  <w>Ég</w>
+  <w>á</w>
+  <w>þrjár</w>
+  <w>systur</w>
+  <w>og</w>
+  <w>tvo</w>
+  <w>bræður</w>
+  <c>.</c>
+</s>
+<s n="10">
+  <w>Pabbi</w>
+  <w>minn</w>
+  <w>heitir</w>
+  <w>Jolan</w>
+  <w>og</w>
+  <revision id="9">
+    <original><w>hann</w></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="extra-subj" eid="0" />
+      </errors>
+  </revision>
+  <w>er</w>
+  <w>bílstjóri</w>
+  <c>.</c>
+</s>
+<s n="11">
+  <w>Hann</w>
+  <w>er</w>
+  <w>fimmtíu</w>
+  <w>og</w>
+  <w>sjö</w>
+  <w>ára</w>
+  <w>gamall</w>
+  <w>og</w>
+  <w>á</w>
+  <w>afmæli</w>
+  <w>í</w>
+  <w>desember</w>
+  <c>.</c>
+</s>
+<s n="12">
+  <w>Mamma</w>
+  <w>mín</w>
+  <w>heitir</w>
+  <w>Norma</w>
+  <w>og</w>
+  <w>er</w>
+  <w>saumakona</w>
+  <c>.</c>
+</s>
+<s n="13">
+  <w>Hún</w>
+  <w>er</w>
+  <w>fimmtíu</w>
+  <w>og</w>
+  <w>fjögurra</w>
+  <w>ára</w>
+  <w>og</w>
+  <w>á</w>
+  <w>afmæli</w>
+  <w>í</w>
+  <w>september</w>
+  <c>.</c>
+</s>
+<s n="14">
+  <w>Tvær</w>
+  <revision id="10">
+    <original><w>systur</w><w>mínar</w></original>
+    <corrected><w>systra</w><w>minna</w></corrected>
+      <errors>
+        <error xtype="genitive" idx="10-1" eid="0" />
+        <error xtype="nominal-inflection" idx="10-1" eid="0" />
+      </errors>
+  </revision>
+  <w>eru</w>
+  <w>kennarar</w>
+  <c>.</c>
+</s>
+<s n="15">
+  <w>Þær</w>
+  <w>kenna</w>
+  <w>í</w>
+  <revision id="11">
+    <original><w>grunnskólanum</w></original>
+    <corrected><w>grunnskóla</w></corrected>
+      <errors>
+        <error xtype="def4ind" eid="0" />
+      </errors>
+  </revision>
+  <w>á</w>
+  <w>Filippseyjum</w>
+  <c>.</c>
+</s>
+<s n="16">
+  <w>Eldri</w>
+  <w>systur</w>
+  <w>mínar</w>
+  <revision id="12">
+    <original><w>á</w></original>
+    <corrected><w>eiga</w></corrected>
+      <errors>
+        <error xtype="agreement-pred" idx="12-1" eid="0" />
+        <error xtype="verb-inflection" idx="12-1" eid="0" />
+      </errors>
+  </revision>
+  <w>tvö</w>
+  <w>börn</w>
+  <w>sem</w>
+  <w>heita</w>
+  <w>Adney</w>
+  <w>og</w>
+  <w>Sanjay</w>
+  <c>.</c>
+</s>
+<s n="17">
+  <w>Þau</w>
+  <w>eru</w>
+  <w>tíu</w>
+  <w>ára</w>
+  <w>og</w>
+  <w>átta</w>
+  <w>ára</w>
+  <w>gömul</w>
+  <c>.</c>
+</s>
+<s n="18">
+  <w>Ég</w>
+  <w>er</w>
+  <w>gift</w>
+  <w>og</w>
+  <w>eiginmaður</w>
+  <w>minn</w>
+  <w>heitir</w>
+  <w>Joseph</w>
+  <c>.</c>
+</s>
+<s n="19">
+  <w>Hann</w>
+  <w>á</w>
+  <revision id="13">
+    <original><w>afmæli</w></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="syntax" idx="13-1" eid="0" />
+      </errors>
+  </revision>
+  <w>líka</w>
+  <revision id="14">
+    <original></original>
+    <corrected><w>afmæli</w></corrected>
+      <errors>
+        <error xtype="dep" depId="13-1" eid="0" />
+      </errors>
+  </revision>
+  <w>í</w>
+  <w>júlí</w>
+  <w>og</w>
+  <w>er</w>
+  <w>þrjátíu</w>
+  <w>og</w>
+  <w>fjögurra</w>
+  <w>ára</w>
+  <w>gamall</w>
+  <c>.</c>
+</s>
+<s n="20">
+  <w>Hann</w>
+  <w>vinnur</w>
+  <w>sem</w>
+  <w>kokkur</w>
+  <w>á</w>
+  <revision id="15">
+    <original><w>skipinu</w></original>
+    <corrected><w>skipi</w></corrected>
+      <errors>
+        <error xtype="def4ind" eid="0" />
+      </errors>
+  </revision>
+  <w>og</w>
+  <w>býr</w>
+  <w>á</w>
+  <w>Filippseyjum</w>
+  <c>.</c>
+</s>
+<s n="21">
+  <w>Við</w>
+  <w>eigum</w>
+  <w>ekkert</w>
+  <w>barn</w>
+  <c>.</c>
+</s>
+<s n="22">
+  <w>Ég</w>
+  <w>kom</w>
+  <w>til</w>
+  <w>Íslands</w>
+  <w>í</w>
+  <w>desember árið 2018</w>
+  <c>.</c>
+</s>
+<s n="23">
+  <w>Ég</w>
+  <w>kom</w>
+  <w>til</w>
+  <w>Íslands</w>
+  <w>af</w>
+  <w>því</w>
+  <w>að</w>
+  <w>mig</w>
+  <w>langaði</w>
+  <w>að</w>
+  <w>prófa</w>
+  <w>eitthvað</w>
+  <w>nýtt</w>
+  <w>og</w>
+  <w>læra</w>
+  <w>íslensku</w>
+  <c>.</c>
+</s>
+<s n="24">
+  <w>Ég</w>
+  <w>er</w>
+  <w>búin</w>
+  <w>að</w>
+  <w>vera</w>
+  <w>á</w>
+  <w>Íslandi</w>
+  <w>í</w>
+  <w>eitt</w>
+  <w>ár</w>
+  <w>og</w>
+  <w>átta</w>
+  <revision id="16">
+    <original><w>mánuð</w></original>
+    <corrected><w>mánuði</w></corrected>
+      <errors>
+        <error xtype="singular4plural" eid="0" />
+      </errors>
+  </revision>
+  <c>.</c>
+</s>
+<s n="25">
+  <w>Ég</w>
+  <w>bý</w>
+  <w>í</w>
+  <w>blokk</w>
+  <w>á</w>
+  <w>Kleppsvegi</w>
+  <w>í</w>
+  <w>Reykjavík</w>
+  <w>með</w>
+  <w>bróður</w>
+  <w>mínum</w>
+  <c>.</c>
+</s>
+<s n="26">
+  <w>Hann</w>
+  <w>heitir</w>
+  <w>Kevin</w>
+  <w>og</w>
+  <w>vinnur</w>
+  <w>sem</w>
+  <w>hjúkrunarfræðingur</w>
+  <w>á</w>
+  <w>hjúkrunarheimili</w>
+  <c>.</c>
+</s>
+<s n="27">
+  <w>Þegar</w>
+  <w>bróðir</w>
+  <w>minn</w>
+  <w>kom</w>
+  <w>til</w>
+  <w>Íslands</w>
+  <w>bauð</w>
+  <w>hann</w>
+  <revision id="17">
+    <original><w>upp</w></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="extra-word" eid="0" />
+      </errors>
+  </revision>
+  <w>mér</w>
+  <w>að</w>
+  <w>fljúga</w>
+  <revision id="18">
+    <original></original>
+    <corrected><w>til</w></corrected>
+      <errors>
+        <error xtype="missing-prep" eid="0" />
+      </errors>
+  </revision>
+  <w>og</w>
+  <revision id="19">
+    <original><w>reyna</w></original>
+    <corrected><w>prófa</w></corrected>
+      <errors>
+        <error xtype="context" eid="0" />
+      </errors>
+  </revision>
+  <w>að</w>
+  <w>búa</w>
+  <w>á</w>
+  <w>Íslandi</w>
+  <c>.</c>
+</s>
+<s n="28">
+  <w>Mér</w>
+  <w>líkar</w>
+  <w>mjög</w>
+  <w>vel</w>
+  <w>að</w>
+  <w>búa</w>
+  <w>á</w>
+  <w>Íslandi</w>
+  <c>.</c>
+</s>
+<s n="29">
+  <w>Mér</w>
+  <w>finnst</w>
+  <w>Íslendingar</w>
+  <w>vingjarnlegir</w>
+  <w>og</w>
+  <w>rólegir</w>
+  <c>.</c>
+</s>
+<s n="30">
+  <w>Ég</w>
+  <revision id="20">
+    <original><w>læri</w><w>BA</w><w>Íslensku</w></original>
+    <corrected><w>er</w><w>að</w><w>læra</w><w>íslensku</w></corrected>
+      <errors>
+        <error xtype="simple4cont" idx="20-1" eid="0" />
+        <error xtype="syntax" idx="20-2" eid="0" />
+        <error xtype="upper4lower-common" idx="20-3" eid="0" />
+      </errors>
+  </revision>
+  <w>sem</w>
+  <w>annað</w>
+  <w>mál</w>
+  <revision id="21">
+    <original></original>
+    <corrected><w>fyrir</w><w>BA</w></corrected>
+      <errors>
+        <error xtype="dep" depId="20-2" eid="0" />
+      </errors>
+  </revision>
+  <w>í</w>
+  <w>Háskóla</w>
+  <w>Íslands</w>
+  <revision id="22">
+    <original><w>núna</w></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="extra-word" eid="0" />
+      </errors>
+  </revision>
+  <w>og</w>
+  <w>mér</w>
+  <w>finnst</w>
+  <w>skemmtilegt</w>
+  <w>og</w>
+  <revision id="23">
+    <original><w>ógrandi</w></original>
+    <corrected><w>ögrandi</w></corrected>
+      <errors>
+        <error xtype="letter-rep" idx="23-1" eid="0" />
+        <error xtype="nonword" idx="23-1" eid="0" />
+      </errors>
+  </revision>
+  <w>að</w>
+  <w>læra</w>
+  <w>íslensku</w>
+  <c>.</c>
+</s>
+<s n="31">
+  <w>Ég</w>
+  <revision id="24">
+    <original><w>er</w><w>búin</w><w>að</w><w>læra</w></original>
+    <corrected><w>lærði</w></corrected>
+      <errors>
+        <error xtype="cont4simple" eid="0" />
+      </errors>
+  </revision>
+  <w>íslensku</w>
+  <revision id="25">
+    <original></original>
+    <corrected><w>sem</w></corrected>
+      <errors>
+        <error xtype="missing-conjunction" eid="0" />
+      </errors>
+  </revision>
+  <w>hagnýtt</w>
+  <w>nám</w>
+  <w>og</w>
+  <w>sumarnámskeið</w>
+  <w>í</w>
+  <w>sumar</w>
+  <c>.</c>
+</s>
+<s n="32">
+  <w>Mér</w>
+  <w>finnst</w>
+  <w>erfitt</w>
+  <w>að</w>
+  <w>tala</w>
+  <w>íslensku</w>
+  <w>af</w>
+  <w>því</w>
+  <w>að</w>
+  <w>ég</w>
+  <w>er</w>
+  <w>feimin</w>
+  <revision id="26">
+    <original><w>sem</w></original>
+    <corrected><w>við</w></corrected>
+      <errors>
+        <error xtype="extra-conjunction" idx="26-1" eid="0" />
+        <error xtype="missing-prep" idx="26-1" eid="0" />
+      </errors>
+  </revision>
+  <w>að</w>
+  <w>tala</w>
+  <w>og</w>
+  <w>mig</w>
+  <w>vantar</w>
+  <revision id="27">
+    <original><w>mikla</w></original>
+    <corrected><w>mikinn</w></corrected>
+      <errors>
+        <error xtype="agreement-concord" idx="27-1" eid="0" />
+        <error xtype="adjective-inflection" idx="27-1" eid="0" />
+      </errors>
+  </revision>
+  <w>orðaforða</w>
+  <c>.</c>
+</s>
+<s n="33">
+  <w>Mér</w>
+  <w>finnst</w>
+  <w>auðvelt</w>
+  <w>að</w>
+  <w>nota</w>
+  <w>íslensku</w>
+  <w>hvenær</w>
+  <w>sem</w>
+  <w>ég</w>
+  <w>tala</w>
+  <w>um</w>
+  <w>mig</w>
+  <c>.</c>
+</s>
+<s n="34">
+  <w>Ég</w>
+  <w>get</w>
+  <w>talað</w>
+  <w>íslensku</w>
+  <w>hvenær</w>
+  <w>sem</w>
+  <w>ég</w>
+  <w>er</w>
+  <w>í</w>
+  <revision id="28">
+    <original><w>háskóla</w></original>
+    <corrected><w>háskólanum</w></corrected>
+      <errors>
+        <error xtype="ind4def" eid="0" />
+      </errors>
+  </revision>
+  <c>.</c>
+</s>
+<s n="35">
+  <w>Ég</w>
+  <w>reyni</w>
+  <w>að</w>
+  <w>tala</w>
+  <w>við</w>
+  <w>Íslendinga</w>
+  <w>í</w>
+  <w>vinnunni</w>
+  <w>eða</w>
+  <w>í</w>
+  <w>búðinni</w>
+  <c>.</c>
+</s>
+<s n="36">
+  <w>Mig</w>
+  <w>langar</w>
+  <w>að</w>
+  <w>tala</w>
+  <w>góða</w>
+  <w>íslensku</w>
+  <c>.</c>
+</s>
+<s n="37">
+  <w>Ég</w>
+  <w>hlakka</w>
+  <w>til</w>
+  <w>að</w>
+  <w>tala</w>
+  <w>íslensku</w>
+  <w>við</w>
+  <w>vini</w>
+  <revision id="29">
+    <original><w>mínir</w></original>
+    <corrected><w>mína</w></corrected>
+      <errors>
+        <error xtype="agreement-concord" idx="29-1" eid="0" />
+        <error xtype="nominal-inflection" idx="29-1" eid="0" />
+        <error xtype="case-prep" idx="29-1" eid="0" />
+      </errors>
+  </revision>
+  <w>og</w>
+  <w>Íslendinga</w>
+  <c>.</c>
+</s>
+<s n="38">
+  <w>Ég</w>
+  <w>er</w>
+  <revision id="30">
+    <original><w>atvinnulaust</w></original>
+    <corrected><w>atvinnulaus</w></corrected>
+      <errors>
+        <error xtype="agreement-pred" idx="30-1" eid="0" />
+        <error xtype="adjective-inflection" idx="30-1" eid="0" />
+      </errors>
+  </revision>
+  <w>núna</w>
+  <w>og</w>
+  <w>leita</w>
+  <w>nýrrar</w>
+  <w>vinnu</w>
+  <c>.</c>
+</s>
+<s n="39">
+  <w>Ég</w>
+  <w>vann</w>
+  <w>sem</w>
+  <w>þjónn</w>
+  <w>á</w>
+  <revision id="31">
+    <original><w>veitingahús</w><w>í</w></original>
+    <corrected><w>veitingahúsinu</w></corrected>
+      <errors>
+        <error xtype="case-prep" idx="31-1" eid="0" />
+        <error xtype="nominal-inflection" idx="31-1" eid="0" />
+        <error xtype="ind4def" idx="31-1" eid="0" />
+        <error xtype="extra-prep" idx="31-2" eid="0" />
+      </errors>
+  </revision>
+  <w>Jörgensen</w>
+  <w>eldhús</w>
+  <w>og</w>
+  <w>bar</w>
+  <w>á</w>
+  <w>Center</w>
+  <w>Hótel</w>
+  <c>.</c>
+</s>
+<s n="40">
+  <w>Oft</w>
+  <revision id="32">
+    <original><c>,</c></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="extra-comma" eid="0" />
+      </errors>
+  </revision>
+  <w>vann</w>
+  <w>ég</w>
+  <w>á</w>
+  <w>kvöldvöktum</w>
+  <c>.</c>
+</s>
+<s n="41">
+  <w>Ég</w>
+  <w>byrjaði</w>
+  <w>klukkan fimm</w>
+  <revision id="33">
+    <original></original>
+    <corrected><w>og</w><w>var</w></corrected>
+      <errors>
+        <error xtype="missing-conjunction" idx="33-1" eid="0" />
+        <error xtype="missing-fin-verb" idx="33-2" eid="0" />
+      </errors>
+  </revision>
+  <w>til</w>
+  <w>klukkan tólf</w>
+  <w>í</w>
+  <w>vinnunni</w>
+  <c>.</c>
+</s>
+<s n="42">
+  <w>Ég</w>
+  <w>er</w>
+  <w>sjálfstæð</w>
+  <c>,</c>
+  <w>hjálpfús</w>
+  <w>og</w>
+  <w>skipulögð</w>
+  <w>í</w>
+  <w>vinnunni</w>
+  <c>.</c>
+</s>
+<s n="43">
+  <w>Mér</w>
+  <w>finnst</w>
+  <w>skemmtilegt</w>
+  <w>að</w>
+  <w>vinna</w>
+  <w>af</w>
+  <w>því</w>
+  <w>að</w>
+  <w>mér</w>
+  <w>finnst</w>
+  <w>gaman</w>
+  <w>að</w>
+  <w>kynnast</w>
+  <revision id="34">
+    <original><w>ferðamenn</w></original>
+    <corrected><w>ferðamönnum</w></corrected>
+      <errors>
+        <error xtype="case-verb" idx="34-1" eid="0" />
+        <error xtype="nominal-inflection" idx="34-1" eid="0" />
+      </errors>
+  </revision>
+  <w>og</w>
+  <w>að</w>
+  <w>hlusta</w>
+  <revision id="35">
+    <original><w>með</w></original>
+    <corrected><w>á</w></corrected>
+      <errors>
+        <error xtype="wrong-prep" eid="0" />
+      </errors>
+  </revision>
+  <w>sögu</w>
+  <revision id="36">
+    <original><w>sinni</w></original>
+    <corrected><w>þeirra</w></corrected>
+      <errors>
+        <error xtype="reflexive4pro" eid="0" />
+      </errors>
+  </revision>
+  <c>.</c>
+</s>
+<s n="44">
+  <revision id="37">
+    <original><w>Mér</w><w>líður</w></original>
+    <corrected><w>Ég</w><w>er</w></corrected>
+      <errors>
+        <error xtype="context" eid="0" />
+      </errors>
+  </revision>
+  <w>ánægð</w>
+  <w>í</w>
+  <w>vinnunni</w>
+  <c>.</c>
+</s>
+<s n="45">
+  <w>Ég</w>
+  <w>hef</w>
+  <w>áhuga</w>
+  <w>á</w>
+  <w>ferðalögum</w>
+  <c>.</c>
+</s>
+<s n="46">
+  <w>Þegar</w>
+  <w>ég</w>
+  <revision id="38">
+    <original><w>var</w></original>
+    <corrected><w>er</w></corrected>
+      <errors>
+        <error xtype="past4pres" eid="0" />
+      </errors>
+  </revision>
+  <w>í</w>
+  <revision id="38b">
+    <original><w>frí</w></original>
+    <corrected><w>fríi</w></corrected>
+      <errors>
+        <error xtype="case-prep" idx="38b-1" eid="0" />
+        <error xtype="nominal-inflection" idx="38b-1" eid="0" />
+      </errors>
+  </revision>
+  <w>fer</w>
+  <w>ég</w>
+  <revision id="39">
+    <original></original>
+    <corrected><w>í</w></corrected>
+      <errors>
+        <error xtype="missing-prep" eid="0" />
+      </errors>
+  </revision>
+  <w>mikil</w>
+  <w>ferðalög</w>
+  <w>á</w>
+  <w>Filippseyjum</w>
+  <c>.</c>
+</s>
+<s n="47">
+  <w>Ég</w>
+  <w>hef</w>
+  <w>ferðast</w>
+  <w>til</w>
+  <w>Singapúr</w>
+  <w>og</w>
+  <w>Litháens</w>
+  <w>með</w>
+  <w>vinkonu</w>
+  <w>minni</w>
+  <c>.</c>
+</s>
+<s n="48">
+  <w>Mér</w>
+  <w>fannst</w>
+  <w>skemmtilegt</w>
+  <w>að</w>
+  <w>ganga</w>
+  <w>og</w>
+  <w>versla</w>
+  <w>í</w>
+  <w>Singapúr</w>
+  <w>og</w>
+  <w>skoða</w>
+  <w>náttúruna</w>
+  <revision id="40">
+    <original><w>á</w></original>
+    <corrected><w>í</w></corrected>
+      <errors>
+        <error xtype="wrong-prep" eid="0" />
+      </errors>
+  </revision>
+  <w>Litháen</w>
+  <c>.</c>
+</s>
+<s n="49">
+  <w>Ég</w>
+  <w>borðaði</w>
+  <revision id="41">
+    <original><w>Singapúr</w></original>
+    <corrected><w>Singapúrskan</w></corrected>
+      <errors>
+        <error xtype="context" eid="0" />
+      </errors>
+  </revision>
+  <w>mat</w>
+  <w>og</w>
+  <w>mér</w>
+  <w>fannst</w>
+  <revision id="42">
+    <original><w>Singapúr</w><w>kjúklingur</w></original>
+    <corrected><w>Singapúr-kjúklingur</w></corrected>
+      <errors>
+        <error xtype="missing-dash" eid="0" />
+      </errors>
+  </revision>
+  <w>góður</w>
+  <c>.</c>
+</s>
+<s n="50">
+  <w>Mig</w>
+  <w>langar</w>
+  <w>að</w>
+  <w>fara</w>
+  <w>til</w>
+  <w>heimalandsins</w>
+  <revision id="43">
+    <original><w>mitt</w></original>
+    <corrected><w>míns</w></corrected>
+      <errors>
+        <error xtype="agreement-concord" idx="43-1" eid="0" />
+        <error xtype="nominal-inflection" idx="43-1" eid="0" />
+        <error xtype="case-prep" idx="43-1" eid="0" />
+      </errors>
+  </revision>
+  <w>í</w>
+  <w>sumar</w>
+  <c>.</c>
+</s>
+<s n="51">
+  <w>Mig</w>
+  <w>dreymir</w>
+  <w>um</w>
+  <revision id="44">
+    <original></original>
+    <corrected><w>að</w></corrected>
+      <errors>
+        <error xtype="missing-inf-part" eid="0" />
+      </errors>
+  </revision>
+  <w>ferðast</w>
+  <w>til</w>
+  <w>Suður-Kóreu</w>
+  <c>,</c>
+  <w>Japan</w>
+  <w>og</w>
+  <w>Parísar</w>
+  <c>.</c>
+</s>
+<s n="52">
+  <w>Mér</w>
+  <w>finnst</w>
+  <w>gaman</w>
+  <w>að</w>
+  <w>skoða</w>
+  <w>nýja</w>
+  <w>staði</w>
+  <c>.</c>
+</s>
+</p></body></text>
+</TEI>
