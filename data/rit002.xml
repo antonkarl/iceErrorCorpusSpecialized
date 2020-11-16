@@ -262,7 +262,7 @@
     <original><w>hún</w><w>beitir</w></original>
     <corrected><w>í</w><w>henni</w><w>er</w><w>beitt</w></corrected>
       <errors>
-        <error xtype="active4passive" eid="0" />
+        <error xtype="act4pass" eid="0" />
       </errors>
   </revision>
   <c>.</c>
@@ -4178,7 +4178,7 @@
     <original><w>farið</w></original>
     <corrected></corrected>
       <errors>
-        <error xtype="syntax" idx="205-1" eid="0" />
+        <error xtype="syntax-other" idx="205-1" eid="0" />
       </errors>
   </revision>
   <w>aftur</w>
@@ -4585,7 +4585,7 @@
     <corrected><w>Einnig</w><w>er</w><w>oft</w><w>bætt</w><w>skástriki</w></corrected>
       <errors>
         <error xtype="wording" idx="222-1" eid="0" />
-        <error xtype="active4passive" idx="222-2" eid="0" />
+        <error xtype="act4pass" idx="222-2" eid="0" />
       </errors>
   </revision>
   <w>eða</w>

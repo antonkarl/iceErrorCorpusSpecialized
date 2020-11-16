@@ -156,7 +156,7 @@
       <errors>
         <error xtype="wrong-prep" idx="10-1" eid="0" />
         <error xtype="dep" depId="10-1" eid="0" />
-        <error xtype="passive4active" idx="10-2" eid="0" />
+        <error xtype="pass4act" idx="10-2" eid="0" />
       </errors>
   </revision>
   <c>.</c>
@@ -2690,7 +2690,7 @@
     <original><w>er</w></original>
     <corrected></corrected>
       <errors>
-        <error xtype="syntax" idx="110-1" eid="0" />
+        <error xtype="syntax-other" idx="110-1" eid="0" />
       </errors>
   </revision>
   <w>munurinn</w>

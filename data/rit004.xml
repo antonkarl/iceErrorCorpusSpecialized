@@ -919,7 +919,7 @@
     <original><w>úr</w><w>þeim</w><w>smiðuð</w></original>
     <corrected></corrected>
       <errors>
-        <error xtype="syntax" idx="40-1" eid="0" />
+        <error xtype="syntax-other" idx="40-1" eid="0" />
         <error xtype="missing-accent" idx="40-2" eid="0" />
         <error xtype="nonword" idx="40-2" eid="0" />
       </errors>
@@ -1105,7 +1105,7 @@
     <original><w>notað</w></original>
     <corrected></corrected>
       <errors>
-        <error xtype="syntax" idx="44-1" eid="0" />
+        <error xtype="syntax-other" idx="44-1" eid="0" />
       </errors>
   </revision>
   <w>orðið</w>
@@ -1173,7 +1173,7 @@
     <original><w>örugglega</w></original>
     <corrected></corrected>
       <errors>
-        <error xtype="syntax" idx="48-1" eid="0" />
+        <error xtype="syntax-other" idx="48-1" eid="0" />
       </errors>
   </revision>
   <w>tengist</w>
@@ -1268,7 +1268,7 @@
     <original></original>
     <corrected><w>einfaldlega</w><w>engin</w><w>orð</w><w>í</w><w>kvenkyni</w></corrected>
       <errors>
-        <error xtype="syntax" idx="54-1" eid="0" />
+        <error xtype="syntax-other" idx="54-1" eid="0" />
       </errors>
   </revision>
   <w>fyrir</w>
@@ -1905,8 +1905,8 @@
     <original></original>
     <corrected><w>ekki</w><w>megi</w></corrected>
       <errors>
-        <error xtype="syntax" idx="81b-1" eid="0" />
-        <error xtype="syntax" idx="81b-2" eid="0" />
+        <error xtype="syntax-other" idx="81b-1" eid="0" />
+        <error xtype="syntax-other" idx="81b-2" eid="0" />
       </errors>
   </revision>
   <w>brjóta</w>

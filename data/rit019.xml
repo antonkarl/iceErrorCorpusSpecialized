@@ -151,7 +151,7 @@
     <original><w>sé</w></original>
     <corrected></corrected>
       <errors>
-        <error xtype="syntax" idx="8-1" eid="0" />
+        <error xtype="syntax-other" idx="8-1" eid="0" />
         <error xtype="verb-inflection" idx="8-1" eid="0" />
       </errors>
   </revision>
@@ -603,7 +603,7 @@
     <original><w>þá</w></original>
     <corrected></corrected>
       <errors>
-        <error xtype="syntax" idx="27-1" eid="0" />
+        <error xtype="syntax-other" idx="27-1" eid="0" />
       </errors>
   </revision>
   <w>af</w>
@@ -656,7 +656,7 @@
     <corrected><w>getur</w></corrected>
       <errors>
         <error xtype="extra-conjunction" idx="31-1" eid="0" />
-        <error xtype="syntax" idx="31-2" eid="0" />
+        <error xtype="syntax-other" idx="31-2" eid="0" />
       </errors>
   </revision>
   <w>i-endingin</w>
@@ -1092,7 +1092,7 @@
     <original></original>
     <corrected><w>séu</w></corrected>
       <errors>
-        <error xtype="syntax" idx="54-1" eid="0" />
+        <error xtype="syntax-other" idx="54-1" eid="0" />
         <error xtype="ind4sub" idx="54-1" eid="0" />
       </errors>
   </revision>
@@ -2039,7 +2039,7 @@
     <original></original>
     <corrected><w>verið</w></corrected>
       <errors>
-        <error xtype="active4passive" eid="0" />
+        <error xtype="act4pass" eid="0" />
       </errors>
   </revision>
   <w>skipt</w>
@@ -2206,7 +2206,7 @@
     <original><w>671</w><w>sterk</w><w>karlkynsorð</w><w>hafa</w></original>
     <corrected><w>hefur</w></corrected>
       <errors>
-        <error xtype="syntax" idx="104-1" eid="0" />
+        <error xtype="syntax-other" idx="104-1" eid="0" />
         <error xtype="verb-inflection" idx="104-2" eid="0" />
       </errors>
   </revision>
@@ -2376,7 +2376,7 @@
     <corrected></corrected>
       <errors>
         <error xtype="extra-word" idx="107-1" eid="0" />
-        <error xtype="syntax" idx="107-2" eid="0" />
+        <error xtype="syntax-other" idx="107-2" eid="0" />
       </errors>
   </revision>
   <w>virðist</w>
@@ -2755,7 +2755,7 @@
     <corrected><w>öllum</w><w>þeim</w><w>sterku</w><w>karlkynsorðum</w></corrected>
       <errors>
         <error xtype="case-collocation" idx="136-1" eid="0" />
-        <error xtype="syntax" idx="136-2" eid="0" />
+        <error xtype="syntax-other" idx="136-2" eid="0" />
       </errors>
   </revision>
   <c>(</c>
@@ -3445,7 +3445,7 @@
     <original><w>fyrir</w></original>
     <corrected></corrected>
       <errors>
-        <error xtype="syntax" idx="165-1" eid="0" />
+        <error xtype="syntax-other" idx="165-1" eid="0" />
       </errors>
   </revision>
   <w>fyrst</w>
@@ -3945,7 +3945,7 @@
     <original><w>sé</w><w>fallið</w></original>
     <corrected><w>falli</w></corrected>
       <errors>
-        <error xtype="passive4active" eid="0" />
+        <error xtype="pass4act" eid="0" />
       </errors>
   </revision>
   <w>brott</w>
@@ -4874,7 +4874,7 @@
     <original><w>hljóðkerfisreglur</w></original>
     <corrected><w>gert</w></corrected>
       <errors>
-        <error xtype="syntax" idx="229-1" eid="0" />
+        <error xtype="syntax-other" idx="229-1" eid="0" />
       </errors>
   </revision>
   <w>er</w>
@@ -4945,7 +4945,7 @@
     <original><w>virkar</w></original>
     <corrected></corrected>
       <errors>
-        <error xtype="syntax" idx="233-1" eid="0" />
+        <error xtype="syntax-other" idx="233-1" eid="0" />
       </errors>
   </revision>
   <w>brottfall</w>
@@ -5028,7 +5028,7 @@
     <original><w>bætir</w></original>
     <corrected></corrected>
       <errors>
-        <error xtype="syntax" idx="236-1" eid="0" />
+        <error xtype="syntax-other" idx="236-1" eid="0" />
       </errors>
   </revision>
   <w>hún</w>
@@ -5075,7 +5075,7 @@
     <original><w>hefur</w></original>
     <corrected><w>var</w></corrected>
       <errors>
-        <error xtype="active4passive" eid="0" />
+        <error xtype="act4pass" eid="0" />
       </errors>
   </revision>
   <w>fjallað</w>
@@ -5272,7 +5272,7 @@
     <original><w>frá</w><w>þessum</w><w>reglum</w></original>
     <corrected></corrected>
       <errors>
-        <error xtype="syntax" idx="248-1" eid="0" />
+        <error xtype="syntax-other" idx="248-1" eid="0" />
       </errors>
   </revision>
   <w>eru</w>
@@ -5421,7 +5421,7 @@
     <original><w>að</w><w>athuga</w></original>
     <corrected><w>athugað</w></corrected>
       <errors>
-        <error xtype="active4passive" eid="0" />
+        <error xtype="act4pass" eid="0" />
       </errors>
   </revision>
   <w>hvort</w>
@@ -5506,7 +5506,7 @@
     <corrected><w>verður</w><w>fjallað</w></corrected>
       <errors>
         <error xtype="aux" idx="260-1" eid="0" />
-        <error xtype="active4passive" idx="260-2" eid="0" />
+        <error xtype="act4pass" idx="260-2" eid="0" />
       </errors>
   </revision>
   <w>fyrst</w>
@@ -5537,7 +5537,7 @@
     <corrected><w>verða</w><w>borin</w></corrected>
       <errors>
         <error xtype="wording" idx="262-1" eid="0" />
-        <error xtype="active4passive" idx="262-1" eid="0" />
+        <error xtype="act4pass" idx="262-1" eid="0" />
       </errors>
   </revision>
   <w>saman</w>
@@ -5559,7 +5559,7 @@
     <original><w>athuga</w></original>
     <corrected><w>athugaðar</w></corrected>
       <errors>
-        <error xtype="active4passive" eid="0" />
+        <error xtype="act4pass" eid="0" />
       </errors>
   </revision>
   <w>ástæður</w>
@@ -5886,7 +5886,7 @@
     <original></original>
     <corrected><w>verið</w></corrected>
       <errors>
-        <error xtype="active4passive" eid="0" />
+        <error xtype="act4pass" eid="0" />
       </errors>
   </revision>
   <w>nefnt</w>
@@ -6589,7 +6589,7 @@
     <original><w>að</w><w>athuga</w></original>
     <corrected><w>athugað</w></corrected>
       <errors>
-        <error xtype="active4passive" eid="0" />
+        <error xtype="act4pass" eid="0" />
       </errors>
   </revision>
   <w>hvernig</w>
@@ -7457,7 +7457,7 @@
     <original></original>
     <corrected><w>vera</w></corrected>
       <errors>
-        <error xtype="syntax" idx="350-1" eid="0" />
+        <error xtype="syntax-other" idx="350-1" eid="0" />
       </errors>
   </revision>
   <w>aðgerðar- eða athafnarsagnir</w>
@@ -7513,7 +7513,7 @@
     <original><w>er</w></original>
     <corrected></corrected>
       <errors>
-        <error xtype="syntax" idx="354-1" eid="0" />
+        <error xtype="syntax-other" idx="354-1" eid="0" />
       </errors>
   </revision>
   <w>uppruni</w>
@@ -8023,7 +8023,7 @@
     <corrected><w>og</w><w>aðgreinir</w></corrected>
       <errors>
         <error xtype="missing-conjunction" idx="377-1" eid="0" />
-        <error xtype="syntax" idx="377-2" eid="0" />
+        <error xtype="syntax-other" idx="377-2" eid="0" />
       </errors>
   </revision>
   <w>síðan</w>

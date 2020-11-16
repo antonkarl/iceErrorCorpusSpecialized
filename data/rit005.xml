@@ -344,7 +344,7 @@
     <corrected><w>Þó</w></corrected>
       <errors>
         <error xtype="extra-word" idx="18-1" eid="0" />
-        <error xtype="syntax" idx="18-2" eid="0" />
+        <error xtype="syntax-other" idx="18-2" eid="0" />
       </errors>
   </revision>
   <w>kom</w>
@@ -1497,7 +1497,7 @@
     <corrected></corrected>
       <errors>
         <error xtype="extra-comma" idx="79-1" eid="0" />
-        <error xtype="syntax" idx="79-2" eid="0" />
+        <error xtype="syntax-other" idx="79-2" eid="0" />
       </errors>
   </revision>
   <w>þýðir</w>
@@ -1621,7 +1621,7 @@
     <original></original>
     <corrected><w>einnig</w><w>vera</w><w>að</w></corrected>
       <errors>
-        <error xtype="syntax" idx="86-1" eid="0" />
+        <error xtype="syntax-other" idx="86-1" eid="0" />
         <error xtype="simple4cont" idx="86-2" eid="0" />
       </errors>
   </revision>
@@ -2096,7 +2096,7 @@
     <original><w>kom</w></original>
     <corrected></corrected>
       <errors>
-        <error xtype="syntax" idx="109-1" eid="0" />
+        <error xtype="syntax-other" idx="109-1" eid="0" />
         <error xtype="agreement-pred" idx="109-1" eid="0" />
       </errors>
   </revision>
@@ -2341,7 +2341,7 @@
     <original><w>fá</w></original>
     <corrected><c>,</c></corrected>
       <errors>
-        <error xtype="syntax" idx="128-1" eid="0" />
+        <error xtype="syntax-other" idx="128-1" eid="0" />
         <error xtype="dep" depId="127-1" eid="0" />
       </errors>
   </revision>

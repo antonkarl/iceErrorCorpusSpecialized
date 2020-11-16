@@ -927,7 +927,7 @@
     <original><w>gerða</w></original>
     <corrected><w>er</w><w>gerður</w></corrected>
       <errors>
-        <error xtype="active4passive" eid="0" />
+        <error xtype="act4pass" eid="0" />
       </errors>
   </revision>
   <w>í</w>
@@ -2086,7 +2086,7 @@
     <corrected><w>hlutfall</w></corrected>
       <errors>
         <error xtype="wording" idx="84-1" eid="0" />
-        <error xtype="syntax" idx="84-1" eid="0" />
+        <error xtype="syntax-other" idx="84-1" eid="0" />
         <error xtype="def4ind" idx="84-2" eid="0" />
       </errors>
   </revision>
@@ -4067,7 +4067,7 @@
     <original><w>Má</w><w>sjá</w></original>
     <corrected><w>Sjá</w><w>má</w></corrected>
       <errors>
-        <error xtype="syntax" eid="0" />
+        <error xtype="syntax-other" eid="0" />
       </errors>
   </revision>
   <w>í</w>
@@ -5136,7 +5136,7 @@
     <original><w>Má</w><w>sjá</w></original>
     <corrected><w>Sjá</w><w>má</w></corrected>
       <errors>
-        <error xtype="syntax" eid="0" />
+        <error xtype="syntax-other" eid="0" />
       </errors>
   </revision>
   <w>þetta</w>
@@ -5421,7 +5421,7 @@
       <errors>
         <error xtype="wording" idx="263-1" eid="0" />
         <error xtype="ind4sub" idx="263-2" eid="0" />
-        <error xtype="syntax" idx="263-2" eid="0" />
+        <error xtype="syntax-other" idx="263-2" eid="0" />
       </errors>
   </revision>
   <w>þetta</w>
@@ -6269,7 +6269,7 @@
       <errors>
         <error xtype="though" idx="323-1" eid="0" />
         <error xtype="wording" idx="323-2" eid="0" />
-        <error xtype="syntax" idx="323-2" eid="0" /> 
+        <error xtype="syntax-other" idx="323-2" eid="0" /> 
       </errors>
   </revision>
   <w>gæti</w>

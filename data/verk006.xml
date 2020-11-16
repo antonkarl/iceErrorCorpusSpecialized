@@ -360,7 +360,7 @@
               <w>virðist</w>
             </corrected>
             <errors>
-              <error xtype="syntax" idx="18-1"/>
+              <error xtype="syntax-other" idx="18-1"/>
             </errors>
           </revision>
           <w>jafnvel</w>
@@ -376,7 +376,7 @@
             <errors>
               <error xtype="extra-comma" idx="19-2"/>
               <error xtype="dep" depId="18-1"/>
-              <error xtype="syntax" idx="19-1"/>
+              <error xtype="syntax-other" idx="19-1"/>
               <error xtype="nominal-inflection" idx="19-1"/>
             </errors>
           </revision>
@@ -1289,7 +1289,7 @@
               <w>fólkið</w>
             </corrected>
             <errors>
-              <error xtype="syntax" idx="60-1"/>
+              <error xtype="syntax-other" idx="60-1"/>
               <error xtype="ind4sub" idx="60-1"/>
             </errors>
           </revision>

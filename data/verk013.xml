@@ -614,7 +614,7 @@
     <original><w>er</w><w>þekkt</w></original>
     <corrected><w>þekktur</w></corrected>
       <errors>
-        <error xtype="syntax" idx="43-1" eid="0" />
+        <error xtype="syntax-other" idx="43-1" eid="0" />
         <error xtype="agreement-pred" idx="43-2" eid="0" />
       </errors>
   </revision>
@@ -1417,7 +1417,7 @@
     <original><w>aldrei</w></original>
     <corrected></corrected>
       <errors>
-        <error xtype="syntax" idx="107-1" eid="0" />
+        <error xtype="syntax-other" idx="107-1" eid="0" />
       </errors>
   </revision>
   <w>gefur</w>
@@ -1526,7 +1526,7 @@
     <corrected></corrected>
       <errors>
         <error xtype="extra-prep" idx="117-1" eid="0" />
-        <error xtype="syntax" idx="117-2" eid="0" />
+        <error xtype="syntax-other" idx="117-2" eid="0" />
       </errors>
   </revision>
   <c>.</c>
@@ -1569,7 +1569,7 @@
     <original><w>alltaf</w></original>
     <corrected></corrected>
       <errors>
-        <error xtype="syntax" idx="120-1" eid="0" />
+        <error xtype="syntax-other" idx="120-1" eid="0" />
       </errors>
   </revision>
   <w>vill</w>
@@ -1739,7 +1739,7 @@
     <original><w>maður</w><w>er</w><w>truflað</w><w>um</w></original>
     <corrected></corrected>
       <errors>
-        <error xtype="passive4active" idx="132-1" eid="0" />
+        <error xtype="pass4act" idx="132-1" eid="0" />
       </errors>
   </revision>
   <w>hann</w>

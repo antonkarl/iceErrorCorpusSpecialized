@@ -44,7 +44,7 @@
     <original><w>buðu</w><w>sig</w></original>
     <corrected><w>voru</w><w>boðnar</w></corrected>
       <errors>
-        <error xtype="active4passive" eid="0" />
+        <error xtype="act4pass" eid="0" />
       </errors>
   </revision>
   <w>fram</w>
@@ -119,7 +119,7 @@
     <corrected><w>9. mars</w><c>,</c><w>kl 10</w></corrected>
       <errors>
         <error xtype="wording" idX="7-1" eid="0" />
-        <error xtype="syntax" idX="7-1" eid="0" />
+        <error xtype="syntax-other" idX="7-1" eid="0" />
       </errors>
   </revision>
   
@@ -249,7 +249,7 @@
     <original><w>foru</w></original>
     <corrected></corrected>
       <errors>
-        <error xtype="syntax" idX="19-1" eid="0" />
+        <error xtype="syntax-other" idX="19-1" eid="0" />
       </errors>
   </revision>
   <w>þangað</w>
@@ -553,7 +553,7 @@
     <original></original>
     <corrected><w>gæti</w><w>verið</w></corrected>
       <errors>
-        <error xtype="syntax" idX="44-1" eid="0" />
+        <error xtype="syntax-other" idX="44-1" eid="0" />
         <error xtype="extra-word" idX="44-1" eid="0" />
       </errors>
   </revision>
@@ -1063,7 +1063,7 @@
     <original><w>Þeirra</w></original>
     <corrected><w>Fyrsta</w><w>mál</w><w>þeirra</w></corrected>
       <errors>
-        <error xtype="syntax" idx="83-1" eid="0" />
+        <error xtype="syntax-other" idx="83-1" eid="0" />
         <error xtype="wording" idx="83-1" eid="0" />
       </errors>
   </revision>
@@ -1269,7 +1269,7 @@
     <original><w>notuðu</w></original>
     <corrected></corrected>
       <errors>
-        <error xtype="syntax" idx="102-1" eid="0" />
+        <error xtype="syntax-other" idx="102-1" eid="0" />
       </errors>
   </revision>
   <w>hvorki</w>
@@ -1300,7 +1300,7 @@
     <original></original>
     <corrected><w>fjallað</w></corrected>
       <errors>
-        <error xtype="syntax" idx="104-1" eid="0" /> 
+        <error xtype="syntax-other" idx="104-1" eid="0" /> 
       </errors>
   </revision>
   <w>var</w>
