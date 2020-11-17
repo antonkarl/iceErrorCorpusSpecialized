@@ -247,7 +247,7 @@
     <original><w>fái</w></original>
     <corrected><w>þau</w><w>fá</w></corrected>
       <errors>
-      	<error xtype="missing-subj" eid="0" />
+      	<error xtype="missing-sub" eid="0" />
         <error xtype="sub4ind" eid="0" />
       </errors>
   </revision>
@@ -3519,7 +3519,7 @@
     <corrected><w>orðin</w></corrected>
       <errors>
         <error xtype="extra-word" eid="0" />
-        <error xtype="missing-subj" eid="0" />
+        <error xtype="missing-sub" eid="0" />
       </errors>
   </revision>
   <w>því</w>
@@ -3539,7 +3539,7 @@
     <original></original>
     <corrected><w>það</w></corrected>
       <errors>
-        <error xtype="missing-subj" eid="0" />
+        <error xtype="missing-sub" eid="0" />
       </errors>
   </revision>
   <w>langoftast</w>
@@ -3746,7 +3746,7 @@
     <original></original>
     <corrected><w>þau</w></corrected>
       <errors>
-        <error xtype="missing-subj" eid="0" />
+        <error xtype="missing-sub" eid="0" />
       </errors>
   </revision>
   <w>ekki</w>
@@ -4929,7 +4929,7 @@
     <corrected><w>gæti</w><w>það</w></corrected>
       <errors>
         <error xtype="ind4sub" idx="248-1" eid="0" />
-        <error xtype="missing-subj" idx="248-2" eid="0" />
+        <error xtype="missing-sub" idx="248-2" eid="0" />
       </errors>
   </revision>
   <w>líka</w>

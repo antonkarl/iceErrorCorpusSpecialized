@@ -64,7 +64,7 @@
     <original></original>
     <corrected><w>það</w><w>var</w></corrected>
       <errors>
-        <error xtype="missing-subj" idx="0-1" eid="0" />
+        <error xtype="missing-sub" idx="0-1" eid="0" />
         <error xtype="dep" depId="1b-1" eid="0" />
       </errors>
   </revision>
@@ -2348,7 +2348,7 @@
     <original></original>
     <corrected><w>hún</w></corrected>
       <errors>
-        <error xtype="missing-subj" eid="0" />
+        <error xtype="missing-sub" eid="0" />
       </errors>
   </revision>
   <w>ítarlega</w>
@@ -7688,7 +7688,7 @@
     <original></original>
     <corrected><w>hún</w></corrected>
       <errors>
-        <error xtype="missing-subj" eid="0" />
+        <error xtype="missing-sub" eid="0" />
       </errors>
   </revision>
   <w>yfir</w>

@@ -2906,7 +2906,7 @@
     <original><w>lækkað</w></original>
     <corrected><w>þeim</w><w>fækkar</w></corrected>
       <errors>
-        <error xtype="missing-subj" idx="162-1" eid="0" />
+        <error xtype="missing-sub" idx="162-1" eid="0" />
         <error xtype="wording" idx="162-2" eid="0" />
       </errors>
   </revision>
@@ -2941,7 +2941,7 @@
     <original></original>
     <corrected><w>þau</w></corrected>
       <errors>
-        <error xtype="missing-subj" eid="0" />
+        <error xtype="missing-sub" eid="0" />
       </errors>
   </revision>
   <w>hafi</w>
@@ -4054,7 +4054,7 @@
     <original><w>með</w><w>gulan</w><w>lit</w></original>
     <corrected><w>þeir</w><w>merktir</w><w>gulu</w></corrected>
       <errors>
-        <error xtype="missing-subj" idx="223-1" eid="0" />
+        <error xtype="missing-sub" idx="223-1" eid="0" />
         <error xtype="dep" depId="222-2" eid="0" />
         <error xtype="extra-prep" idx="223-2" eid="0" />
         <error xtype="dep" depId="223-2" eid="0" />
