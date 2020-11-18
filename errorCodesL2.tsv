@@ -40,7 +40,7 @@ comma4period	komma fyrir punkt	punctuation	...kynnast nýju fólki, er á þrít
 comma4qm	komma fyrir spurningarmerki	punctuation	Höfum við réttinn, eins og að... > Höfum við réttinn? Eins og að...
 comma4colon	komma fyrir tvípunkt	punctuation	...er í þremur heimsálfum, Asíu, Afríku og Evrópu > ...er í þremur heimsálfum: Asíu, Afríku og Evrópu
 double-punctuation	tvöfalt greinarmerki	punctuation	.. > .,
-extra-abbreviation	skammstöfun ofaukið	punctuation	,, > ,
+extra-abbreviation	skammstöfun ofaukið	punctuation	með kv., Daníel > með kveðju, Daníel
 extra-dash	bandstriki ofaukið	punctuation	-- > -
 iteration-colon	greinarmerki við upptalningu, tvíp.	punctuation	
 missing-colon	tvípunkt vantar	punctuation	Hann sagði við þá „Komið til mín“ > Hann sagði við þá: „Komið til mín“
@@ -68,7 +68,7 @@ conjunction4comma	samtenging fyrir kommu	punctuation	...geta orðið þröngvand
 comma4conjunction	komma fyrir samtengingu	punctuation	...fara með vald Guðs, öll löggjöf byggir... > ...fara með vald Guðs og öll löggjöf byggir...
 period4qm	punktur fyrir spurningarmerki	punctuation	Þarf það að vera. > Þarft það að vera?
 period-plus-conjunction	punktur ranglega á undan aðaltengingu	punctuation	...næsti maður. Og það er... > ...næsti maður og það er...
-comma-plus-conjunction	komma ranglega a undan aðaltengingu	punctuation	...þessum heimi, og af... > ...þessum heimi og af...
+comma-plus-conjunction	komma ranglega á undan aðaltengingu	punctuation	...þessum heimi, og af... > ...þessum heimi og af...
 abbreviation-period	punktur ranglega notaður í skammstöfun	punctuation	s.s > s.s.
 comma4ex	komma fyrir upphrópun	punctuation	Viti menn, almúginn... > Viti menn! Almúginn...
 period4ex	punktur fyrir upphrópun	punctuation	Viti menn. > Viti menn!
@@ -84,7 +84,7 @@ extra-word	orði ofaukið	insertion	augun á mótherja > augu mótherja
 extra-words	orðum ofaukið	insertion	...ég fer að hugsa... > ...ég hugsa...
 extra-accent	broddi ofaukið	insertion	flétta > fletta
 extra-letter	bókstaf ofaukið	insertion	posturlín > postulín
-missing-accent	brodd / punkta fyrir ofan staf vantar	typo	o > ö, i > í
+missing-accent	brodd/punkta fyrir ofan staf vantar	typo	o > ö, i > í
 wording	orðalag	wording	...gerðum allt í raun... > ...gerðum í raun allt...
 ngnk	breiður sérhljóði á undan ng/nk	spelling	eingin > engin
 i4y	i fyrir y	spelling	skilda > skylda
@@ -107,9 +107,9 @@ word4number	orðmynd fyrir tölu	numbers	fjórða öld > 4. öld
 style	stíll	style	urðu ekkert frægir > urðu ekki frægir
 unicelandic	óíslenskuleg málnotkun	style	...fer eftir persónunni... > ...fer eftir manneskjunni...
 bad-contraction	samdráttarmynd ranglega notuð	grammar	mæliru > mælir maður
-act4pass	germynd í stað þolmyndar	grammar	nafnið kom til notkunar > nafnið var tekið til notkunar
-pass4act	þolmynd í stað germyndar	grammar	allt samband er rofið > allt samband rofnar
-passive	þolmynd mynðuð rangt (inflection, agreement)	grammar	
+act4pass	sögn í germynd í stað þolmyndar	grammar	nafnið kom til notkunar > nafnið var tekið til notkunar
+pass4act	sögn í þolmynd í stað germyndar	grammar	allt samband er rofið > allt samband rofnar
+passive	þolmynd mynduð rangt (inflection, agreement)	grammar	safn sem er notuð > safn sem hefur verið notað
 new-passive	nýja setningagerðin	grammar	Það er samið fyrir þau tónlistina > Tónlistin er samin fyrir þau
 mid4act	miðmynd ofnotuð, st-sagnir	grammar	
 act4mid	á að vera miðmynd		
@@ -118,7 +118,7 @@ pass4mid	þolmynd fyrir miðmynd	grammar	bók er seld > bók selst
 taboo-word	óviðeigandi orð	style	hjúkrunarkona > hjúkrunarfræðingur
 missing-space	vantar bil	spacing	eðlis-og efnafræði > eðlis- og efnafræði
 extra-space	bili ofaukið	spacing	4 . > 4.
-syntax	setnigarfræði - orðaröð	grammar	
+syntax-other	setnigarfræði - orðaröð	grammar	
 loan-syntax	lánuð setningagerð	style	ég vaknaði upp > ég vaknaði
 each	villa í gagnverkandi fornöfnum	grammar	frá hvor öðrum > hvor frá öðrum
 missing-bracket	sviga vantar	punctuation	(í júní > (í júní)
@@ -181,7 +181,7 @@ dem4pers	ábendingarfornafn í stað persónufornafns	grammar	þessi > hún
 nom4acc-sub	nefnifall fyrir þolfallsfrumlag	grammar	ég dreymi > mig dreymir
 acc4nom-sub	þolfall fyrir nefnifallsfrumlag	grammar	mig hlakkar > ég hlakka
 slash4or	skástrik fyrir eða	punctuation	einhver meiðsl/veikindi > einhver meiðsl eða veikindi
-date-abbreviation	stytting á dagsetningu ranglega notuð		2003-06 > 2003-2006
+date-abbreviation	stytting á dagsetningu ranglega notuð	punctuation	2003-06 > 2003-2006
 simple4cont	nútíð í stað vera að + nafnh.	grammar	ók > var að aka
 name-error	nöfn skrifuð vitlaust	spelling	Hjörtur Júlíusson Hjartarson > Hjörtur Júlíus Hjartarson
 dash4period	bandstrik fyrir punkt	punctuation	...ríkissjóð - er... > ...ríkissjóð. Er...
@@ -231,12 +231,12 @@ repeat-word	orð endurtekið, orðin eru hliðstæð	insertion	maður sem sem f�
 repeat-word-split	orð endurtekið en orð kemur á milli	insertion	var eitt ár var eftir > eitt ár var eftir
 þar4það	þar í stað það		þar voru dæmi  (there were examples of...) 
 extra-munu	sögnin munu ofnotuð (bæði í nh og viðt.h.)		
-missing-subj	vantar frumlag í setningunni	grammar	
+missing-sub	vantar frumlag í setningunni	grammar	
 missing-obj	vantar andlag í setningunni	grammar	
 geta	geta + nafnháttur eða nútíð	grammar	
 adj4noun	lo í stað no	grammar	Áhrif ensks > Áhrif enskunnar
 noun4adj	no í stað lo		Það eru jafnmörg orð sem eru endingarleysi og   >  ...sem eru endingarlaus og
-extra-subj	frumlagi ofaukið	grammar	
+extra-sub	frumlagi ofaukið	grammar	Pabbi minn heitir Jolan og hann er ... > ... og er ...
 missing-fin-verb	persónubeygða sögn vantar	grammar	þótt hún mjög virk > þótt hún sé mjög virk
 number-fail			123ja metra > 123 metra
 zzz	to revisit	unannotated	
