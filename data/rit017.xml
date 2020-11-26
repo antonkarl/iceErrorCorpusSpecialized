@@ -58,15 +58,15 @@
   <w>Þetta</w>
   <w>nafn</w>
   <revision id="4">
-    <original><w>kom</w></original>
-    <corrected><w>var</w><w>tekið</w></corrected>
+    <original><w>kom</w><w>til</w><w>notkunar</w></original>
+    <corrected><w>var</w><w>tekið</w><w>í</w><w>notkun</w></corrected>
       <errors>
         <error xtype="wording" idx="4-1" eid="0" />
         <error xtype="act4pass" idx="4-1" eid="0" />
+        <error xtype="wrong-prep" idx="4-2" eid="0" />
+        <error xtype="dep" depId="4-2" eid="0" />
       </errors>
   </revision>
-  <w>til</w>
-  <w>notkunar</w>
   <revision id="5">
     <original></original>
     <corrected><w>í</w></corrected>
