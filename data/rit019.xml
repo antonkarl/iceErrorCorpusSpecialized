@@ -500,8 +500,8 @@
     <original><w>að</w></original>
     <corrected><w>eru</w></corrected>
       <errors>
-        <error xtype="extra-prep" idx="23-1" eid="0" />
-        <error xtype="wording" idx="23-2" eid="0" />
+        <error xtype="extra-conjunction" idx="23-1" eid="0" />
+        <error xtype="syntax-other" idx="23-2" eid="0" />
       </errors>
   </revision>
   <w>309</w>
@@ -647,7 +647,8 @@
     <original></original>
     <corrected><w>verið</w></corrected>
       <errors>
-        <error xtype="missing-word" eid="0" />
+        <error xtype="missing-word" idx="30-1" eid="0" />
+        <error xtype="act4pass" idx="30-2" eid="0" />
       </errors>
   </revision>
   <w>nefnt</w>
@@ -767,7 +768,7 @@
     <original><w>að</w></original>
     <corrected></corrected>
       <errors>
-        <error xtype="extra-word" eid="0" />
+        <error xtype="extra-inf-part" eid="0" />
       </errors>
   </revision>
   <w>athuga</w>
@@ -2375,7 +2376,7 @@
     <original><w>að</w><w>stundum</w></original>
     <corrected></corrected>
       <errors>
-        <error xtype="extra-word" idx="107-1" eid="0" />
+        <error xtype="extra-conjunction" idx="107-1" eid="0" />
         <error xtype="syntax-other" idx="107-2" eid="0" />
       </errors>
   </revision>
