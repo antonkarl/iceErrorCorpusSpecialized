@@ -111,7 +111,6 @@
       <errors>
         <error xtype="letter-rep" idx="2-1" eid="0" />
         <error xtype="nonword" idx="2-1" eid="0" />
-        <error xtype="nominal-inflection" idx="2-1" eid="0" />
       </errors>
   </revision>
   <w>nýlega</w>
@@ -2998,8 +2997,7 @@
     <original><w>frásagnar</w></original>
     <corrected><w>frásagnir</w></corrected>
       <errors>
-        <error xtype="nominal-inflection" idx="110-1" eid="0" />
-        <error xtype="letter-rep" idx="110-1" eid="0" />
+        <error xtype="nominal-inflection" eid="0" />
       </errors>
   </revision>
   <w>tölvuleikja</w>

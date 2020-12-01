@@ -985,7 +985,8 @@
     <original><w>lýsi</w></original>
     <corrected><w>lýði</w></corrected>
       <errors>
-        <error xtype="letter-rep" eid="0" />
+        <error xtype="letter-rep" idx="69-1" eid="0" />
+        <error xtype="context" idx="69-1" eid="0" />
       </errors>
   </revision>
   <c>“</c>
@@ -1353,7 +1354,7 @@
     <original><w>valda</w></original>
     <corrected><w>valdi</w></corrected>
       <errors>
-        <error xtype="letter-rep" eid="0" />
+        <error xtype="nominal-inflection" eid="0" />
       </errors>
   </revision>
   <w>hefðarinnar</w>

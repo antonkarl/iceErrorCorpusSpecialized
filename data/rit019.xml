@@ -3367,7 +3367,8 @@
     <original><w>Friðrið</w></original>
     <corrected><w>Friðrik</w></corrected>
       <errors>
-        <error xtype="letter-rep" eid="0" />
+        <error xtype="letter-rep" idx="163-1" eid="0" />
+        <error xtype="name-error" idx="163-1" eid="0" />
       </errors>
   </revision>
   <c>(</c>
@@ -3512,7 +3513,8 @@
     <original><w>Friðrið</w></original>
     <corrected><w>Friðrik</w></corrected>
       <errors>
-        <error xtype="letter-rep" eid="0" />
+        <error xtype="letter-rep" idx="169-1" eid="0" />
+        <error xtype="name-error" idx="169-1" eid="0" />
       </errors>
   </revision>
   <w>notar</w>
@@ -6454,7 +6456,8 @@
     <original><w>Einhvæð</w></original>
     <corrected><w>Einkvæð</w></corrected>
       <errors>
-        <error xtype="letter-rep" eid="0" />
+        <error xtype="letter-rep" idx="304-1" eid="0" />
+        <error xtype="nonword" idx="304-1" eid="0" />
       </errors>
   </revision>
   <w>orð</w>
@@ -7381,7 +7384,8 @@
     <original><w>orðsiðjabók</w></original>
     <corrected><w>orðsifjabók</w></corrected>
       <errors>
-        <error xtype="letter-rep" eid="0" />
+        <error xtype="letter-rep" idx="346-1" eid="0" />
+        <error xtype="compound-nonword" idx="346-1" eid="0" />
       </errors>
   </revision>
   <c>(</c>
@@ -7481,6 +7485,7 @@
       <errors>
         <error xtype="agreement-pred" idx="352-1" eid="0" />
         <error xtype="letter-rep" idx="352-2" eid="0" />
+        <error xtype="context" idx="352-2" eid="0" />
         <error xtype="ind4def" idx="352-2" eid="0" />
       </errors>
   </revision>
@@ -7793,7 +7798,8 @@
     <original><w>hljóðunhverfi</w></original>
     <corrected><w>hljóðumhverfi</w></corrected>
       <errors>
-        <error xtype="letter-rep" eid="0" />
+        <error xtype="letter-rep" idx="366-1" eid="0" />
+        <error xtype="compound-nonword" idx="366-1" eid="0" />
       </errors>
   </revision>
   <w>til</w>
@@ -8328,7 +8334,7 @@
     <original><w>undantekningindar</w></original>
     <corrected><w>undantekningar</w></corrected>
       <errors>
-        <error xtype="letter-rep" idx="393-1" eid="0" />
+        <error xtype="extra-letters" idx="393-1" eid="0" />
         <error xtype="nonword" idx="393-1" eid="0" />
       </errors>
   </revision>

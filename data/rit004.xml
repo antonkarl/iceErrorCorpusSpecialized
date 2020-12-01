@@ -476,7 +476,7 @@
     <original><w>hefðbundni</w></original>
     <corrected><w>hefðbundna</w></corrected>
       <errors>
-        <error xtype="letter-rep" idx="19-1" eid="0" />
+        <error xtype="adjective-inflection" idx="19-1" eid="0" />
         <error xtype="agreement-concord" idx="19-1" eid="0" />
       </errors>
   </revision>
@@ -1140,7 +1140,6 @@
     <original><w>kannaðust</w><w>betra</w></original>
     <corrected><w>könnuðust</w><w>betur</w></corrected>
       <errors>
-        <error xtype="letter-rep" idx="46-1" eid="0" />
         <error xtype="letter-rep" idx="46-1" eid="0" />
         <error xtype="nonword" idx="46-1" eid="0" />
         <error xtype="adj4adv" idx="46-2" eid="0" />
@@ -1979,9 +1978,8 @@
     <original><w>grunnvallarreglunar</w></original>
     <corrected><w>grundvallarreglum</w></corrected>
       <errors>
-        <error xtype="letter-rep" idx="86-1" eid="0" />
+        <error xtype="nn4n" idx="86-1" eid="0" />
         <error xtype="missing-letter" idx="86-1" eid="0" />
-        <error xtype="nominal-inflection" idx="86-1" eid="0" />
         <error xtype="case-verb" idx="86-1" eid="0" />
         <error xtype="nonword" idx="86-1" eid="0" />
       </errors>

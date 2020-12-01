@@ -23,7 +23,8 @@
     <original><w>Uppáhaltsstaðurinn</w></original>
     <corrected><w>Uppáhaldsstaðurinn</w></corrected>
       <errors>
-        <error xtype="letter-rep" eid="0" />
+        <error xtype="letter-rep" idx="1-1" eid="0" />
+        <error xtype="nonword" idx="1-1" eid="0" />
       </errors>
   </revision>
   <w>á</w>
@@ -34,8 +35,8 @@
     <corrected><w>höfum</w><w>oft</w></corrected>
       <errors>
         <error xtype="verb-inflection" idx="2-1" eid="0" />
- 		<error xtype="context" idx="2-1" eid="0" />
- 		<error xtype="syntax-other" idx="2-2" eid="0" />
+ 	    	<error xtype="context" idx="2-1" eid="0" />
+ 	    	<error xtype="syntax-other" idx="2-2" eid="0" />
       </errors>
   </revision>
   <w>ferðast</w>
@@ -48,7 +49,7 @@
     <corrected><w>mínum</w></corrected>
       <errors>
         <error xtype="missing-accent" eid="0" />
- 		<error xtype="dep" depId="2-2" eid="0" />
+ 	    	<error xtype="dep" depId="2-2" eid="0" />
       </errors>
   </revision>
   <w>og</w>
@@ -57,7 +58,7 @@
     <corrected><w>sáum</w></corrected>
       <errors>
         <error xtype="verb-inflection" idx="4-1" eid="0" />
- 		<error xtype="context" idx="4-1" eid="0" />
+ 	    	<error xtype="context" idx="4-1" eid="0" />
       </errors>
   </revision>
   <w>marga</w>
@@ -80,7 +81,7 @@
     <corrected><w>ekki</w><w>nóg</w></corrected>
       <errors>
         <error xtype="syntax-other" idx="6-1" eid="0" />
- 		<error xtype="adv4adj" idx="6-2" eid="0" />
+ 	    	<error xtype="adv4adj" idx="6-2" eid="0" />
       </errors>
   </revision>
   <w>að</w>
@@ -92,7 +93,7 @@
     <corrected><w>staði</w></corrected>
       <errors>
         <error xtype="dep" depId="6-1" eid="0" />
- 		<error xtype="extra-letter" idx="7-1" eid="0" />
+ 		    <error xtype="extra-letter" idx="7-1" eid="0" />
       </errors>
   </revision>
   <w>til</w>
@@ -145,8 +146,8 @@
     <corrected><w>hversu</w><w>mörgum</w><w>sinnum</w></corrected>
       <errors>
         <error xtype="interr-pro" idx="11-1" eid="0" /> 	
- 		<error xtype="adjective-inflection" idx="11-2" eid="0" /> 
- 		<error xtype="missing-letter" idx="11-3" eid="0" /> 
+ 		    <error xtype="adjective-inflection" idx="11-2" eid="0" /> 
+ 		    <error xtype="missing-letter" idx="11-3" eid="0" /> 
       </errors>
   </revision>
   <w>við</w>
@@ -158,7 +159,7 @@
     <corrected><w>með</w><w>hverjum</w></corrected>
       <errors>
         <error xtype="wrong-prep" idx="12-1" eid="0" />
- 		<error xtype="pro-inflection" idx="12-1" eid="0" /> 	
+ 		    <error xtype="pro-inflection" idx="12-1" eid="0" /> 	
       </errors>
   </revision>
   <c>.</c>
@@ -178,7 +179,8 @@
     <original><w>uppáhaltsstaðurinn</w></original>
     <corrected><w>uppáhaldsstaðurinn</w></corrected>
       <errors>
-        <error xtype="letter-rep" eid="0" />
+        <error xtype="letter-rep" idx="14-1" eid="0" />
+        <error xtype="nonword" idx="14-1" eid="0" />
       </errors>
   </revision>
   <w>minn</w>
@@ -202,8 +204,8 @@
     <corrected><w>það</w><w>staðurinn</w></corrected>
       <errors>
         <error xtype="missing-sub" idx="16-1" eid="0" />
- 		<error xtype="nominal-inflection" idx="16-2" eid="0" />
- 		<error xtype="case-verb" idx="16-2" eid="0" />
+ 	    	<error xtype="nominal-inflection" idx="16-2" eid="0" />
+ 	    	<error xtype="case-verb" idx="16-2" eid="0" />
       </errors>
   </revision>
   <w>í</w>
@@ -228,8 +230,8 @@
     <corrected><w>ævintýris</w></corrected>
       <errors>
         <error xtype="extra-prep" idx="18-1" eid="0" />
- 		<error xtype="nominal-inflection" idx="18-1" eid="0" />
- 		<error xtype="genitive" idx="18-1" eid="0" />
+ 		    <error xtype="nominal-inflection" idx="18-1" eid="0" />
+ 		    <error xtype="genitive" idx="18-1" eid="0" />
       </errors>
   </revision>
   <w>míns</w>
@@ -295,9 +297,9 @@
     <corrected><w>leigusalinn</w><w>skrítinn</w></corrected>
       <errors>
         <error xtype="dep" depId="23-1" eid="0" />
- 		<error xtype="letter-rep" idx="23-1" eid="0" />
- 		<error xtype="ind4def" idx="23-1" eid="0" />
- 		<error xtype="missing-accent" idx="24-1" eid="0" />
+ 		    <error xtype="letter-rep" idx="23-1" eid="0" />
+ 		    <error xtype="ind4def" idx="23-1" eid="0" />
+ 		    <error xtype="missing-accent" idx="24-1" eid="0" />
       </errors>
   </revision>
   <w>og</w>
@@ -341,7 +343,7 @@
     <corrected><w>segi</w></corrected>
       <errors>
         <error xtype="agreement-pred" eid="0" />
- 		<error xtype="context" eid="0" />
+ 		    <error xtype="context" eid="0" />
       </errors>
   </revision>
   <w>ekki</w>
@@ -364,7 +366,7 @@
     <corrected><w>af</w></corrected>
       <errors>
         <error xtype="að4af" idx="30-1" eid="0" />
- 		<error xtype="wrong-prep" idx="30-1" eid="0" />
+ 	    	<error xtype="wrong-prep" idx="30-1" eid="0" />
       </errors>
   </revision>
   <w>því</w>
@@ -494,7 +496,7 @@
     <corrected><w>hressilega</w><w>út</w></corrected>
       <errors>
         <error xtype="dep" depId="40-1" eid="0" />
- 		<error xtype="wording" idx="41-1" eid="0" />
+ 		    <error xtype="wording" idx="41-1" eid="0" />
       </errors>
   </revision>
   <w>í</w>
@@ -574,7 +576,8 @@
     <original><w>skoðum</w></original>
     <corrected><w>skoðun</w></corrected>
       <errors>
-        <error xtype="letter-rep" eid="0" />
+        <error xtype="letter-rep" idx="48-1" eid="0" />
+        <error xtype="context" idx="48-1" eid="0" />
       </errors>
   </revision>
   <w>um</w>
@@ -596,7 +599,7 @@
     <corrected><w>þarf</w><w>staðurinn</w></corrected>
       <errors>
         <error xtype="case-verb" eid="0" />
- 		<error xtype="acc4nom-sub" eid="0" />
+ 		    <error xtype="acc4nom-sub" eid="0" />
       </errors>
   </revision>
   <w>að</w>
@@ -615,7 +618,7 @@
     <corrected></corrected>
       <errors>
         <error xtype="extra-comma" idx="51-1" eid="0" />
- 		<error xtype="extra-subj" idx="51-2" eid="0" />
+ 		    <error xtype="extra-subj" idx="51-2" eid="0" />
       </errors>
   </revision>
   <w>er</w>
@@ -662,7 +665,7 @@
     <corrected><w>heitu</w></corrected>
       <errors>
         <error xtype="adjective-inflection" idx="56-1" eid="0" />
- 		<error xtype="context" idx="56-1" eid="0" />
+ 		    <error xtype="context" idx="56-1" eid="0" />
       </errors>
   </revision>
   <w>pottunum</w>
@@ -706,7 +709,7 @@
     <corrected><w>kerfislaus</w><w>staður</w></corrected>
       <errors>
         <error xtype="missing-letter" idx="60-1" eid="0" />
- 		<error xtype="nominal-inflection" idx="60-2" eid="0" />
+ 		    <error xtype="nominal-inflection" idx="60-2" eid="0" />
       </errors>
   </revision>
   <w>fyrir</w>
@@ -715,8 +718,8 @@
     <corrected><w>indíánann</w></corrected>
       <errors>
         <error xtype="upper4lower-common" idx="61-1" eid="0" />
-		<error xtype="letter-rep" idx="61-1" eid="0" />
- 		<error xtype="nominal-inflection" idx="61-1" eid="0" />
+		    <error xtype="letter-rep" idx="61-1" eid="0" />
+ 		    <error xtype="nominal-inflection" idx="61-1" eid="0" />
       </errors>
   </revision>
   <c>.</c>

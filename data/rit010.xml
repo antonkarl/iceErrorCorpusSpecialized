@@ -6480,7 +6480,7 @@
     <corrected><w>þgf.</w></corrected>
       <errors>
         <error xtype="letter-rep" idx="117b-1" eid="0" />
-        <error xtype="nonword" idx="117b-1" eid="0" />
+        <error xtype="abbreviation" idx="117b-1" eid="0" />
       </errors>
   </revision>
   <w>et.</w>
@@ -9857,7 +9857,7 @@
     <original><w>haft</w></original>
     <corrected><w>hafa</w></corrected>
       <errors>
-        <error xtype="letter-rep" eid="0" />
+        <error xtype="verb-inflection" eid="0" />
       </errors>
   </revision>
   <w>þróast</w>
@@ -9999,11 +9999,11 @@
   <w>orðmyndirnar</w>
   <w>bænum</w>
   <c>(</c>
-  <w>flt.</w>
   <revision id="183b">
-    <original><w>þgt.</w></original>
-    <corrected><w>þgf.</w></corrected>
+    <original><w>flt.</w><w>þgt.</w></original>
+    <corrected><w>ft.</w><w>þgf.</w></corrected>
       <errors>
+        <error xtype="extra-letter" idx="183b-1" eid="0" />
         <error xtype="letter-rep" idx="183b-1" eid="0" />
         <error xtype="nonword" idx="183b-1" eid="0" />
       </errors>

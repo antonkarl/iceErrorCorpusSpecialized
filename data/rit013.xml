@@ -2988,6 +2988,7 @@
         <error xtype="collocation" idx="210-2" eid="0" />
         <error xtype="missing-word" idx="210-3" eid="0" />
         <error xtype="letter-rep" idx="210-4" eid="0" />
+        <error xtype="context" idx="210-4" eid="0" />
       </errors>
   </revision>
   <c>,</c>
@@ -3017,6 +3018,7 @@
     <corrected><w>femínísk</w><w>hugtök</w></corrected>
       <errors>
         <error xtype="merged-words" idx="212-1" eid="0" />
+        <error xtype="extra-letter" idx="212-1" eid="0" />
         <error xtype="letter-rep" idx="212-1" eid="0" />
       </errors>
   </revision>
@@ -3262,7 +3264,7 @@
     <original><w>bætur</w></original>
     <corrected><w>bætir</w></corrected>
       <errors>
-        <error xtype="letter-rep" eid="0" />
+        <error xtype="context" eid="0" />
       </errors>
   </revision>
   <w>við</w>
@@ -4647,7 +4649,7 @@
     <original><w>skilgreinar</w><w>staðinn</w><w>sinn</w></original>
     <corrected><w>skilgreinir</w><w>stöðu</w><w>sína</w></corrected>
       <errors>
-        <error xtype="letter-rep" idx="327-1" eid="0" />
+        <error xtype="context" idx="327-1" eid="0" />
         <error xtype="wording" idx="327-2" eid="0" />
       </errors>
   </revision>
@@ -4730,7 +4732,7 @@
     <original><w>Ógnun</w><w>er</w></original>
     <corrected><w>Ógnin</w></corrected>
       <errors>
-        <error xtype="letter-rep" idx="332-1" eid="0" />
+        <error xtype="context" idx="332-1" eid="0" />
         <error xtype="extra-word" idx="332-2" eid="0" />
       </errors>
   </revision>
@@ -6860,7 +6862,7 @@
     <original><w>yfirstígir</w><w>félagslegu</w><w>ákvarðana</w></original>
     <corrected><w>yfirstígur</w><w>ást</w><w>félagslegar</w><w>ákvarðanir</w></corrected>
       <errors>
-        <error xtype="letter-rep" idx="480-1" eid="0" />
+        <error xtype="agreement" idx="480-1" eid="0" />
         <error xtype="wording" idx="480-2" eid="0" />
       </errors>
   </revision>
@@ -7268,6 +7270,7 @@
     <corrected><w>þakklát</w><w>fyrir</w></corrected>
       <errors>
         <error xtype="letter-rep" idx="507-1" eid="0" />
+        <error xtype="extra-accent" idx="507-1" eid="0" />
         <error xtype="nonword" idx="507-1" eid="0" />
         <error xtype="missing-prep" idx="507-2" eid="0" />
       </errors>

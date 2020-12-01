@@ -1055,6 +1055,7 @@
       <errors>
         <error xtype="agreement-pred" idx="82-1" eid="0" />
         <error xtype="letter-rep" idx="82-2" eid="0" />
+        <error xtype="compound-collocation" idx="82-2" eid="0" />
       </errors>
   </revision>
   <c>.</c>
@@ -1376,7 +1377,8 @@
     <original><w>fleritölu</w></original>
     <corrected><w>fleirtölu</w></corrected>
       <errors>
-        <error xtype="letter-rep" eid="0" />
+        <error xtype="swapped-letters" idx="111-1" eid="0" />
+        <error xtype="nonword" idx="111-1" eid="0" />
       </errors>
   </revision>
   <w>kunnuglegra</w>

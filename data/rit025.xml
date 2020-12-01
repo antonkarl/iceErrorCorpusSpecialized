@@ -606,7 +606,6 @@
       <errors>
         <error xtype="letter-rep" idx="41-1" eid="0" />
         <error xtype="nonword" idx="41-1" eid="0" />
-        <error xtype="nominal-inflection" idx="41-1" eid="0" />
       </errors>
   </revision>
   <w>í</w>
@@ -2682,7 +2681,6 @@
       <errors>
         <error xtype="letter-rep" idx="179-1" eid="0" />
         <error xtype="nonword" idx="179-1" eid="0" />
-        <error xtype="nominal-inflection" idx="179-1" eid="0" />
       </errors>
   </revision>
   <w>er</w>
@@ -3218,7 +3216,7 @@
     <original><w>leikar</w></original>
     <corrected><w>leikur</w></corrected>
       <errors>
-        <error xtype="letter-rep" idx="216-1" eid="0" />
+        <error xtype="context" idx="216-1" eid="0" />
         <error xtype="verb-inflection" idx="216-1" eid="0" />
       </errors>
   </revision>
@@ -3574,7 +3572,6 @@
       <errors>
         <error xtype="extra-accent" idx="239-1" eid="0" />
         <error xtype="letter-rep" idx="239-1" eid="0" />
-        <error xtype="verb-inflection" idx="239-1" eid="0" />
       </errors>
   </revision>
   <w>að</w>
@@ -3797,7 +3794,7 @@
     <corrected><w>höfum</w></corrected>
       <errors>
         <error xtype="letter-rep" idx="253-1" eid="0" />
-        <error xtype="verb-inflection" idx="253-1" eid="0" />
+        <error xtype="context" idx="253-1" eid="0" />
       </errors>
   </revision>
   <w>skapað</w>

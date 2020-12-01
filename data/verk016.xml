@@ -1047,7 +1047,7 @@
     <original><c>!!</c></original>
     <corrected><c>!</c></corrected>
       <errors>
-        <error xtype="extra-symbol" eid="0" />
+        <error xtype="double-punctuation" eid="0" />
       </errors>
   </revision>
 </s>
@@ -1060,6 +1060,7 @@
       <errors>
         <error xtype="pres4past" idx="45-1" eid="0" />
         <error xtype="letter-rep" idx="45-2" eid="0" />
+        <error xtype="context" idx="45-2" eid="0" />
       </errors>
   </revision>
   <w>í</w>
@@ -1078,7 +1079,8 @@
     <original><w>ad</w></original>
     <corrected><w>að</w></corrected>
       <errors>
-        <error xtype="letter-rep" eid="0" />
+        <error xtype="letter-rep" idx="47-1" eid="0" />
+        <error xtype="nonword" idx="47-1" eid="0" />
       </errors>
   </revision>
   <w>nema</w>
@@ -1088,7 +1090,8 @@
     <original><w>vid</w></original>
     <corrected><w>við</w></corrected>
       <errors>
-        <error xtype="letter-rep" eid="0" />
+        <error xtype="letter-rep" idx="47-1" eid="0" />
+        <error xtype="nonword" idx="47-1" eid="0" />
       </errors>
   </revision>
   <w>Humboldt-háskóla</w>
@@ -1116,7 +1119,8 @@
     <original><w>ad</w></original>
     <corrected><w>að</w></corrected>
       <errors>
-        <error xtype="letter-rep" eid="0" />
+        <error xtype="letter-rep" idx="50-1" eid="0" />
+        <error xtype="nonword" idx="50-1" eid="0" />
       </errors>
   </revision>
   <w>skoða</w>
@@ -1128,7 +1132,8 @@
     <original><w>torp</w></original>
     <corrected><w>þorp</w></corrected>
       <errors>
-        <error xtype="letter-rep" eid="0" />
+        <error xtype="letter-rep" idx="51-1" eid="0" />
+        <error xtype="nonword" idx="51-1" eid="0" />
       </errors>
   </revision>
   <w>í</w>
@@ -1137,7 +1142,8 @@
     <original><w>tar</w></original>
     <corrected><w>þar</w></corrected>
       <errors>
-        <error xtype="letter-rep" eid="0" />
+        <error xtype="letter-rep" idx="52-1" eid="0" />
+        <error xtype="nonword" idx="52-1" eid="0" />
       </errors>
   </revision>
   <w>sem</w>
@@ -1322,7 +1328,8 @@
     <original><w>torp</w></original>
     <corrected><w>þorp</w></corrected>
       <errors>
-        <error xtype="letter-rep" eid="0" />
+        <error xtype="letter-rep" idx="65-1" eid="0" />
+        <error xtype="nonword" idx="65-1" eid="0" />
       </errors>
   </revision>
   <c>,</c>
@@ -1330,7 +1337,8 @@
     <original><w>trjá</w></original>
     <corrected><w>þrjá</w></corrected>
       <errors>
-        <error xtype="letter-rep" eid="0" />
+        <error xtype="letter-rep" idx="66-1" eid="0" />
+        <error xtype="nonword" idx="66-1" eid="0" />
       </errors>
   </revision>
   <w>bæi</w>

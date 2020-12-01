@@ -990,7 +990,8 @@
     <original><w>örðu</w></original>
     <corrected><w>öðru</w></corrected>
       <errors>
-        <error xtype="letter-rep" eid="0" />
+        <error xtype="swapped-letters" idx="67-1" eid="0" />
+        <error xtype="context" idx="67-1" eid="0" />
       </errors>
   </revision>
   <w>erindi</w>
