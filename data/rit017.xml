@@ -2862,7 +2862,14 @@
   <c>.</c>
 </s>
 <s n="61">
-  <w>Gætirðu</w>
+  <revision id="241">
+    <original><w>Gætirðu</w></original>
+    <corrected><w>Gætir</w><w>þú</w></corrected>
+      <errors>
+        <error xtype="bad-contraction" idx="241-1" eid="0" />
+        <error xtype="style" idx="241-1" eid="0" />
+      </errors>
+  </revision>
   <w>ímyndað</w>
   <revision id="242">
     <original></original>
