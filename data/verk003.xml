@@ -29,6 +29,8 @@
   </revision>
   <w>á</w>
   <w>Íslandi</w>
+</s>
+<s n="1b">
   <w>Við</w>
   <revision id="2">
     <original><w>hefum</w></original>
@@ -55,10 +57,9 @@
   <w>og</w>
   <revision id="4">
     <original><w>sáðum</w></original>
-    <corrected><w>sáum</w></corrected>
+    <corrected><w>séð</w></corrected>
       <errors>
-        <error xtype="verb-inflection" idx="4-1" eid="0" />
-        <error xtype="context" idx="4-1" eid="0" />
+        <error xtype="verb-inflection" eid="0" />
       </errors>
   </revision>
   <w>marga</w>
@@ -636,7 +637,8 @@
     <original><w>laugardaslaug</w></original>
     <corrected><w>Laugardalslaug</w></corrected>
       <errors>
-        <error xtype="lower4upper-proper" eid="0" />
+        <error xtype="lower4upper-proper" idx="53-1" eid="0" />
+        <error xtype="missing-letter" idx="53-1" eid="0" />
       </errors>
   </revision>
   <c>.</c>
@@ -689,7 +691,8 @@
     <original><w>laugardaslaug</w></original>
     <corrected><w>Laugardalslaug</w></corrected>
       <errors>
-        <error xtype="lower4upper-proper" eid="0" />
+        <error xtype="lower4upper-proper" idx="58-1" eid="0" />
+        <error xtype="missing-letter" idx="58-1" eid="0" />
       </errors>
   </revision>
   <w>er</w>

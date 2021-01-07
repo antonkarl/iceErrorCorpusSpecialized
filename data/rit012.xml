@@ -32,6 +32,8 @@
   <w>eftir</w>
   <w>Jón</w>
   <w>Gnarr</w>
+</s>
+<s n="1b">
   <w>Þessi</w>
   <revision id="2">
     <original><w>bókarritgerð</w></original>
@@ -304,8 +306,13 @@
   <w>sex</w>
   <w>ára</w>
   <c>,</c>
-  <w>hann</w>
-  <w>er</w>
+  <revision id="20b">
+    <original><w>hann</w><w>er</w></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="extra-words" eid="0" />
+      </errors>
+  </revision>
   <w>rauðhærður</w>
   <w>drengur</w>
   <w>með</w>
@@ -1770,7 +1777,14 @@
       </errors>
   </revision>
   <c>,</c>
-  <w>óheina</w>
+  <revision id="107b">
+    <original><w>óheina</w></original>
+    <corrected><w>óhreina</w></corrected>
+      <errors>
+        <error xtype="missing-letter" idx="107b-1" eid="0" />
+        <error xtype="nonword" idx="107b-1" eid="0" />
+      </errors>
+  </revision>
   <c>,</c>
   <w>svarta</w>
   <w>og</w>
@@ -1803,7 +1817,13 @@
   <w>brotna</w>
   <w>draum</w>
   <w>að</w>
-  <w>vera</w>
+  <revision id="109b">
+    <original><w>vera</w></original>
+    <corrected><w>verða</w></corrected>
+      <errors>
+        <error xtype="aux" eid="0" />
+      </errors>
+  </revision>
   <w>leikari</w>
   <revision id="110">
     <original><c>.</c></original>
@@ -1902,7 +1922,14 @@
   <w>leikrit</w>
   <c>,</c>
   <c>„</c>
-  <w>Ofvitinn</w>
+  <revision id="115b">
+    <original><w>Ofvitinn</w></original>
+    <corrected><w>Ofvitann</w></corrected>
+      <errors>
+        <error xtype="case-collocation" idx="115b-1" eid="0" />
+        <error xtype="nominal-inflection" idx="115b-1" eid="0" />
+      </errors>
+  </revision>
   <c>”</c>
   <w>eftir</w>
   <w>Þórberg</w>
@@ -2146,7 +2173,13 @@
       </errors>
   </revision>
   <w>í</w>
-  <w>byrjunni</w>
+  <revision id="132b">
+    <original><w>byrjunni</w></original>
+    <corrected><w>byrjun</w></corrected>
+      <errors>
+        <error xtype="def4ind" eid="0" />
+      </errors>
+  </revision>
   <c>.</c>
 </s>
 <s n="66">
@@ -2260,7 +2293,13 @@
   <w>skilja</w>
   <w>leiðina</w>
   <w>sína</w>
-  <w>áfram</w>
+  <revision id="138b">
+    <original><w>áfram</w></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="extra-word" eid="0" />
+      </errors>
+  </revision>
   <w>í</w>
   <w>tilverunni</w>
   <c>.</c>
