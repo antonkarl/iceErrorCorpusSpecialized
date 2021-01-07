@@ -261,7 +261,13 @@
   <w>af</w>
   <w>Íslenzkum</w>
   <w>ritum</w>
-  <w>síðara</w>
+  <revision id="22b">
+    <original><w>síðara</w></original>
+    <corrected><w>síðari</w></corrected>
+      <errors>
+        <error xtype="agreement-concord" eid="0" />
+      </errors>
+  </revision>
   <w>alda</w>
   <c>:</c>
   <w>Spánverjavígin</w>
@@ -279,7 +285,7 @@
   <w>Hinu</w>
   <w>íslenzka</w>
   <w>fræðafélagi</w>
-  <w>árið 19501</w>
+  <w>árið 1950</w>
   <c>.</c>
 </s>
 <s n="9">
@@ -357,7 +363,6 @@
       </errors>
   </revision>
   <w>Vestfjörðum</w>
-  <w>3</w>
   <w>og</w>
   <w>að</w>
   <w>rímurnar</w>
@@ -373,8 +378,8 @@
       </errors>
   </revision>
   <w>1615</w>
-  
-  <w>16164</w>
+  <c>–</c>
+  <w>1616</w>
   <c>.</c>
 </s>
 <s n="12">
@@ -389,7 +394,7 @@
   <w>vo</w>
   <w>bls.</w>
   <w>71</w>
-  
+  <c>–</c>
   <w>975</w>
   <c>.</c>
 </s>
@@ -449,7 +454,6 @@
   <w>sem</w>
   <w>samdi</w>
   <w>rímurnar</w>
-  <w>6</w>
   <c>.</c>
 </s>
 <s n="15">
@@ -467,7 +471,7 @@
   <w>í</w>
   <w>grein</w>
   <w>frá</w>
-  <w>19517</w>
+  <w>1951</w>
   <c>.</c>
 </s>
 <s n="16">
@@ -554,6 +558,9 @@
   <w>báru</w>
   <w>flóð</w>
   <w>8</w>
+  <c>.</c>
+</s>
+<s n="18b">
   <w>Önnur</w>
   <w>ríman</w>
   <w>fjallar</w>
@@ -573,7 +580,14 @@
       </errors>
   </revision>
   <w>hvernig</w>
-  <w>Spánverjir</w>
+  <revision id="34b">
+    <original><w>Spánverjir</w></original>
+    <corrected><w>Spánverjar</w></corrected>
+      <errors>
+        <error xtype="nonword" idx="34b-1" eid="0" />
+        <error xtype="letter-rep" idx="34b-1" eid="0" />
+      </errors>
+  </revision>
   <w>voru</w>
   <w>drepnir</w>
   <revision id="35">
@@ -625,7 +639,6 @@
   <c>.</c>
 </s>
 <s n="20">
-  <w>9</w>
   <revision id="36">
     <original><w>Þriðja</w><w>ríman</w><w>fer</w><w>að</w><w>ræða</w></original>
     <corrected><w>Í</w><w>þriðju</w><w>rímunni</w><w>er</w><w>fjallað</w><w>um</w></corrected>
@@ -740,7 +753,6 @@
   <c>.</c>
 </s>
 <s n="23">
-  <w>10</w>
   <revision id="44">
     <original><w>Fjórða</w><w>ríman</w><w>ræðir</w></original>
     <corrected><w>Í</w><w>fjórðu</w><w>rímunni</w><w>er</w><w>rætt</w><w>um</w><w>það</w></corrected>
@@ -809,7 +821,13 @@
   <w>21.</w>
   <w>erindið</w>
   <w>af</w>
-  <w>fjórða</w>
+  <revision id="49">
+    <original><w>fjórða</w></original>
+    <corrected><w>fjórðu</w></corrected>
+      <errors>
+        <error xtype="agreement-concord" eid="0" />
+      </errors>
+  </revision>
   <w>rímunni</w>
   <c>:</c>
   <w>Getum</w>
@@ -832,7 +850,6 @@
   <c>.</c>
 </s>
 <s n="25">
-  <w>11</w>
   <w>Fimmta</w>
   <w>ríman</w>
   <w>fjallar</w>
@@ -949,7 +966,6 @@
   <c>.</c>
 </s>
 <s n="28">
-  <w>12</w>
   <w>Spánverjarnir</w>
   <w>voru</w>
   <w>ræningjar</w>
@@ -1123,7 +1139,13 @@
   <w>Í</w>
   <w>Íslenzkum</w>
   <w>ritum</w>
-  <w>síðara</w>
+  <revision id="67b">
+    <original><w>síðara</w></original>
+    <corrected><w>síðari</w></corrected>
+      <errors>
+        <error xtype="agreement-concord" eid="0" />
+      </errors>
+  </revision>
   <w>alda</w>
   <w>segir</w>
   <w>óþekktur</w>
@@ -1218,7 +1240,6 @@
   <c>.</c>
 </s>
 <s n="35">
-  <w>13</w>
   <w>Í</w>
   <w>grein</w>
   <w>sinni</w>
@@ -1269,7 +1290,6 @@
   <c>”</c>
 </s>
 <s n="36">
-  <w>14</w>
   <w>Þótt</w>
   <revision id="74">
     <original><w>að</w></original>
@@ -1446,7 +1466,7 @@
   <w>tvö</w>
   <revision id="84">
     <original><w>basknesku-íslensku</w></original>
-    <corrected><w>basknesk-íslensku</w></corrected>
+    <corrected><w>basknesk-íslensk</w></corrected>
       <errors>
         <error xtype="adjective-inflection" eid="0" />
       </errors>
@@ -1465,7 +1485,6 @@
         <error xtype="nominal-inflection" eid="0" />
       </errors>
   </revision>
-  <w>15</w>
   <c>.</c>
 </s>
 <s n="42">
@@ -1490,7 +1509,6 @@
   <w>Íslendinga</w>
   <w>og</w>
   <w>Baska</w>
-  <w>16</w>
   <c>.</c>
 </s>
 <s n="43">
@@ -1553,7 +1571,6 @@
   <w>til</w>
   <w>21.</w>
   <w>aldarinnar</w>
-  <w>17</w>
   <c>.</c>
 </s>
 <s n="45">
@@ -1626,12 +1643,13 @@
   <w>milli</w>
   <w>rímnanna</w>
   <w>og</w>
-  <w>Sannar</w>
   <revision id="95">
-    <original><w>Frásagnar</w></original>
-    <corrected><w>frásagnar</w></corrected>
+    <original><w>Sannar</w><w>Frásagnar</w></original>
+    <corrected><w>Sannrar</w><w>frásagnar</w></corrected>
       <errors>
-        <error xtype="upper4lower-common" eid="0" />
+        <error xtype="agreement-concord" idx="95-1" eid="0" />
+        <error xtype="genitive" idx="95-1" eid="0" />
+        <error xtype="upper4lower-common" idx="95-2" eid="0" />
       </errors>
   </revision>
   <c>.</c>
@@ -1742,7 +1760,6 @@
   <w>annars</w>
   <w>staðar</w>
   <c>”</c>
-  <w>19</w>
   <c>.</c>
 </s>
 <s n="51">
@@ -1952,7 +1969,6 @@
       </errors>
   </revision>
   <w>tíma</w>
-  <w>20</w>
   <c>.</c>
 </s>
 <s n="57">
@@ -2320,6 +2336,8 @@
   <w>landi</w>
   <w>Ísa</w>
   <w>23</w>
+</s>
+<s n="65b">
   <w>Það</w>
   <w>sést</w>
   <w>hér</w>
@@ -2689,6 +2707,8 @@
   <w>síðari</w>
   <w>öldum</w>
   <w>24</w>
+</s>
+<s n="72b">
   <w>Rímurnar</w>
   <w>veita</w>
   <w>lesendum</w>
