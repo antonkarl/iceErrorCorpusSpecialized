@@ -32,7 +32,7 @@
   <w>í</w>
   <w>heimalandi</w>
   <w>mínu</w>
-  
+  <c>–</c>
   <w>Póllandi</w>
   <c>.</c>
 </s>
@@ -47,7 +47,13 @@
   <w>pælt</w>
   <w>í</w>
   <w>þessu</w>
-  <c>,</c>
+  <revision id="2b">
+    <original><c>,</c></original>
+    <corrected><c>;</c></corrected>
+      <errors>
+        <error xtype="comma4semicolon" eid="0" />
+      </errors>
+  </revision>
   <w>það</w>
   <w>er</w>
   <w>einnig</w>
@@ -113,18 +119,31 @@
   <w>vel</w>
   <w>bæði</w>
   <w>í</w>
-  <w>fjöllum</w>
+  <revision id="4b">
+    <original><w>fjöllum</w></original>
+    <corrected><w>fjöllunum</w></corrected>
+      <errors>
+        <error xtype="ind4def" eid="0" />
+      </errors>
+  </revision>
   <w>í</w>
-  <w>suðuhluta</w>
+  <revision id="4c">
+    <original><w>suðuhluta</w></original>
+    <corrected><w>suðurhluta</w></corrected>
+      <errors>
+        <error xtype="missing-letter" idx="4c-1" eid="0" />
+        <error xtype="compound-nonword" idx="4c-1" eid="0" />
+      </errors>
+  </revision>
   <w>Póllands</w>
   <w>og</w>
   <w>á</w>
   <revision id="5">
     <original><w>strönd</w></original>
-    <corrected><w>ströndum</w></corrected>
+    <corrected><w>ströndunum</w></corrected>
       <errors>
-        <error xtype="nominal-inflection" idx="5-1" eid="0" />
-        <error xtype="case-prep" idx="5-1" eid="0" />
+        <error xtype="singular4plural" idx="5-1" eid="0" />
+        <error xtype="ind4def" idx="5-1" eid="0" />
       </errors>
   </revision>
   <w>fyrir</w>
@@ -279,13 +298,9 @@
       </errors>
   </revision>
   <c>,</c>
-  <revision id="19">
-    <original><w>af</w><w>því</w><w>að</w></original>
-    <corrected></corrected>
-      <errors>
-        <error xtype="extra-words" eid="0" />
-      </errors>
-  </revision>
+  <w>af</w>
+  <w>því</w>
+  <w>að</w>
   <w>þar</w>
   <revision id="20">
     <original><w>eru</w></original>
@@ -317,7 +332,13 @@
   <w>í</w>
   <w>gamla</w>
   <w>bænum</w>
-  <c>,</c>
+  <revision id="21b">
+    <original><c>,</c></original>
+    <corrected><c>;</c></corrected>
+      <errors>
+        <error xtype="comma4semicolon" eid="0" />
+      </errors>
+  </revision>
   <w>þar</w>
   <w>eru</w>
   <w>kastalar</w>
@@ -587,13 +608,7 @@
   </revision>
   <w>eru</w>
   <w>starfandi</w>
-  <revision id="41">
-    <original><w>þar</w></original>
-    <corrected></corrected>
-      <errors>
-        <error xtype="extra-word" eid="0" />
-      </errors>
-  </revision>
+  <w>þar</w>
   <w>og</w>
   <w>mjög</w>
   <w>margir</w>
@@ -781,18 +796,18 @@
   <w>ekki</w>
   <w>langan</w>
   <w>tíma</w>
-  <w>til</w>
+  <revision id="57d">
+    <original><w>til</w></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="extra-conjunction" eid="0" />
+      </errors>
+  </revision>
   <w>að</w>
   <w>keyra</w>
   <w>upp</w>
   <w>í</w>
-  <revision id="58">
-    <original><w>Tatrafjöll</w></original>
-    <corrected><w>Tatra-fjöll</w></corrected>
-      <errors>
-        <error xtype="missing-dash" eid="0" />
-      </errors>
-  </revision>
+  <w>Tatrafjöll</w>
   <c>.</c>
 </s>
 <s n="25">
