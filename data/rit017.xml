@@ -241,12 +241,12 @@
       </errors>
   </revision>
   <w>hver</w>
-  <w>staðan</w>
   <revision id="22">
-    <original><w>tungunnar</w></original>
-    <corrected><w>tungumálsins</w></corrected>
+    <original><w>staðan</w><w>tungunnar</w></original>
+    <corrected><w>staða</w><w>tungumálsins</w></corrected>
       <errors>
-        <error xtype="wording" eid="0" />
+        <error xtype="def4ind" idx="22-1" eid="0" />
+        <error xtype="wording" idx="22-2" eid="0" />
       </errors>
   </revision>
   <w>verður</w>
@@ -1314,22 +1314,22 @@
   <w>má</w>
   <w>nefna</w>
   <revision id="107">
-    <original><w>það</w><w>að</w></original>
-    <corrected><w>hafa</w></corrected>
+    <original><w>það</w></original>
+    <corrected></corrected>
       <errors>
-        <error xtype="extra-words" idx="107-1" eid="0" />
-        <error xtype="dep" depId="108-1" eid="0" />
+        <error xtype="extra-word" eid="0" />
       </errors>
   </revision>
+  <w>að</w>
   <w>margir</w>
   <w>breskir</w>
   <w>skólar</w>
+  <w>hafa</w>
   <revision id="108">
-    <original><w>hafa</w><w>innleidd</w></original>
+    <original><w>innleidd</w></original>
     <corrected><w>innleitt</w></corrected>
       <errors>
-        <error xtype="wording" idx="108-1" eid="0" />
-        <error xtype="verb-inflection" idx="108-2" eid="0" />
+        <error xtype="verb-inflection" eid="0" />
       </errors>
   </revision>
   <w>kínverskukennslu</w>
@@ -1498,7 +1498,7 @@
 <s n="32">
   <revision id="122">
     <original><w>Kínverska</w></original>
-    <corrected><w>Getur</w><w>kínverska</w><w>verið</w><w>notuð</w></corrected>
+    <corrected><w>Gæti</w><w>kínverska</w><w>verið</w><w>notuð</w></corrected>
       <errors>
         <error xtype="missing-words" eid="0" />
       </errors>
@@ -1536,7 +1536,7 @@
   <c>)</c>
   <revision id="125">
     <original><w>svipuð</w></original>
-    <corrected><c>,</c><w>svipaða</w></corrected>
+    <corrected><c>,</c><w>svipað</w></corrected>
       <errors>
         <error xtype="missing-comma" idx="125-1" eid="0" />
         <error xtype="agreement-pred" idx="125-2" eid="0" />
@@ -1623,7 +1623,7 @@
   <w>enska</w>
   <revision id="134">
     <original><w>hefur</w><w>orðið</w></original>
-    <corrected><w>er</w></corrected>
+    <corrected><w>er</w><w>nú</w></corrected>
       <errors>
         <error xtype="wording" eid="0" />
       </errors>
@@ -2105,14 +2105,7 @@
       </errors>
   </revision>
   <w>í</w>
-  <revision id="177">
-    <original><w>Sjanghæ</w></original>
-    <corrected><w>Sjanghaí</w></corrected>
-      <errors>
-        <error xtype="nonword" idx="177-1" eid="0" />
-        <error xtype="name-error" idx="177-1" eid="0" />
-      </errors>
-  </revision>
+  <w>Sjanghæ</w>
   <c>,</c>
   <w>stærstu</w>
   <revision id="178">
@@ -2957,6 +2950,8 @@
 <s n="62">
   <w>Tone</w>
   <w>Deaf</w>
+</s>
+<s n="62b">
   <c>„</c>
   <w>Tone</w>
   <w>deaf</w>
@@ -3379,6 +3374,8 @@
   <w>Kenningar</w>
   <w>og</w>
   <w>lokaorð</w>
+</s>
+<s n="70b">
   <w>Eins</w>
   <w>og</w>
   <w>lýst</w>
@@ -3582,7 +3579,13 @@
   <w>að</w>
   <w>fólk</w>
   <w>myndi</w>
-  <w>notfæra</w>
+  <revision id="301b">
+    <original><w>notfæra</w></original>
+    <corrected><w>nýta</w></corrected>
+      <errors>
+        <error xtype="wording" eid="0" />
+      </errors>
+  </revision>
   <w>pinyin-kerfið</w>
   <w>vegna</w>
   <w>þess</w>
@@ -3632,19 +3635,12 @@
   <w>einnig</w>
   <w>ímyndað</w>
   <revision id="306">
-    <original></original>
-    <corrected><w>mér</w><w>einhvers</w><w>konar</w></corrected>
+    <original><w>tegund</w><w>af</w></original>
+    <corrected><w>mér</w><w>einhvers</w><w>konar</w><c>„</c></corrected>
       <errors>
-        <error xtype="missing-words" eid="0" />
-      </errors>
-  </revision>
-  <w>tegund</w>
-  <w>af</w>
-  <revision id="307">
-    <original></original>
-    <corrected><c>„</c></corrected>
-      <errors>
-        <error xtype="missing-quots" eid="0" />
+        <error xtype="missing-word" idx="306-1" eid="0" />
+        <error xtype="wording" idx="306-2" eid="0" />
+        <error xtype="missing-quots" idx="306-3" eid="0" />
       </errors>
   </revision>
   <w>alheimskínversku</w>
@@ -3806,13 +3802,33 @@
       </errors>
   </revision>
   <w>spyrja</w>
+  <revision id="320b">
+    <original></original>
+    <corrected><c>:</c></corrected>
+      <errors>
+        <error xtype="missing-colon" eid="0" />
+      </errors>
+  </revision>
   <c>„</c>
   <w>Ni</w>
   <w>shou</w>
   <w>zhongwen</w>
   <w>ma</w>
+  <revision id="320c">
+    <original></original>
+    <corrected><c>?</c></corrected>
+      <errors>
+        <error xtype="missing-qm" eid="0" />
+      </errors>
+  </revision>
   <c>“</c>
-  <c>.</c>
+  <revision id="320d">
+    <original><c>.</c></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="extra-period" eid="0" />
+      </errors>
+  </revision>
 </s>
 </p></body></text>
 </TEI>

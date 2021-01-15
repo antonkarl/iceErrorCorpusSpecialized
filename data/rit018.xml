@@ -20,6 +20,8 @@
 <text><body><p n="1">
 <s n="1">
   <w>INNGANGUR</w>
+</s>
+<s n="1b">
   <w>Ísland</w>
   <w>hafði</w>
   <w>þá</w>
@@ -357,6 +359,8 @@
   <w>Í</w>
   <w>GRÓFUM</w>
   <w>DRÁTTUM</w>
+</s>
+<s n="10b">
   <w>Rithöfundurinn</w>
   <w>og</w>
   <w>ljóðskáldið</w>
@@ -672,29 +676,19 @@
   <w>sem</w>
   <w>spyrnir</w>
   <w>gegn</w>
-  <c>.</c>
-</s>
-<s n="21">
-  <c>.</c>
-</s>
-<s n="22">
-  <c>.</c>
-</s>
-<s n="23">
+  <c>...</c>
   <w>hverfulleika</w>
   <c>[</c>
   <w>lífsins</w>
   <c>]</c>
-  <c>,</c>
-  <c>.</c>
-</s>
-<s n="24">
-  <c>.</c>
-</s>
-<s n="25">
-  <c>.</c>
-</s>
-<s n="26">
+  <revision id="29b">
+    <original><c>,</c></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="extra-comma" eid="0" />
+      </errors>
+  </revision>
+  <c>...</c>
   <w>eins</w>
   <w>konar</w>
   <w>upphafning</w>
@@ -987,6 +981,8 @@
   <w>HÁVAMÁLUM</w>
   <w>OG</w>
   <w>SÓLARLJÓÐUM</w>
+</s>
+<s n="36b">
   <w>Höfundar</w>
   <revision id="39">
     <original><c>„</c><w>Hávamála</w><c>”</c></original>
@@ -1021,7 +1017,7 @@
   <w>lífs</w>
   <w>eftir</w>
   <w>dauðann</w>
-  
+  <c>–</c>
   <w>með</w>
   <w>tilliti</w>
   <w>til</w>
@@ -1147,15 +1143,7 @@
   <w>boðið</w>
   <w>er</w>
   <c>]</c>
-  <c>.</c>
-</s>
-<s n="41">
-  <c>.</c>
-</s>
-<s n="42">
-  <c>.</c>
-</s>
-<s n="43">
+  <c>...</c>
   <w>hvorki</w>
   <c>[</c>
   <w>bundið</w>
@@ -1490,6 +1478,15 @@
   <w>nokkrum</w>
   <w>manni</w>
   <c>”</c>
+  <revision id="50b">
+    <original></original>
+    <corrected><c>.</c></corrected>
+      <errors>
+        <error xtype="missing-period" eid="0" />
+      </errors>
+  </revision>
+</s>
+<s n="54b">
   <w>Hann</w>
   <w>er</w>
   <w>ræningi</w>
@@ -1972,6 +1969,8 @@
   <w>HÁVAMÁLUM</w>
   <w>OG</w>
   <w>SÓLARLJÓÐUM</w>
+</s>
+<s n="70b">
   <w>Önnur</w>
   <w>undirforsenda</w>
   <w>skynseminnar</w>
@@ -2024,7 +2023,13 @@
   <w>í</w>
   <w>návist</w>
   <w>ókunnugra</w>
-  <c>,</c>
+  <revision id="72b">
+    <original><c>,</c></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="extra-comma" eid="0" />
+      </errors>
+  </revision>
   <c>„</c>
   <w>því</w>
   <w>að</w>
@@ -2835,7 +2840,13 @@
   <w>nær</w>
   <w>ekki</w>
   <w>til</w>
-  <w>eilifðarvístar</w>
+  <revision id="96b">
+    <original><w>eilifðarvístar</w></original>
+    <corrected><w>eilífðarvistar</w></corrected>
+      <errors>
+        <error xtype="wrong-accent" eid="0" />
+      </errors>
+  </revision>
   <c>”</c>
   <c>.</c>
 </s>
@@ -2862,6 +2873,8 @@
 </s>
 <s n="102">
   <w>LOKAORÐ</w>
+</s>
+<s n="102b">
   <w>Kristnitakan</w>
   <w>á</w>
   <w>Íslandi</w>
@@ -2955,7 +2968,13 @@
   <w>við</w>
   <w>tiltekin</w>
   <w>lífsspekileg</w>
-  <w>hutgök</w>
+  <revision id="100b">
+    <original><w>hutgök</w></original>
+    <corrected><w>hugtök</w></corrected>
+      <errors>
+        <error xtype="swapped-letters" eid="0" />
+      </errors>
+  </revision>
   <w>sem</w>
   <w>áður</w>
   <w>voru</w>
