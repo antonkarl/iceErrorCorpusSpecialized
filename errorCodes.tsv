@@ -42,7 +42,7 @@ comma4qm	komma fyrir spurningarmerki	punctuation	Höfum við réttinn, eins og a
 comma4colon	komma fyrir tvípunkt	punctuation	...er í þremur heimsálfum, Asíu, Afríku og Evrópu > ...er í þremur heimsálfum: Asíu, Afríku og Evrópu
 double-punctuation	tvöfalt greinarmerki	punctuation	.. > .,
 extra-abbreviation	skammstöfun ofaukið	punctuation	með kv., Daníel > með kveðju, Daníel
-extra-dash	bandstriki ofaukið	punctuation	-- > -
+extra-hyphen	bandstriki ofaukið	punctuation	-- > -
 extra-endash	millistriki ofaukið	punctuation	barna–skapur > barnaskapur
 iteration-colon	greinarmerki við upptalningu, tvíp.	punctuation	við getum nánast allt, flogið, synt og klifrað > við getum nánast allt: flogið, synt og klifrað
 missing-colon	tvípunkt vantar	punctuation	Hann sagði við þá „Komið til mín“ > Hann sagði við þá: „Komið til mín“
@@ -198,6 +198,7 @@ slash4or	skástrik fyrir eða	punctuation	einhver meiðsl/veikindi > einhver mei
 date-abbreviation	stytting á dagsetningu ranglega notuð	punctuation	2003-06 > 2003-2006
 simple4cont	nútíð í stað vera að + nafnh.	grammar	ók > var að aka
 name-error	nöfn skrifuð vitlaust	spelling	Hjörtur Júlíusson Hjartarson > Hjörtur Júlíus Hjartarson
+foreign-name	erlent nafn skrifað rangt	foreign	Warwixk > Warwick
 hyphen4period	bandstrik fyrir punkt	punctuation	...ríkissjóð - er... > ...ríkissjóð. Er...
 endash4period	millistrik fyrir punkt	punctuation	…að maður búi þar áfram–og hafa báðir stjórnarflokkarnir löngum hagnast… > …að maður búi þar áfram. Báðir stjórnarflokkarnir hafa löngum hagnast…
 ex4comma	upphrópun fyrir kommu	punctuation	! > ,
