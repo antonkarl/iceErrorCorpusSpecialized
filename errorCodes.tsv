@@ -180,7 +180,7 @@ fw4ice	erlent orð eða sletta þýdd yfir á íslensku	style	Elba > Saxelfur
 bracket4square	svigi fyrir hornklofa	punctuation	(Portúgal) > [Portúgal]
 square4bracket	hornklofi fyrir sviga	punctuation	[börnin] > (börnin)
 hyphen4comma	bandstrik fyrir kommu	punctuation	nóg-nú > nóg, nú ...
-shortdash4comma	millistrik fyrir kommu	punctuation	nóg–nú > nóg, nú…
+endash4comma	millistrik fyrir kommu	punctuation	nóg–nú > nóg, nú…
 date-period	vantar punkt í dagsetningu	punctuation	11 september > 11. september
 comma4semicolon	komma fyrir semíkommu	punctuation	", > ; "
 word4endash	orð í stað millistriks	punctuation	til > –
@@ -215,9 +215,8 @@ hyphen4semicolon	bandstrik fyrir semíkommu	punctuation	"núna - þetta > núna;
 endash4semicolon	millistrik fyrir semíkommu	punctuation	"…sem samþykkt var á Alþingi–ekkert bólar hins vegar… > …sem samþykkt var á Alþingi; ekkert bólar hins vegar…"
 hyphen4endash	bandstrik fyrir millistrik	punctuation	- > –
 endash4hyphen	millistrik fyrir bandstrik	punctuation	– > -
-hyphen4longdash	bandstrik fyrir þankastrik	punctuation	- > —
-longdash4hyphen	þankastrik fyrir bandstrik	punctuation	— > -
-longdash4shortdash	þankastrik fyrir millistrik	punctuation	— > –
+emdash4hyphen	þankastrik fyrir bandstrik	punctuation	— > -
+emdash4endash	þankastrik fyrir millistrik	punctuation	— > –
 it4nonit	skáletrað fyrir óskáletrað	style	Studdi Isma'il > Studdi Isma'il
 hypercorr	"ofvöndun, t.d. ""dróg"" í stað ""dró"""	punctuation	- > : 
 hyphen4colon	bandstrik fyrir tvípunkt	punctuation	Margar hljómsveitir - Beach Boys, ... > Margar hljómsveitir: Beach Boys, ...
