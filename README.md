@@ -2,6 +2,8 @@
 
 Version 0.1
 
+Copyright 2020 Anton Karl Ingason, Lilja Björk Stefánsdóttir, Þórunn Arnardóttir, Xindan Xu.
+
 Contact: anton.karl.ingason@gmail.com
 
 License: Creative Commons Attribution 4.0 International (CC BY 4.0; See repository for text)
@@ -15,6 +17,8 @@ Anna Björk Nikulásdóttir, Jón Guðnason, Anton Karl Ingason, Hrafn Loftsson,
 # Íslensk L2 villumálheild
 
 Útgáfa 0.1
+
+Copyright 2020 Anton Karl Ingason, Lilja Björk Stefánsdóttir, Þórunn Arnardóttir, Xindan Xu.
 
 Tengiliður: anton.karl.ingason@gmail.com
 
