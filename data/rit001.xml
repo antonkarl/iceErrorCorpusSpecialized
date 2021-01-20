@@ -2085,7 +2085,7 @@
     <original></original>
     <corrected><c>,</c><w>frekar</w><w>en</w><w>konur</w><c>,</c></corrected>
       <errors>
-        <error xtype="misisng-commas" idx="101-1" eid="0" />
+        <error xtype="missing-commas" idx="101-1" eid="0" />
         <error xtype="dep" depId="103-1" eid="0" />
       </errors>
   </revision>
@@ -3522,7 +3522,7 @@
     <original></original>
     <corrected><w>í</w></corrected>
       <errors>
-        <error xtype="misisng-prep" eid="0" />
+        <error xtype="missing-prep" eid="0" />
       </errors>
   </revision>
   <w>andstæðupörum</w>
@@ -5827,7 +5827,7 @@
     <original><w>ofannefnu</w></original>
     <corrected><w>ofannefndu</w></corrected>
       <errors>
-        <error xtype="midding-letter" idx="307-1" eid="0" />
+        <error xtype="missing-letter" idx="307-1" eid="0" />
         <error xtype="nonword" idx="307-1" eid="0" />
       </errors>
   </revision>
@@ -5971,7 +5971,7 @@
     <original><w>kuma</w></original>
     <corrected><w><hi>kuma</hi></w></corrected>
       <errors>
-        <error xtype="xxnonit4itx" eid="0" />
+        <error xtype="nonit4it" eid="0" />
       </errors>
   </revision>
   <c>(</c>
@@ -6042,7 +6042,7 @@
     <original><w>hún</w></original>
     <corrected></corrected>
       <errors>
-        <error xtype="sybtax" idx="324-1" eid="0" />
+        <error xtype="syntax" idx="324-1" eid="0" />
         <error xtype="v3" idx="324-1" eid="0" />
       </errors>
   </revision>
