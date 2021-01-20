@@ -215,7 +215,7 @@
     <original><w>Rauða</w></original>
     <corrected><w>rauða</w></corrected>
       <errors>
-        <error xtype="upper4lower4common" eid="0" />
+        <error xtype="upper4lower-common" eid="0" />
       </errors>
   </revision>
   <w>drekans</w>
@@ -1958,7 +1958,7 @@
     <original><w>Rauða</w><w>Drekans</w></original>
     <corrected><w>rauða</w><w>drekans</w></corrected>
       <errors>
-        <error xtype="" eid="0" />
+        <error xtype="upper4lower-common" eid="0" />
       </errors>
   </revision>
   <w>fyrirgefur</w>
