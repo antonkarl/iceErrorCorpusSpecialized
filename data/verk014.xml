@@ -778,7 +778,7 @@
     <corrected><w>á</w><w>von</w><w>á</w><w>barni</w><w>með</w></corrected>
       <errors>
         <error xtype="wording" idx="49-1" eid="0" />
-        <error xtype="wrogn-prep" idx="49-2" eid="0" />
+        <error xtype="wrong-prep" idx="49-2" eid="0" />
       </errors>
   </revision>
   <w>Dave</w>
@@ -836,7 +836,7 @@
     <original><w>loknum</w></original>
     <corrected><w>lokum</w></corrected>
       <errors>
-        <error xtype="adjective4noun" idx="54-1" eid="0" />
+        <error xtype="adj4noun" idx="54-1" eid="0" />
         <error xtype="nominal-inflection" idx="54-1" eid="0" />
       </errors>
   </revision>
@@ -1062,7 +1062,7 @@
     <corrected><w>skyldleika</w></corrected>
       <errors>
         <error xtype="def4ind" idx="71-1" eid="0" />
-        <error xty="extra-prep" idx="71-2" eid="0" />
+        <error xtype="extra-prep" idx="71-2" eid="0" />
       </errors>
   </revision>
   <w>Evu</w>
@@ -1071,7 +1071,7 @@
     <corrected><w>Lindar</w></corrected>
       <errors>
         <error xtype="nominal-inflection" idx="72-1" eid="0" />
-        <error xty="genitive" idx="72-1" eid="0" />
+        <error xtype="genitive" idx="72-1" eid="0" />
       </errors>
   </revision>
   <w>og</w>
@@ -1095,7 +1095,7 @@
     <corrected><w>sé</w></corrected>
       <errors>
         <error xtype="ind4sub" idx="73-1" eid="0" />
-        <error xty="extra-words" idx="73-2" eid="0" />
+        <error xtype="extra-words" idx="73-2" eid="0" />
       </errors>
   </revision>
   <w>dáin</w>
@@ -1112,9 +1112,9 @@
     <corrected><w>halda</w><w>í</w><w>óvissuna</w></corrected>
       <errors>
         <error xtype="wording" idx="74-1" eid="0" />
-        <error xty="missing-prep" idx="74-2" eid="0" />
-        <error xty="nn4n" idx="74-3" eid="0" />
-        <error xty="nonword" idx="74-3" eid="0" />
+        <error xtype="missing-prep" idx="74-2" eid="0" />
+        <error xtype="nn4n" idx="74-3" eid="0" />
+        <error xtype="nonword" idx="74-3" eid="0" />
       </errors>
   </revision>
   <c>.</c>
@@ -1127,9 +1127,9 @@
     <corrected><w>halda</w><w>í</w><w>óvissuna</w></corrected>
       <errors>
         <error xtype="wording" idx="75-1" eid="0" />
-        <error xty="missing-prep" idx="75-2" eid="0" />
-        <error xty="nn4n" idx="75-3" eid="0" />
-        <error xty="nonword" idx="75-3" eid="0" />
+        <error xtype="missing-prep" idx="75-2" eid="0" />
+        <error xtype="nn4n" idx="75-3" eid="0" />
+        <error xtype="nonword" idx="75-3" eid="0" />
       </errors>
   </revision>
   <w>í</w>
@@ -1139,7 +1139,7 @@
     <corrected><w>reynir</w></corrected>
       <errors>
         <error xtype="extra-comma" idx="76-1" eid="0" />
-        <error xty="dep" depId="77-1" eid="0" />
+        <error xtype="dep" depId="77-1" eid="0" />
       </errors>
   </revision>
   <w>Arnaldur</w>
@@ -1175,7 +1175,7 @@
     <corrected><w>Sólveigu</w></corrected>
       <errors>
         <error xtype="nominal-inflection" idx="80-1" eid="0" />
-        <error xty="case-prep" idx="80-1" eid="0" />
+        <error xtype="case-prep" idx="80-1" eid="0" />
       </errors>
   </revision>
   <w>sem</w>
