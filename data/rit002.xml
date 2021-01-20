@@ -614,7 +614,7 @@
     <original></original>
     <corrected><w>um</w></corrected>
       <errors>
-        <error xtype="misssing-prep" eid="0" />
+        <error xtype="missing-prep" eid="0" />
       </errors>
   </revision>
   <w>að</w>
@@ -2247,7 +2247,7 @@
     <original></original>
     <corrected><c>,</c></corrected>
       <errors>
-        <error xtype="missing--comma" eid="0" />
+        <error xtype="missing-comma" eid="0" />
       </errors>
   </revision>
   <w>eins</w>
@@ -3856,7 +3856,7 @@
     <original><w>karlleg</w></original>
     <corrected><w>karllæg</w></corrected>
       <errors>
-        <error xtype="letter0=-rep" idx="190-1" eid="0" />
+        <error xtype="letter-rep" idx="190-1" eid="0" />
         <error xtype="context" idx="190-1" eid="0" />
       </errors>
   </revision>
@@ -3870,7 +3870,7 @@
     <original><w>fyrirhugað</w><w>hlutlaus</w></original>
     <corrected><w>hlutlaust</w></corrected>
       <errors>
-        <error xtype="exttra-word" idx="191-1" eid="0" />
+        <error xtype="extra-word" idx="191-1" eid="0" />
         <error xtype="agreement-pred" idx="191-2" eid="0" />
       </errors>
   </revision>
@@ -6275,7 +6275,7 @@
     <corrected><w>stutta</w></corrected>
       <errors>
         <error xtype="case-prep" idx="307-1" eid="0" />
-        <error xtype="agreement-conccord" idx="307-1" eid="0" />
+        <error xtype="agreement-concord" idx="307-1" eid="0" />
       </errors>
   </revision>
   <w>sögu</w>
