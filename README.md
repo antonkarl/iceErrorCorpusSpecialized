@@ -8,7 +8,7 @@ Contact: anton.karl.ingason@gmail.com
 
 License: Creative Commons Attribution 4.0 International (CC BY 4.0; See repository for text)
 
-The Icelandic Specialized Error Corpora are two corpora, the Icelandic L2 Error Corpus and the Icelandic Dyslexic Error Corpus. The Icelandic L2 Error Corpus is a collection of texts in modern Icelandic written by learners of Icelandic as a second language. The Icelandic Dyslexic Error Corpus is a collection of texts in modern Icelandic written by native Icelandic speakers who have dyslexia. All texts in both corpora have been annotated for mistakes related to spelling, grammar, and other issues.
+The Icelandic Specialized Error Corpora are two corpora, the Icelandic L2 Error Corpus and the Icelandic Dyslexia Error Corpus. The Icelandic L2 Error Corpus is a collection of texts in modern Icelandic written by learners of Icelandic as a second language. The Icelandic Dyslexia Error Corpus is a collection of texts in modern Icelandic written by native Icelandic speakers who have dyslexia. All texts in both corpora have been annotated for mistakes related to spelling, grammar, and other issues.
 
 The project is funded by the Icelandic Government as a part of the Language Technology Programme for Icelandic 2019–2023 which is described in the following publication: 
 
