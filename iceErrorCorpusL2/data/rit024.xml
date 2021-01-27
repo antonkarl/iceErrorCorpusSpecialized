@@ -226,7 +226,7 @@
     <corrected><w>svarthvít</w></corrected>
       <errors>
         <error xtype="compound-nonword" idx="11-1" eid="0" />
-        <error xtype="extra-dash" idx="11-1" eid="0" />
+        <error xtype="extra-endash" idx="11-1" eid="0" />
         <error xtype="extra-word" idx="11-2" eid="0" />
       </errors>
   </revision>
@@ -655,7 +655,7 @@
     <original><c>-</c></original>
     <corrected><c>–</c></corrected>
       <errors>
-        <error xtype="wrong-dash" eid="0" />
+        <error xtype="hyphen4endash" eid="0" />
       </errors>
   </revision>
   <w>nú</w>
@@ -756,7 +756,7 @@
     <original><c>-</c></original>
     <corrected><c>–</c></corrected>
       <errors>
-        <error xtype="wrong-dash" eid="0" />
+        <error xtype="hyphen4endash" eid="0" />
       </errors>
   </revision>
   <w>þær</w>
@@ -1375,7 +1375,7 @@
     <original><c>-</c></original>
     <corrected><w>er</w><c>„</c><w>good</w><w>idea</w><c>“</c></corrected>
       <errors>
-        <error xtype="extra-dash" idx="72-1" eid="0" />
+        <error xtype="extra-endash" idx="72-1" eid="0" />
         <error xtype="dep" depId="70-2" eid="0" />
         <error xtype="dep" depId="70-3" eid="0" />
       </errors>
@@ -1475,7 +1475,7 @@
     <original><c>-</c><w>með</w><w>þeim</w><w>afleiðingum</w><w>að</w></original>
     <corrected><w>og</w></corrected>
       <errors>
-        <error xtype="extra-dash" idx="77-1" eid="0" />
+        <error xtype="extra-endash" idx="77-1" eid="0" />
         <error xtype="extra-words" idx="77-2" eid="0" />
         <error xtype="missing-conjunction" idx="77-3" eid="0" />
       </errors>
@@ -1828,7 +1828,7 @@
     <original><c>-</c></original>
     <corrected><c>–</c></corrected>
       <errors>
-        <error xtype="wrong-dash" eid="0" />
+        <error xtype="hyphen4endash" eid="0" />
       </errors>
   </revision>
   <w>þegar</w>
@@ -2103,7 +2103,7 @@
         <error xtype="case-prep" idx="107-1" eid="0" />
         <error xtype="pro-inflection" idx="107-1" eid="0" />
         <error xtype="nominal-inflection" idx="107-1" eid="0" />
-        <error xtype="wrong-dash" idx="107-2" eid="0" />
+        <error xtype="hyphen4endash" idx="107-2" eid="0" />
       </errors>
   </revision>
   <w>og</w>
@@ -2533,7 +2533,7 @@
     <original><c>-</c></original>
     <corrected><c>–</c></corrected>
       <errors>
-        <error xtype="wrong-dash" eid="0" />
+        <error xtype="hyphen4endash" eid="0" />
       </errors>
   </revision>
   <w>en</w>
@@ -2762,7 +2762,7 @@
     <original><c>-</c></original>
     <corrected><c>–</c></corrected>
       <errors>
-        <error xtype="wrong-dash" eid="0" />
+        <error xtype="hyphen4endash" eid="0" />
       </errors>
   </revision>
   <w>en</w>
@@ -4049,7 +4049,7 @@
     <original><c>-</c></original>
     <corrected><c>–</c></corrected>
       <errors>
-        <error xtype="wrong-dash" eid="0" />
+        <error xtype="hyphen4endash" eid="0" />
       </errors>
   </revision>
   <w>henni</w>
