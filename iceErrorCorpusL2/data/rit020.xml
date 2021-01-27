@@ -5280,7 +5280,7 @@
     <original><w>hún</w></original>
     <corrected></corrected>
       <errors>
-        <error xtype="extra-subj" eid="0" />
+        <error xtype="extra-sub" eid="0" />
       </errors>
   </revision>
   <w>aðeins</w>
@@ -5779,7 +5779,7 @@
     <corrected><w>fimm</w></corrected>
       <errors>
         <error xtype="number4word" idx="277-1" eid="0" />
-        <error xtype="extra-dash" idx="277-2" eid="0" />
+        <error xtype="extra-endash" idx="277-2" eid="0" />
       </errors>
   </revision>
   <w>ára</w>
@@ -6086,7 +6086,7 @@
     <corrected><w>fimm</w></corrected>
       <errors>
         <error xtype="number4word" idx="291-1" eid="0" />
-        <error xtype="extra-dash" idx="291-2" eid="0" />
+        <error xtype="extra-endash" idx="291-2" eid="0" />
       </errors>
   </revision>
   <w>ára</w>
@@ -6151,7 +6151,7 @@
     <corrected><w>fimm</w></corrected>
       <errors>
         <error xtype="number4word" idx="296-1" eid="0" />
-        <error xtype="extra-dash" idx="296-2" eid="0" />
+        <error xtype="extra-endash" idx="296-2" eid="0" />
       </errors>
   </revision>
   <w>ára</w>
@@ -6799,7 +6799,7 @@
     <original></original>
     <corrected><w>einnig</w></corrected>
       <errors>
-        <error xtype="syntax" idx="319b-1" eid="0" />
+        <error xtype="syntax-other" idx="319b-1" eid="0" />
       </errors>
   </revision>
   <w>fram</w>
@@ -7040,7 +7040,7 @@
     <corrected><w>fimm</w></corrected>
       <errors>
         <error xtype="number4word" idx="330-1" eid="0" />
-        <error xtype="extra-dash" idx="330-2" eid="0" />
+        <error xtype="extra-endash" idx="330-2" eid="0" />
       </errors>
   </revision>
   <w>ára</w>
@@ -7140,9 +7140,9 @@
     <corrected><w>gerð</w><w>Google</w><w>Forms-könnun</w></corrected>
       <errors>
         <error xtype="agreement-pred" idx="335-1" eid="0" />
-        <error xtype="extra-dash" idx="335-2" eid="0" />
+        <error xtype="extra-endash" idx="335-2" eid="0" />
         <error xtype="wording" idx="335-2" eid="0" />
-        <error xtype="missing-dash" idx="335-3" eid="0" />
+        <error xtype="missing-endash" idx="335-3" eid="0" />
       </errors>
   </revision>
   <c>.</c>
@@ -7295,7 +7295,7 @@
     <corrected><w>fimm</w></corrected>
       <errors>
         <error xtype="number4word" idx="345-1" eid="0" />
-        <error xtype="extra-dash" idx="345-2" eid="0" />
+        <error xtype="extra-endash" idx="345-2" eid="0" />
       </errors>
   </revision>
   <w>ára</w>
@@ -8150,7 +8150,7 @@
       <errors>
         <error xtype="adjective-inflection" idx="385-1" eid="0" />
         <error xtype="number4word" idx="385-2" eid="0" />
-        <error xtype="extra-dash" idx="385-3" eid="0" />
+        <error xtype="extra-endash" idx="385-3" eid="0" />
       </errors>
   </revision>
   <w>ára</w>
