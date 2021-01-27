@@ -189,7 +189,7 @@
     <original></original>
     <corrected><c>–</c></corrected>
       <errors>
-        <error xtype="missing-dash" eid="0" />
+        <error xtype="missing-endash" eid="0" />
       </errors>
   </revision> 
   <w>468</w>
@@ -2544,7 +2544,7 @@
     <corrected><w>hafi</w><w>verið</w><w>aðalboðskapurinn</w></corrected>
       <errors>
         <error xtype="tense4perfect" idx="197-1" eid="0" />
-        <error xtype="extra-dash" idx="197-2" eid="0" />
+        <error xtype="extra-endash" idx="197-2" eid="0" />
       </errors>
   </revision>
   <w>þegar</w>
@@ -2628,7 +2628,7 @@
     <original><w>aðal-boðskapurinn</w><w>var</w></original>
     <corrected><w>aðalboðskapur</w><w>sögunnar</w><w>hafi</w><w>verið</w></corrected>
       <errors>
-        <error xtype="extra-dash" idx="204-1" eid="0" />
+        <error xtype="extra-endash" idx="204-1" eid="0" />
         <error xtype="wording" idx="204-2" eid="0" />
         <error xtype="tense4perfect" idx="204-3" eid="0" />
       </errors>
