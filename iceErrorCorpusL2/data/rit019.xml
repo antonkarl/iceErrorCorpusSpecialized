@@ -4140,7 +4140,7 @@
     <original><w>þau</w></original>
     <corrected></corrected>
       <errors>
-        <error xtype="extra-subj" eid="0" />
+        <error xtype="extra-sub" eid="0" />
       </errors>
   </revision>
   <w>alltaf</w>
@@ -4625,7 +4625,7 @@
     <original><w>það</w><w>sé</w></original>
     <corrected><w>er</w></corrected>
       <errors>
-        <error xtype="extra-subj" idx="203-1" eid="0" />
+        <error xtype="extra-sub" idx="203-1" eid="0" />
         <error xtype="sub4ind" idx="203-2" eid="0" />
       </errors>
   </revision>
@@ -5858,7 +5858,7 @@
     <corrected><w>þgf.</w><c>-</c><w>brottfallsreglan</w></corrected>
       <errors>
         <error xtype="endash4period" idx="251-1" eid="0" />
-        <error xtype="missing-dash" idx="251-2" eid="0" />
+        <error xtype="missing-endash" idx="251-2" eid="0" />
       </errors>
   </revision>
   <w>virki</w>
@@ -6861,7 +6861,7 @@
     <original><w>við</w></original>
     <corrected></corrected>
       <errors>
-        <error xtype="extra-subj" eid="0" />
+        <error xtype="extra-sub" eid="0" />
       </errors>
   </revision>
   <c>*</c>
@@ -7403,7 +7403,7 @@
         <error xtype="case-verb" idx="311-1" eid="0" />
         <error xtype="nominal-inflection" idx="311-1" eid="0" />
         <error xtype="extra-comma" idx="311-2" eid="0" />
-        <error xtype="extra-subj" idx="311-2" eid="0" />
+        <error xtype="extra-sub" idx="311-2" eid="0" />
       </errors>
   </revision>
   <w>virðist</w>
@@ -7548,7 +7548,7 @@
     <original><c>–ónn</c></original>
     <corrected><c>-ónn</c></corrected>
       <errors>
-        <error xtype="wrong-dash" eid="0" />
+        <error xtype="endash4hyphen" eid="0" />
       </errors>
   </revision>
   <c>,</c>
@@ -7557,7 +7557,7 @@
     <original><c>–pónn</c></original>
     <corrected><c>-pónn</c></corrected>
       <errors>
-        <error xtype="wrong-dash" eid="0" />
+        <error xtype="endash4hyphen" eid="0" />
       </errors>
   </revision>
   <c>,</c>
@@ -7588,7 +7588,7 @@
     <original><c>–i</c></original>
     <corrected><c>-i</c></corrected>
       <errors>
-        <error xtype="wrong-dash" eid="0" />
+        <error xtype="endash4hyphen" eid="0" />
       </errors>
   </revision>
   <w>í</w>
@@ -7610,7 +7610,7 @@
     <original><c>–einn</c></original>
     <corrected><c>-einn</c></corrected>
       <errors>
-        <error xtype="wrong-dash" eid="0" />
+        <error xtype="endash4hyphen" eid="0" />
       </errors>
   </revision>
   <c>,</c>
@@ -7623,7 +7623,7 @@
     <original><c>–i</c></original>
     <corrected><c>-i</c></corrected>
       <errors>
-        <error xtype="wrong-dash" eid="0" />
+        <error xtype="endash4hyphen" eid="0" />
       </errors>
   </revision>
   <w>í</w>
@@ -7647,7 +7647,7 @@
     <original><c>–íll</c></original>
     <corrected><c>-íll</c></corrected>
       <errors>
-        <error xtype="wrong-dash" eid="0" />
+        <error xtype="endash4hyphen" eid="0" />
       </errors>
   </revision>
   <w>nema</w>
@@ -7881,7 +7881,7 @@
     <original><c>–s</c></original>
     <corrected><c>-s</c></corrected>
       <errors>
-        <error xtype="wrong-dash" eid="0" />
+        <error xtype="endash4hyphen" eid="0" />
       </errors>
   </revision>
   <c>(</c>
@@ -7898,7 +7898,7 @@
     <original><c>–ar</c></original>
     <corrected><c>-ar</c></corrected>
       <errors>
-        <error xtype="wrong-dash" eid="0" />
+        <error xtype="endash4hyphen" eid="0" />
       </errors>
   </revision>
   <c>(</c>
@@ -8213,7 +8213,7 @@
     <original><c>–sk</c></original>
     <corrected><c>-sk</c></corrected>
       <errors>
-        <error xtype="wrong-dash" eid="0" />
+        <error xtype="endash4hyphen" eid="0" />
       </errors>
   </revision>
   <c>-</c>
@@ -8600,7 +8600,7 @@
     <original><w><hi>–ónn</hi></w></original>
     <corrected><w><hi>-ónn</hi></w></corrected>
       <errors>
-        <error xtype="wrong-dash" eid="0" />
+        <error xtype="endash4hyphen" eid="0" />
       </errors>
   </revision>
   <revision id="364b">
@@ -8954,7 +8954,7 @@
     <corrected></corrected>
       <errors>
         <error xtype="dep" depId="377-2" eid="0" />
-        <error xtype="extra-subj" idx="378-1" eid="0" />
+        <error xtype="extra-sub" idx="378-1" eid="0" />
       </errors>
   </revision>
   <w>þau</w>
@@ -9168,7 +9168,7 @@
     <original><c>–i</c></original>
     <corrected><c>-i</c></corrected>
       <errors>
-        <error xtype="wrong-dash" eid="0" />
+        <error xtype="endash4hyphen" eid="0" />
       </errors>
   </revision>
   <w>og</w>
@@ -9572,7 +9572,7 @@
     <original><w><hi>–ónn</hi></w></original>
     <corrected><w><hi>-ónn</hi></w></corrected>
       <errors>
-        <error xtype="wrong-dash" eid="0" />
+        <error xtype="endash4hyphen" eid="0" />
       </errors>
   </revision>
   <c>,</c>
@@ -9613,7 +9613,7 @@
     <original><w><hi>–íll</hi></w></original>
     <corrected><w><hi>-íll</hi></w></corrected>
       <errors>
-        <error xtype="wrong-dash" eid="0" />
+        <error xtype="endash4hyphen" eid="0" />
       </errors>
   </revision>
   <revision id="403b">
