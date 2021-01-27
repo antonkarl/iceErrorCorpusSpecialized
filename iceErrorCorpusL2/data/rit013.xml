@@ -4267,7 +4267,7 @@
       <errors>
         <error xtype="dep" depId="294-1" eid="0" />
         <error xtype="nominal-inflection" idx="294-1" eid="0" />
-        <error xtype="dash4comma" idx="294-2" eid="0" />
+        <error xtype="endash4comma" idx="294-2" eid="0" />
       </errors>
   </revision>
   <w>endilega</w>
@@ -6245,7 +6245,7 @@
     <original><c>-hann</c></original>
     <corrected><c>,</c><w>hann</w></corrected>
       <errors>
-        <error xtype="dash4comma" eid="0" />
+        <error xtype="endash4comma" eid="0" />
       </errors>
   </revision>
   <w>ætlaði</w>
@@ -7319,7 +7319,7 @@
     <corrected><w>peninga</w><c>–</c><w>aldrei</w></corrected>
       <errors>
         <error xtype="nonword" idx="501-1" eid="0" />
-        <error xtype="hyphen4shortdash" idx="501-2" eid="0" />
+        <error xtype="hyphen4endash" idx="501-2" eid="0" />
         <error xtype="missing-space" idx="501-2" eid="0" />
       </errors>
   </revision>
@@ -7463,7 +7463,7 @@
     <original><c>-ég</c></original>
     <corrected><c>.</c><w>Ég</w></corrected>
       <errors>
-        <error xtype="dash4period" eid="0" />
+        <error xtype="endash4period" eid="0" />
       </errors>
   </revision>
   <w>er</w>
