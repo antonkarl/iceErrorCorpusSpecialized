@@ -5022,7 +5022,7 @@
     <original><c>–notkun</c></original>
     <corrected><w>notkun</w></corrected>
       <errors>
-        <error xtype="extra-dash" eid="0" />
+        <error xtype="extra-endash" eid="0" />
       </errors>
   </revision>
   <w>ungra</w>
@@ -5154,7 +5154,7 @@
     <original><c>–</c></original>
     <corrected><c>,</c></corrected>
       <errors>
-        <error xtype="shortdash4comma" eid="0" />
+        <error xtype="endash4comma" eid="0" />
       </errors>
   </revision>
   <w>svokallað</w>
@@ -8203,7 +8203,7 @@
     <original><w>og</w><c>–sjónvarpsþættir</c><w>í</w></original>
     <corrected><w>og</w><w>sjónvarpsþættir</w><w>á</w></corrected>
       <errors>
-        <error xtype="extra-dash" idx="368-1" eid="0" />
+        <error xtype="extra-endash" idx="368-1" eid="0" />
         <error xtype="wrong-prep" idx="368-2" eid="0" />
       </errors>
   </revision>
