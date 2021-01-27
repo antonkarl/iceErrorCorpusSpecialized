@@ -1368,7 +1368,7 @@
     <original><w>notað</w><w>í</w></original>
     <corrected><w>notuð</w><w>á</w></corrected>
       <errors>
-        <error xtype="agreement-prep" idx="62-1" eid="0" />
+        <error xtype="agreement-pred" idx="62-1" eid="0" />
         <error xtype="wrong-prep" idx="62-2" eid="0" />
       </errors>
   </revision>
@@ -1602,7 +1602,7 @@
     <original><c>–</c></original>
     <corrected><c>,</c></corrected>
       <errors>
-        <error xtype="dash4comma" eid="0" />
+        <error xtype="endash4comma" eid="0" />
       </errors>
   </revision>
   <w>serbókróatíska</w>
@@ -1619,7 +1619,7 @@
     <original><c>–</c></original>
     <corrected><c>,</c></corrected>
       <errors>
-        <error xtype="dash4comma" eid="0" />
+        <error xtype="endash4comma" eid="0" />
       </errors>
   </revision>
   <w>júgóslavneskt</w>
@@ -2389,7 +2389,7 @@
     <corrected><w>atriðinu</w><c>,</c></corrected>
       <errors>
         <error xtype="ind4def" idx="120-1" eid="0" />
-        <error xtype="dash4comma" idx="120-2" eid="0" />
+        <error xtype="endash4comma" idx="120-2" eid="0" />
       </errors>
   </revision>
   <w>kynjasjónarmiði</w>
