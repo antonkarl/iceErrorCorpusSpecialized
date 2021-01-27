@@ -6010,7 +6010,7 @@
     <original><w>merkir</w></original>
     <corrected><w>er</w></corrected>
       <errors>
-        <error xtype="active-passive" idx="302-1" eid="0" />
+        <error xtype="act4pass" idx="302-1" eid="0" />
       </errors>
   </revision>
   <w>hann</w>
@@ -6110,7 +6110,7 @@
     <corrected><w>hafa</w><w>verið</w><w>nefnd</w></corrected>
       <errors>
         <error xtype="agreement" idx="312-1" eid="0" />
-        <error xtype="active-passive" idx="312-2" eid="0" />
+        <error xtype="act4pass" idx="312-2" eid="0" />
       </errors>
   </revision>
   <c>.</c>
@@ -7656,7 +7656,8 @@
     <original><c>:</c></original>
     <corrected><c>(</c></corrected>
       <errors>
-        <error xtype="colon4bracket" eid="0" />
+        <error xtype="extra-colon" eid="0" />
+        <error xtype="missing-bracket" eid="0" />
       </errors>
   </revision>
   <w>nafnorð</w>
@@ -7683,7 +7684,8 @@
     <original><c>:</c></original>
     <corrected><c>(</c></corrected>
       <errors>
-        <error xtype="colon4bracket" eid="0" />
+        <error xtype="extra-colon" eid="0" />
+        <error xtype="missing-bracket" eid="0" />
       </errors>
   </revision>
   <w>í</w>
