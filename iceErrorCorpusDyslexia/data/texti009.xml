@@ -23,7 +23,7 @@
     <original><w>Árshátíðar</w><w>vikan</w></original>
     <corrected><w>Árshátíðarvikan</w></corrected>
       <errors>
-        <error xtype="compound-split" eid="0" />
+        <error xtype="split-compound" eid="0" />
       </errors>
   </revision>
   <w>okkar</w>
@@ -56,7 +56,7 @@
     <original><w>árshátíðar</w><w>vikan</w></original>
     <corrected><w>árshátíðarvikan</w></corrected>
       <errors>
-        <error xtype="compound-split" eid="0" />
+        <error xtype="split-compound" eid="0" />
       </errors>
   </revision>
   <w>okkar</w>
@@ -1006,7 +1006,7 @@
     <corrected><w>eina</w><w>góða</w><w>afmælisæfingu</w></corrected>
       <errors>
         <error xtype="fw4ice" idx="60-1" eid="0" />
-        <error xtype="compound-split" idx="60-1" eid="0" />
+        <error xtype="split-compound" idx="60-1" eid="0" />
       </errors>
   </revision>
   <w>í</w>
@@ -1051,7 +1051,7 @@
     <original><w>fimleika</w><w>strákur</w><c>.</c><w>Þannig</w></original>
     <corrected><w>fimleikastrákur</w><w>þannig</w><w>að</w></corrected>
       <errors>
-        <error xtype="compound-split" idx="63-1" eid="0" />
+        <error xtype="split-compound" idx="63-1" eid="0" />
         <error xtype="extra-period" idx="63-2" eid="0" />
         <error xtype="period-plus-conjunction" idx="63-2" eid="0" />
         <error xtype="missing-conjunction" idx="63-3" eid="0" />
@@ -1108,7 +1108,7 @@
     <corrected><w>þessi</w><w>afmælisæfing</w></corrected>
       <errors>
         <error xtype="fw4ice" idx="67-1" eid="0" />
-        <error xtype="compound-split" idx="67-1" eid="0" />
+        <error xtype="split-compound" idx="67-1" eid="0" />
       </errors>
   </revision>
   <w>var</w>
@@ -1914,7 +1914,7 @@
     <original><w>unglinga</w><w>flokknum</w></original>
     <corrected><w>unglingaflokknum</w></corrected>
       <errors>
-        <error xtype="compound-split" eid="0" />
+        <error xtype="split-compound" eid="0" />
       </errors>
   </revision>
   <w>og</w>
