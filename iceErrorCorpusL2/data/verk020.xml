@@ -995,13 +995,11 @@
   </revision>
   <w>ævintýrið</w>
   <w>sitt</w>
-  <c>.</c>
-</s>
-<s n="41">
   <revision id="73">
-    <original><w>Þó</w><w>kjötið</w><w>fengu</w></original>
-    <corrected><w>Þótt</w></corrected>
+    <original><c>.</c><w>Þó</w><w>kjötið</w><w>fengu</w></original>
+    <corrected><c>,</c><w>þótt</w></corrected>
       <errors>
+        <error xtype="period4comma" idx="73-4" eid="0" />
         <error xtype="though" idx="73-1" eid="0" />
         <error xtype="syntax-other" idx="73-2" eid="0" />
         <error xtype="tense4perfect" idx="73-3" eid="0" />

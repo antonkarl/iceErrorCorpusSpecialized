@@ -138,6 +138,13 @@
   <w>Leigan</w>
   <w>var</w>
   <w>auk</w>
+  <revision id="8b">
+    <original></original>
+    <corrected><w>þess</w></corrected>
+      <errors>
+        <error xtype="missing-word" eid="0" />
+      </errors>
+  </revision>
   <w>heldur</w>
   <w>ekki</w>
   <revision id="9">
@@ -225,7 +232,7 @@
   <w>pínu</w>
   <revision id="14">
     <original><w>lasið</w></original>
-    <corrected><w>lúð</w></corrected>
+    <corrected><w>lúið</w></corrected>
       <errors>
         <error xtype="context" eid="0" />
       </errors>
@@ -899,9 +906,10 @@
 <s n="27">
   <revision id="61">
     <original><w>Hjól- og gönguleiðir</w></original>
-    <corrected><w>Hjóla- og gönguleiðir</w></corrected>
+    <corrected><w>Hjóla- og gönguleiðirnar</w></corrected>
       <errors>
-        <error xtype="conjunction-drop" eid="0" />
+        <error xtype="conjunction-drop" idx="61-1" eid="0" />
+		    <error xtype="ind4def" idx="61-1" eid="0" />
       </errors>
   </revision>
   <w>í</w>

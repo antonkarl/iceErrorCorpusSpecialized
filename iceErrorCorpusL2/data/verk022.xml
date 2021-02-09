@@ -141,12 +141,12 @@
       </errors>
   </revision>
   <w>áður</w>
-  <c>,</c>
   <revision id="10">
-    <original><w>sem</w></original>
+    <original><c>,</c><w>sem</w></original>
     <corrected><w>og</w></corrected>
       <errors>
-        <error xtype="conjunction" eid="0" />
+        <error xtype="extra-comma" idx="10-1" eid="0" />
+		    <error xtype="conjunction" idx="10-2" eid="0" />
       </errors>
   </revision>
   <w>er</w>
@@ -915,7 +915,13 @@
   <w>notkun</w>
   <w>orðsins</w>
   <w><hi>frændi</hi></w>
-  <c>,</c>
+  <revision id="82b">
+    <original><c>,</c></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="extra-comma" eid="0" />
+      </errors>
+  </revision>
   <w>og</w>
   <revision id="83">
     <original><w>útskýringin</w><w>af</w></original>
@@ -1080,7 +1086,13 @@
   <w>dálítið</w>
   <w>síðan</w>
   <w>1918</w>
-  <c>,</c>
+  <revision id="97b">
+    <original><c>,</c></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="extra-comma" eid="0" />
+      </errors>
+  </revision>
   <w>og</w>
   <w>tengir</w>
   <w>Eyju</w>

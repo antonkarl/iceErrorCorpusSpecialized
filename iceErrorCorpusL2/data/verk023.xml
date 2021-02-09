@@ -256,13 +256,11 @@
   <w>er</w>
   <revision id="20">
     <original><w>fast</w><w>við</w><w>hugarflugið</w></original>
-    <corrected><w>föst</w><w>í</w><w>því</w><w>hugarfari</w></corrected>
+    <corrected><w>föst</w><w>í</w><w>þeirri</w><w>hugmynd</w></corrected>
       <errors>
         <error xtype="agreement-pred" idx="20-1" eid="0" />
         <error xtype="wrong-prep" idx="20-2" eid="0" />
-        <error xtype="missing-word" idx="20-3" eid="0" />
-        <error xtype="context" idx="20-4" eid="0" />
-        <error xtype="def4ind" idx="20-4" eid="0" />
+        <error xtype="context" idx="20-3" eid="0" />
       </errors>
   </revision>
   <w>að</w>
@@ -387,14 +385,21 @@
   <w>konunni</w>
   <w>á</w>
   <w>bæjarskrifstofunum</w>
-  <c>,</c>
-  <w>hún</w>
+  <revision id="27b">
+    <original><c>,</c><w>hún</w></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="extra-comma" idx="27b-1" eid="0" />
+        <error xtype="syntax-other" idx="27b-2" eid="0" />
+      </errors>
+  </revision>
   <w>sparar</w>
   <revision id="28">
     <original><w>ekki</w></original>
-    <corrected></corrected>
+    <corrected><w>hún</w></corrected>
       <errors>
-        <error xtype="syntax-other" eid="0" />
+        <error xtype="dep" depId="27b-2" eid="0" />
+        <error xtype="syntax-other" idx="28-1" eid="0" />
       </errors>
   </revision>
   <w>þá</w>
@@ -402,7 +407,7 @@
     <original><c>,</c><w>en</w></original>
     <corrected><w>ekki</w><w>heldur</w></corrected>
       <errors>
-        <error xtype="dep" depId="29-1" eid="0" />
+        <error xtype="dep" depId="28-1" eid="0" />
         <error xtype="extra-comma" idx="29-1" eid="0" />
         <error xtype="conjunction" idx="29-2" eid="0" />
       </errors>
@@ -418,7 +423,15 @@
   </revision>
   <w>strax</w>
   <w>í</w>
-  <w>búðunum</w>
+  <revision id="30b">
+    <original><w>búðunum</w></original>
+    <corrected><w>búðum</w><w>í</w><w>það</w></corrected>
+      <errors>
+        <error xtype="def4ind" idx="30b-1" eid="0" />
+        <error xtype="missing-prep" idx="30b-2" eid="0" />
+        <error xtype="missing-obj" idx="30b-3" eid="0" />
+      </errors>
+  </revision>
   <w>sem</w>
   <w>hana</w>
   <w>langar</w>
@@ -907,7 +920,13 @@
       </errors>
   </revision>
   <w>tíma</w>
-  <w>sögunnar</w>
+  <revision id="71b">
+    <original><w>sögunnar</w></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="extra-word" eid="0" />
+      </errors>
+  </revision>
   <c>.</c>
 </s>
 </p></body></text>
