@@ -20,10 +20,24 @@
 <text><body><p n="1">
 <s n="1">
   <w>Ég</w>
-  <w>sókti</w>
+  <revision id="0">
+    <original><w>sókti</w></original>
+    <corrected><w>„sókti"</w></corrected>
+       <errors>
+         <error xtype="missing-quots" eid="0" />
+       </errors>
+  </revision>
   <c>,</c>
   <w>mér</w>
-  <w>þókti</w>
+  <revision id="0b">
+    <original><w>sókti</w></original>
+    <corrected><w>„þókti"</w></corrected>
+       <errors>
+         <error xtype="missing-quots" eid="0" />
+       </errors>
+  </revision>
+</s>
+<s n="1b">
   <w>Um</w>
   <w>ritháttinn</w>
   <c>&quot;</c>
@@ -65,7 +79,7 @@
   <c>-</c>
   <revision id="2">
     <original><c>"</c></original>
-    <corrected><c>“</c></corrected>
+    <corrected><c>"</c></corrected>
       <errors>
         <error xtype="wrong-quots" eid="0" />
       </errors>
@@ -82,7 +96,7 @@
   <c>-</c>
   <revision id="4">
     <original><c>"</c></original>
-    <corrected><c>“</c></corrected>
+    <corrected><c>"</c></corrected>
       <errors>
         <error xtype="wrong-quots" eid="0" />
       </errors>
@@ -233,12 +247,14 @@
   <c>„</c>
   <w>sókt</w>
   <c>-</c>
-  <c>“</c>
+  <c>"</c>
   <w>og</w>
   <c>„</c>
   <w>þókt</w>
   <c>-</c>
-  <c>“</c>
+  <c>"</c>
+</s>
+<s n="6b">
   <w>Rithátturinn</w>
   <w>felst</w>
   <w>í</w>
@@ -479,7 +495,13 @@
   <c>,</c>
   <w>eins</w>
   <w>og</w>
-  <w>búa</w>
+  <revision id="28b">
+    <original><w>búa</w></original>
+    <corrected><w>búast</w></corrected>
+      <errors>
+        <error xtype="act4mid" eid="0" />
+      </errors>
+  </revision>
   <w>mætti</w>
   <w>við</w>
   <w>ef</w>
@@ -549,7 +571,13 @@
       </errors>
   </revision>
   <w>deilur</w>
-  <w>eiga</w>
+  <revision id="32d">
+    <original><w>eiga</w></original>
+    <corrected><w>áttu</w></corrected>
+      <errors>
+        <error xtype="pres4past" eid="0" />
+      </errors>
+  </revision>
   <w>sér</w>
   <w>stað</w>
   <w>um</w>
@@ -594,7 +622,7 @@
   <w>þókti</w>
   <revision id="35">
     <original><c>"</c></original>
-    <corrected><c>“</c></corrected>
+    <corrected><c>"</c></corrected>
       <errors>
         <error xtype="wrong-quots" eid="0" />
       </errors>
@@ -610,18 +638,29 @@
   <w>sókti</w>
   <revision id="37">
     <original><c>"</c></original>
-    <corrected><c>“</c></corrected>
+    <corrected><c>"</c></corrected>
       <errors>
         <error xtype="wrong-quots" eid="0" />
       </errors>
   </revision>
-  <w>aldur</w>
-  <w>saman</w>
-  <c>:</c>
+  <revision id="37b">
+      <original><w>aldur</w><w>saman</w></original>
+      <corrected></corrected>
+        <errors>
+          <error xtype="extra-words" eid="0" />
+        </errors>
+    </revision>
+  <c>.</c>
 </s>
 <s n="11">
-  <w>Í</w>
-  <w><hi>Mynd</hi></w>
+  <revision id="37c">
+    <original><w>Í</w><w><hi>Mynd</hi></w></original>
+    <corrected><w>Á</w><w><hi>mynd</hi></w></corrected>
+      <errors>
+        <error xtype="wrong-prep" idx="37c-1" eid="0" />
+        <error xtype="upper4lower-common" idx="37c-2" eid="0" />
+      </errors>
+  </revision>
   <w><hi>1</hi></w>
   <w>sést</w>
   <w>þróun</w>
@@ -636,7 +675,7 @@
   <w>þókti</w>
   <revision id="39">
     <original><c>"</c></original>
-    <corrected><c>“</c></corrected>
+    <corrected><c>"</c></corrected>
       <errors>
         <error xtype="wrong-quots" eid="0" />
       </errors>
@@ -648,7 +687,13 @@
   <w>til</w>
   <w>2017</w>
   <w>og</w>
-  <w><hi>Mynd</hi></w>
+  <revision id="39b">
+    <original><w><hi>Mynd</hi></w></original>
+    <corrected><w><hi>mynd</hi></w></corrected>
+      <errors>
+        <error xtype="upper4lower-common" eid="0" />
+      </errors>
+  </revision>
   <w><hi>2</hi></w>
   <w>sýnir</w>
   <w>þróun</w>
@@ -663,7 +708,7 @@
   <w>sókti</w>
   <revision id="41">
     <original><c>"</c></original>
-    <corrected><c>“</c></corrected>
+    <corrected><c>"</c></corrected>
       <errors>
         <error xtype="wrong-quots" eid="0" />
       </errors>
@@ -722,7 +767,7 @@
   <w>þókti</w>
   <revision id="46">
     <original><c>"</c></original>
-    <corrected><c>“</c></corrected>
+    <corrected><c>"</c></corrected>
       <errors>
         <error xtype="wrong-quots" eid="0" />
       </errors>
@@ -757,7 +802,7 @@
   <w>sókti</w>
   <revision id="49">
     <original><c>"</c><w>var</w></original>
-    <corrected><c>“</c></corrected>
+    <corrected><c>"</c></corrected>
       <errors>
         <error xtype="wrong-quots" idx="49-1" eid="0" />
         <error xtype="extra-word" idx="49-2" eid="0" />
@@ -795,7 +840,13 @@
         <error xtype="dep" depId="52-2" eid="0" />
       </errors>
   </revision>
-  <w>5</w>
+  <revision id="50b">
+    <original><w>5</w></original>
+    <corrected><w>fimm</w></corrected>
+      <errors>
+        <error xtype="number4word" eid="0" />
+      </errors>
+  </revision>
   <w>dæmi</w>
   <w>um</w>
   <revision id="51">
@@ -808,7 +859,7 @@
   <w>þókti</w>
   <revision id="52">
     <original><c>"</c><w>fannst</w><w>frá</w><w>árabili</w></original>
-    <corrected><c>“</c><w>á</w><w>árabilinu</w></corrected>
+    <corrected><c>"</c><w>á</w><w>árabilinu</w></corrected>
       <errors>
         <error xtype="wrong-quots" idx="52-1" eid="0" />
         <error xtype="agreement" idx="52-2" eid="0" />
@@ -817,13 +868,21 @@
       </errors>
   </revision>
   <w>2010</w>
-  <c>-</c>
+  <revision id="52b">
+    <original><c>-</c></original>
+    <corrected><c>–</c></corrected>
+      <errors>
+        <error xtype="hyphen4endash" eid="0" />
+      </errors>
+  </revision>
   <w>2017</w>
   <c>.</c>
 </s>
 <s n="14">
   <w>1.2</w>
   <w>kaflaskipting</w>
+</s>
+<s n="14b">
   <w>Ritgerðinni</w>
   <w>er</w>
   <w>skipt</w>
@@ -983,12 +1042,19 @@
         <error xtype="wording" idx="56-2" eid="0" />
       </errors>
   </revision>
-  <w>menn</w>
+  <revision id="56b">
+    <original><w>menn</w></original>
+    <corrected><w>fólk</w></corrected>
+      <errors>
+        <error xtype="gendered" eid="0" />
+      </errors>
+  </revision>
   <revision id="57">
     <original><w>vakið</w><w>mikið</w></original>
-    <corrected><w>fóru</w><w>að</w><w>beina</w></corrected>
+    <corrected><w>fór</w><w>að</w><w>beina</w></corrected>
       <errors>
         <error xtype="dep" depId="56-2" eid="0" />
+        <error xtype="wording" idx="57-1" eid="0" />
       </errors>
   </revision>
   <w>athygli</w>
@@ -1038,6 +1104,13 @@
   <w>Anna</w>
   <w>Sigríður</w>
   <w>Þráinsdóttir</w>
+  <revision id="59b">
+    <original></original>
+    <corrected><c>,</c></corrected>
+      <errors>
+        <error xtype="missing-comma" eid="0" />
+      </errors>
+  </revision>
   <w>2006</w>
   <c>)</c>
   <c>.</c>
@@ -1059,14 +1132,20 @@
   <w>þó</w>
   <revision id="61">
     <original><w>mikið</w></original>
-    <corrected><w>margar</w></corrected>
+    <corrected><w>miklar</w></corrected>
       <errors>
-        <error xtype="agreement-concord" idx="61-1" eid="0" />
-        <error xtype="adv4adj" idx="61-1" eid="0" />
+        <error xtype="agreement-concord" idx="61-1" eid="0" />
+        <error xtype="adjective-inflection" idx="67-1" eid="0" />
       </errors>
   </revision>
   <w>breytingar</w>
-  <w>á</w>
+  <revision id="61b">
+    <original><w>í</w></original>
+    <corrected><w>á</w></corrected>
+      <errors>
+        <error xtype="wrong-prep" eid="0" />
+      </errors>
+  </revision>
   <w>íslensku</w>
   <c>,</c>
   <w>bæði</w>
@@ -1174,9 +1253,13 @@
   <w>miðja</w>
   <w>18.</w>
   <w>öld</w>
-  <w>fóru</w>
-  <w>nokkrir</w>
-  <w>menn</w>
+  <revision id="64b">
+    <original><w>fóru</w><w>nokkrir</w><w>menn</w></original>
+    <corrected><w>fór</w><w>sumt</w><w>fólk</w></corrected>
+      <errors>
+        <error xtype="gendered" eid="0" />
+      </errors>
+  </revision>
   <w>að</w>
   <w>hugsa</w>
   <w>um</w>
@@ -1270,13 +1353,13 @@
   <w>Frá</w>
   <w>upprunasjónarmiði</w>
   <revision id="68">
-    <original><w>vilja</w></original>
-    <corrected><w>vildu</w></corrected>
+    <original><w>vilja</w><w>menn</w></original>
+    <corrected><w>vildi</w><w>fólk</w></corrected>
       <errors>
         <error xtype="pres4past" eid="0" />
+        <error xtype="gendered" eid="0" />
       </errors>
   </revision>
-  <w>menn</w>
   <revision id="69">
     <original><w>að</w></original>
     <corrected></corrected>
@@ -1367,7 +1450,7 @@
   <w>þess</w>
   <revision id="75">
     <original><w>að</w></original>
-    <corrected><w>vildu</w><w>þeir</w></corrected>
+    <corrected><w>vildi</w><w>það</w></corrected>
       <errors>
         <error xtype="extra-conjunction" idx="75-1" eid="0" />
         <error xtype="missing-words" idx="75-2" eid="0" />
@@ -1445,9 +1528,13 @@
   <c>/</c>
   <w>y</w>
   <c>/</c>
-  <w>í</w>
-  <w>íslenskum</w>
-  <w>stöfum</w>
+  <revision id="80b">
+    <original><w>í</w><w>íslenskum</w><w>stöfum</w></original>
+    <corrected><w>úr</w><w>íslenska</w><w>stafrófinu</w></corrected>
+      <errors>
+        <error xtype="wording" eid="0" />
+      </errors>
+  </revision>
   <w>og</w>
   <w>nota</w>
   <w>alltaf</w>
@@ -1515,12 +1602,12 @@
       </errors>
   </revision>
   <w>orðið</w>
-  <w>í</w>
   <revision id="85">
-    <original><w>stafsetningarreglu</w></original>
-    <corrected><w>stafsetningarreglum</w></corrected>
+    <original><w>í</w><w>stafsetningarreglu</w></original>
+    <corrected><w>á</w><w>stafsetningarreglum</w></corrected>
       <errors>
-        <error xtype="singular4plural" eid="0" />
+        <error xtype="singular4plural" idx="85-2" eid="0" />
+        <error xtype="wrong-prep" idx="85-1" eid="0" />
       </errors>
   </revision>
   <w>á</w>
@@ -1531,7 +1618,13 @@
   <w>stundum</w>
   <w>ruglingi</w>
   <w>hjá</w>
-  <w>mönnum</w>
+  <revision id="85b">
+    <original><w>mönnum</w></original>
+    <corrected><w>fólki</w></corrected>
+      <errors>
+        <error xtype="gendered" eid="0" />
+      </errors>
+  </revision>
   <w>um</w>
   <w>hvaða</w>
   <revision id="86">
@@ -1559,18 +1652,28 @@
   <w>m.a.</w>
   <revision id="87">
     <original></original>
-    <corrected><w>í</w><w>því</w></corrected>
+    <corrected><w>á</w><w>því</w></corrected>
       <errors>
         <error xtype="missing-words" eid="0" />
       </errors>
   </revision>
   <w>að</w>
-  <w>menn</w>
-  <w>voru</w>
+  <revision id="87b">
+    <original><w>menn</w><w>voru</w></original>
+    <corrected><w>fólk</w><w>var</w></corrected>
+      <errors>
+        <error xtype="gendered" idx="87b-1" eid="0" />
+      </errors>
+  </revision>
   <w>oft</w>
   <w>ekki</w>
-  <w>samkvæmir</w>
-  <w>sjálfum</w>
+  <revision id="87c">
+    <original><w>samkvæmir</w><w>sjálfum</w></original>
+    <corrected><w>samkvæmt</w><w>sjálfu</w></corrected>
+      <errors>
+        <error xtype="dep" depId="87b-1" eid="0" />
+      </errors>
+  </revision>
   <w>sér</w>
   <w>í</w>
   <revision id="88">
@@ -1583,7 +1686,13 @@
   </revision>
   <w>sínum</w>
   <w>eða</w>
-  <w>breyttu</w>
+  <revision id="88b">
+    <original><w>breyttu</w></original>
+    <corrected><w>breytti</w></corrected>
+      <errors>
+        <error xtype="dep" depId="87b-1" eid="0" />
+      </errors>
+  </revision>
   <w>stafsetningu</w>
   <w>sinni</w>
   <w>á</w>
@@ -1648,8 +1757,21 @@
       </errors>
   </revision>
   <w>og</w>
+  <revision id="91b">
+    <original></original>
+    <corrected><w>ekki</w></corrected>
+      <errors>
+        <error xtype="wording" idx="91b-1" eid="0" />
+      </errors>
+  </revision>
   <w>hlotið</w>
-  <w>enga</w>
+  <revision id="91c">
+    <original><w>enga</w></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="dep" depId="91b-1" eid="0" />
+      </errors>
+  </revision>
   <w>útbreiðslu</w>
   <c>(</c>
   <w>Anna</w>
@@ -1700,8 +1822,6 @@
   <w>eftir</w>
   <w>Halldór</w>
   <w>Kr.</w>
-</s>
-<s n="34">
   <w>Friðriksson</w>
   <c>,</c>
   <w>þótt</w>
@@ -1743,7 +1863,13 @@
   <w>NF</w>
   <c>,</c>
   <w>1882</w>
-  <c>-</c>
+  <revision id="93b">
+    <original><c>-</c></original>
+    <corrected><c>–</c></corrected>
+      <errors>
+        <error xtype="hyphen4endash" eid="0" />
+      </errors>
+  </revision>
   <w>1885</w>
   <c>)</c>
   <w>er</w>
@@ -1840,7 +1966,6 @@
         <error xtype="agreement-pred" eid="0" />
       </errors>
   </revision>
-  <w>¬</w>
   <c>-</c>
   <w>kt</w>
   <c>-</c>
@@ -1852,7 +1977,6 @@
   <w><hi>þykja</hi></w>
   <c>,</c>
   <w>t.d.</w>
-  <c>:</c>
 </s>
 <s n="37">
   <w>Allavega</w>
@@ -1867,7 +1991,13 @@
   <w>og</w>
   <w>19.</w>
   <w>öld</w>
-  <w>hafa</w>
+  <revision id="100b">
+    <original><w>hafa</w></original>
+    <corrected><w>höfðu</w></corrected>
+      <errors>
+        <error xtype="pres4past" eid="0" />
+      </errors>
+  </revision>
   <w>mótandi</w>
   <w>áhrif</w>
   <w>á</w>
@@ -1875,7 +2005,13 @@
   <w>og</w>
   <w>skrift</w>
   <w>hjá</w>
-  <w>mönnum</w>
+  <revision id="100c">
+    <original><w>mönnum</w></original>
+    <corrected><w>fólki</w></corrected>
+      <errors>
+        <error xtype="gendered" eid="0" />
+      </errors>
+  </revision>
   <w>á</w>
   <w>sínum</w>
   <w>tíma</w>
@@ -1898,7 +2034,7 @@
   <c>-</c>
   <revision id="102">
     <original><c>"</c></original>
-    <corrected><c>“</c></corrected>
+    <corrected><c>"</c></corrected>
       <errors>
         <error xtype="wrong-quots" eid="0" />
       </errors>
@@ -1915,7 +2051,7 @@
   <c>-</c>
   <revision id="104">
     <original><c>"</c></original>
-    <corrected><c>“</c></corrected>
+    <corrected><c>"</c></corrected>
       <errors>
         <error xtype="wrong-quots" eid="0" />
       </errors>
@@ -1925,6 +2061,8 @@
   <w>á</w>
   <w>19.</w>
   <w>öld</w>
+</s>
+<s n="38b">
   <w>3.1</w>
   <w>Inngangur</w>
   <c>.</c>
@@ -1955,7 +2093,13 @@
   </revision>
   <w>að</w>
   <w>finna</w>
-  <w>á</w>
+  <revision id="105b">
+    <original><w>á</w></original>
+    <corrected><w>frá</w></corrected>
+      <errors>
+        <error xtype="wrong-prep" eid="0" />
+      </errors>
+  </revision>
   <revision id="106">
     <original><w>miðja</w></original>
     <corrected><w>miðri</w></corrected>
@@ -1966,22 +2110,43 @@
   <w>19.</w>
   <w>öld</w>
   <w>og</w>
-  <w>í</w>
-  <w>upphafi</w>
+  <revision id="106b">
+    <original><w>í</w><w>upphafi</w></original>
+    <corrected><w>við</w><w>upphaf</w></corrected>
+      <errors>
+        <error xtype="wrong-prep" eid="0" />
+      </errors>
+  </revision>
   <w>20.</w>
   <w>aldar</w>
   <c>,</c>
   <w>eins</w>
   <w>og</w>
   <w>sést</w>
-  <w>í</w>
-  <w><hi>Mynd</hi></w>
-  <w><hi></hi></w>
-  <w>1Z</w>
+  <revision id="106b">
+    <original><w>í</w></original>
+    <corrected><w>á</w></corrected>
+      <errors>
+        <error xtype="wrong-prep" eid="0" />
+      </errors>
+  </revision>
+  <revision id="106c">
+    <original><w><hi>Mynd</hi></w></original>
+    <corrected><w><hi>mynd</hi></w></corrected>
+      <errors>
+        <error xtype="upper4lower-common" eid="0" />
+      </errors>
+  </revision>
+  <w><hi>1</hi></w>
   <w>og</w>
-  <w><hi>Mynd</hi></w>
-  <w><hi></hi></w>
-  <w>2Z</w>
+  <revision id="106d">
+    <original><w><hi>Mynd</hi></w></original>
+    <corrected><w><hi>mynd</hi></w></corrected>
+      <errors>
+        <error xtype="upper4lower-common" eid="0" />
+      </errors>
+  </revision>
+  <w><hi>2</hi></w>
   <w>í</w>
   <w>fyrsta</w>
   <w>kafla</w>
@@ -2206,9 +2371,14 @@
   <w>að</w>
   <w>neðan</w>
   <w>í</w>
-  <w><hi>Töflu</hi></w>
-  <w><hi></hi></w>
-  <w>1Z</w>
+  <revision id="122b">
+    <original><w><hi>Töflu</hi></w></original>
+    <corrected><w><hi>töflu</hi></w></corrected>
+      <errors>
+        <error xtype="upper4lower-common" eid="0" />
+      </errors>
+  </revision>
+  <w><hi>1</hi></w>
   <c>.</c>
 </s>
 <s n="43">
@@ -2564,9 +2734,22 @@
   <w>en</w>
   <w>hér</w>
   <w>hefur</w>
+  <revision id="140b">
+    <original></original>
+    <corrected><w>þátíðarmyndum</w></corrected>
+      <errors>
+        <error xtype="wording" idx="140b-1" eid="0" />
+      </errors>
+  </revision>
   <w>verið</w>
   <w>sleppt</w>
-  <w>þátíðarmyndum</w>
+  <revision id="140c">
+    <original><w>þátíðarmyndum</w></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="dep" depId="140b-1" eid="0" />
+      </errors>
+  </revision>
   <w>í</w>
   <w>viðtengingarhætti</w>
   <w>og</w>
@@ -2628,10 +2811,22 @@
   <w>yfir</w>
   <w>niðurstöður</w>
   <w>í</w>
-  <w><hi>Töflu</hi></w>
+  <revision id="143b">
+    <original><w><hi>Töflu</hi></w></original>
+    <corrected><w><hi>töflu</hi></w></corrected>
+      <errors>
+        <error xtype="upper4lower-common" eid="0" />
+      </errors>
+    </revision>
   <w><hi>2</hi></w>
   <w>og</w>
-  <w><hi>Töflu</hi></w>
+  <revision id="143b">
+    <original><w><hi>Töflu</hi></w></original>
+    <corrected><w><hi>töflu</hi></w></corrected>
+      <errors>
+        <error xtype="upper4lower-common" eid="0" />
+      </errors>
+  </revision>
   <w><hi>3</hi></w>
   <w>hér</w>
   <w>að</w>
@@ -2640,7 +2835,13 @@
 </s>
 <s n="51">
   <w>Í</w>
-  <w><hi>Töflu</hi></w>
+  <revision id="143b">
+    <original><w><hi>Töflu</hi></w></original>
+    <corrected><w><hi>töflu</hi></w></corrected>
+      <errors>
+        <error xtype="upper4lower-common" eid="0" />
+      </errors>
+  </revision>
   <w><hi>2</hi></w>
   <w>sést</w>
   <w>að</w>
@@ -2762,7 +2963,13 @@
   <w>og</w>
   <w>sést</w>
   <w>í</w>
-  <w><hi>Töflu</hi></w>
+  <revision id="151b">
+    <original><w><hi>Töflu</hi></w></original>
+    <corrected><w><hi>töflu</hi></w></corrected>
+      <errors>
+        <error xtype="upper4lower-common" eid="0" />
+      </errors>
+  </revision>
   <w><hi>3</hi></w>
   <w>er</w>
   <w>hlutfall</w>
@@ -2821,11 +3028,25 @@
     <original><w>hefur</w></original>
     <corrected><w>var</w></corrected>
       <errors>
-        <error xtype="aux" eid="0" />
+        <error xtype="verb-inflection" idx="157-1" eid="0" />
+        <error xtype="missing-word" idx="157-1" eid="0" />
       </errors>
   </revision>
-  <w>nefnt</w>
+  <revision id="157b">
+    <original><w>nefnt</w></original>
+    <corrected><w>nefnd</w></corrected>
+      <errors>
+        <error xtype="new-passive" eid="0" />
+      </errors>
+  </revision>
   <w>í</w>
+  <revision id="157c">
+    <original></original>
+    <corrected><w>kafla</w></corrected>
+      <errors>
+        <error xtype="missing-word" eid="0" />
+      </errors>
+  </revision>
   <w>3.1</w>
   <c>,</c>
   <w>þ.e.</w>
@@ -2851,8 +3072,14 @@
   <c>.</c>
 </s>
 <s n="54">
-  <w>Í</w>
-  <w><hi>Mynd</hi></w>
+  <revision id="158b">
+    <original><w>Í</w><w><hi>Mynd</hi></w></original>
+    <corrected><w>Á</w><w><hi>mynd</hi></w></corrected>
+      <errors>
+        <error xtype="wrong-prep" idx="158b-1" eid="0" />
+        <error xtype="upper4lower-common" idx="158b-2" eid="0" />
+      </errors>
+  </revision>
   <w><hi>3</hi></w>
   <w>hér</w>
   <w>að</w>
@@ -2896,7 +3123,13 @@
       </errors>
   </revision>
   <w>1860</w>
-  <c>-</c>
+  <revision id="161b">
+    <original><c>-</c></original>
+    <corrected><c>–</c></corrected>
+      <errors>
+        <error xtype="hyphen4endash" eid="0" />
+      </errors>
+  </revision>
   <w>1869</w>
   <w>sem</w>
   <w>eru</w>
@@ -2915,10 +3148,22 @@
   <w>áratugi</w>
   <c>(</c>
   <w>1870</w>
-  <c>-</c>
+  <revision id="162b">
+    <original><c>-</c></original>
+    <corrected><c>–</c></corrected>
+      <errors>
+        <error xtype="hyphen4endash" eid="0" />
+      </errors>
+  </revision>
   <w>1879</w>
   <c>:</c>
-  <w>4</w>
+  <revision id="162c">
+    <original><w>4</w></original>
+    <corrected><w>fjögur</w></corrected>
+      <errors>
+        <error xtype="number4word" eid="0" />
+      </errors>
+  </revision>
   <w>dæmi</w>
   <c>)</c>
   <w>og</w>
@@ -2957,9 +3202,21 @@
   <w>fjölda</w>
   <w>og</w>
   <w>á</w>
-  <w>áratugunum</w>
+  <revision id="165b">
+    <original><w>áratugunum</w></original>
+    <corrected><w>áratugnum</w></corrected>
+      <errors>
+        <error xtype="plural4singular" eid="0" />
+      </errors>
+  </revision>
   <w>1860</w>
-  <c>-</c>
+  <revision id="165c">
+    <original><c>-</c></original>
+    <corrected><c>–</c></corrected>
+      <errors>
+        <error xtype="hyphen4endash" eid="0" />
+      </errors>
+  </revision>
   <w>1869</w>
   <c>.</c>
 </s>
@@ -2989,7 +3246,7 @@
   <c>-</c>
   <revision id="167">
     <original><c>"</c></original>
-    <corrected><c>“</c></corrected>
+    <corrected><c>"</c></corrected>
       <errors>
         <error xtype="wrong-quots" eid="0" />
       </errors>
@@ -3003,17 +3260,21 @@
 </s>
 <s n="57b">
   <revision id="168">
-    <original><w>Leitt</w><w>hefur</w></original>
-    <corrected><w>Leiddar</w><w>hafa</w></corrected>
+    <original><w>Leitt</w><w>hefur</w><w>verið</w><w>aðeins</w></original>
+    <corrected><w>Aðeins</w></corrected>
       <errors>
-        <error xtype="agreement-pred" idx="168-1" eid="0" />
-        <error xtype="agreement" idx="168-2" eid="0" />
+        <error xtype="new-passive" idx="168-1" eid="0" />
       </errors>
   </revision>
-  <w>verið</w>
-  <w>aðeins</w>
   <w>12</w>
   <w>orðmyndir</w>
+  <revision id="168b">
+    <original></original>
+    <corrected><w>hafa</w><w>verið</w><w>leiddar</w></corrected>
+      <errors>
+        <error xtype="dep" depId="168-1" eid="0" />
+      </errors>
+  </revision>
   <w>af</w>
   <w>sögninni</w>
   <w><hi>þykja</hi></w>
@@ -3038,12 +3299,24 @@
   <w>af</w>
   <w>þeim</w>
   <w>eru</w>
-  <w>6</w>
+  <revision id="169b">
+    <original><w>6</w></original>
+    <corrected><w>sex</w></corrected>
+      <errors>
+        <error xtype="number4word" eid="0" />
+      </errors>
+  </revision>
   <c>-kt</c>
   <c>-</c>
   <w>myndir</w>
   <w>og</w>
-  <w>6</w>
+  <revision id="169c">
+    <original><w>6</w></original>
+    <corrected><w>sex</w></corrected>
+      <errors>
+        <error xtype="number4word" eid="0" />
+      </errors>
+  </revision>
   <c>-tt</c>
   <c>-</c>
   <w>myndir</w>
@@ -3055,7 +3328,13 @@
   <w>að</w>
   <w>neðan</w>
   <w>í</w>
-  <w><hi>Töflu</hi></w>
+  <revision id="169d">
+    <original><w><hi>Töflu</hi></w></original>
+    <corrected><w><hi>töflu</hi></w></corrected>
+      <errors>
+        <error xtype="upper4lower-common" eid="0" />
+      </errors>
+  </revision>
   <w><hi>4</hi></w>
   <c>.</c>
 </s>
@@ -3087,8 +3366,13 @@
   <w>myndir</w>
   <w>af</w>
   <w><hi>þykja</hi></w>
-  <w>í</w>
-  <w>heild</w>
+  <revision id="171b">
+    <original><w>í</w><w>heild</w></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="extra-words" eid="0" />
+      </errors>
+  </revision>
   <revision id="172">
     <original><c>,</c><w>af</w></original>
     <corrected><c>.</c><w>Af</w></corrected>
@@ -3147,12 +3431,20 @@
   <w>sett</w>
   <revision id="177">
     <original><w>hefur</w><w>verið</w></original>
-    <corrected><w>var</w></corrected>
+    <corrected><w>var</w><w>fram</w></corrected>
       <errors>
-        <error xtype="perfect4tense" eid="0" />
+        <error xtype="perfect4tense" idx="177-1" eid="0" />
+        <error xtype="missing-word" idx="177-2" eid="0" />
       </errors>
   </revision>
   <w>í</w>
+  <revision id="177b">
+    <original></original>
+    <corrected><w>kafla</w></corrected>
+      <errors>
+        <error xtype="missing-word" eid="0" />
+      </errors>
+  </revision>
   <w>3.1</w>
   <w>bendir</w>
   <w>til</w>
@@ -3174,7 +3466,13 @@
 <s n="60">
   <w>Hér</w>
   <w>í</w>
-  <w><hi>Töflu</hi></w>
+  <revision id="177c">
+    <original><w><hi>Töflu</hi></w></original>
+    <corrected><w><hi>töflu</hi></w></corrected>
+      <errors>
+        <error xtype="upper4lower-common" eid="0" />
+      </errors>
+  </revision>
   <w><hi>5</hi></w>
   <w>getum</w>
   <w>við</w>
@@ -3285,6 +3583,13 @@
   <w>AndKje</w>
   <c>-</c>
   <w>1845-01-14</w>
+  <revision id="183b">
+    <original></original>
+    <corrected><c>„</c></corrected>
+      <errors>
+        <error xtype="missing-quots" idx="183b-1" eid="0" />
+      </errors>
+  </revision>
   <w>komið</w>
   <w>og</w>
   <w>það</w>
@@ -3303,16 +3608,38 @@
   <w>það</w>
   <w>hverjar</w>
   <w>þessir</w>
+  <revision id="183c">
+    <original></original>
+    <corrected><c>“</c></corrected>
+      <errors>
+        <error xtype="dep" depId="183b-1" eid="0" />
+      </errors>
+  </revision>
   <c>(</c>
   <w>Stofnun</w>
   <w>Árna</w>
   <w>Magnussonar</w>
   <c>)</c>
+  <revision id="183d">
+    <original></original>
+    <corrected><c>.</c></corrected>
+      <errors>
+        <error xtype="missing-period" eid="0" />
+      </errors>
+  </revision>
+</s>
+<s n="62b">
   <w>Hér</w>
   <w>að</w>
   <w>neðan</w>
-  <w>í</w>
-  <w><hi>Mynd</hi></w>
+  <revision id="183b">
+    <original><w>í</w><w><hi>Mynd</hi></w></original>
+    <corrected><w>á</w><w><hi>mynd</hi></w></corrected>
+      <errors>
+        <error xtype="wrong-prep" idx="183b-1" eid="0" />
+        <error xtype="upper4lower-common" idx="183b-2" eid="0" />
+      </errors>
+  </revision>
   <w><hi>4</hi></w>
   <w>má</w>
   <w>sjá</w>
@@ -3739,7 +4066,9 @@
   <w>hér</w>
   <w>að</w>
   <w>neðan</w>
-  <c>:</c>
+  <c>.</c>
+</s>
+<s n="73b">
   <c>(</c>
   <w>Hér</w>
   <w>hefur</w>
@@ -3750,6 +4079,13 @@
   <w>í</w>
   <w>beygingu</w>
   <w>sagnanna</w>
+  <revision id="206b">
+    <original></original>
+    <corrected><c>.</c></corrected>
+      <errors>
+        <error xtype="missing-period" eid="0" />
+      </errors>
+  </revision>
   <c>)</c>
 </s>
 <s n="74">
@@ -3791,6 +4127,9 @@
   <c>(</c>
   <w>5</w>
   <c>)</c>
+  <c>.</c>
+</s>
+<s n="74b">
   <w>Sagnstofn</w>
   <w>skal</w>
   <w>haldast</w>
@@ -3855,7 +4194,7 @@
   <w>skálda</w>
   <revision id="211">
     <original><c>"</c><c>,</c><w>samt</w><w>nefndi</w></original>
-    <corrected><c>“</c><w>nefnir</w></corrected>
+    <corrected><c>"</c><w>nefnir</w></corrected>
       <errors>
         <error xtype="wrong-quots" idx="211-1" eid="0" />
         <error xtype="extra-comma" idx="211-2" eid="0" />
@@ -3889,9 +4228,11 @@
 </s>
 <s n="76">
   <w>4</w>
-    <w>Um</w>
+  <w>Um</w>
   <w>bréfritara</w>
   <w>ritháttarins</w>
+</s>
+<s n="76b ">
   <w>4.1</w>
   <w>Yfirlit</w>
   <c>.</c>
@@ -4009,7 +4350,13 @@
   </revision>
   <c>,</c>
   <w>og</w>
-  <w>4</w>
+  <revision id="219b">
+    <original><w>4</w></original>
+    <corrected><w>fjórir</w></corrected>
+      <errors>
+        <error xtype="number4word" eid="0" />
+      </errors>
+  </revision>
   <w>þeirra</w>
   <revision id="220">
     <original><w>bréfritaranna</w></original>
@@ -4062,7 +4409,13 @@
       </errors>
   </revision>
   <w>í</w>
-  <w><hi>Töflu</hi></w>
+  <revision id="223b">
+    <original><w><hi>Töflu</hi></w></original>
+    <corrected><w><hi>töflu</hi></w></corrected>
+      <errors>
+        <error xtype="upper4lower-common" eid="0" />
+      </errors>
+  </revision>
   <w><hi>5</hi></w>
   <c>;</c>
   <w>29</w>
@@ -4155,6 +4508,13 @@
         <error xtype="ind4def" eid="0" />
       </errors>
   </revision>
+  <revision id="230b">
+    <original></original>
+    <corrected><c>,</c></corrected>
+      <errors>
+        <error xtype="missing-comma" eid="0" />
+      </errors>
+  </revision>
   <w><hi>sækja</hi></w>
   <w>og</w>
   <w><hi>þykja</hi></w>
@@ -4173,16 +4533,26 @@
   <w>að</w>
   <w>neðan</w>
   <w>í</w>
-  <w><hi>Töflu</hi></w>
-  <w><hi></hi></w>
-  <w>7Z</w>
+  <revision id="231b">
+    <original><w><hi>Töflu</hi></w></original>
+    <corrected><w><hi>töflu</hi></w></corrected>
+      <errors>
+        <error xtype="upper4lower-common" eid="0" />
+      </errors>
+  </revision>
+  <w><hi>7</hi></w>
   <c>.</c>
 </s>
 <s n="82">
   <w>Í</w>
-  <w><hi>Töflu</hi></w>
-  <w><hi></hi></w>
-  <w>7Z</w>
+  <revision id="231c">
+    <original><w><hi>Töflu</hi></w></original>
+    <corrected><w><hi>töflu</hi></w></corrected>
+      <errors>
+        <error xtype="upper4lower-common" eid="0" />
+      </errors>
+  </revision>
+  <w><hi>7</hi></w>
   <w>sést</w>
   <w>vel</w>
   <w>að</w>
@@ -4251,6 +4621,13 @@
       </errors>
   </revision>
   <w>í</w>
+  <revision id="234b">
+    <original></original>
+    <corrected><w>kafla</w></corrected>
+      <errors>
+        <error xtype="missing-comma" eid="0" />
+      </errors>
+  </revision>
   <w>3.1</w>
   <c>.</c>
 </s>
@@ -4451,6 +4828,8 @@
   <w>af</w>
   <w>báðum</w>
   <w>sögnum</w>
+</s>
+<s n="90b">
   <w>Eins</w>
   <w>og</w>
   <w>sést</w>
@@ -4506,7 +4885,13 @@
         <error xtype="dep" depId="248-1" eid="0" />
       </errors>
   </revision>
-  <w>bréfritarana</w>
+  <revision id="245b">
+    <original><w>bréfritarana</w></original>
+    <corrected><w>bréfritaranna</w></corrected>
+      <errors>
+        <error xtype="n4nn" eid="0" />
+      </errors>
+  xf</revision>
   <revision id="246">
     <original><w>í</w></original>
     <corrected><w>úr</w></corrected>
@@ -4554,7 +4939,13 @@
       </errors>
   </revision>
   <w>í</w>
-  <w><hi>Töflu</hi></w>
+  <revision id="249b">
+    <original><w><hi>Töflu</hi></w></original>
+    <corrected><w><hi>töflu</hi></w></corrected>
+      <errors>
+        <error xtype="upper4lower-common" eid="0" />
+      </errors>
+  </revision>
   <w><hi>8</hi></w>
   <revision id="250">
     <original></original>
@@ -4567,7 +4958,7 @@
   <w>hér</w>
   <w>að</w>
   <w>neðan</w>
-  <c>:</c>
+  <c>.</c>
 </s>
 <s n="93">
   <w><hi>Tafla</hi></w>
@@ -4607,14 +4998,26 @@
   <w>Suður-Þingeyjarsýslu</w>
   <c>,</c>
   <w>Eyjafjarðarsýslu</w>
-  <c>,</c>
+  <revision id="254b">
+    <original><c>,</c></original>
+    <corrected><w>og</w></corrected>
+      <errors>
+        <error xtype="comma4conjunction" eid="0" />
+      </errors>
+  </revision>
   <w>Norður-Múlsýslu</w>
   <c>)</c>
   <c>.</c>
 </s>
 <s n="94">
   <w>Í</w>
-  <w><hi>Töflu</hi></w>
+  <revision id="254c">
+    <original><w><hi>Töflu</hi></w></original>
+    <corrected><w><hi>töflu</hi></w></corrected>
+      <errors>
+        <error xtype="upper4lower-common" eid="0" />
+      </errors>
+  </revision>
   <w><hi>9</hi></w>
   <w>hér</w>
   <w>að</w>
@@ -4641,7 +5044,13 @@
   <w>ljós</w>
   <w>að</w>
   <w>aðeins</w>
-  <w>5</w>
+  <revision id="254d">
+    <original><w>5</w></original>
+    <corrected><w>fimm</w></corrected>
+      <errors>
+        <error xtype="number4word" eid="0" />
+      </errors>
+  </revision>
   <w>bréfritarar</w>
   <w>nota</w>
   <c>-kt</c>
@@ -4666,6 +5075,13 @@
   <w>eru</w>
   <w>frá</w>
   <w>norðurlandi</w>
+  <revision id="254e">
+    <original><w>norðurlandi</w></original>
+    <corrected><w>Norðurlandi</w></corrected>
+      <errors>
+        <error xtype="lower4upper-proper" eid="0" />
+      </errors>
+  </revision>
   <c>(</c>
   <w>Eyjafjarðarsýslu</w>
   <c>,</c>
@@ -4689,7 +5105,13 @@
   <w>karlar</w>
   <c>(</c>
   <w>221</w>
-  <w>úr</w>
+  <revision id="254f">
+    <original><w>úr</w></original>
+    <corrected><w>af</w></corrected>
+      <errors>
+        <error xtype="wrong-prep" eid="0" />
+      </errors>
+  </revision>
   <w>346</w>
   <w>í</w>
   <w>Bréfasafninu</w>
@@ -4742,11 +5164,22 @@
   <c>.</c>
 </s>
 <s n="99">
-  <w>Menn</w>
-  <w>fóru</w>
+  <revision id="257b">
+    <original><w>Menn</w><w>fóru</w></original>
+    <corrected><w>Fólk</w><w>fór</w></corrected>
+      <errors>
+        <error xtype="gendered" eid="0" />
+      </errors>
+  </revision>
   <w>að</w>
   <w>velta</w>
-  <w>því</w>
+  <revision id="257c">
+    <original><w>því</w></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="extra-word" eid="0" />
+      </errors>
+  </revision>
   <w>fyrir</w>
   <w>sér</w>
   <w>mikilvægi</w>
@@ -4793,7 +5226,13 @@
       </errors>
   </revision>
   <w>af</w>
-  <w>mönnum</w>
+  <revision id="260b">
+    <original><w>mönnum</w></original>
+    <corrected><w>fólki</w></corrected>
+      <errors>
+        <error xtype="gendered" eid="0" />
+      </errors>
+  </revision>
   <c>,</c>
   <w>sem</w>
   <revision id="261">
@@ -5019,7 +5458,13 @@
   <w>af</w>
   <w><hi>sækja</hi></w>
   <w>séu</w>
-  <w>algengast</w>
+  <revision id="271b">
+    <original><w>algengast</w></original>
+    <corrected><w>algengastar</w></corrected>
+      <errors>
+        <error xtype="adjective-inflection" eid="0" />
+      </errors>
+  </revision>
   <w>með</w>
   <c>-kt</c>
   <c>-</c>
@@ -5088,7 +5533,7 @@
   <c>)</c>
   <w>af</w>
   <w><hi>sækja</hi></w>
-  <w></w>
+  <c>,</c>
   <w><hi>sókti</hi></w>
   <c>(</c>
   <revision id="274">
@@ -5104,7 +5549,7 @@
   <w>í</w>
   <w>stofni</w>
   <c>)</c>
-  <w></w>
+  <c>,</c>
   <w><hi>þókti</hi></w>
   <c>(</c>
   <revision id="275">
@@ -5129,7 +5574,7 @@
   <w>af</w>
   <w>sagnorði</w>
   <w><hi>þekkja</hi></w>
-  <w></w>
+  <c>,</c>
   <w><hi>þókti</hi></w>
   <c>(</c>
   <revision id="276">
@@ -5182,13 +5627,31 @@
   </revision>
   <w>ættaðir</w>
   <w>af</w>
-  <w>norðurlandi</w>
+  <revision id="277b">
+    <original><w>norðurlandi</w></original>
+    <corrected><w>Norðurlandi</w></corrected>
+      <errors>
+        <error xtype="lower4upper-proper" eid="0" />
+      </errors>
+  </revision>
   <w>eða</w>
-  <w>norðausturlandi</w>
+  <revision id="277c">
+    <original><w>norðausturlandi</w></original>
+    <corrected><w>Norðausturlandi</w></corrected>
+      <errors>
+        <error xtype="lower4upper-proper" eid="0" />
+      </errors>
+  </revision>
   <c>.</c>
 </s>
 <s n="107">
-  <w>5</w>
+  <revision id="277d">
+    <original><w>5</w></original>
+    <corrected><w>Fimm</w></corrected>
+      <errors>
+        <error xtype="number4word" eid="0" />
+      </errors>
+  </revision>
   <w>bréfritarar</w>
   <w>nota</w>
   <c>-kt</c>
@@ -5207,7 +5670,13 @@
   <w>eru</w>
   <w>líka</w>
   <w>frá</w>
-  <w>norðurlandi</w>
+  <revision id="277e">
+    <original><w>norðurlandi</w></original>
+    <corrected><w>Norðurlandi</w></corrected>
+      <errors>
+        <error xtype="lower4upper-proper" eid="0" />
+      </errors>
+  </revision>
   <w>og</w>
   <revision id="278">
     <original><w>áhugavert</w></original>
