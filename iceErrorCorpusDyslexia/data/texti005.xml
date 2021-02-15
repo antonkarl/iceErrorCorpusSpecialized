@@ -112,8 +112,13 @@
   <c>„</c>
   <w>tilboði</w>
   <c>“</c>
-  <c>,</c>
-  <w>hvernig</w>
+  <revision id="5b">
+    <original><c>,</c><w>hvernig</w></original>
+    <corrected><c>.</c><w>Hvernig</w></corrected>
+      <errors>
+        <error xtype="comma4period" eid="0" />
+      </errors>
+  </revision>
   <w>væri</w>
   <w>að</w>
   <revision id="6">
@@ -200,7 +205,7 @@
     <original><w>Android</w><w>og</w><w>iPhone</w></original>
     <corrected><w>Android- og iPhone-stýrikerfi</w></corrected>
       <errors>
-        <error xtype="missing-hyphen" idx="8-1" eid="0" />
+        <error xtype="missing-dash" idx="8-1" eid="0" />
         <error xtype="missing-word" idx="8-1" eid="0" />
       </errors>
   </revision>
@@ -258,7 +263,7 @@
       <errors>
         <error xtype="wrong-prep" idx="12-1" eid="0" />
         <error xtype="lower4upper-proper" idx="12-2" eid="0" />
-        <error xtype="missing-hyphen" idx="12-2" eid="0" />
+        <error xtype="missing-dash" idx="12-2" eid="0" />
         <error xtype="missing-word" idx="12-2" eid="0" />
       </errors>
   </revision>
@@ -292,14 +297,20 @@
   <w>forritun</w>
   <w>á</w>
   <w>fleiri</w>
-  <w>fítusum</w>
+  <revision id="14b">
+    <original><w>fítusum</w></original>
+    <corrected><w>eiginleikum</w></corrected>
+      <errors>
+        <error xtype="fw4ice" eid="0" />
+      </errors>
+  </revision>
   <w>fyrir</w>
   <revision id="15">
     <original><w>android</w></original>
     <corrected><w>Android-stýrikerfi</w></corrected>
       <errors>
         <error xtype="lower4upper-proper" idx="15-1" eid="0" />
-        <error xtype="missing-hyphen" idx="15-1" eid="0" />
+        <error xtype="missing-dash" idx="15-1" eid="0" />
         <error xtype="missing-word" idx="15-1" eid="0" />
       </errors>
   </revision>
@@ -319,7 +330,7 @@
       <errors>
         <error xtype="dep" depId="16-1" eid="0" />
         <error xtype="missing-prep" idx="17-1" eid="0" />
-        <error xtype="missing-hyphen" idx="17-2" eid="0" />
+        <error xtype="missing-dash" idx="17-2" eid="0" />
         <error xtype="missing-word" idx="17-2" eid="0" />
       </errors>
   </revision>
@@ -379,12 +390,12 @@
   <w>Markaðsáætlun</w>
   <w>er</w>
   <w>einföld</w>
-  <c>,</c>
   <revision id="21">
-    <original><w>appið</w></original>
-    <corrected><w>smáforritið</w></corrected>
+    <original><c>,</c><w>appið</w></original>
+    <corrected><c>:</c><w>smáforritið</w></corrected>
       <errors>
-        <error xtype="fw4ice" eid="0" />
+        <error xtype="comma4colon" idx="21-1" eid="0" />
+		    <error xtype="fw4ice" idx="21-2" eid="0" />
       </errors>
   </revision>
   <w>verður</w>
@@ -401,7 +412,7 @@
     <original><w>Play</w><w>Store</w></original>
     <corrected><w>Play-versluninni</w></corrected>
       <errors>
-        <error xtype="missing-hyphen" idx="23-1" eid="0" />
+        <error xtype="missing-dash" idx="23-1" eid="0" />
         <error xtype="fw4ice" idx="23-2" eid="0" />
       </errors>
   </revision>
@@ -541,7 +552,13 @@
   <w>vera</w>
   <w>á</w>
   <w>verði</w>
-  <c>,</c>
+  <revision id="30b">
+    <original><c>,</c></original>
+    <corrected><c>;</c></corrected>
+      <errors>
+        <error xtype="comma4semicolon" eid="0" />
+      </errors>
+  </revision>
   <w>upplýstara</w>
   <w>samfélag</w>
   <revision id="31">
@@ -716,13 +733,12 @@
   <w>á</w>
   <w>marga</w>
   <revision id="42">
-    <original><w>spin-off</w></original>
-    <corrected></corrected>
+    <original><w>spin-off</w><w>möguleika</w></original>
+    <corrected><w>aukamöguleika</w></corrected>
       <errors>
-        <error xtype="extra-word" eid="0" />
+        <error xtype="fw4ice" eid="0" />
       </errors>
   </revision>
-  <w>möguleika</w>
   <c>.</c>
 </s>
 <s n="24">
@@ -780,7 +796,14 @@
   <w>sá</w>
   <w>þörfina</w>
   <w>fyrir</w>
-  <w>því</w>
+  <revision id="45b">
+    <original><w>því</w></original>
+    <corrected><w>það</w></corrected>
+      <errors>
+        <error xtype="pro-inflection" idx="45b-1" eid="0" />
+        <error xtype="case-prep" idx="45b-1" eid="0" />
+      </errors>
+  </revision>
   <w>að</w>
   <w>útbúa</w>
   <w>tól</w>
@@ -1073,7 +1096,14 @@
       </errors>
   </revision>
   <w>t.d.</w>
-  <w>Meninga</w>
+  <revision id="65b">
+    <original><w>Meninga</w></original>
+    <corrected><w>Meniga</w></corrected>
+      <errors>
+        <error xtype="extra-letter" idx="65b-1" eid="0" />
+        <error xtype="name-error" idx="65b-1" eid="0" />
+      </errors>
+  </revision>
   <c>.</c>
 </s>
 <s n="34">
@@ -1201,7 +1231,7 @@
     <original><w>Play</w><w>Store</w></original>
     <corrected><w>Play-verslunina</w></corrected>
       <errors>
-        <error xtype="missing-hyphen" idx="75-1" eid="0" />
+        <error xtype="missing-dash" idx="75-1" eid="0" />
         <error xtype="fw4ice" idx="75-1" eid="0" />
       </errors>
   </revision>
@@ -1518,19 +1548,32 @@
       </errors>
   </revision>
   <c>,</c>
+  <revision id="102b">
+    <original></original>
+    <corrected><w>t.d.</w></corrected>
+      <errors>
+        <error xtype="wording" idx="102b-1" eid="0" />
+      </errors>
+  </revision>
   <w>ef</w>
-  <w>t.d.</w>
+  <revision id="102c">
+    <original><w>t.d.</w></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="dep" depId="102b-1" eid="0" />
+      </errors>
+  </revision>
   <w>Krónan</w>
   <w>veit</w>
   <w>að</w>
   <revision id="103">
-    <original><w>þeir</w></original>
-    <corrected><w>hún</w></corrected>
+    <original><w>þeir</w><w>eru</w></original>
+    <corrected><w>hún</w><w>er</w></corrected>
       <errors>
         <error xtype="agreement-pro" eid="0" />
+		    <error xtype="agreement" eid="0" />
       </errors>
   </revision>
-  <w>eru</w>
   <w>með</w>
   <w>ódýrari</w>
   <w>vöru</w>
@@ -1603,7 +1646,7 @@
     <original></original>
     <corrected><c>.</c></corrected>
       <errors>
-        <error xtype="missing-period" eid="0" />
+        <error xtype="dep" depId="109-2" eid="0" />
       </errors>
   </revision>
 </s>
@@ -1617,7 +1660,7 @@
     <original><w>Android</w><w>appið</w></original>
     <corrected><w>Android-smáforritið</w></corrected>
       <errors>
-        <error xtype="missing-hyphen" idx="111-1" eid="0" />
+        <error xtype="missing-dash" idx="111-1" eid="0" />
         <error xtype="fw4ice" idx="111-1" eid="0" />
       </errors>
   </revision>
@@ -1650,7 +1693,13 @@
   <w>ætla</w>
   <w>mér</w>
   <w>að</w>
-  <w>gera</w>
+  <revision id="113b">
+    <original><w>gera</w></original>
+    <corrected><w>framkvæma</w></corrected>
+      <errors>
+        <error xtype="wording" eid="0" />
+      </errors>
+  </revision>
   <w>í</w>
   <w>sumar</w>
   <c>:</c>
@@ -1669,7 +1718,7 @@
     <original><w>Android</w><w>snjallsíma</w></original>
     <corrected><w>Android-snjallsíma</w></corrected>
       <errors>
-        <error xtype="missing-hyphen" eid="0" />
+        <error xtype="missing-dash" eid="0" />
       </errors>
   </revision>
   <c>.</c>
@@ -1698,7 +1747,7 @@
     <original><w>Android</w><w>forritun</w></original>
     <corrected><w>Android-forritun</w><c>.</c></corrected>
       <errors>
-        <error xtype="missing-hyphen" idx="117-1" eid="0" />
+        <error xtype="missing-dash" idx="117-1" eid="0" />
         <error xtype="missing-period" idx="117-2" eid="0" />
       </errors>
   </revision>
@@ -1728,7 +1777,7 @@
         <error xtype="fw4ice" idx="119-1" eid="0" />
         <error xtype="split-compound" idx="119-2" eid="0" />
         <error xtype="wrong-prep" idx="119-3" eid="0" />
-        <error xtype="missing-hyphen" idx="119-4" eid="0" />
+        <error xtype="missing-dash" idx="119-4" eid="0" />
         <error xtype="missing-word" idx="119-4" eid="0" />
         <error xtype="missing-period" idx="119-5" eid="0" />
       </errors>

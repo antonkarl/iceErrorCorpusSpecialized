@@ -127,8 +127,13 @@
   <c>„</c>
   <w>tilboði</w>
   <c>“</c>
-  <c>,</c>
-  <w>hvernig</w>
+  <revision id="7b">
+    <original><c>,</c><w>hvernig</w></original>
+    <corrected><c>.</c><w>Hvernig</w></corrected>
+      <errors>
+        <error xtype="comma4period" eid="0" />
+      </errors>
+  </revision>
   <w>væri</w>
   <w>að</w>
   <revision id="8">
@@ -215,8 +220,8 @@
     <original><w>Android</w><w>og</w><w>iPhone</w></original>
     <corrected><w>Android- og iPhone-stýrikerfi</w></corrected>
       <errors>
-        <error xtype="missing-hyphen" idx="10-1" eid="0" />
-        <error xtype="missing-hyphen" idx="10-2" eid="0" />
+        <error xtype="missing-dash" idx="10-1" eid="0" />
+        <error xtype="missing-dash" idx="10-2" eid="0" />
         <error xtype="missing-word" idx="10-3" eid="0" />
       </errors>
   </revision>
@@ -361,13 +366,14 @@
   <w>Selja</w>
   <w>fyrirtækjum</w>
   <revision id="19">
-    <original><w>einsog</w></original>
-    <corrected><w>eins</w><w>og</w></corrected>
+    <original><w>einsog</w><w>Meninga</w></original>
+    <corrected><w>eins</w><w>og</w><w>Meniga</w></corrected>
       <errors>
-        <error xtype="merged-words" eid="0" />
+        <error xtype="merged-words" idx="19-1" eid="0" />
+		    <error xtype="extra-letter" idx="19-2" eid="0" />
+        <error xtype="name-error" idx="19-2" eid="0" />
       </errors>
   </revision>
-  <w>Meninga</w>
   <w>aðgang</w>
   <w>að</w>
   <w>gagnagrunninum</w>
@@ -406,6 +412,7 @@
     <original><w>Vörukörfu</w><w>app</w><w>þar</w><w>sem</w><w>kúnni</w></original>
     <corrected><w>Smáforrit</w><w>fyrir</w><w>vörukörfu</w><c>:</c><w>Kúnni</w></corrected>
       <errors>
+        <error xtype="load-syntax" idx="21-1" eid="0" />
         <error xtype="fw4ice" idx="21-1" eid="0" />
         <error xtype="missing-prep" idx="21-1" eid="0" />
         <error xtype="missing-colon" idx="21-2" eid="0" />
@@ -438,6 +445,7 @@
     <original><w>Uppskriftar</w><w>app</w><w>þar</w><w>sem</w><w>þú</w><w>færð</w></original>
     <corrected><w>Smáforrit</w><w>fyrir</w><w>uppskriftir</w><c>:</c><w>Kúnni</w><w>fær</w></corrected>
       <errors>
+        <error xtype="loan-syntax" idx="22-1" eid="0" />
         <error xtype="fw4ice" idx="22-1" eid="0" />
         <error xtype="missing-prep" idx="22-1" eid="0" />
         <error xtype="missing-colon" idx="22-2" eid="0" />

@@ -23,7 +23,7 @@
     <original><w>Árshátíðar</w><w>vikan</w></original>
     <corrected><w>Árshátíðarvikan</w></corrected>
       <errors>
-        <error xtype="split-compound" eid="0" />
+        <error xtype="compound-split" eid="0" />
       </errors>
   </revision>
   <w>okkar</w>
@@ -56,7 +56,7 @@
     <original><w>árshátíðar</w><w>vikan</w></original>
     <corrected><w>árshátíðarvikan</w></corrected>
       <errors>
-        <error xtype="split-compound" eid="0" />
+        <error xtype="compound-split" eid="0" />
       </errors>
   </revision>
   <w>okkar</w>
@@ -330,7 +330,14 @@
   <w>í</w>
   <w>skápinn</w>
   <w>hjá</w>
-  <w>foreldurunum</w>
+  <revision id="19b">
+    <original><w>foreldurunum</w></original>
+    <corrected><w>foreldrunum</w></corrected>
+      <errors>
+        <error xtype="extra-letter" idx="19b-1" eid="0" />
+        <error xtype="nonword" idx="19b-1" eid="0" />
+      </errors>
+  </revision>
   <w>og</w>
   <w>mæta</w>
   <w>litrík</w>
@@ -552,12 +559,12 @@
   <w>höldum</w>
   <w>áfram</w>
   <w>með</w>
-  <w>mánudags</w>
   <revision id="30">
-    <original></original>
+    <original><w>mánudags</w></original>
     <corrected><c>„</c></corrected>
       <errors>
-        <error xtype="missing-quots" idx="30-1" eid="0" />
+        <error xtype="wording" idx="30-2" eid="0" />
+		    <error xtype="missing-quots" idx="30-1" eid="0" />
       </errors>
   </revision>
   <w>burpee</w>
@@ -572,9 +579,10 @@
   <w>þema</w>
   <revision id="31b">
     <original></original>
-    <corrected><c>.</c></corrected>
+    <corrected><w>mánudagsins</w><c>.</c></corrected>
       <errors>
-        <error xtype="missing-period" eid="0" />
+        <error xtype="dep" depId="30-2" eid="0" />
+		    <error xtype="missing-period" eid="0" />
       </errors>
   </revision>
   <w>Skráum</w>
@@ -1006,7 +1014,7 @@
     <corrected><w>eina</w><w>góða</w><w>afmælisæfingu</w></corrected>
       <errors>
         <error xtype="fw4ice" idx="60-1" eid="0" />
-        <error xtype="split-compound" idx="60-1" eid="0" />
+        <error xtype="compound-split" idx="60-1" eid="0" />
       </errors>
   </revision>
   <w>í</w>
@@ -1051,7 +1059,7 @@
     <original><w>fimleika</w><w>strákur</w><c>.</c><w>Þannig</w></original>
     <corrected><w>fimleikastrákur</w><w>þannig</w><w>að</w></corrected>
       <errors>
-        <error xtype="split-compound" idx="63-1" eid="0" />
+        <error xtype="compound-split" idx="63-1" eid="0" />
         <error xtype="extra-period" idx="63-2" eid="0" />
         <error xtype="period-plus-conjunction" idx="63-2" eid="0" />
         <error xtype="missing-conjunction" idx="63-3" eid="0" />
@@ -1108,7 +1116,7 @@
     <corrected><w>þessi</w><w>afmælisæfing</w></corrected>
       <errors>
         <error xtype="fw4ice" idx="67-1" eid="0" />
-        <error xtype="split-compound" idx="67-1" eid="0" />
+        <error xtype="compound-split" idx="67-1" eid="0" />
       </errors>
   </revision>
   <w>var</w>
@@ -1347,9 +1355,9 @@
   <w>stöng</w>
   <revision id="83">
     <original><w>og</w></original>
-    <corrected><c>,</c></corrected>
+    <corrected><c>;</c></corrected>
       <errors>
-        <error xtype="conjunction4comma" eid="0" />
+        <error xtype="conjunction4semicolon" eid="0" />
       </errors>
   </revision>
   <w>ekki</w>
@@ -1541,7 +1549,7 @@
     <original><c>"</c></original>
     <corrected><c>„</c></corrected>
       <errors>
-        <error xtype="wrong-quots" idx="93-1" eid="0" />
+        <error xtype="wrnog-quots" idx="93-1" eid="0" />
       </errors>
   </revision>
   <w>flýtir</w>
@@ -1589,7 +1597,13 @@
   <w>öll</w>
   <w>hreyfing</w>
   <w>séu</w>
-  <w>góð</w>
+  <revision id="96b">
+    <original><w>góð</w></original>
+    <corrected><w>góðar</w></corrected>
+      <errors>
+        <error xtype="agreement-pred" eid="0" />
+      </errors>
+  </revision>
   <w>til</w>
   <w>endurheimtar</w>
   <c>.</c>
@@ -1914,7 +1928,7 @@
     <original><w>unglinga</w><w>flokknum</w></original>
     <corrected><w>unglingaflokknum</w></corrected>
       <errors>
-        <error xtype="split-compound" eid="0" />
+        <error xtype="compound-split" eid="0" />
       </errors>
   </revision>
   <w>og</w>
@@ -2141,7 +2155,13 @@
   <w>axlir</w>
   <w>niður</w>
   <c>,</c>
-  <w>virka</w>
+  <revision id="128b">
+    <original><w>virka</w></original>
+    <corrected><w>virkja</w></corrected>
+      <errors>
+        <error xtype="missing-letter" eid="0" />
+      </errors>
+  </revision>
   <w>og</w>
   <w>fá</w>
   <w>góða</w>
