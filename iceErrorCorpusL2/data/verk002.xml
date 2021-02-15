@@ -31,21 +31,21 @@
   <w>9. mars</w>
   <w>sl.</w>
   <w>var</w>
-  <revision id="1b">
+  <revision id="1b">
     <original><w>haldið</w></original>
     <corrected></corrected>
       <errors>
-        <error xtype="wording" idx="1b-1" eid="0" />
+        <error xtype="wording" idx="1b-1" eid="0" />
       </errors>
   </revision>
   <w>Hugvísindaþing</w>
   <w>Háskóla</w>
   <w>Íslands</w>
-  <revision id="1c">
+  <revision id="1c">
     <original></original>
     <corrected><w>haldið</w></corrected>
       <errors>
-        <error xtype="dep" depId="1b-1" eid="0" />
+        <error xtype="dep" depId="1b-1" eid="0" />
       </errors>
   </revision>
   <c>.</c>
@@ -179,11 +179,11 @@
       </errors>
   </revision>
   <w>um</w>
-  <revision id="11b">
+  <revision id="11b">
     <original><w>beygingu</w><w>fleirtölu</w></original>
     <corrected><w>fleirtölubeygingu</w></corrected>
       <errors>
-        <error xtype="wording" eid="0" />
+        <error xtype="wording" eid="0" />
       </errors>
   </revision>
   <w>íslenskra</w>
@@ -543,11 +543,11 @@
   <c>.</c>
 </s>
 <s n="15">
-  <revision id="1b">
+  <revision id="42b">
     <original><w>Markmiðið</w></original>
     <corrected><w>Markmið</w></corrected>
        <errors>
-         <error xtype="def4ind" eid="0" />
+         <error xtype="def4ind" eid="0" />
        </errors>
   </revision>
   <w>þeirra</w>
@@ -648,11 +648,11 @@
   <c>(</c>
   <w>t.d.</w>
   <w>hundur</w>
-  <revision id="49b">
+  <revision id="49b">
     <original><c>,</c></original>
     <corrected><w>og</w></corrected>
       <errors>
-        <error xtype="comma4conjunction" eid="0" />
+        <error xtype="comma4conjunction" eid="0" />
       </errors>
   </revision>
   <w>bók</w>
@@ -926,11 +926,11 @@
   <w>börnum</w>
   <w>og</w>
   <w>Vestur-Íslendingum</w>
-  <revision id="69b">
+  <revision id="69b">
     <original><c>,</c></original>
     <corrected></corrected>
       <errors>
-        <error xtype="extra-comma" eid="0" />
+        <error xtype="extra-comma" eid="0" />
       </errors>
   </revision>
   <w>og</w>
@@ -987,7 +987,7 @@
     <corrected><w>óreglulega</w><w>fleirtölu</w></corrected>
       <errors>
       	<error xtype="agreement-concord" idx="74-1" eid="0" />
-        <error xtype="nonword" idx="74-2" eid="0" />
+        <error xtype="nonword" idx="74-2" eid="0" />
       </errors>
   </revision>
   <c>.</c>
@@ -1146,10 +1146,10 @@
     <original><w>fermingaveislan</w></original>
     <corrected><w>fermingarveislur</w><w>voru</w></corrected>
       <errors>
-      	<error xtype="compound-collocation" idx="88-1" eid="0" />
-      	<error xtype="def4ind" idx="88-1" eid="0" />
-      	<error xtype="singular4plural" idx="88-1" eid="0" />
-      	<error xtype="nonword" idx="88-1" eid="0" />
+        <error xtype="compound-collocation" idx="88-1" eid="0" />
+        <error xtype="def4ind" idx="88-1" eid="0" />
+        <error xtype="singular4plural" idx="88-1" eid="0" />
+      	<error xtype="nonword" idx="88-1" eid="0" />
         <error xtype="missing-fin-verb" idx="88-2" eid="0" />
       </errors>
   </revision>
@@ -1278,7 +1278,7 @@
     <original><w>eða</w></original>
     <corrected><w>og</w></corrected>
       <errors>
-        <error xtype="conjunction" eid="0" />
+        <error xtype="conjunction" eid="0" />
       </errors>
   </revision>
   <w>hlustuðu</w>
@@ -1453,11 +1453,11 @@
 </s>
 <s n="36">
   <w>Í</w>
-  <revision id="114b">
+  <revision id="114b">
     <original><w>Bachelorsritgerðinni</w></original>
     <corrected><w>Bachelors-ritgerðinni</w></corrected>
       <errors>
-        <error xtype="missing-hyphen" eid="0" />
+        <error xtype="missing-hyphen" eid="0" />
       </errors>
   </revision>
   <w>minni</w>
@@ -1583,11 +1583,11 @@
   <w>tungumálsins</w>
   <w>í</w>
   <w>Kanada</w>
-  <revision id="122b">
+  <revision id="122b">
     <original><w><w>verður</w><w>tekið</w><w>eftir</w><w>því</w></w></original>
     <corrected><w>sést</w></corrected>
       <errors>
-        <error xtype="wording" eid="0" />
+        <error xtype="wording" eid="0" />
       </errors>
   </revision>
   <w>að</w>
@@ -1626,7 +1626,7 @@
         <error xtype="def4ind" idx="124-1" eid="0" />
         <error xtype="nominal-inflection" idx="124-2" eid="0" />
         <error xtype="genitive" idx="124-2" eid="0" />
-        <error xtype="missing-hyphen" idx="124-2" eid="0" />
+        <error xtype="missing-hyphen" idx="124-2" eid="0" />
       </errors>
   </revision>
   <w>í</w>
