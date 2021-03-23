@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>texti012-2006.xml</title>
+    </titleStmt>
+    <publicationStmt>
+      <distributor>Rannsóknarstofan Mál og tækni</distributor>
+    </publicationStmt>
+    <sourceDesc>
+      <biblStruct>
+        <monogr>
+          <author>Anonymous</author>
+        </monogr>
+      </biblStruct>
+    </sourceDesc>
+  </fileDesc>
+</teiHeader>
+<text><body><p n="1">
+<s n="2">
+  <w>Í</w>
+  <w>Noregi</w>
+  <w>fyrir</w>
+  <w>um</w>
+  <w>1000</w>
+  <w>árum</w>
+  <w>var</w>
+  <w>strákur</w>
+  <w>í</w>
+  <w>fjöru</w>
+  <w>að</w>
+  <w>leika</w>
+  <w>sér</w>
+  <revision id="1">
+    <original><c>,</c><w>hann</w><w>hét</w><w>Ragnar</w></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="wording" idx="1-1" eid="0" />
+      </errors>
+  </revision>
+  <c>.</c>
+</s>
+<s n="3">
+  <w>Hann</w>
+  <revision id="2">
+    <original></original>
+    <corrected><w>hét</w><w>Ragnar</w><w>og</w></corrected>
+      <errors>
+        <error xtype="dep" depId="1-1" eid="0" />
+      </errors>
+  </revision>
+  <w>átti</w>
+  <w>heima</w>
+  <w>í</w>
+  <w>litlu</w>
+  <w>sjávarþorpi</w>
+  <w>með</w>
+  <w>fjölskyldu</w>
+  <w>sinni</w>
+  <c>.</c>
+</s>
+<s n="4">
+  <w>Hann</w>
+  <w>lék</w>
+  <w>sér</w>
+  <w>oft</w>
+  <w>með</w>
+  <w>bræðrum</w>
+  <w>sínum</w>
+  <w>en</w>
+  <revision id="3">
+    <original><w>voru</w><w>þeir</w></original>
+    <corrected><w>þeir</w><w>voru</w></corrected>
+      <errors>
+        <error xtype="wording" eid="0" />
+      </errors>
+  </revision>
+  <w>mikið</w>
+  <w>eldri</w>
+  <w>en</w>
+  <w>hann</w>
+  <w>og</w>
+  <w>voru</w>
+  <w>því</w>
+  <w>mikið</w>
+  <w>á</w>
+  <w>sjó</w>
+  <w>með</w>
+  <w>pabba</w>
+  <revision id="5">
+    <original><w>sínum</w></original>
+    <corrected><w>þeirra</w></corrected>
+      <errors>
+        <error xtype="reflexive4pro" eid="0" />
+      </errors>
+  </revision>
+  <c>.</c>
+</s>
+<s n="5">
+  <w>Einn</w>
+  <w>góðan</w>
+  <w>veðurdag</w>
+  <w>segir</w>
+  <w>Ragnar</w>
+  <w>við</w>
+  <w>mömmu</w>
+  <w>sína</w>
+  <revision id="6">
+    <original><c>‘</c><c>’</c><w>mamma</w></original>
+    <corrected><c>:</c><c>„</c><w>Mamma</w><c>,</c></corrected>
+      <errors>
+        <error xtype="missing-colon" idx="6-1" eid="0" />
+        <error xtype="wrong-quots" idx="6-2" eid="0" />
+        <error xtype="lower4upper-initial" idx="6-3" eid="0" />
+        <error xtype="missing-comma" idx="6-4" eid="0" />
+      </errors>
+  </revision>
+  <w>af</w>
+  <w>hverju</w>
+  <w>fæ</w>
+  <w>ég</w>
+  <w>ekki</w>
+  <w>að</w>
+  <w>fara</w>
+  <w>á</w>
+  <w>sjó</w>
+  <revision id="7">
+    <original><c>’</c><c>’</c><w>mamma</w></original>
+    <corrected><c>?</c><c>“</c><w>Mamma</w></corrected>
+      <errors>
+        <error xtype="missing-qm" idx="7-1" eid="0" />
+        <error xtype="dep" depId="6-2" eid="0" />
+        <error xtype="lower4upper-initial" idx="7-2" eid="0" />
+      </errors>
+  </revision>
+  <w>hans</w>
+  <w>sagði</w>
+  <w>að</w>
+  <w>hann</w>
+  <w>væri</w>
+  <w>nú</w>
+  <w>bara</w>
+  <w>of</w>
+  <w>ungur</w>
+  <w>til</w>
+  <w>þess</w>
+  <c>.</c>
+</s>
+<s n="6">
+  <w>Ragnar</w>
+  <w>reiddist</w>
+  <w>og</w>
+  <w>sagðist</w>
+  <w>ætla</w>
+  <w>sanna</w>
+  <w>fyrir</w>
+  <w>þeim</w>
+  <w>að</w>
+  <w>hann</w>
+  <w>gæti</w>
+  <w>alveg</w>
+  <w>séð</w>
+  <w>um</w>
+  <w>sjálfan</w>
+  <w>sig</w>
+  <c>.</c>
+</s>
+<s n="7">
+  <w>Þá</w>
+  <w>kom</w>
+  <w>pabbi</w>
+  <w>hans</w>
+  <w>með</w>
+  <revision id="8">
+    <original></original>
+    <corrected><w>þá</w></corrected>
+      <errors>
+        <error xtype="missing-word" eid="0" />
+      </errors>
+  </revision>
+  <w>hugmynd</w>
+  <w>að</w>
+  <w>hann</w>
+  <w>gæti</w>
+  <w>hreinlega</w>
+  <w>farið</w>
+  <w>út</w>
+  <w>í</w>
+  <w>skóg</w>
+  <revision id="9">
+    <original></original>
+    <corrected><w>og</w><w>verið</w><w>þar</w></corrected>
+      <errors>
+        <error xtype="missing-words" eid="0" />
+      </errors>
+  </revision>
+  <w>í</w>
+  <w>heilan</w>
+  <w>dag</w>
+  <w>og</w>
+  <w>heila</w>
+  <w>nótt</w>
+  <w>án</w>
+  <revision id="10">
+    <original><w>þess</w><w>að</w><w>hafa</w><w>mat</w></original>
+    <corrected><w>matar</w></corrected>
+      <errors>
+        <error xtype="wording" idx="10-1" eid="0" />
+      </errors>
+  </revision>
+  <w>eða</w>
+  <revision id="11">
+    <original><w>einhver</w><w>verkfæri</w><c>,</c></original>
+    <corrected><w>verkfæra</w><c>.</c></corrected>
+      <errors>
+        <error xtype="dep" depId="10-1" eid="0" />
+        <error xtype="comma4period" eid="0" />
+      </errors>
+  </revision>
+  <w>Ragnar</w>
+  <w>leit</w>
+  <w>hissa</w>
+  <w>á</w>
+  <w>pabba</w>
+  <w>sinn</w>
+  <w>en</w>
+  <w>tók</w>
+  <w>þessu</w>
+  <w>sem</w>
+  <revision id="12">
+    <original><w>góða</w></original>
+    <corrected><w>góðri</w></corrected>
+      <errors>
+        <error xtype="agreement-concord" eid="0" />
+      </errors>
+  </revision>
+  <w>áskorun</w>
+  <w>en</w>
+  <revision id="13">
+    <original><w>í</w><w>leiðinni</w></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="wording" idx="13-1" eid="0" />
+      </errors>
+  </revision>
+  <w>hugsaði</w>
+  <revision id="14">
+    <original><w>hann</w><c>,</c><w>9</w></original>
+    <corrected><w>þó</w><c>:</c><w>níu</w></corrected>
+      <errors>
+        <error xtype="dep" depId="13-1" eid="0" />
+        <error xtype="extra-sub" idx="14-1" eid="0" />
+        <error xtype="comma4colon" idx="14-2" eid="0" />
+        <error xtype="number4word" idx="14-3" eid="0" />
+      </errors>
+  </revision>
+  <w>ára</w>
+  <w>strákur</w>
+  <w>aleinn</w>
+  <w>í</w>
+  <w>skógi</w>
+  <w>þar</w>
+  <w>sem</w>
+  <w>úlfar</w>
+  <w>eða</w>
+  <w>birnir</w>
+  <w>gætu</w>
+  <revision id="15">
+    <original><w>leinst</w><c>.</c></original>
+    <corrected><w>leynst</w><c>?</c></corrected>
+      <errors>
+        <error xtype="y4i" idx="15-1" eid="0" />
+        <error xtype="nonword" idx="15-1" eid="0" />
+        <error xtype="period4qm" idx="15-2" eid="0" />
+      </errors>
+  </revision>
+</s>
+<s n="8">
+  <w>Strax</w>
+  <w>næsta</w>
+  <revision id="16">
+    <original><w>morgunn</w></original>
+    <corrected><w>morgun</w></corrected>
+      <errors>
+        <error xtype="nn4n" idx="16-1" eid="0" />
+        <error xtype="nominal-inflection" idx="16-1" eid="0" />
+      </errors>
+  </revision>
+  <w>fór</w>
+  <w>hann</w>
+  <w>aleinn</w>
+  <w>með</w>
+  <w>ekkert</w>
+  <w>með</w>
+  <w>sér</w>
+  <w>út</w>
+  <w>í</w>
+  <w>skóg</w>
+  <w>og</w>
+  <w>fór</w>
+  <w>strax</w>
+  <w>að</w>
+  <revision id="17">
+    <original><w>finna</w></original>
+    <corrected><w>leita</w><w>að</w></corrected>
+      <errors>
+        <error xtype="wording" eid="0" />
+      </errors>
+  </revision>
+  <w>svæði</w>
+  <w>til</w>
+  <w>að</w>
+  <revision id="18">
+    <original><w>geta</w><w>dvalið</w></original>
+    <corrected><w>vera</w><w>á</w></corrected>
+      <errors>
+        <error xtype="wording" eid="0" />
+      </errors>
+  </revision>
+  <w>um</w>
+  <w>nóttina</w>
+  <revision id="19">
+    <original><c>,</c><w>hann</w></original>
+    <corrected><c>.</c><w>Hann</w></corrected>
+      <errors>
+        <error xtype="comma4period" eid="0" />
+      </errors>
+  </revision>
+  <w>bjó</w>
+  <w>til</w>
+  <w>kofa</w>
+  <w>úr</w>
+  <w>greinum</w>
+  <w>sem</w>
+  <w>var</w>
+  <w>ekki</w>
+  <w>sá</w>
+  <w>fallegasti</w>
+  <w>en</w>
+  <revision id="20">
+    <original><w>var</w><w>betra</w></original>
+    <corrected><w>betri</w></corrected>
+      <errors>
+        <error xtype="extra-word" idx="20-1" eid="0" />
+        <error xtype="adjective-inflection" idx="20-2" eid="0" />
+      </errors>
+  </revision>
+  <w>en</w>
+  <revision id="21">
+    <original><w>ekki</w><w>neitt</w><c>,</c><w>síðan</w></original>
+    <corrected><w>enginn</w><w>og</w></corrected>
+      <errors>
+        <error xtype="wording" idx="21-1" eid="0" />
+        <error xtype="comma4conjunction" idx="21-2" eid="0" />
+        <error xtype="wording" idx="21-3" eid="0" />
+      </errors>
+  </revision>
+  <w>fann</w>
+  <revision id="22">
+    <original><w>hann</w></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="extra-sub" eid="0" />
+      </errors>
+  </revision>
+  <w>sér</w>
+  <revision id="23">
+    <original></original>
+    <corrected><w>svo</w></corrected>
+      <errors>
+        <error xtype="dep" depId="21-3" eid="0" />
+      </errors>
+  </revision>
+  <w>mat</w>
+  <w>í</w>
+  <w>skóginum</w>
+  <c>.</c>
+</s>
+<s n="9">
+  <w>Hann</w>
+  <w>bjó</w>
+  <w>til</w>
+  <w>boga</w>
+  <w>úr</w>
+  <w>greinum</w>
+  <w>og</w>
+  <w>teygju</w>
+  <w>sem</w>
+  <w>var</w>
+  <w>í</w>
+  <w>buxunum</w>
+  <w>hans</w>
+  <w>og</w>
+  <w>fór</w>
+  <w>að</w>
+  <w>leita</w>
+  <w>að</w>
+  <w>dádýrum</w>
+  <c>,</c>
+  <w>kanínum</w>
+  <w>eða</w>
+  <revision id="24">
+    <original><w>einhver</w><w>dýr</w></original>
+    <corrected><w>einhverju</w><w>dýri</w></corrected>
+      <errors>
+        <error xtype="plural4singular" idx="24-1" eid="0" />
+        <error xtype="nominal-inflection" idx="24-1" eid="0" />
+        <error xtype="case-prep" idx="24-1" eid="0" />
+      </errors>
+  </revision>
+  <w>sem</w>
+  <w>hann</w>
+  <w>gæti</w>
+  <w>eldað</w>
+  <c>.</c>
+</s>
+<s n="10">
+  <w>Þegar</w>
+  <w>hann</w>
+  <w>var</w>
+  <w>í</w>
+  <w>leit</w>
+  <w>að</w>
+  <w>dýri</w>
+  <w>var</w>
+  <w>hann</w>
+  <w>svo</w>
+  <w>óheppinn</w>
+  <w>að</w>
+  <w>rekast</w>
+  <w>á</w>
+  <w>villigölt</w>
+  <revision id="25">
+    <original><c>,</c></original>
+    <corrected><c>.</c></corrected>
+      <errors>
+        <error xtype="comma4period" eid="0" />
+      </errors>
+  </revision>
+  <w>Ragnar</w>
+  <w>öskraði</w>
+  <w>en</w>
+  <w>mundi</w>
+  <w>að</w>
+  <w>pabbi</w>
+  <w>hans</w>
+  <w>hafði</w>
+  <w>sagt</w>
+  <w>að</w>
+  <w>ef</w>
+  <w>göltur</w>
+  <w>eltir</w>
+  <w>þig</w>
+  <w>þá</w>
+  <w>hleypur</w>
+  <w>þú</w>
+  <w>eins</w>
+  <w>hratt</w>
+  <w>og</w>
+  <w>þú</w>
+  <w>getur</w>
+  <w>og</w>
+  <w>lætur</w>
+  <w>göltinn</w>
+  <w>elta</w>
+  <w>þig</w>
+  <c>,</c>
+  <w>síðan</w>
+  <w>ferðu</w>
+  <w>framhjá</w>
+  <revision id="26">
+    <original><w>einhverju</w></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="extra-word" eid="0" />
+      </errors>
+  </revision>
+  <w>tré</w>
+  <w>og</w>
+  <w>stekkur</w>
+  <revision id="27">
+    <original><w>fyrir</w><w>bakvið</w></original>
+    <corrected><w>bak</w><w>við</w></corrected>
+      <errors>
+        <error xtype="extra-prep" idx="27-1" eid="0" />
+        <error xtype="merged-words" idx="27-2" eid="0" />
+        <error xtype="nonword" idx="27-2" eid="0" />
+      </errors>
+  </revision>
+  <w>það</w>
+  <revision id="28">
+    <original><c>,</c><w>þá</w></original>
+    <corrected><c>.</c><w>Þá</w></corrected>
+      <errors>
+        <error xtype="comma4period" eid="0" />
+      </errors>
+  </revision>
+  <w>ætti</w>
+  <w>gölturinn</w>
+  <w>að</w>
+  <w>hlaupa</w>
+  <w>á</w>
+  <w>tréð</w>
+  <w>og</w>
+  <w>þá</w>
+  <w>ertu</w>
+  <w>kominn</w>
+  <w>með</w>
+  <w>aldeilis</w>
+  <w>góðan</w>
+  <w>kvöldmat</w>
+  <c>.</c>
+</s>
+<s n="11">
+  <w>Þegar</w>
+  <w>Ragnar</w>
+  <w>var</w>
+  <revision id="29">
+    <original><w>búin</w></original>
+    <corrected><w>búinn</w></corrected>
+      <errors>
+        <error xtype="agreement-pred" idx="29-1" eid="0" />
+        <error xtype="n4nn" idx="29-1" eid="0" />
+      </errors>
+  </revision>
+  <w>að</w>
+  <w>borða</w>
+  <w>fór</w>
+  <w>hann</w>
+  <w>glaður</w>
+  <w>að</w>
+  <w>sofa</w>
+  <c>.</c>
+</s>
+<s n="12">
+  <w>Næsta</w>
+  <w>dag</w>
+  <w>fór</w>
+  <w>hann</w>
+  <w>valhoppandi</w>
+  <w>heim</w>
+  <w>til</w>
+  <w>sín</w>
+  <w>og</w>
+  <w>sagði</w>
+  <w>fjölskyldunni</w>
+  <w>alla</w>
+  <w>söguna</w>
+  <revision id="30">
+    <original><c>,</c><w>eftir</w></original>
+    <corrected><c>.</c><w>Eftir</w></corrected>
+      <errors>
+        <error xtype="comma4period" eid="0" />
+      </errors>
+  </revision>
+  <w>það</w>
+  <w>samþykkti</w>
+  <w>pabbi</w>
+  <w>hans</w>
+  <w>að</w>
+  <w>hann</w>
+  <revision id="31">
+    <original><w>gæti</w><w>farið</w></original>
+    <corrected><w>færi</w></corrected>
+      <errors>
+        <error xtype="wording" eid="0" />
+      </errors>
+  </revision>
+  <w>með</w>
+  <w>en</w>
+  <w>hann</w>
+  <w>þyrfti</w>
+  <w>að</w>
+  <w>fara</w>
+  <w>í</w>
+  <w>nokkrar</w>
+  <w>kennslustundir</w>
+  <w>með</w>
+  <w>honum</w>
+  <revision id="32">
+    <original></original>
+    <corrected><w>til</w><w>að</w><w>læra</w></corrected>
+      <errors>
+        <error xtype="missing-conjunction" idx="32-1" eid="0" />
+        <error xtype="missing-word" idx="32-2" eid="0" />
+      </errors>
+  </revision>
+  <w>hvernig</w>
+  <w>þetta</w>
+  <w>virkaði</w>
+  <w>á</w>
+  <w>sjónum</w>
+  <c>.</c>
+</s>
+</p></body></text>
+</TEI>
