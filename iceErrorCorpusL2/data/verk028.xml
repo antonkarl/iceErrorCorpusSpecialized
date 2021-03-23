@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>verk028.xml</title>
+    </titleStmt>
+    <publicationStmt>
+      <distributor>Rannsóknarstofan Mál og tækni</distributor>
+    </publicationStmt>
+    <sourceDesc>
+      <biblStruct>
+        <monogr>
+          <author>Oksana Kochubey</author>
+        </monogr>
+      </biblStruct>
+    </sourceDesc>
+  </fileDesc>
+</teiHeader>
+<text><body><p n="1">
+<s n="1">
+  <w>Landið</w>
+  <w>mitt</w>
+  <c>.</c>
+</s>
+<s n="2">
+  <w>Þegar</w>
+  <w>ég</w>
+  <w>segi</w>
+  <c>:</c>
+  <revision id="1">
+    <original><c>“</c></original>
+    <corrected><c>„</c></corrected>
+      <errors>
+        <error xtype="wrong-quots" idx="1-1" eid="0" />
+      </errors>
+  </revision>
+  <w>Ég</w>
+  <w>er</w>
+  <w>frá</w>
+  <w>Úkraínu</w>
+  <revision id="2">
+    <original><c>”</c></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="dep" depId="1-1" eid="0" />
+        <error xtype="misplaced-quot" idx="2-1" eid="0" />
+      </errors>
+  </revision>
+  <c>,</c>
+  <revision id="3">
+    <original></original>
+    <corrected><c>“</c></corrected>
+      <errors>
+        <error xtype="dep" depId="2-1" eid="0" />
+      </errors>
+  </revision>
+  <w>spyr</w>
+  <w>fólk</w>
+  <w>strax</w>
+  <c>:</c>
+  <revision id="4">
+    <original><c>“</c></original>
+    <corrected><c>„</c></corrected>
+      <errors>
+        <error xtype="wrong-quots" idx="4-1" eid="0" />
+      </errors>
+  </revision>
+  <w>Þar</w>
+  <w>sem</w>
+  <w>Tsjernobyl</w>
+  <w>er</w>
+  <c>?</c>
+  <revision id="5">
+    <original><c>”</c><c>.</c></original>
+    <corrected><c>“</c></corrected>
+      <errors>
+        <error xtype="dep" depId="4-1" eid="0" />
+        <error xtype="extra-period" idx="5-1" eid="0" />
+      </errors>
+  </revision>
+</s>
+<s n="3">
+  <w>Það</w>
+  <w>er</w>
+  <revision id="6">
+    <original><w>sorgleg</w><w>saga</w><w>af</w></original>
+    <corrected><w>sorglegt</w></corrected>
+      <errors>
+        <error xtype="wording" idx="6-1" eid="0" />
+        <error xtype="extra-word" idx="6-2" eid="0" />
+      </errors>
+  </revision>
+  <w>því</w>
+  <w>að</w>
+  <revision id="7">
+    <original><w>árið</w><w>nítján</w><w>hundruð</w><w>áttatíu</w><w>og</w><w>sex</w><w>var</w></original>
+    <corrected><w>árið 1986</w><w>varð</w></corrected>
+      <errors>
+        <error xtype="number4word" idx="7-1" eid="0" />
+        <error xtype="aux" idx="7-2" eid="0" />
+      </errors>
+  </revision>
+  <w>hrikalegt</w>
+  <w>slys</w>
+  <c>,</c>
+  <w>ekki</w>
+  <w>bara</w>
+  <w>þáttaröð</w>
+  <revision id="8">
+    <original><w>á</w></original>
+    <corrected><w>í</w></corrected>
+      <errors>
+        <error xtype="wrong-prep" eid="0" />
+      </errors>
+  </revision>
+  <w>sjónvarpinu</w>
+  <c>.</c>
+</s>
+<s n="4">
+  <w>Núna</w>
+  <w>ætla</w>
+  <w>ég</w>
+  <w>að</w>
+  <w>segja</w>
+  <w>þér</w>
+  <w>aðra</w>
+  <w>sögu</w>
+  <w>af</w>
+  <w>landinu</w>
+  <w>mínu</w>
+  <w>sem</w>
+  <revision id="9">
+    <original><w>finnst</w></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="v3-subordinate" idx="9-1" eid="0" />
+      </errors>
+  </revision>
+  <w>mér</w>
+  <revision id="10">
+    <original></original>
+    <corrected><w>finnst</w></corrected>
+      <errors>
+        <error xtype="dep" depId="9-1" eid="0" />
+      </errors>
+  </revision>
+  <w>miklu</w>
+  <w>betri</w>
+  <w>en</w>
+  <revision id="11">
+    <original><w>saga</w></original>
+    <corrected><w>sagan</w></corrected>
+      <errors>
+        <error xtype="ind4def" eid="0" />
+      </errors>
+  </revision>
+  <w>af</w>
+  <w>Tsjernobyl</w>
+  <c>.</c>
+</s>
+<s n="5">
+  <w>Fallegt</w>
+  <w>landið</w>
+  <w>mitt</w>
+  <w>er</w>
+  <w>í</w>
+  <w>hjarta</w>
+  <w>Evrópu</w>
+  <c>.</c>
+</s>
+<s n="6">
+  <w>Að</w>
+  <w>mestu</w>
+  <w>leyti</w>
+  <w>er</w>
+  <w>það</w>
+  <w>flöt</w>
+  <w>slétta</w>
+  <revision id="12">
+    <original><c>,</c></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="extra-comma" eid="0" />
+      </errors>
+  </revision>
+  <w>en</w>
+  <w>í</w>
+  <w>vestri</w>
+  <w>eru</w>
+  <w>Karpatafjöll</w>
+  <c>.</c>
+</s>
+<s n="7">
+  <w>Það</w>
+  <w>eru</w>
+  <w>miklir</w>
+  <w>skógar</w>
+  <w>í</w>
+  <w>norðri</w>
+  <w>og</w>
+  <w>vestri</w>
+  <c>,</c>
+  <w>og</w>
+  <w>í</w>
+  <w>suðri</w>
+  <w>eru</w>
+  <w>Svartahaf</w>
+  <w>og</w>
+  <w>Azovhaf</w>
+  <c>.</c>
+</s>
+<s n="8">
+  <revision id="13">
+    <original><w>Það</w></original>
+    <corrected><w>Þar</w></corrected>
+      <errors>
+        <error xtype="wording" eid="0" />
+      </errors>
+  </revision>
+  <w>eru</w>
+  <w>mörg</w>
+  <w>stór</w>
+  <w>fljót</w>
+  <c>,</c>
+  <w>eins</w>
+  <w>og</w>
+  <w>Dnjepr</w>
+  <c>,</c>
+  <w>fjórða</w>
+  <w>stærsta</w>
+  <w>fljót</w>
+  <w>Evrópu</w>
+  <c>.</c>
+</s>
+<s n="9">
+  <w>Aftur</w>
+  <w>í</w>
+  <w>aldir</w>
+  <revision id="14">
+    <original><w>vor</w><w>fólk</w></original>
+    <corrected><w>voru</w><w>ýmsir</w><w>þjóðflokkar</w><w>í</w><w>landinu</w><w>mínu</w></corrected>
+      <errors>
+        <error xtype="letter-rep" idx="14-1" eid="0" />
+        <error xtype="wording" idx="14-2" eid="0" />
+        <error xtype="wording" idx="14-3" eid="0" />
+      </errors>
+  </revision>
+  <c>,</c>
+  <revision id="15">
+    <original><w>eins</w><w>og</w></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="extra-words" eid="0" />
+      </errors>
+  </revision>
+  <w>til</w>
+  <w>dæmis</w>
+  <w>Grikkir</w>
+  <c>,</c>
+  <revision id="16">
+    <original><w>Skýti</w></original>
+    <corrected><w>Skýþar</w></corrected>
+      <errors>
+        <error xtype="nonword" eid="0" />
+      </errors>
+  </revision>
+  <c>,</c>
+  <w>Sarmatíumenn</w>
+  <c>,</c>
+  <w>Gotar</w>
+  <c>,</c>
+  <w>Húnar</w>
+  <revision id="17">
+    <original><c>,</c><w>Búlgarir</w><c>,</c><w>í</w><w>landinu</w><w>mínu</w></original>
+    <corrected><w>og</w><w>Búlgarar</w></corrected>
+      <errors>
+        <error xtype="comma4conjunction" idx="17-1" eid="0" />
+        <error xtype="letter-rep" idx="17-2" eid="0" />
+        <error xtype="nonword" idx="17-2" eid="0" />
+        <error xtype="extra-comma" idx="17-3" eid="0" />
+        <error xtype="dep" depId="14-3" eid="0" />
+      </errors>
+  </revision>
+  <c>.</c>
+</s>
+<s n="10">
+  <revision id="18">
+    <original><w>Í</w><w>sjöttu</w></original>
+    <corrected><w>Á</w><w>6.</w></corrected>
+      <errors>
+        <error xtype="wrong-prep" idx="18-1" eid="0" />
+        <error xtype="word4number" idx="18-2" eid="0" />
+      </errors>
+  </revision>
+  <w>öld</w>
+  <revision id="19">
+    <original><w>komu</w><w>Slafar</w><w>til</w><w>að</w><w>búa</w><w>þar</w></original>
+    <corrected><w>fluttu</w><w>einnig</w><w>Slavar</w><w>þangað</w></corrected>
+      <errors>
+        <error xtype="word4number" idx="19-1" eid="0" />
+        <error xtype="letter-rep" idx="19-2" eid="0" />
+        <error xtype="hypercorr" idx="19-2" eid="0" />
+      </errors>
+  </revision>
+  <c>.</c>
+</s>
+<s n="11">
+  <revision id="20">
+    <original><w>Vinstri</w></original>
+    <corrected><w>Vinstra</w></corrected>
+      <errors>
+        <error xtype="agreement-concord" eid="0" />
+      </errors>
+  </revision>
+  <w>megin</w>
+  <w>við</w>
+  <w>Dnjepr</w>
+  <w>var</w>
+  <w>land</w>
+  <revision id="21">
+    <original><w>af</w><w>Kazara</w></original>
+    <corrected><w>Kazaranna</w></corrected>
+      <errors>
+        <error xtype="extra-prep" idx="21-1" eid="0" />
+        <error xtype="ind4def" idx="21-2" eid="0" />
+        <error xtype="genitive" idx="21-2" eid="0" />
+      </errors>
+  </revision>
+  <w>sem</w>
+  <revision id="22">
+    <original><w>áttu</w><w>viðskipta</w><w>með</w><w>Víkingum</w></original>
+    <corrected><w>stunduðu</w><w>viðskipti</w><w>við</w><w>víkinga</w></corrected>
+      <errors>
+        <error xtype="wording" idx="22-1" eid="0" />
+        <error xtype="nominal-inflection" idx="22-2" eid="0" />
+        <error xtype="case-verb" idx="22-2" eid="0" />
+        <error xtype="wrong-prep" idx="22-3" eid="0" />
+        <error xtype="upper4lower-common" idx="22-4" eid="0" />
+      </errors>
+  </revision>
+  <c>.</c>
+</s>
+<s n="12">
+  <w>Þannig</w>
+  <w>komu</w>
+  <revision id="23">
+    <original><w>Víkingar</w></original>
+    <corrected><w>víkingar</w></corrected>
+      <errors>
+        <error xtype="upper4lower-common" eid="0" />
+      </errors>
+  </revision>
+  <w>til</w>
+  <w>landsins</w>
+  <w>míns</w>
+  <w>og</w>
+  <w>seinna</w>
+  <c>,</c>
+  <revision id="24">
+    <original><w>árið</w><w>átta</w><w>hundruð</w><w>áttatíu</w><w>og</w><w>tvö</w></original>
+    <corrected><w>árið 882</w></corrected>
+      <errors>
+        <error xtype="word4number" eid="0" />
+      </errors>
+  </revision>
+  <c>,</c>
+  <w>tóku</w>
+  <revision id="25">
+    <original><w>þau</w></original>
+    <corrected><w>þeir</w></corrected>
+      <errors>
+        <error xtype="agreement-pro" eid="0" />
+      </errors>
+  </revision>
+  <w>Kænugarð</w>
+  <w>og</w>
+  <w>stofnuðu</w>
+  <w>ríki</w>
+  <w>sem</w>
+  <w>hét</w>
+  <w>Garðaríki</w>
+  <c>(</c>
+  <w>Kýevan</w>
+  <w>Rús</w>
+  <c>)</c>
+  <c>.</c>
+</s>
+<s n="13">
+  <w>Viðskipti</w>
+  <revision id="26">
+    <original><w>var</w></original>
+    <corrected><w>voru</w></corrected>
+      <errors>
+        <error xtype="agreement" eid="0" />
+      </errors>
+  </revision>
+  <w>mjög</w>
+  <revision id="27">
+    <original><w>mikilvægt</w></original>
+    <corrected><w>mikilvæg</w></corrected>
+      <errors>
+        <error xtype="agreement-pred" eid="0" />
+      </errors>
+  </revision>
+  <w>og</w>
+  <revision id="28">
+    <original><w>norræna</w></original>
+    <corrected><w>norrænir</w></corrected>
+      <errors>
+        <error xtype="agreement-concord" eid="0" />
+      </errors>
+  </revision>
+  <w>menn</w>
+  <w>notuðu</w>
+  <w>Dnjepr</w>
+  <w>eins</w>
+  <w>og</w>
+  <revision id="29">
+    <original><w>vegur</w></original>
+    <corrected><w>veg</w></corrected>
+      <errors>
+        <error xtype="nominal-inflection" idx="29-1" eid="0" />
+        <error xtype="case-verb" idx="29-1" eid="0" />
+      </errors>
+  </revision>
+  <w>frá</w>
+  <revision id="30">
+    <original><w>Eystrasalt</w></original>
+    <corrected><w>Eystrasalti</w></corrected>
+      <errors>
+        <error xtype="nominal-inflection" idx="30-1" eid="0" />
+        <error xtype="case-prep" idx="30-1" eid="0" />
+      </errors>
+  </revision>
+  <w>til</w>
+  <revision id="31">
+    <original><w>Svartahaf</w></original>
+    <corrected><w>Svartahafs</w></corrected>
+      <errors>
+        <error xtype="nominal-inflection" idx="31-1" eid="0" />
+        <error xtype="case-prep" idx="31-1" eid="0" />
+      </errors>
+  </revision>
+  <c>.</c>
+</s>
+<s n="14">
+  <w>Víkingar</w>
+  <w>fóru</w>
+  <w>til</w>
+  <w>Miklagarðs</w>
+  <w>til</w>
+  <w>að</w>
+  <w>selja</w>
+  <w>feldi</w>
+  <c>,</c>
+  <w>hveiti</w>
+  <w>og</w>
+  <w>þræla</w>
+  <w>og</w>
+  <w>komu</w>
+  <w>til</w>
+  <w>baka</w>
+  <w>með</w>
+  <w>vopn</w>
+  <c>,</c>
+  <w>skartgripi</w>
+  <c>,</c>
+  <w>föt</w>
+  <w>og</w>
+  <w>vín</w>
+  <c>.</c>
+</s>
+<s n="15">
+  <w>Garðaríki</w>
+  <w>var</w>
+  <w>stærsta</w>
+  <w>og</w>
+  <w>öflugasta</w>
+  <w>ríki</w>
+  <w>í</w>
+  <w>Evrópu</w>
+  <w>á</w>
+  <revision id="32">
+    <original><w>tíundi</w></original>
+    <corrected><w>10.</w></corrected>
+      <errors>
+        <error xtype="word4number" idx="32-1" eid="0" />
+        <error xtype="agreement-concord" idx="32-1" eid="0" />
+      </errors>
+  </revision>
+  <w>og</w>
+  <revision id="33">
+    <original><w>ellefti</w></original>
+    <corrected><w>11.</w></corrected>
+      <errors>
+        <error xtype="word4number" idx="33-1" eid="0" />
+        <error xtype="agreement-concord" idx="33-1" eid="0" />
+      </errors>
+  </revision>
+  <w>öld</w>
+  <c>.</c>
+</s>
+<s n="16">
+  <w>Á</w>
+  <revision id="34">
+    <original><w>milli</w><w>þrettánda</w><w>aldar</w></original>
+    <corrected><w>miðri</w><w>13.</w><w>öld</w></corrected>
+      <errors>
+        <error xtype="wording" idx="34-1" eid="0" />
+        <error xtype="word4number" idx="34-2" eid="0" />
+        <error xtype="agreement-concord" idx="34-2" eid="0" />
+        <error xtype="nominal-inflection" idx="34-3" eid="0" />
+      </errors>
+  </revision>
+  <w>tóku</w>
+  <w>Mongólar</w>
+  <w>landið</w>
+  <w>mitt</w>
+  <w>og</w>
+  <w>seinna</w>
+  <revision id="35">
+    <original><w>var</w></original>
+    <corrected><w>varð</w></corrected>
+      <errors>
+        <error xtype="aux" eid="0" />
+      </errors>
+  </revision>
+  <w>Úkraína</w>
+  <w>hluti</w>
+  <w>af</w>
+  <w>Póllandi</w>
+  <c>,</c>
+  <w>Austurríki</w>
+  <c>,</c>
+  <w>Rússlandi</w>
+  <w>og</w>
+  <revision id="36">
+    <original><w>Sovétríkin</w></original>
+    <corrected><w>Sovétríkjunum</w></corrected>
+      <errors>
+        <error xtype="nominal-inflection" idx="36-1" eid="0" />
+        <error xtype="case-prep" idx="36-1" eid="0" />
+      </errors>
+  </revision>
+  <c>.</c>
+</s>
+<s n="17">
+  <w>Loksins</w>
+  <revision id="37">
+    <original><w>árið</w><w>nítján</w><w>hundruð</w><w>níutíu</w><w>og</w><w>eitt</w></original>
+    <corrected><w>árið 1991</w></corrected>
+      <errors>
+        <error xtype="word4number" eid="0" />
+      </errors>
+  </revision>
+  <w>varð</w>
+  <w>Úkraína</w>
+  <w>sjálfstætt</w>
+  <w>ríki</w>
+  <c>.</c>
+</s>
+<s n="18">
+  <w>Núna</w>
+  <w>er</w>
+  <w>Úkraína</w>
+  <w>annað</w>
+  <w>stærsta</w>
+  <w>land</w>
+  <w>Evrópu</w>
+  <c>,</c>
+  <w>rúmlega</w>
+  <revision id="38">
+    <original><w>sex</w><w>hundruð</w><w>þúsund</w><w>ferkílómetrar</w><w>af</w><w>svæðum</w></original>
+    <corrected><w>600.000</w><w>ferkílómetra</w><w>landsvæði</w></corrected>
+      <errors>
+        <error xtype="word4number" idx="38-1" eid="0" />
+        <error xtype="wording" idx="38-2" eid="0" />
+      </errors>
+  </revision>
+  <c>.</c>
+</s>
+<s n="19">
+  <revision id="39">
+    <original><w>Höfuðborgið</w></original>
+    <corrected><w>Höfuðborgin</w></corrected>
+      <errors>
+        <error xtype="letter-rep" idx="39-1" eid="0" />
+        <error xtype="nonword" idx="39-1" eid="0" />
+      </errors>
+  </revision>
+  <w>heitir</w>
+  <w>Kíev</w>
+  <c>,</c>
+  <w>eða</w>
+  <w>Kænugarður</w>
+  <c>,</c>
+  <w>og</w>
+  <w>þrjár</w>
+  <w>milljónir</w>
+  <w>manna</w>
+  <w>búa</w>
+  <w>þar</w>
+  <c>.</c>
+</s>
+<s n="20">
+  <w>Íbúar</w>
+  <w>Úkraínu</w>
+  <w>eru</w>
+  <w>tæplega</w>
+  <revision id="40">
+    <original><w>fjörutíu</w><w>og</w><w>tvær</w></original>
+    <corrected><w>42</w></corrected>
+      <errors>
+        <error xtype="word4number" eid="0" />
+      </errors>
+  </revision>
+  <w>milljónir</w>
+  <c>.</c>
+</s>
+<s n="21">
+  <w>Úkraínska</w>
+  <w>er</w>
+  <w>opinbert</w>
+  <w>tungumál</w>
+  <revision id="41">
+    <original><c>,</c></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="extra-comma" eid="0" />
+      </errors>
+  </revision>
+  <w>en</w>
+  <w>fólk</w>
+  <revision id="42">
+    <original></original>
+    <corrected><w>þar</w></corrected>
+      <errors>
+        <error xtype="missing-word" eid="0" />
+      </errors>
+  </revision>
+  <w>talar</w>
+  <w>líka</w>
+  <w>mjög</w>
+  <w>góða</w>
+  <w>rússnesku</w>
+  <c>.</c>
+</s>
+</p></body></text>
+</TEI>
