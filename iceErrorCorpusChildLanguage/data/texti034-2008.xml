@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>texti034-2008</title>
+    </titleStmt>
+    <publicationStmt>
+      <distributor>Rannsóknarstofan Mál og tækni</distributor>
+    </publicationStmt>
+    <sourceDesc>
+      <biblStruct>
+        <monogr>
+          <author>Anonymous</author>
+        </monogr>
+      </biblStruct>
+    </sourceDesc>
+  </fileDesc>
+</teiHeader>
+<text><body><p n="1">
+<s n="2">
+  <w>Í</w>
+  <w>gærkvöldi</w>
+  <w>var</w>
+  <w>Ófeigi</w>
+  <w>Pálssyni</w>
+  <revision id="1">
+    <original></original>
+    <corrected><c>,</c></corrected>
+      <errors>
+        <error xtype="missing-commas" idx="1-1" eid="0" />
+      </errors>
+  </revision>
+  <w>29</w>
+  <w>ára</w>
+  <w>gömlum</w>
+  <w>björgunarsveitarmanni</w>
+  <w>frá</w>
+  <w>Húsavík</w>
+  <revision id="2">
+    <original><w>veitt</w></original>
+    <corrected><c>,</c><w>veittur</w></corrected>
+      <errors>
+        <error xtype="dep" depId="1-1" eid="0" />
+        <error xtype="new-passive" eid="0" />
+      </errors>
+  </revision>
+  <revision id="2b">
+    <original><w>Hetjubikarinn</w></original>
+    <corrected><w>hetjubikarinn</w></corrected>
+      <errors>
+        <error xtype="upper4lower-common" eid="0" />
+      </errors>
+  </revision>
+  <w>við</w>
+  <w>virðulega</w>
+  <w>heimsendingu</w>
+  <w>því</w>
+  <w>að</w>
+  <w>það</w>
+  <w>mátti</w>
+  <w>ekki</w>
+  <w>hitta</w>
+  <revision id="3">
+    <original><w>svona</w></original>
+    <corrected><w>of</w></corrected>
+      <errors>
+        <error xtype="wording" eid="0" />
+      </errors>
+  </revision>
+  <w>marga</w>
+  <w>út</w>
+  <w>af</w>
+  <revision id="4">
+    <original><w>covid</w></original>
+    <corrected><w>faraldrinum</w></corrected>
+      <errors>
+        <error xtype="wording" eid="0" />
+      </errors>
+  </revision>
+  <c>.</c>
+</s>
+<s n="3">
+  <w>Hann</w>
+  <w>fékk</w>
+  <revision id="4b">
+    <original><w>Hetjubikarinn</w></original>
+    <corrected><w>hetjubikarinn</w></corrected>
+      <errors>
+        <error xtype="upper4lower-common" eid="0" />
+      </errors>
+  </revision>
+  <w>fyrir</w>
+  <w>að</w>
+  <w>bjarga</w>
+  <revision id="5">
+    <original><w>bláhettu</w></original>
+    <corrected><w>Bláhettu</w></corrected>
+      <errors>
+        <error xtype="lower4upper-proper" eid="0" />
+      </errors>
+  </revision>
+  <w>og</w>
+  <w>ömmu</w>
+  <w>hennar</w>
+  <w>frá</w>
+  <w>því</w>
+  <w>að</w>
+  <w>vera</w>
+  <revision id="6">
+    <original><w>étin</w></original>
+    <corrected><w>étnar</w></corrected>
+      <errors>
+        <error xtype="agreement-pred" eid="0" />
+      </errors>
+  </revision>
+  <w>af</w>
+  <revision id="7">
+    <original><w>grimma</w><w>blóðuga</w></original>
+    <corrected><w>grimmum</w><c>,</c><w>blóðugum</w></corrected>
+      <errors>
+        <error xtype="agreement-concord" idx="7-1" eid="0" />
+        <error xtype="missing-comma" idx="7-2" eid="0" />
+        <error xtype="agreement-concord" idx="7-3" eid="0" />
+      </errors>
+  </revision>
+  <w>ísbirni</w>
+  <c>.</c>
+</s>
+<s n="4">
+  <w>Í</w>
+  <w>febrúar</w>
+  <w>fór</w>
+  <w>Ófeigur</w>
+  <revision id="8">
+    <original></original>
+    <corrected><w>mikið</w></corrected>
+      <errors>
+        <error xtype="wording" idx="8-1" eid="0" />
+      </errors>
+  </revision>
+  <w>í</w>
+  <w>ræktina</w>
+  <revision id="9">
+    <original><w>mjög</w><w>mikið</w></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="dep" depId="8-1" eid="0" />
+      </errors>
+  </revision>
+  <w>og</w>
+  <w>æfði</w>
+  <w>sig</w>
+  <w>á</w>
+  <w>byssu</w>
+  <w>sem</w>
+  <w>kom</w>
+  <w>svo</w>
+  <w>að</w>
+  <w>góðum</w>
+  <w>notum</w>
+  <revision id="10">
+    <original><c>.</c><w>Því</w></original>
+    <corrected><c>,</c><w>því</w></corrected>
+      <errors>
+        <error xtype="period4comma" eid="0" />
+      </errors>
+  </revision>
+  <w>að</w>
+  <w>hann</w>
+  <w>hitti</w>
+  <revision id="11">
+    <original><w>ísbjörnin</w></original>
+    <corrected><w>ísbjörninn</w></corrected>
+      <errors>
+        <error xtype="n4nn" idx="11-1" eid="0" />
+        <error xtype="nonword" idx="11-1" eid="0" />
+      </errors>
+  </revision>
+  <w>á</w>
+  <revision id="12">
+    <original><w>réttum</w></original>
+    <corrected><w>réttan</w></corrected>
+      <errors>
+        <error xtype="agreement-concord" eid="0" />
+      </errors>
+  </revision>
+  <w>stað</w>
+  <w>þannig</w>
+  <revision id="13">
+    <original></original>
+    <corrected><w>að</w></corrected>
+      <errors>
+        <error xtype="missing-conjunction" eid="0" />
+      </errors>
+  </revision>
+  <w>hann</w>
+  <w>dó</w>
+  <w>ekki</w>
+  <revision id="14">
+    <original><w>samt</w></original>
+    <corrected><w>en</w></corrected>
+      <errors>
+        <error xtype="missing-conjunction" idx="14-1" eid="0" />
+        <error xtype="wording" idx="14-2" eid="0" />
+      </errors>
+  </revision>
+  <w>bjargaði</w>
+  <revision id="15">
+    <original><w>hann</w><w>bláhettu</w></original>
+    <corrected><w>samt</w><w>Bláhettu</w></corrected>
+      <errors>
+        <error xtype="extra-sub" idx="15-1" eid="0" />
+        <error xtype="dep" depId="14-2" eid="0" />
+        <error xtype="lower4upper-proper" idx="15-2" eid="0" />
+      </errors>
+  </revision>
+  <w>og</w>
+  <w>ömmu</w>
+  <w>hennar</w>
+  <c>.</c>
+</s>
+<s n="5">
+  <w>Ófeigur</w>
+  <w>sagði</w>
+  <w>að</w>
+  <w>hann</w>
+  <w>vildi</w>
+  <w>frekar</w>
+  <revision id="16">
+    <original><w>fá</w></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="extra-word" eid="0" />
+      </errors>
+  </revision>
+  <w>fálkaorðuna</w>
+  <revision id="16b">
+    <original><w>heldur</w></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="extra-conjunction" eid="0" />
+      </errors>
+  </revision>
+  <w>en</w>
+  <revision id="16c">
+    <original><w>Hetjubikarinn</w></original>
+    <corrected><w>hetjubikarinn</w></corrected>
+      <errors>
+        <error xtype="upper4lower-common" eid="0" />
+      </errors>
+  </revision>
+  <w>og</w>
+  <w>hann</w>
+  <w>sagði</w>
+  <w>að</w>
+  <w>hann</w>
+  <revision id="18">
+    <original><w>bjargaði</w></original>
+    <corrected><w>hefði</w><w>bjargað</w></corrected>
+      <errors>
+        <error xtype="ind4sub" idx="18-1" eid="0" />
+        <error xtype="verb-inflection" idx="18-1" eid="0" />
+      </errors>
+  </revision>
+  <w>tveim</w>
+  <w>manneskjum</w>
+  <revision id="19">
+    <original></original>
+    <corrected><c>,</c></corrected>
+      <errors>
+        <error xtype="missing-commas" idx="19-1" eid="0" />
+      </errors>
+  </revision>
+  <w>eins</w>
+  <w>og</w>
+  <revision id="20">
+    <original><w>þau</w><w>vissu</w></original>
+    <corrected><w>fólk</w><w>vissi</w></corrected>
+      <errors>
+        <error xtype="pro4noun" eid="0" />
+      </errors>
+  </revision>
+  <w>það</w>
+  <w>ekki</w>
+  <revision id="21">
+    <original></original>
+    <corrected><c>,</c></corrected>
+      <errors>
+        <error xtype="dep" depId="19-1" eid="0" />
+      </errors>
+  </revision>
+  <w>en</w>
+  <w>hann</w>
+  <w>tók</w>
+  <w>bikarinn</w>
+  <revision id="22">
+    <original><w>og</w></original>
+    <corrected><c>,</c></corrected>
+      <errors>
+        <error xtype="conjunction4comma" eid="0" />
+      </errors>
+  </revision>
+  <w>hljóp</w>
+  <w>út</w>
+  <w>og</w>
+  <w>skellti</w>
+  <w>hurðinni</w>
+  <w>á</w>
+  <w>eftir</w>
+  <w>sér</w>
+  <c>.</c>
+</s>
+<s n="6">
+  <revision id="23">
+    <original><w>ísbjörnin</w></original>
+    <corrected><w>Ísbjörninn</w></corrected>
+      <errors>
+        <error xtype="lower4upper-initial" idx="23-1" eid="0" />
+        <error xtype="n4nn" idx="23-1" eid="0" />
+        <error xtype="nonword" idx="23-1" eid="0" />
+      </errors>
+  </revision>
+  <w>var</w>
+  <w>læknaður</w>
+  <w>og</w>
+  <w>sendur</w>
+  <w>á</w>
+  <w>norðurpólinn</w>
+  <c>.</c>
+</s>
+</p></body></text>
+</TEI>
