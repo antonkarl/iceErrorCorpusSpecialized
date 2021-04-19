@@ -506,7 +506,7 @@
         <error xtype="extra-word" idx="26-1" eid="0" />
         <error xtype="style" idx="26-1" eid="0" />
         <error xtype="verb-inflection" idx="26-2" eid="0" />
-        <error xtype="agreement-pred" idx="26-2" eid="0" />
+        <error xtype="agreement" idx="26-2" eid="0" />
       </errors>
   </revision>
   <w>við</w>
@@ -969,7 +969,7 @@
     <original><w>tileinkað</w><w>eingum</w></original>
     <corrected><w>tileinkuð</w><w>engum</w></corrected>
       <errors>
-        <error xtype="agreement-concord" idx="58-1" eid="0" />
+        <error xtype="agreement-pred" idx="58-1" eid="0" />
         <error xtype="ngnk" idx="58-2" eid="0" />
         <error xtype="pronun-writing" idx="59-2" eid="0" />
         <error xtype="nonword" idx="59-2" eid="0" />
@@ -1510,7 +1510,7 @@
     <corrected><w>hluti</w><w>af</w><w>því</w></corrected>
       <errors>
         <error xtype="wording" idx="91-1" eid="0" />
-        <error xtype="agreement-concord" idx="91-2" eid="0" />
+        <error xtype="agreement-pro" idx="91-2" eid="0" />
       </errors>
   </revision>
   <w>ferli</w>
@@ -1570,7 +1570,7 @@
     <corrected><w>losar</w></corrected>
       <errors>
         <error xtype="verb-inflection" idx="95-1" eid="0" />
-        <error xtype="agreement-pred" idx="95-1" eid="0" />
+        <error xtype="agreement" idx="95-1" eid="0" />
       </errors>
   </revision>
   <w>út</w>

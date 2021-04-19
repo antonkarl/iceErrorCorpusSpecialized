@@ -475,7 +475,6 @@
     <original><w>velja</w><w>að</w></original>
     <corrected><w>hvort</w><w>notandi</w><w>vilji</w></corrected>
       <errors>
-        <error xtype="indef-pro" idx="41-1" eid="0" />
         <error xtype="missing-word" idx="41-1" eid="0" />
         <error xtype="missing-sub" idx="41-2" eid="0" />
         <error xtype="extra-inf-part" idx="41-3" eid="0" />
@@ -1468,7 +1467,7 @@
     <original><w>birtist</w><w>nýr</w><w>pakki</w><w>aðgerir</w></original>
     <corrected><w>birtast</w><w>þær</w><w>aðgerðir</w></corrected>
       <errors>
-        <error xtype="agreement-pred" idx="112-1" eid="0" />
+        <error xtype="agreement" idx="112-1" eid="0" />
         <error xtype="wording" idx="112-2" eid="0" />
         <error xtype="missing-letter" idx="112-3" eid="0" />
         <error xtype="nonword" idx="112-3" eid="0" />

@@ -938,7 +938,7 @@
     <original><w>var</w></original>
     <corrected><w>voru</w></corrected>
       <errors>
-        <error xtype="agreement-pred" eid="0" />
+        <error xtype="agreement" eid="0" />
       </errors>
   </revision>
   <w>Óðinn</w>
@@ -1044,7 +1044,7 @@
         <error xtype="period4conjunction" idx="90-2" eid="0" />
         <error xtype="extra-letter" idx="90-3" eid="0" />
         <error xtype="nonword" idx="90-3" eid="0" />
-        <error xtype="agreement-pred" idx="90-4" eid="0" />
+        <error xtype="agreement" idx="90-4" eid="0" />
       </errors>
   </revision>
   <w>að</w>
@@ -1626,7 +1626,7 @@
     <original><w>snertir</w><w>Sólarljóðin</w></original>
     <corrected><w>snerta</w><w>Sólarljóð</w></corrected>
       <errors>
-        <error xtype="agreement-pred" idx="134-1" eid="0" />
+        <error xtype="agreement" idx="134-1" eid="0" />
         <error xtype="def4ind" idx="134-2" eid="0" />
       </errors>
   </revision>
