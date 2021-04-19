@@ -197,7 +197,7 @@
     <original><w>hata</w></original>
     <corrected><w>hatar</w></corrected>
       <errors>
-        <error xtype="agreement-pred" idx="12-1" eid="0" />
+        <error xtype="agreement" idx="12-1" eid="0" />
         <error xtype="verb-inflection" idx="12-1" eid="0" />
       </errors>
   </revision>
@@ -505,7 +505,7 @@
     <original><w>notuðu</w></original>
     <corrected><w>notaði</w></corrected>
       <errors>
-        <error xtype="agreement-pred" eid="0" />
+        <error xtype="agreement" eid="0" />
       </errors>
   </revision>
   <w>hesta</w>
@@ -748,7 +748,7 @@
     <original><w>komu</w><w>þar</w><w>að</w><w>gista</w><c>,</c></original>
     <corrected><w>kom</w><w>til</w><w>hans</w><w>fyrir</w><w>gistingu</w><c>;</c></corrected>
       <errors>
-        <error xtype="agreement-pred" idx="59-1" eid="0" />
+        <error xtype="agreement" idx="59-1" eid="0" />
         <error xtype="wording" idx="59-2" eid="0" />
         <error xtype="wording" idx="59-3" eid="0" />
         <error xtype="comma4semicolon" idx="59-4" eid="0" />
