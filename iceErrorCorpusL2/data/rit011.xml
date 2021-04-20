@@ -25,7 +25,7 @@
       <errors>
         <error xtype="split-compound" idx="1-1" eid="0" />
         <error xtype="missing-prep" idx="1-2" eid="0" />
-        <error xtype="agreement-concord" idx="1-3" eid="0" />
+        <error xtype="pro-inflection" idx="1-3" eid="0" />
       </errors>
   </revision>
   <w>af</w>
@@ -894,8 +894,7 @@
     <original><w>erindin</w></original>
     <corrected><w>erindið</w></corrected>
       <errors>
-        <error xtype="plural4singular" idx="53-1" eid="0" />
-        <error xtype="agreement" idx="53-1" eid="0" />
+        <error xtype="plural4singular" eid="0" />
       </errors>
   </revision>
   <w>til</w>
@@ -1876,7 +1875,7 @@
     <original><w>eru</w><w>einstök</w></original>
     <corrected><w>er</w><w>einstakt</w></corrected>
       <errors>
-        <error xtype="agreement-pred" eid="0" />
+        <error xtype="agreement" eid="0" />
       </errors>
   </revision>
   <c>.</c>

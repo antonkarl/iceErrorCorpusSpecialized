@@ -1476,7 +1476,8 @@
     <corrected><w>hinna</w><w>eldri</w></corrected>
       <errors>
         <error xtype="missing-dem-pro" idx="76-1" eid="0" />
-        <error xtype="agreement-pred" idx="76-2" eid="0" />
+        <error xtype="adjective-inflection" idx="76-2" eid="0" />
+        <error xtype="case-prep" idx="76-2" eid="0" />
       </errors>
   </revision>
   <w>og</w>
@@ -7509,7 +7510,7 @@
     <corrected><w>hafa</w></corrected>
       <errors>
         <error xtype="context" idx="361-1" eid="0" />
-        <error xtype="agreement-pred" idx="361-1" eid="0" />
+        <error xtype="agreement" idx="361-1" eid="0" />
       </errors>
   </revision>
   <w>að</w>
@@ -8185,7 +8186,7 @@
     <original><w>er</w></original>
     <corrected><w>séu</w></corrected>
       <errors>
-        <error xtype="agreement-pred" idx="397-1" eid="0" />
+        <error xtype="agreement" idx="397-1" eid="0" />
         <error xtype="ind4sub" idx="397-1" eid="0" />
       </errors>
   </revision>
@@ -8365,7 +8366,7 @@
     <corrected><w>fyrirfinnast</w></corrected>
       <errors>
         <error xtype="verb-inflection" idx="403-1" eid="0" />
-        <error xtype="agreement-pred" idx="403-1" eid="0" />
+        <error xtype="agreement" idx="403-1" eid="0" />
         <error xtype="singular4plural" idx="403-1" eid="0" />
       </errors>
   </revision>
@@ -9026,7 +9027,7 @@
     <original><w>sé</w></original>
     <corrected><w>séu</w></corrected>
       <errors>
-        <error xtype="agreement-pred" eid="0" />
+        <error xtype="agreement" eid="0" />
       </errors>
   </revision>
   <w>viðhorfin</w>
@@ -9695,7 +9696,7 @@
     <original><w>virðist</w></original>
     <corrected><w>virðast</w></corrected>
       <errors>
-        <error xtype="agreement-pred" idx="467-1" eid="0" />
+        <error xtype="agreement" idx="467-1" eid="0" />
         <error xtype="verb-inflection" idx="467-1" eid="0" />
       </errors>
   </revision>
@@ -10430,7 +10431,7 @@
     <original><w>geta</w></original>
     <corrected><w>getur</w></corrected>
       <errors>
-        <error xtype="agreement-pred" idx="495-1" eid="0" />
+        <error xtype="agreement" idx="495-1" eid="0" />
         <error xtype="verb-inflection" idx="495-1" eid="0" />
       </errors>
   </revision>
@@ -10650,7 +10651,7 @@
     <original><w>þurfti</w></original>
     <corrected><w>þurftu</w></corrected>
       <errors>
-        <error xtype="agreement-pred" idx="505-1" eid="0" />
+        <error xtype="agreement" idx="505-1" eid="0" />
         <error xtype="verb-inflection" idx="505-1" eid="0" />
       </errors>
   </revision>
@@ -10926,7 +10927,7 @@
     <original><w>yrði</w></original>
     <corrected><w>yrðu</w></corrected>
       <errors>
-        <error xtype="agreement-pred" idx="523-1" eid="0" />
+        <error xtype="agreement" idx="523-1" eid="0" />
         <error xtype="verb-inflection" idx="523-1" eid="0" />
       </errors>
   </revision>
@@ -11618,7 +11619,7 @@
     <original><w>ætti</w></original>
     <corrected><w>ættu</w></corrected>
       <errors>
-        <error xtype="agreement-pred" idx="564-1" eid="0" />
+        <error xtype="agreement" idx="564-1" eid="0" />
         <error xtype="verb-inflection" idx="564-1" eid="0" />
       </errors>
   </revision>
@@ -12185,7 +12186,7 @@
     <original><w>fylgdu</w><w>svokölluðu</w></original>
     <corrected><w>fylgdi</w><w>svokallaðri</w></corrected>
       <errors>
-        <error xtype="agreement-pred" idx="602-1" eid="0" />
+        <error xtype="agreement" idx="602-1" eid="0" />
         <error xtype="verb-inflection" idx="602-1" eid="0" />
         <error xtype="agreement-concord" idx="602-2" eid="0" />
         <error xtype="adjective-inflection" idx="602-2" eid="0" />
@@ -12829,7 +12830,7 @@
     <original><w>bættist</w></original>
     <corrected><w>bættust</w></corrected>
       <errors>
-        <error xtype="agreement-pred" idx="636-1" eid="0" />
+        <error xtype="agreement" idx="636-1" eid="0" />
         <error xtype="singular4plural" idx="636-1" eid="0" />
         <error xtype="verb-inflection" idx="636-1" eid="0" />
       </errors>
@@ -13105,7 +13106,7 @@
         <error xtype="ind4sub" idx="649-1" eid="0" />
         <error xtype="extra-word" idx="649-2" eid="0" />
         <error xtype="adjective-inflection" idx="649-3" eid="0" />
-        <error xtype="agreement-concord" idx="649-3" eid="0" />
+        <error xtype="agreement-pred" idx="649-3" eid="0" />
       </errors>
   </revision>
   <w>málbreytingum</w>

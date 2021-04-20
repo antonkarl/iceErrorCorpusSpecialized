@@ -2272,7 +2272,7 @@
     <original><w>einn</w></original>
     <corrected><w>eitt</w></corrected>
       <errors>
-        <error xtype="agreement-concord" eid="0" />
+        <error xtype="agreement-pred" eid="0" />
       </errors>
   </revision>
   <w>af</w>
@@ -3103,7 +3103,8 @@
     <original><w>þessa</w></original>
     <corrected><w>þess</w></corrected>
       <errors>
-        <error xtype="agreement-pro" eid="0" />
+        <error xtype="pro-inflection" idx="94-1" eid="0" />
+        <error xtype="case-prep" idx="94-1" eid="0" />
       </errors>
   </revision>
   <w>að</w>

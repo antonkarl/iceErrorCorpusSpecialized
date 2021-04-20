@@ -1314,7 +1314,14 @@
   </revision>
   <w>málið</w>
   <w>á</w>
-  <w>s.l.</w>
+  <revision id="103b">
+    <original><w>s.l.</w></original>
+    <corrected><w>sl.</w></corrected>
+      <errors>
+        <error xtype="extra-period" idx="103b-1" eid="0" />
+        <error xtype="abbreviation-period" idx="103b-1" eid="0" />
+      </errors>
+  </revision>
   <w>ári</w>
   <w>né</w>
   <w>ferðuðust</w>

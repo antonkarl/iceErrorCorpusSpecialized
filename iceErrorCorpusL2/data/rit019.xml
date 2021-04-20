@@ -1165,7 +1165,7 @@
     <original><w>fær</w></original>
     <corrected><w>fá</w></corrected>
       <errors>
-        <error xtype="agreement-pred" eid="0" />
+        <error xtype="agreement" eid="0" />
       </errors>
   </revision>
   <w>i-endingu</w>
@@ -2388,8 +2388,7 @@
     <original><w>flokkum</w></original>
     <corrected><w>flokki</w></corrected>
       <errors>
-        <error xtype="plural4singular" idx="100-1" eid="0" />
-        <error xtype="agreement-concord" idx="100-1" eid="0" />
+        <error xtype="plural4singular" eid="0" />
       </errors>
   </revision>
   <w>eftir</w>
@@ -4194,7 +4193,7 @@
     <original><w>virðist</w></original>
     <corrected><w>virðast</w></corrected>
       <errors>
-        <error xtype="agreement-pred" eid="0" />
+        <error xtype="agreement" eid="0" />
       </errors>
   </revision>
   <revision id="183">
@@ -7749,13 +7748,13 @@
   <c>.</c>
 </s>
 <s n="193">
-    <revision id="324b">
-        <original><w>Ein</w></original>
-        <corrected><w>Eitt</w></corrected>
-          <errors>
-            <error xtype="agreement-concord" eid="0" />
-          </errors>
-      </revision>
+  <revision id="324b">
+    <original><w>Ein</w></original>
+    <corrected><w>Eitt</w></corrected>
+      <errors>
+        <error xtype="agreement-concord" eid="0" />
+      </errors>
+  </revision>
   <w>helsta</w>
   <w>einkenni</w>
   <revision id="325">
@@ -8530,7 +8529,7 @@
     <original><w>enda</w></original>
     <corrected><w>endar</w></corrected>
       <errors>
-        <error xtype="agreement-pred" eid="0" />
+        <error xtype="agreement" eid="0" />
       </errors>
   </revision>
   <w>á</w>
@@ -9605,7 +9604,7 @@
     <original><w>endar</w></original>
     <corrected><w>enda</w></corrected>
       <errors>
-        <error xtype="agreement-pred" eid="0" />
+        <error xtype="agreement" eid="0" />
       </errors>
   </revision>
   <w>á</w>

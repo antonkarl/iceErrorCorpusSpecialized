@@ -345,7 +345,7 @@
     <original><w>fjalla</w></original>
     <corrected><w>fjallað</w></corrected>
       <errors>
-        <error xtype="agreement-pred" idx="25-1" eid="0" />
+        <error xtype="agreement" idx="25-1" eid="0" />
         <error xtype="verb-inflection" idx="25-1" eid="0" />
       </errors>
   </revision>
@@ -2369,7 +2369,8 @@
     <original><w>báðir</w></original>
     <corrected><w>báða</w></corrected>
       <errors>
-        <error xtype="agreement-pro" eid="0" />
+        <error xtype="pro-inflection" idx="164-1" eid="0" />
+        <error xtype="case-verb" idx="164-1" eid="0" />
       </errors>
   </revision>
   <w>í</w>
@@ -3167,7 +3168,8 @@
     <corrected><c>.</c><w>Auk</w><w>þeirra</w><w>fæddi</w></corrected>
       <errors>
         <error xtype="comma4period" idx="220b-1" eid="0" />
-        <error xtype="agreement-pro" idx="220b-1" eid="0" />
+        <error xtype="agreement-pro" idx="220b-2" eid="0" />
+        <error xtype="mid4act" idx="220b-3" eid="0" />
       </errors>
   </revision>
   <w>hann</w>
@@ -3909,7 +3911,8 @@
     <original><w>dauð</w></original>
     <corrected><w>dauðra</w></corrected>
       <errors>
-        <error xtype="agreement-pred" eid="0" />
+        <error xtype="nominal-inflection" idx="265-1" eid="0" />
+        <error xtype="genitive" idx="265-1" eid="0" />
       </errors>
   </revision>
   <c>;</c>
