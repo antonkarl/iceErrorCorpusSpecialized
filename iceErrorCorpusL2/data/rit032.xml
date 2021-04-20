@@ -1960,8 +1960,7 @@
     <original><w>skammayrði</w></original>
     <corrected><w>skammaryrði</w></corrected>
       <errors>
-        <error xtype="missing-letter" idx="66-1" eid="0" />
-        <error xtype="compound-nonword" idx="66-1" eid="0" />
+        <error xtype="compound-collocation" eid="0" />
       </errors>
   </revision>
   <c>.</c>
@@ -4030,7 +4029,7 @@
         <error xtype="agreement-pred" idx="132-2" eid="0" />
         <error xtype="wrong-prep" idx="132-3" eid="0" />
         <error xtype="letter-rep" idx="132-4" eid="0" />
-        <error xtype="compound-nonword" idx="132-4" eid="0" />
+        <error xtype="nonword" idx="132-4" eid="0" />
         <error xtype="compound-collocation" idx="132-5" eid="0" />
         <error xtype="singular4plural" idx="132-5" eid="0" />
       </errors>
@@ -6005,7 +6004,7 @@
     <original><w>Stelpubörn</w></original>
     <corrected><w>Stúlkubörn</w></corrected>
       <errors>
-        <error xtype="compound-nonword" eid="0" />
+        <error xtype="nonword" eid="0" />
       </errors>
   </revision>
   <w>sem</w>

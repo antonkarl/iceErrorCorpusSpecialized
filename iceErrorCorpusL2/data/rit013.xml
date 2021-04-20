@@ -1074,7 +1074,8 @@
     <original><w>vinnakonu</w></original>
     <corrected><w>vinnukonu</w></corrected>
       <errors>
-        <error xtype="compound-nonword" eid="0" />
+        <error xtype="letter-rep" idx="77-1" eid="0" />
+        <error xtype="nonword" idx="77-1" eid="0" />
       </errors>
   </revision>
   <c>,</c>
@@ -7095,8 +7096,7 @@
     <original><w>skilorðbundnir</w></original>
     <corrected><w>skilorðsbundnir</w></corrected>
       <errors>
-        <error xtype="missing-letter" idx="485b-1" eid="0" />
-        <error xtype="compound-nonword" idx="485b-1" eid="0" />
+        <error xtype="compound-collocation" eid="0" />
       </errors>
   </revision>
   <w>honum</w>

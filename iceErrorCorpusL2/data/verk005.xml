@@ -94,7 +94,8 @@
     <corrected><w>almenningssamgöngur</w><w>en</w></corrected>
       <errors>
         <error xtype="extra-letter" idx="7-1" eid="0" />
-        <error xtype="compound-nonword" idx="7-1" eid="0" />
+        <error xtype="nonword" idx="7-1" eid="0" />
+        <error xtype="pronun-writing" idx="7-1" eid="0" />
         <error xtype="period-plus-conjunction" idx="7-2" eid="0" />
       </errors>
   </revision>

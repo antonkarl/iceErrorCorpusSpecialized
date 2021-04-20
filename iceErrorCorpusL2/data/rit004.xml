@@ -277,8 +277,7 @@
     <original><w>andstæðispörum</w></original>
     <corrected><w>andstæðupörum</w></corrected>
       <errors>
-        <error xtype="compound-collocation" idx="11-1" eid="0" />
-        <error xtype="compound-nonword" idx="11-1" eid="0" />
+        <error xtype="compound-collocation" eid="0" />
       </errors>
   </revision>
   <w>eru</w>
@@ -391,7 +390,6 @@
     <corrected><w>andstæðuparanna</w></corrected>
       <errors>
         <error xtype="compound-collocation" idx="14-1" eid="0" />
-        <error xtype="compound-nonword" idx="14-1" eid="0" />
         <error xtype="ind4def" idx="14-1" eid="0" />
       </errors>
   </revision>
@@ -1259,7 +1257,7 @@
     <corrected><w>kvenkyns</w><w>þingmenn</w><w>sem</w></corrected>
       <errors>
         <error xtype="merged-words" idx="52-1" eid="0" />
-        <error xtype="compound-nonword" idx="52-1" eid="0" />
+        <error xtype="nonword" idx="52-1" eid="0" />
         <error xtype="singular4plural" idx="52-1" eid="0" />
 		    <error xtype="missing-conjunction" idx="52-2" eid="0" />
       </errors>
@@ -2019,8 +2017,7 @@
     <original><w>setningaliða</w></original>
     <corrected><w>setningarliða</w></corrected>
       <errors>
-        <error xtype="compound-collocation" idx="84-1" eid="0" />
-        <error xtype="compound-nonword" idx="84-1" eid="0" />
+        <error xtype="compound-collocation" eid="0" />
       </errors>
   </revision>
   <c>.</c>

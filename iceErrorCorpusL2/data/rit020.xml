@@ -3141,8 +3141,7 @@
     <original><w>orðaflokka</w></original>
     <corrected><w>orðflokka</w></corrected>
       <errors>
-        <error xtype="compound-collocation" idx="154-1" eid="0" />
-        <error xtype="compound-nonword" idx="154-1" eid="0" />
+        <error xtype="compound-collocation" eid="0" />
       </errors>
   </revision>
   <c>:</c>
@@ -3272,7 +3271,7 @@
     <corrected><w>grunnþáttur</w></corrected>
       <errors>
         <error xtype="missing-letter" idx="161c-1" eid="0" />
-        <error xtype="compound-nonword" idx="161c-1" eid="0" />
+        <error xtype="nonword" idx="161c-1" eid="0" />
       </errors>
   </revision>
   <c>,</c>
@@ -4499,7 +4498,6 @@
         <error xtype="nominal-inflection" idx="203-1" eid="0" />
         <error xtype="singular4plural" idx="203-1" eid="0" />
         <error xtype="compound-collocation" idx="203-1" eid="0" />
-        <error xtype="compound-nonword" idx="203-1" eid="0" />
       </errors>
   </revision>
   <c>:</c>
@@ -4516,7 +4514,6 @@
     <original><w>aldurhópi</w></original>
     <corrected><w>aldurshóp</w><c>,</c></corrected>
       <errors>
-        <error xtype="compound-nonword" idx="204-1" eid="0" />
         <error xtype="compound-collocation" idx="204-1" eid="0" />
         <error xtype="case-prep" idx="204-1" eid="0" />
         <error xtype="nominal-inflection" idx="204-1" eid="0" />
@@ -4556,7 +4553,6 @@
     <original><w>aldurhópi</w></original>
     <corrected><w>aldurshóp</w></corrected>
       <errors>
-        <error xtype="compound-nonword" idx="207-1" eid="0" />
         <error xtype="compound-collocation" idx="207-1" eid="0" />
         <error xtype="case-prep" idx="207-1" eid="0" />
         <error xtype="nominal-inflection" idx="207-1" eid="0" />
