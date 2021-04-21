@@ -1065,7 +1065,7 @@
     <original><w>Axla</w><w>Björn</w></original>
     <corrected><w>Axlar-Björn</w></corrected>
       <errors>
-        <error xtype="missing-dash" eid="0" />
+        <error xtype="missing-hyphen" eid="0" />
       </errors>
   </revision>
   <w>í</w>
@@ -1263,7 +1263,7 @@
     <corrected><w>Axlar-Birni</w></corrected>
       <errors>
         <error xtype="missing-letter" idx="81c-1" eid="0" />
-        <error xtype="missing-dash" idx="81c-1" eid="0" />
+        <error xtype="missing-hyphen" idx="81c-1" eid="0" />
       </errors>
   </revision>
   <revision id="81b">
@@ -1402,7 +1402,7 @@
     <corrected><w>Axlar-Björn</w></corrected>
       <errors>
         <error xtype="missing-letter" idx="88-1" eid="0" />
-        <error xtype="missing-dash" idx="88-1" eid="0" />
+        <error xtype="missing-hyphen" idx="88-1" eid="0" />
       </errors>
   </revision>
   <revision id="88b">
@@ -1524,8 +1524,7 @@
     <original><w>var</w><w>en</w><w>þá</w></original>
     <corrected><w>voru</w></corrected>
       <errors>
-        <error xtype="singular-plural" idx="94b-1" eid="0" />
-        <error xtype="agreement" idx="94b-1" eid="0" />
+        <error xtype="agreement" eid="0" />
       </errors>
   </revision>
   <revision id="94c">

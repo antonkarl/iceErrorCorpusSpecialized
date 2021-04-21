@@ -3197,7 +3197,7 @@
     <corrected><w>dönskublendna</w></corrected>
       <errors>
         <error xtype="letter-rep" idx="156-1" eid="0" />
-        <error xtype="compound-nonword" idx="156-1" eid="0" />
+        <error xtype="nonword" idx="156-1" eid="0" />
       </errors>
   </revision>
   <w>sem</w>
@@ -3585,7 +3585,7 @@
     <original><w>menntunarkerfi</w></original>
     <corrected><w>menntakerfi</w></corrected>
       <errors>
-        <error xtype="compound-nonword" eid="0" />
+        <error xtype="compound-collocation" eid="0" />
       </errors>
   </revision>
   <w>tveimur</w>

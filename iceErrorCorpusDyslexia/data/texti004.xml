@@ -220,8 +220,8 @@
     <original><w>Android</w><w>og</w><w>iPhone</w></original>
     <corrected><w>Android- og iPhone-stýrikerfi</w></corrected>
       <errors>
-        <error xtype="missing-dash" idx="10-1" eid="0" />
-        <error xtype="missing-dash" idx="10-2" eid="0" />
+        <error xtype="missing-hyphen" idx="10-1" eid="0" />
+        <error xtype="missing-hyphen" idx="10-2" eid="0" />
         <error xtype="missing-word" idx="10-3" eid="0" />
       </errors>
   </revision>
@@ -412,7 +412,7 @@
     <original><w>Vörukörfu</w><w>app</w><w>þar</w><w>sem</w><w>kúnni</w></original>
     <corrected><w>Smáforrit</w><w>fyrir</w><w>vörukörfu</w><c>:</c><w>Kúnni</w></corrected>
       <errors>
-        <error xtype="load-syntax" idx="21-1" eid="0" />
+        <error xtype="loan-syntax" idx="21-1" eid="0" />
         <error xtype="fw4ice" idx="21-1" eid="0" />
         <error xtype="missing-prep" idx="21-1" eid="0" />
         <error xtype="missing-colon" idx="21-2" eid="0" />
