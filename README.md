@@ -2,7 +2,7 @@
 
 Version 0.1
 
-Copyright 2020 Anton Karl Ingason, Lilja Björk Stefánsdóttir, Þórunn Arnardóttir, Xindan Xu.
+Copyright 2021 Anton Karl Ingason, Lilja Björk Stefánsdóttir, Þórunn Arnardóttir, Xindan Xu.
 
 Contact: anton.karl.ingason@gmail.com
 
@@ -18,7 +18,7 @@ Anna Björk Nikulásdóttir, Jón Guðnason, Anton Karl Ingason, Hrafn Loftsson,
 
 Útgáfa 0.1
 
-Copyright 2020 Anton Karl Ingason, Lilja Björk Stefánsdóttir, Þórunn Arnardóttir, Xindan Xu.
+Copyright 2021 Anton Karl Ingason, Lilja Björk Stefánsdóttir, Þórunn Arnardóttir, Xindan Xu.
 
 Tengiliður: anton.karl.ingason@gmail.com
 
