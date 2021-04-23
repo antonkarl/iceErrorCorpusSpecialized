@@ -1,263 +1,254 @@
-code	error	class	comment
-lower4upper-initial	lítill stafur í upphafi málsgreinar	capitalization	hann var seinn > Hann var seinn
-lower4upper-proper	lítill stafur í upphafi sérnafns	capitalization	ísland > Íslands
-lower4upper-acro	lítill stafur í hánefni	capitalization	Dv > DV
-upper4lower-common	stór stafur í upphafi samnafns	capitalization	20 Milljónir > 20 milljónir
-upper4lower-proper	stór stafur í sérnafni þar sem hann á ekki að vera	capitalization	Mál og Menning > Mál og menning
-upper4lower-noninitial	stór stafur þar sem málsgrein hefst ekki	capitalization	Hann var Seinn > Hann var seinn
-caps4low	hástafir þar sem ættu að vera lágstafir	capitalization	tónLIST > tónlist
-low4caps	lágstafir þar sem ættu að vera hástafir	capitalization	Wow air > WOW air
-collocation	fast orðasamband	collocation	fram á þennan dag > fram til þessa dags
-collocation-idiom	fast orðasamband með ógagnsæja merkingu	collocation	hélt hvorki vindi né vatni > hélt hvorki vatni né vindi
-though	þó að / þótt	collocation	þótt að > þó að
-gendered	kynjað mál, menn fyrir fólk	exclusion	menn hugsa oft > fólk hugsar oft
-fw	sletta, útlent orð	foreign	plís > gerðu það
-foreign-error	villa í útlendu orði	foreign	Supurbowl > Super Bowl
-foreign-name	erlent nafn skrifað rangt	foreign	Warwixk > Warwick
-agreement	samræmi persónub. sagnar við nafnlið	grammar	Joy Division voru ekki talin > Joy Division var ekki talin
-agreement-concord	samræmi innan nafnliðar	grammar	tengja ákveðin hlut > tengja ákveðinn hlut
-agreement-pred	samræmi umsagnar við frumlag	grammar	Bakgrunnurinn er gullin > Bakgrunnurinn er gullinn
-agreement-pro	samræmi fornafns við undanfara	grammar	...vöðvahólf sem sé um dælinguna. Hann dælir blóðinu > Það dælir blóðinu
-case-verb	fallstjórn: samræmi sagnorðs við næsta orð	grammar	viltu hjálpa mig > mér
-case-prep	fallstjórn: samræmi innan forsetningarliðar	grammar	hann fór frá mig > hann fór frá mér
-case-adj	fallstjórn: vitlaust fall vegna lýsingarorða	grammar	vera frábrugðið e-ð > vera frábrugðið e-u
-case-collocation	fallstjórn: vitlaust fall eftir föst orðasambönd	grammar	hafa áhuga á e-u
-ind4def	óákveðið fyrir ákveðið	grammar	gítartakta > gítartaktana
-def4ind	ákveðið fyrir óákveðið	grammar	skákinni > skák
-ind4sub	framsöguháttur fyrir vh.	grammar	Þrátt fyrir að konfúsíanismi er upprunninn > Þrátt fyrir að konfúsíanismi sé upprunninn
-sub4ind	viðtengingarh. fyrir fh.	grammar	Stjórnvöld vildu auka rétt borgara og geri þeim kleift > Stjórnvöld vildu auka rétt borgara og gera þeim kleift
-verb-inflection	sögn vitlaust beygð	grammar	Samt sem áður kröfðu þau > Samt sem áður kröfðust þau
-nominal-inflection	nafnorð vitlaust beygt	grammar	Hvað varðar þróunar > Hvað varðar þróun
-numeral-inflection	töluorð vitlaust beygt	grammar	
-pro-inflection	fornafn vitlaust beygt	grammar	
-plural4singular	fleirtala í stað eintölu	grammar	langtímaþurrkar > langtímaþurrkur
-singular4plural	eintala í stað fleirtala	grammar	í samræðu > í samræðum
-conjunction	vitlaus notkun á samtengingu	grammar	ég hef litla innsýn í líf dýra né manna > ég hef litla innsýn í líf dýra eða manna
-adjective-inflection	lýsingarorð vitlaust beygt	grammar	Þau eiga það sameiginleg > Þau eiga það sameiginlegt
-dative-sub	þágufallshneigð	grammar	strákunum langar > strákana langar
-dir4loc	stefna fyrir stöðu (directional for locative)	grammar	inn > inni
-loc4dir	staða fyrir stefnu (locative for directional)	grammar	úti > út
-bad-contraction	samdráttarmynd ranglega notuð	spelling	mæliru > mælir maður
-act4pass	sögn í germynd í stað þolmyndar	grammar	nafnið kom til notkunar > nafnið var tekið til notkunar
-pass4act	sögn í þolmynd í stað germyndar	grammar	allt samband er rofið > allt samband rofnar
-passive	þolmynd mynduð rangt (inflection, agreement)	grammar	safn sem er notuð > safn sem hefur verið notað
-new-passive	nýja setningagerðin	grammar	Það er samið fyrir þau tónlistina > Tónlistin er samin fyrir þau
-mid4act	miðmynd ofnotuð, st-sagnir	grammar	
-mid4pass	miðmynd fyrir þolmynd	grammar	bók selst > bók er seld
-pass4mid	þolmynd fyrir miðmynd	grammar	bók er seld > bók selst 
-syntax-other	setnigarfræði - orðaröð	syntax	
-each	villa í gagnverkandi fornöfnum	grammar	frá hvor öðrum > hvor frá öðrum
-noun4pro	nafnorð í stað fornafns	grammar	menntun má nálgast > hana má nálgast
-pro4noun	fornafn í stað nafnorðs	grammar	þau voru spurð > parið var spurt
-reflexive4pro	afturbeygt fornafn í stað persónufornafns	grammar	í umhverfi sínu > í umhverfi þeirra
-pro4reflexive	persónufornafn í stað afturbeygðs fornafns	grammar	gefur orku til fólks í kringum það > gefur orku til fólks í kringum sig
-reflexive4noun	afturbeygt fornafn í stað nafnorðs	grammar	Það gerðist áður en tilkynnt var til Samkeppniseftirlitsins um yfirtökur sínar á félögunum > Það gerðist áður en tilkynnt var til Samkeppniseftirlitsins um yfirtökur bankans á félögunum
-wrong-prep	röng notkun á forsetningu	grammar	Ég bý í Íslandi > Ég bý á Íslandi
-pres4past	sögn í nútíð í stað þátíðar	grammar	Þeir fara út > Þeir fóru út
-past4pres	sögn í þátíð í stað nútíðar	grammar	þegar hún leigði spólur > þegar hún leigir spólur
-að4af	að notað í stað af	grammar	að hafa gaman að > að hafa gaman af
-af4að	af notað í stað að	grammar	gert grín af > gert grín að
-pers4dem	persónufornafn í staðinn fyrir ábendingarf.	grammar	það > þetta
-dem-pro	hinn í stað fyrir sá eða öfugt	grammar	hinn > sá
-missing-dem-pro	sá (eða önnur áb.forn) ekki til	grammar	framburður > sá framburður
-extra-dem-pro	ábendingarfornafn ofaukið	grammar	sá framburðurinn > framburðurinn
-indef-pro	óákveðið fornafn	grammar	enginn > ekki neinn
-marked4unmarked	markað í stað ómarks kyns (kvk. eða hk. notað sem ómarkað kyn)	grammar	Það veit engin > Það veit enginn
-adj4adv	lýsingarorð í stað atviksorðs	grammar	krefst ekki meira > krefst ekki meir
-adv4adj	atviksorð í stað lýsingarorðs	grammar	hafa það betur > hafa það betra
-have	hafa / eiga / vera með	grammar	hafa fjölskyldu > eiga fjölskyldu
-cont4simple	vera að + nafnh. í stað nútíðar	grammar	ég er að sitja > ég sit
-missing-inf-part	vantar nafnháttarmerki	grammar	vera gera e-ð > vera að gera e-ð
-want	vill í stað vil / vil í stað vill	grammar	ég vill > ég vil
-dem4pers	ábendingarfornafn í stað persónufornafns	grammar	þessi > hún
-nom4acc-sub	nefnifall fyrir þolfallsfrumlag	grammar	ég dreymi > mig dreymir
-acc4nom-sub	þolfall fyrir nefnifallsfrumlag	grammar	mig hlakkar > ég hlakka
-simple4cont	nútíð í stað vera að + nafnh.	grammar	ók > var að aka
-extra-inf-part	nafnháttarmerki ofaukið	grammar	Bæði lið að sækja .. > Bæði lið sóttu ...
-gen-escape	eignarfallsflótti	grammar	neysla ávöxtum > neysla ávaxta
-genitive	villur tengdar eignarfalli	grammar	
-dem4noun	ábendingarfornafn í stað nafnorðs	grammar	hinn > maðurinn
-noun4dem	nafnorð í stað ábendingarfornafns	grammar	stærsta klukkan > sú stærsta
-interr-pro	rangt spurnarfornafn	grammar	
-missing-sub	vantar frumlag í setningunni	grammar	
-missing-obj	vantar andlag í setningunni	grammar	
-geta	geta + nafnháttur eða nútíð	grammar	
-adj4noun	lo í stað no	grammar	Áhrif ensks > Áhrif enskunnar
-extra-sub	frumlagi ofaukið	grammar	Pabbi minn heitir Jolan og hann er ... > ... og er ...
-missing-fin-verb	persónubeygða sögn vantar	grammar	þótt hún mjög virk > þótt hún sé mjög virk
-extra-fin-verb  sögninni ofaukið  grammar Bókin heitir er 'Blómin á þakinu' > Bókin heitir 'Blómin á þakinu'
-extra-word	orði ofaukið	insertion	augun á mótherja > augu mótherja
-extra-words	orðum ofaukið	insertion	...ég fer að hugsa... > ...ég hugsa...
-extra-prep	forsetningu ofaukið	insertion	
-repeat-word	orð endurtekið, orðin eru hliðstæð	insertion	maður sem sem fór > maður sem fór
-repeat-word-split	orð endurtekið en orð kemur á milli	insertion	var eitt ár var eftir > eitt ár var eftir
-context	rangt orð í samhengi	lexical	
-compound-collocation	samsett orð gegn hefð	nonword	fyrirhafnalaust > fyrirhafnarlaust
-compound-nonword	samsett orð ekki til	nonword	ríkistjórn > ríkisstjórn
-nonword	orðmynd er ekki til	nonword	Eystrarsaltslöndunum > Eystrarsaltslöndunum
-number4word	tala fyrir orðmynd	numbers	4 > fjórir
-word4number	orðmynd fyrir tölu	numbers	fjórða öld > 4. öld
-extra-number	númeri ofaukið	numbers	139,0 > 139
-symbol4number	tákn fyrir númer	numbers	2 ½ > 2,5
-missing-word	orð vantar	omission	í Donalda > í þorpinu Donalda
-missing-words	fleiri en eitt orð vantar	omission	því betri laun > því betri laun hlýtur maður
-missing-prep	forsetningu vantar	omission	
-symbol4word	tákn fyrir orð	other	stjórn ™ > stjórn TM 
-extra-symbol	tákn ofaukið	other	Dalvík + gaf... > Dalvík gaf...
-comma4period	komma fyrir punkt	punctuation	...kynnast nýju fólki, er á þrítugsaldri > ...kynnast nýju fólki. Hann er á þrítugsaldri
-comma4qm	komma fyrir spurningarmerki	punctuation	Höfum við réttinn, eins og að... > Höfum við réttinn? Eins og að...
-comma4colon	komma fyrir tvípunkt	punctuation	...er í þremur heimsálfum, Asíu, Afríku og Evrópu > ...er í þremur heimsálfum: Asíu, Afríku og Evrópu
-double-punctuation	tvöfalt greinarmerki	punctuation	.. > .,
-extra-abbreviation	skammstöfun ofaukið	punctuation	með kv., Daníel > með kveðju, Daníel
-extra-hyphen	bandstriki ofaukið	punctuation	-- > -
-extra-endash	millistriki ofaukið	punctuation	barna–skapur > barnaskapur
-iteration-colon	greinarmerki við upptalningu, tvíp.	punctuation	
-missing-colon	tvípunkt vantar	punctuation	Hann sagði við þá „Komið til mín“ > Hann sagði við þá: „Komið til mín“
-missing-comma	kommu vantar	punctuation	Hún vex á Íslandi Grænlandi og Færeyjum > Hún vex á Íslandi, Grænlandi og Færeyjum
-missing-commas	kommur vantar utan um innskot	punctuation	Hún er jafn verðmæt ef ekki verðmætari en háskólapróf > Hún er verðmæt, ef ekki verðmætari, en háskólapróf
-missing-period	punkt vantar	punctuation	Tónlistin varð ekki vinsæl strax það var ekki fyrr en > Tónlistin varð ekki vinsæl strax. Það var ekki fyrr en
-missing-qm	spurningamerki vantar	punctuation	„Skilur þú mig“ spurði Halldór > „Skilur þú mig?“ spurði Halldór
-missing-conjunction	samtengingu vantar	punctuation	í Noregi suður að Gíbraltarsundi > í Noregi og suður að Gíbraltarsundi
-missing-quot	gæsalöpp vantar	punctuation	„I'm winning > „I'm winning“
-missing-quots	gæsalappir vantar	punctuation	I'm winning > „I'm winning“ 
-misplaced-quot	gæsalöpp á röngum stað	punctuation	í lok dags“. > í lok dags.“ 
-wrong-quot	röng gæsalöpp	punctuation	takið þennan svarta“ > „takið þennan svarta“
-wrong-quots	rangar gæsalappir	punctuation	takið þennan svarta > „takið þennan svarta“ 
-extra-quot	gæsalöpp ofaukið	punctuation	hún hófst 1. júlí“. > hún hófst 1. júlí.
-extra-quots	gæsalöppum ofaukið	punctuation	„I'm winning“ > I'm winning 
-punctuation	greinarmerki	punctuation	hún mætti og hann var ekki tilbúinn > hún mætti en hann var ekki tilbúinn
-extra-punctuation	auka greinarmerki	punctuation	... að > að
-extra-comma	auka komma	punctuation	stríð, við náttúruna > stríð við náttúruna
-extra-period	auka punktur	punctuation	á morgun. Og ... > á morgun og...
-period4comma	punktur fyrir kommu	punctuation	meira en áður. Hella meira í sig > meira en áður, hella meira í sig
-period4colon	punktur fyrir tvípunkt	punctuation	Hann hafði þetta að segja. „Við stóðum okkur vel > Hann hafði þetta að segja: „Við stóðum okkur vel
-period4conjunction	punktur fyrir samtengingu	punctuation	...maður vill gera. Vissulega > ...maður vill gera en vissulega
-conjunction4period	samtenging fyrir punkt	punctuation	...tónlist ár hvert og tónlistarstefnurnar eru orðnar... > ...tónlist ár hvert. Tónlistarstefnurnar eru orðnar...
-conjunction4comma	samtenging fyrir kommu	punctuation	...geta orðið þröngvandi og erfitt getur verið... > ...geta orðið þröngvandi, erfitt getur verið... 
-comma4conjunction	komma fyrir samtengingu	punctuation	...fara með vald Guðs, öll löggjöf byggir... > ...fara með vald Guðs og öll löggjöf byggir...
-period4qm	punktur fyrir spurningarmerki	punctuation	Þarf það að vera. > Þarft það að vera?
-period-plus-conjunction	punktur ranglega á undan aðaltengingu	punctuation	...næsti maður. Og það er... > ...næsti maður og það er...
-comma-plus-conjunction	komma ranglega á undan aðaltengingu	punctuation	...þessum heimi, og af... > ...þessum heimi og af...
-abbreviation-period	punktur ranglega notaður í skammstöfun	punctuation	s.s > s.s.
-comma4ex	komma fyrir upphrópun	punctuation	Viti menn, almúginn... > Viti menn! Almúginn...
-period4ex	punktur fyrir upphrópun	punctuation	Viti menn. > Viti menn!
-semicolon4colon	semíkomma fyrir tvípunkt	punctuation	...gæti einhver spurt sig; > ...gæti einhver spurt sig:
-extra-semicolon	semíkommu ofaukið	punctuation	...uppfullur af; hjúkrunarkonum... > ...uppfullur af hjúkrunarkonum...
-ordinal-period	meðferð punkts með raðtölu	punctuation	3 bekk > 3. bekk
-conjunction-drop	hluti orðs felldur niður í samsetningu	punctuation	grunnskóla- eða framhaldsskólanám > grunn- eða framhaldsskólanám
-missing-bracket	sviga vantar	punctuation	(í júní > (í júní)
-extra-bracket	sviga ofaukið	punctuation	(í júní)) > (í júní)
-extra-brackets	svigum ofaukið	punctuation	((í júní)) > (í júní)
-extra-conjunction	samtengingu ofaukið	punctuation	hvort sem að > hvort sem
-semicolon4comma	semíkomma fyrir kommu	punctuation	hundar; kettir og önnur dýr > hundar, kettir og önnur dýr
-conjunction4qm	samtenging fyrir spurningarmerki	punctuation	En er það sönn hamingja og hver eru... > En er það sönn hamingja? Hver eru...
-missing-slash	skrástrik vantar	punctuation	og eða > og/eða
-extra-slash	skástriki ofaukið	punctuation	stað/tímasetning > stað- og tímasetning
-comma4bracket	komma fyrir sviga	punctuation	mesta vandamálið, það var gert... > mesta vandamálið (það var gert...
-qm4comma	spurningarmerki fyrir kommu	punctuation	...hvert maður ætlar að fara? Hvað maður ætlar að gera... > ...hvert maður ætlar að fara, hvað maður ætlar að gera...
-missing-ex	vantar upphrópunarmerki	punctuation	Viti menn ég komst af > Viti menn! Ég komst af
-qm4ex	spurningarmerki fyrir upphrópun	punctuation	Algjört hrak sjálf? > Algjört hrak sjálf!
-qm4period	spurningarmerki fyrir punkt	punctuation	...af hverju það er svo erfitt? > ...af hverju það er svo erfitt.
-bracket4square	svigi fyrir hornklofa	punctuation	(Portúgal) > [Portúgal]
-square4bracket	hornklofi fyrir sviga	punctuation	[börnin] > (börnin)
-hyphen4comma	bandstrik fyrir kommu	punctuation	nóg-nú > nóg, nú ...
-endash4comma	millistrik fyrir kommu	punctuation	nóg–nú > nóg, nú…
-date-period	vantar punkt í dagsetningu	punctuation	11 september > 11. september
-comma4semicolon	komma fyrir semíkommu	punctuation	, > ; 
-word4endash	orð í stað millistriks	punctuation	til > –
-hyphen4word	bandstrik fyrir orð	punctuation	Í 4-5 ár > í fjögur til fimm ár
-endash4word	millistrik fyrir orð	punctuation	Á árunum 1987–1990... > á árunum 1987 til 1990… 
-missing-semicolon	vantar semíkommu	punctuation	Haukar Björgvin Páll > Haukar; Björgvin Páll
-abbreviation	almennar villur í skammstöfunum	punctuation	sm > cm (fyrir sentimetra)
-slash4or	skástrik fyrir eða	punctuation	einhver meiðsl/veikindi > einhver meiðsl eða veikindi
-date-abbreviation	stytting á dagsetningu ranglega notuð	punctuation	2003-06 > 2003-2006
-hyphen4period	bandstrik fyrir punkt	punctuation	...ríkissjóð - er... > ...ríkissjóð. Er...
-endash4period	millistrik fyrir punkt	punctuation	…að maður búi þar áfram–og hafa báðir stjórnarflokkarnir löngum hagnast… > …að maður búi þar áfram. Báðir stjórnarflokkarnir hafa löngum hagnast…
-ex4comma	upphrópun fyrir kommu	punctuation	! > ,
-colon4period	tvípunktur fyrir punkt	punctuation	: > .
-colon4comma	tvípunktur fyrir kommu	punctuation	: > ,
-colon4semicolon	tvípunktur fyrir semíkommu	punctuation	: > ;
-ex4period	upphrópun fyrir punkt	punctuation	! > .
-extra-colon	tvípunktur ofaukið	punctuation	Kristján: Grindvíkingar eru... > Kristján segir Grindvíkinga vera
-bracket4comma	svigi fyrir kommu	punctuation	stjórinn (Rogers sjálfur) ... > stjórinn, Rogers sjálfur, ...
-extra-qm	spurningarmerki ofaukið	punctuation	Þú gerðir hvað fyrstu árin? > Aðspurður um fyrstu árin
-comma4dash	komma fyrir millistrik	punctuation	Einar Ólafur, Haukum > Einar Ólafur – Haukum
-hyphen4semicolon	bandstrik fyrir semíkommu	punctuation	núna - þetta > núna; þetta
-endash4semicolon	millistrik fyrir semíkommu	punctuation	…sem samþykkt var á Alþingi–ekkert bólar hins vegar… > …sem samþykkt var á Alþingi; ekkert bólar hins vegar…
-hyphen4endash	bandstrik fyrir millistrik	punctuation	- > –
-endash4hyphen	millistrik fyrir bandstrik	punctuation	– > -
-emdash4hyphen	þankastrik fyrir bandstrik	punctuation	— > -
-emdash4endash	þankastrik fyrir millistrik	punctuation	— > –
-hypercorr	"ofvöndun, t.d. ""dróg"" í stað ""dró"""	punctuation	- > : 
-hyphen4colon	bandstrik fyrir tvípunkt	punctuation	Margar hljómsveitir - Beach Boys, ... > Margar hljómsveitir: Beach Boys, ...
-endash4colon	millistrik fyrir tvípunkt	punctuation	…tvö börn sem eru einu afkomendur Steinbeck–Thomas Myles… > …tvö börn sem eru einu afkomendur Steinbeck: Thomas Myles…
-dots4comma	þrípunktur fyrir kommu	punctuation	nútímalegu þjálfurum ... en hvað... > nútímalegu þjálfurum, en hvað...
-comma4dots	komma fyrir þrípunkt	punctuation	
-missing-symbol	tákn vantar	punctuation	0 > 0%
-dots4period	þrípunktur fyrir punkt	punctuation	...þáttur í þessu ... > ...þáttur í þessu.
-extra-square	hornklofa ofaukið	punctuation	mótmælendum [hafi ekki... > mótmælendum hafi ekki...
-bracket4period	svigi fyrir punkt	punctuation	( > .
-word4symbol	orð fyrir tákn	punctuation	140 kr. á kg > 140 kr/kg
-nonsup4sup	ekki-brjóstletur fyrir brjóstletur	punctuation	4 m2 > 4 m2
-semicolon4period	semíkomma fyrir punkt	punctuation	; > .
-period4semicolon	punktur fyrir semíkommu	punctuation	. > ;
-period4dash	punktur fyrir millistrik	punctuation	. > –
-missing-square	vantar hornklofa	punctuation	þeir > [þeir]
-slash4hyphen	skástrik fyrir bandstrik	punctuation	bresk/bandarísk > bresk-bandarísk
-extra-commas	kommur ofaukið utan um innskot	punctuation	Lárus Dagur, framkvæmdastjóri, ... > Lárus Dagur framkvæmdastjóri ...
-conjunction4semicolon	samtenging fyrir semíkommu	punctuation	en > ;
-wrong-symbol		punctuation	woman´s  >  woman's
-merged-words	orðum skeytt saman	spacing	hinsvegar > hins vegar
-split-compound	samsett orð slitið sundur	spacing	suðvestur horn > suðvesturhorn
-split-word	orð slitið sundur	spacing	lang efstir > langefstir
-split-words	fleiri en tvö orð slitin sundur	spacing	því um líkt > þvíumlíkt
-missing-hyphen	bandstrik vantar í samsetningu	spacing	Kyoto bókunin > Kyoto-bókunin
-missing-endash	millistrik vantar	spacing	Kuldinn getur farið niður fyrir 65 gráður > kuldinn getur farið niður fyrir –65 gráður
-missing-space	vantar bil	spacing	eðlis-og efnafræði > eðlis- og efnafræði
-extra-space	bili ofaukið	spacing	4 . > 4.
-ngnk	breiður sérhljóði á undan ng/nk	spelling	eingin > engin
-i4y	i fyrir y	spelling	skilda > skylda
-y4i	y fyrir i	spelling	byðja > biðja
-í4ý	í fyrir ý	spelling	bíður > býður
-ý4í	ý fyrir í	spelling	ýmynda > ímynda
-n4nn	n fyrir nn	spelling	fjöldin > fjöldinn
-nn4n	nn fyrir n	spelling	menntunnar > menntunar
-pronun-writing	skrifað eftir framburði	spelling	kallar > karlar
-kv4hv	kv notað í stað hv	spelling	kvattir > hvattir
-hv4kv	hv notað í stað kv	spelling	hveðja > kveðja
-name-error	nöfn skrifuð vitlaust	spelling	Hjörtur Júlíusson Hjartarson > Hjörtur Júlíus Hjartarson
-style	stíll	style	urðu ekkert frægir > urðu ekki frægir
-unicelandic	óíslenskuleg málnotkun	style	...fer eftir persónunni... > ...fer eftir manneskjunni...
-taboo-word	óviðeigandi orð	style	hjúkrunarkona > hjúkrunarfræðingur
-loan-syntax	lánuð setningagerð	style	ég vaknaði upp > ég vaknaði
-u4y	u í stað y	style	mundi > myndi
-words4abbreviation	orð notuð í stað skammstöfunar	style	til dæmis > t.d.
-abbreviation4words	skammstöfun notuð í stað orða	style	e. fjórar mínútur > eftir fjórar mínútur
-fw4ice	erlent orð eða sletta þýdd yfir á íslensku	style	Elba > Saxelfur
-ice4fw	íslenskt orð notað í staðinn erlends	style	Demókrata öldungarþings herferðarnefndina > Democratic Senatorial Campaign Committee
-v3	sögn ranglega í þriðja sæti	syntax	kannski ég læt > kannski læt ég
-v3-subordinate	sögn ranglega í þriðja sæti eftir aukasetningu	syntax	
-missing-letter	vantar staf	typo	hafstaum > hafstraum
-missing-letters	vantar stafi	typo	tónlisastefnum > tónlistarstefnum
-swapped-letters	stöfum víxlað	typo	einngi > einnig
-extra-accent	broddi ofaukið	typo	flétta > fletta
-extra-letter	bókstaf ofaukið	typo	posturlín > postulín
-extra-letters	bókstöfum ofaukið	typo	margskonarar > margs konar
-missing-accent	brodd/punkta fyrir ofan staf vantar	typo	o > ö, i > í
-letter-rep	staf skipt út fyrir annan	typo	dæmu > dæmi
-wrong-accent	broddur notaður vitlaust	typo	óktober > október
-zzz	to revisit	unannotated	
-xxx	unclassified	unannotated	
-wording	orðalag	wording	...gerðum allt í raun... > ...gerðum í raun allt...
-aux	meðferð vera og verða, hjálparsagna	wording	mun verða eftirminnilegt > mun vera eftirminnilegt
-act4mid	á að vera miðmynd	grammar	
-tense4perfect	nútíð/þátíð í stað lokins horfs	grammar	
-perfect4tense	lokið horf í stað nú-/þátíðar	grammar	
-nonit4it	óskáletrað fyrir skáletrað	style	orðið qibt > orðið qibt
-it4nonit	skáletrað fyrir óskáletrað	style	Studdi Isma'il > Studdi Isma'il
-sup4nonsup	brjóstletur fyrir ekki-brjóstletur	punctuation	
-þar4það	þar í stað það	other	þar voru dæmi  (there were examples of...) 
-extra-munu	sögnin munu ofnotuð (bæði í nh og viðt.h.)	style	
-noun4adj	no í stað lo	grammar	Það eru jafnmörg orð sem eru endingarleysi og   >  ...sem eru endingarlaus og
-number-fail		numbers	123ja metra > 123 metra
-dep	a dependent error	other	referal: depId
+Linguistic field	Subfield	Error code	Description	Example
+coherence	accuracy	dem4noun	A demonstrative pronoun used where a noun should be	hinn > maðurinn
+coherence	accuracy	noun4dem	A noun used where a demonstrative pronoun should be	stærsta klukkan > sú stærsta
+coherence	pro	dem-pro	An incorrect demonstrative pronoun used	hinn > sá
+coherence	pro	dem4pers	A demonstrative pronoun used where a personal pronoun should be used	þessi > hún
+coherence	pro	noun4pro	A noun used where a pronoun should be used	menntun má nálgast > hana má nálgast
+coherence	pro	pers4dem	A personal pronoun used instead of a demonstrative pronoun	það > þetta
+coherence	pro	pro4noun	A pronoun used where a noun should be used	þau voru spurð > parið var spurt
+coherence	pro	pro4reflexive	A personal pronoun used instead of a reflexive pronoun	gefur orku til fólks í kringum það > gefur orku til fólks í kringum sig
+coherence	pro	reflexive4noun	A reflexive pronoun used instead of a noun	Það gerðist áður en tilkynnt var til Samkeppniseftirlitsins um yfirtökur sínar á félögunum > Það gerðist áður en tilkynnt var til Samkeppniseftirlitsins um yfirtökur bankans á félögunum
+coherence	pro	reflexive4pro	A reflexive pronoun used instead of a personal pronoun	í umhverfi sínu > í umhverfi þeirra
+coherence	reference	dir4loc	Directional instead of locative	inn > inni
+coherence	reference	loc4dir	Locative instead of directional	úti > út
+grammar	agreement	agreement	A finite verb not in agreement with a noun phrase	Joy Division voru ekki talin > Joy Division var ekki talin
+grammar	agreement	agreement-concord	An error in agreement within a noun phrase	tengja ákveðin hlut > tengja ákveðinn hlut
+grammar	agreement	agreement-pred	A predicate not in agreement with its subject	Bakgrunnurinn er gullin > Bakgrunnurinn er gullinn
+grammar	agreement	agreement-pro	A pronoun not in agreement with its antecedent	...vöðvahólf sem sé um dælinguna. Hann dælir blóðinu > Það dælir blóðinu
+grammar	agreement	marked4unmarked	A marked grammatical gender used instead of the unmarked one, the feminine or neuter used instead of masculine	Það veit engin > Það veit enginn
+grammar	aspect	cont4simple	A verb in the continuous tense which should be in the simple tense	ég er að sitja > ég sit
+grammar	aspect	perfect4tense	A verb in the perfect aspect which should be in the present or past tense	Hún hefur verið tekin út > hún var tekin út
+grammar	aspect	simple4cont	A verb in the simple tense which should be in the continuous tense	ók > var að aka
+grammar	aspect	tense4perfect	A verb in the present or past tense which should be in the perfect aspect	Það var til síðan 1893 > það hafði verið til síðan 1893
+grammar	aux	extra-munu	Redundant verb ‘munu’ used	Í lokin mun vera fjallað > í lokin verður fjallað
+grammar	aux	geta	The verb ‘geta’ used with an infinitive or a verb in the present tense	Þau geta að fara > þau geta farið
+grammar	case	acc4nom-sub	A subject in the accusative case which should be in the nominative case	mig hlakkar > ég hlakka
+grammar	case	case-adj	A word whose case is governed by an adjective is not in the correct case	vera frábrugðið e-ð > vera frábrugðið e-u
+grammar	case	case-collocation	Incorrect case within a collocation	hafa áhuga á e-u
+grammar	case	case-prep	A word whose case is governed by a preposition is not in the correct case	hann fór frá mig > hann fór frá mér
+grammar	case	case-verb	A word whose case is governed by a verb is not in the correct case	viltu hjálpa mig > mér
+grammar	case	dative-sub	A subject incorrectly in the dative case	strákunum langar > strákana langar
+grammar	case	nom4acc-sub	A subject in the nominal case which should be in the accusative case	ég dreymi > mig dreymir
+grammar	conjunction	conjunction	A conjunction used incorrectly	ég hef litla innsýn í líf dýra né manna > ég hef litla innsýn í líf dýra eða manna
+grammar	definitiveness	def4ind	An definite word which should be indefinite	skákinni > skák
+grammar	definitiveness	extra-dem-pro	A redundant demonstrative pronoun	sá framburðurinn > framburðurinn
+grammar	definitiveness	ind4def	An indefinite word which should be definite	gítartakta > gítartaktana
+grammar	definitiveness	missing-dem-pro	A demonstrative pronoun missing	framburður > sá framburður
+grammar	inflection	adjective-inflection	An adjective inflected incorrectly	Þau eiga það sameiginleg > Þau eiga það sameiginlegt
+grammar	inflection	gen-escape	A noun which should be in the genitive case is incorrectly in another case	neysla ávöxtum > neysla ávaxta
+grammar	inflection	genitive	Errors related to the genitive case	Um eðli tónkvæði > um eðli tónkvæða
+grammar	inflection	nominal-inflection	A noun inflected incorrectly, i.e. the inflection form exists but does not fit in the sentence	Hvað varðar þróunar > Hvað varðar þróun
+grammar	inflection	numeral-inflection	A numeral inflected incorrectly	Í fjórða rímunni > í fjórðu rímunni
+grammar	inflection	pro-inflection	A pronoun inflected incorrectly	Á þann tíma > á þeim tíma
+grammar	inflection	verb-inflection	A verb inflected incorrectly	Samt sem áður kröfðu þau > Samt sem áður kröfðust þau
+grammar	inflection	want	The third person singular ‘vill’ used where the first person singular ‘vil’ should be used, and the opposite	ég vill > ég vil
+grammar	insertion	extra-prep	A redundant preposition	Á þetta bendir Katrín á í umfjölluninni > Á þetta bendir Katrín í umfjölluninni
+grammar	mood	ind4sub	A verb in the indicative mood which should be in the subjunctive mood	Þrátt fyrir að konfúsíanismi er upprunninn > Þrátt fyrir að konfúsíanismi sé upprunninn
+grammar	mood	sub4ind	A verb in the subjunctive mood which should be in the indicative mood	Stjórnvöld vildu auka rétt borgara og geri þeim kleift > Stjórnvöld vildu auka rétt borgara og gera þeim kleift
+grammar	omission	missing-prep	A preposition missing	Hann fór Parísar > hann fór til Parísar
+grammar	prep	að4af	The preposition ‘að’ used instead of the preposition ‘af’	að hafa gaman að > að hafa gaman af
+grammar	prep	af4að	The preposition ‘af’ used instead of the preposition ‘að’	gert grín af > gert grín að
+grammar	prep	wrong-prep	An incorrect preposition used	Ég bý í Íslandi > Ég bý á Íslandi
+grammar	syntax	adj4adv	An adjective used where an adverb should be	krefst ekki meira > krefst ekki meir
+grammar	syntax	adv4adj	An adverb used where an adjective should be	hafa það betur > hafa það betra
+grammar	syntax	each	An error in reciprocal pronouns	frá hvor öðrum > hvor frá öðrum
+grammar	syntax	extra-fin-verb	persónubeygðri sögn ofaukið	Bókin heitir er 'Blómin á þakinu'
+grammar	syntax	extra-inf-part	A redundant infinitive particle	Bæði lið að sækja .. > Bæði lið sóttu ...
+grammar	syntax	extra-sub	A redundant subject	Pabbi minn heitir Jolan og hann er ... > ... og er ...
+grammar	syntax	loan-syntax	Syntax borrowed from another language	ég vaknaði upp > ég vaknaði
+grammar	syntax	missing-fin-verb	A finite verb missing from a sentence	þótt hún mjög virk > þótt hún sé mjög virk
+grammar	syntax	missing-inf-part	An infinitive particle missing	vera gera e-ð > vera að gera e-ð
+grammar	syntax	missing-obj	An object missing from a clause	Ég heimsótti aftur > ég heimsótti Pompei aftur
+grammar	syntax	missing-sub	A subject missing from a clause	...enda inniheldur ítarlega umfjöllun... > enda inniheldur hún ítarlega umfjöllun...
+grammar	syntax	new-passive	The new passive construction used	Það er samið fyrir þau tónlistina > Tónlistin er samin fyrir þau
+grammar	syntax	syntax-other	An error relating to syntax	Svo er þetta ekki gott dæmi > svo þetta er ekki gott dæmi
+grammar	syntax	v3	A verb incorrectly in the third position	kannski ég læt > kannski læt ég
+grammar	syntax	v3-subordinate	A verb incorrectly in the third position in a subordinate clause	...þegar Kristbjörg í tvígang reyndi að sækja um > ...þegar Kristbjörg reyndi í tvígang að sækja um
+grammar	tense	past4pres	A verb in the past tense which should be in the present tense	þegar hún leigði spólur > þegar hún leigir spólur
+grammar	tense	pres4past	A verb in the present tense which should be in the past tense	Þeir fara út > Þeir fóru út
+grammar	voice	act4mid	A verb in active voice which should be in middle voice	Það hefur breytt mikið > það hefur breyst mikið
+grammar	voice	act4pass	A verb in active voice which should be in passive voice	nafnið kom til notkunar > nafnið var tekið til notkunar
+grammar	voice	mid4act	A verb in middle voice which should be in active voice	Ég hoppast út > ég hoppa út
+grammar	voice	mid4pass	A verb in middle voice which should be in passive voice	bók selst > bók er seld
+grammar	voice	pass4act	A verb in passive voice which should be in active voice	allt samband er rofið > allt samband rofnar
+grammar	voice	pass4mid	A verb in passive voice which should be in middle voice	bók er seld > bók selst
+grammar	voice	passive	The passive construction incorrectly formed	safn sem er notuð > safn sem hefur verið notað
+orthography	capitalization	caps4low	An uppercase letter which should be lowercase	tónLIST > tónlist
+orthography	capitalization	low4caps	An lowercase letter which should be uppercase	Wow air > WOW air
+orthography	capitalization	lower4upper-acro	A lowercase letter in an acronym which should be upper case	Dv > DV
+orthography	capitalization	lower4upper-initial	A lowercase letter at the beginning of a sentence which should be upper case	hann var seinn > Hann var seinn
+orthography	capitalization	lower4upper-proper	A lowercase letter at the beginning of a proper noun which should be upper case	ísland > Íslands
+orthography	capitalization	upper4lower-common	An uppercase letter in a common noun which should be lowercase	20 Milljónir > 20 milljónir
+orthography	capitalization	upper4lower-noninitial	An uppercase letter not at the beginning of a sentence which should be lowercase	Hann var Seinn > Hann var seinn
+orthography	capitalization	upper4lower-proper	An uppercase letter in a proper noun which should be lowercase	Mál og Menning > Mál og menning
+orthography	foreign	foreign-error	An error in a foreign word	Supurbowl > Super Bowl
+orthography	foreign	foreign-name	An error in a foreign name	Warwixk > Warwick
+orthography	nonword	compound-collocation	A compound word not formed according to tradition	fyrirhafnalaust > fyrirhafnarlaust
+orthography	nonword	nonword	A word which does not exist	Eystrarsaltslöndunum > Eystrarsaltslöndunum
+orthography	punctuation	abbreviation	Various errors in abbreviations	sm > cm (fyrir sentimetra)
+orthography	punctuation	abbreviation-period	Incorrect use of a period in an abbreviation	s.s > s.s.
+orthography	punctuation	bracket4comma	A bracket used where a comma should be	stjórinn (Rogers sjálfur) ... > stjórinn, Rogers sjálfur, ...
+orthography	punctuation	bracket4period	A bracket used where a period should be	( > .
+orthography	punctuation	bracket4square	A bracket used where a square bracket should be	(Portúgal) > [Portúgal]
+orthography	punctuation	colon4comma	A colon used where a comma should be	: > ,
+orthography	punctuation	colon4period	A colon used where a period should be	: > .
+orthography	punctuation	colon4semicolon	A colon used where a semicolon should be	: > ;
+orthography	punctuation	comma-plus-conjunction	A comma incorrectly used before a conjunction	...þessum heimi, og af... > ...þessum heimi og af...
+orthography	punctuation	comma4bracket	A comma used where a bracket should be	mesta vandamálið, það var gert... > mesta vandamálið (það var gert...
+orthography	punctuation	comma4colon	A comma used where a colon should be	...er í þremur heimsálfum, Asíu, Afríku og Evrópu > ...er í þremur heimsálfum: Asíu, Afríku og Evrópu
+orthography	punctuation	comma4conjunction	A comma used where a conjunction should be	...fara með vald Guðs, öll löggjöf byggir... > ...fara með vald Guðs og öll löggjöf byggir...
+orthography	punctuation	comma4dash	A comma used where a dash should be	Einar Ólafur, Haukum > Einar Ólafur – Haukum
+orthography	punctuation	comma4ex	A comma used where an exclamation mark should be	Viti menn, almúginn... > Viti menn! Almúginn...
+orthography	punctuation	comma4period	A comma used where a period should be	...kynnast nýju fólki, er á þrítugsaldri > ...kynnast nýju fólki. Hann er á þrítugsaldri
+orthography	punctuation	comma4qm	A comma used where a question mark should be	Höfum við réttinn, eins og að... > Höfum við réttinn? Eins og að...
+orthography	punctuation	comma4semicolon	A comma used where a semicolon should be	, > ;
+orthography	punctuation	conjunction-drop	A longer form of a word than necessary is used in contraction	grunnskóla- eða framhaldsskólanám > grunn- eða framhaldsskólanám
+orthography	punctuation	conjunction4comma	A conjunction used where a comma should be	...geta orðið þröngvandi og erfitt getur verið... > ...geta orðið þröngvandi, erfitt getur verið...
+orthography	punctuation	conjunction4period	A conjunction used where a period should be	...tónlist ár hvert og tónlistarstefnurnar eru orðnar... > ...tónlist ár hvert. Tónlistarstefnurnar eru orðnar...
+orthography	punctuation	conjunction4qm	A conjunction used where a question mark should be	En er það sönn hamingja og hver eru... > En er það sönn hamingja? Hver eru...
+orthography	punctuation	conjunction4semicolon	A conjunction used instead of a semicolon	en > ;
+orthography	punctuation	date-abbreviation	Date abbreviated incorrectly	2003-06 > 2003-2006
+orthography	punctuation	dots4comma	Three dots used where a comma should be	nútímalegu þjálfurum ... en hvað... > nútímalegu þjálfurum, en hvað...
+orthography	punctuation	dots4period	Three dots used where a period should be	...þáttur í þessu ... > ...þáttur í þessu.
+orthography	punctuation	double-punctuation	Double punctuation incorrectly used	o.s.frv.. > o.s.frv.
+orthography	punctuation	emdash4endash	An em dash used where an en dash should be	— > –
+orthography	punctuation	emdash4hyphen	An em dash used where a hyphen should be	— > -
+orthography	punctuation	endash4colon	An en dash used where a colon should be	…tvö börn sem eru einu afkomendur Steinbeck–Thomas Myles… > …tvö börn sem eru einu afkomendur Steinbeck: Thomas Myles…
+orthography	punctuation	endash4comma	An en dash used where a comma should be	nóg–nú > nóg, nú…
+orthography	punctuation	endash4hyphen	An en dash used where a hyphen should be	– > -
+orthography	punctuation	endash4period	An en dash used where a period should be	…að maður búi þar áfram–og hafa báðir stjórnarflokkarnir löngum hagnast… > …að maður búi þar áfram. Báðir stjórnarflokkarnir hafa löngum hagnast…
+orthography	punctuation	endash4semicolon	An en dash used where a semicolon should be	…sem samþykkt var á Alþingi–ekkert bólar hins vegar… > …sem samþykkt var á Alþingi; ekkert bólar hins vegar…
+orthography	punctuation	endash4word	An en dash used where a word should be	Á árunum 1987–1990... > á árunum 1987 til 1990…
+orthography	punctuation	ex4comma	An exclamation mark used where a comma should be	! > ,
+orthography	punctuation	ex4period	Exclamation mark used instead of a period	! > .
+orthography	punctuation	extra-bracket	A redundant bracket	(í júní)) > (í júní)
+orthography	punctuation	extra-brackets	Redundant brackets	((í júní)) > (í júní)
+orthography	punctuation	extra-colon	A redundant colon	Kristján: Grindvíkingar eru... > Kristján segir Grindvíkinga vera
+orthography	punctuation	extra-comma	Redundant comma	stríð, við náttúruna > stríð við náttúruna
+orthography	punctuation	extra-commas	Redundant commas used around an insertion	Lárus Dagur, framkvæmdastjóri, ... > Lárus Dagur framkvæmdastjóri ...
+orthography	punctuation	extra-conjunction	A redundant conjunction	hvort sem að > hvort sem
+orthography	punctuation	extra-endash	A redundant en dash used	barna–skapur > barnaskapur
+orthography	punctuation	extra-hyphen	A redundant hyphen used	Komust í 16-liða úrslit > komust í 16 liða úrslit
+orthography	punctuation	extra-period	Redundant period	á morgun. Og ... > á morgun og...
+orthography	punctuation	extra-punctuation	Redundant punctuation	Hann fór ... að sofa > hann fór að sofa
+orthography	punctuation	extra-qm	A redundant question mark	Þú gerðir hvað fyrstu árin? > Aðspurður um fyrstu árin
+orthography	punctuation	extra-quot	A redundant single quote	hún hófst 1. júlí“. > hún hófst 1. júlí.
+orthography	punctuation	extra-quots	Redundant quotes	„I'm winning“ > I'm winning
+orthography	punctuation	extra-semicolon	A redundant semicolon	...uppfullur af; hjúkrunarkonum... > ...uppfullur af hjúkrunarkonum...
+orthography	punctuation	extra-slash	A redundant slash	stað/tímasetning > stað- og tímasetning
+orthography	punctuation	extra-square	A redundant square bracket	mótmælendum [hafi ekki... > mótmælendum hafi ekki...
+orthography	punctuation	hypercorr	Hypercorrection	Dróg > dró
+orthography	punctuation	hyphen4colon	A hyphen used where a colon should be	Margar hljómsveitir - Beach Boys, ... > Margar hljómsveitir: Beach Boys, ...
+orthography	punctuation	hyphen4comma	A hyphen used where a comma should be	nóg-nú > nóg, nú ...
+orthography	punctuation	hyphen4endash	A hyphen used where an en dash should be	- > –
+orthography	punctuation	hyphen4period	A hyphen used where a period should be	...ríkissjóð - er... > ...ríkissjóð. Er...
+orthography	punctuation	hyphen4semicolon	A hyphen used where a semicolon should be	núna - þetta > núna; þetta
+orthography	punctuation	hyphen4word	A hyphen used where a word should be	Í 4-5 ár > í fjögur til fimm ár
+orthography	punctuation	misplaced-quot	A quote is in the wrong position within a sentence	í lok dags“. > í lok dags.“
+orthography	punctuation	missing-bracket	A single bracket missing	(í júní > (í júní)
+orthography	punctuation	missing-colon	A colon missing	Hann sagði við þá „Komið til mín“ > Hann sagði við þá: „Komið til mín“
+orthography	punctuation	missing-comma	A comma missing	Hún vex á Íslandi Grænlandi og Færeyjum > Hún vex á Íslandi, Grænlandi og Færeyjum
+orthography	punctuation	missing-commas	Commas missing around insertion	Hún er jafn verðmæt ef ekki verðmætari en háskólapróf > Hún er verðmæt, ef ekki verðmætari, en háskólapróf
+orthography	punctuation	missing-conjunction	A conjunction missing	í Noregi suður að Gíbraltarsundi > í Noregi og suður að Gíbraltarsundi
+orthography	punctuation	missing-ex	An exclamation mark missing	Viti menn ég komst af > Viti menn! Ég komst af
+orthography	punctuation	missing-period	A period missing	Tónlistin varð ekki vinsæl strax það var ekki fyrr en > Tónlistin varð ekki vinsæl strax. Það var ekki fyrr en
+orthography	punctuation	missing-qm	A question mark missing	„Skilur þú mig“ spurði Halldór > „Skilur þú mig?“ spurði Halldór
+orthography	punctuation	missing-quot	A single quote missing	„I'm winning > „I'm winning“
+orthography	punctuation	missing-quots	Quotes missing	I'm winning > „I'm winning“
+orthography	punctuation	missing-semicolon	A semicolon missing from a sentence	Haukar Björgvin Páll > Haukar; Björgvin Páll
+orthography	punctuation	missing-slash	Slash missing	og eða > og/eða
+orthography	punctuation	missing-square	A square bracket missing	þeir > [þeir]
+orthography	punctuation	missing-symbol	A symbol missing	0 > 0%
+orthography	punctuation	nonsup4sup	Normal style of script used instead of superscript	4 m2 > 4 m2
+orthography	punctuation	period-plus-conjunction	A period incorrectly used before a conjunction	...næsti maður. Og það er... > ...næsti maður og það er...
+orthography	punctuation	period4colon	A period used where a colon should be	Hann hafði þetta að segja. „Við stóðum okkur vel > Hann hafði þetta að segja: „Við stóðum okkur vel
+orthography	punctuation	period4comma	A period used where a comma should be	meira en áður. Hella meira í sig > meira en áður, hella meira í sig
+orthography	punctuation	period4conjunction	A period used where a conjunction should be	...maður vill gera. Vissulega > ...maður vill gera en vissulega
+orthography	punctuation	period4dash	A period used instead of a dash (en dash or em dash)	. > –
+orthography	punctuation	period4ex	A period used where an exclamation mark should be	Viti menn. > Viti menn!
+orthography	punctuation	period4qm	A period used where a question mark should be	Þarf það að vera. > Þarft það að vera?
+orthography	punctuation	period4semicolon	A period used instead of a semicolon	. > ;
+orthography	punctuation	qm4comma	A question mark used where a comma should be	...hvert maður ætlar að fara? Hvað maður ætlar að gera... > ...hvert maður ætlar að fara, hvað maður ætlar að gera...
+orthography	punctuation	qm4ex	A question mark for an exclamation mark	Algjört hrak sjálf? > Algjört hrak sjálf!
+orthography	punctuation	qm4period	A question mark for a period	...af hverju það er svo erfitt? > ...af hverju það er svo erfitt.
+orthography	punctuation	semicolon4colon	A semicolon used where a colon should be	...gæti einhver spurt sig; > ...gæti einhver spurt sig:
+orthography	punctuation	semicolon4comma	A semicolon used where a comma should be	hundar; kettir og önnur dýr > hundar, kettir og önnur dýr
+orthography	punctuation	semicolon4conjunction	semíkomma fyrir samtengingu	; > og
+orthography	punctuation	semicolon4period	Semicolon used instead of a period	; > .
+orthography	punctuation	slash4hyphen	A slash used instead of a hyphen	bresk/bandarísk > bresk-bandarísk
+orthography	punctuation	slash4or	A slash used instead of 'eða'	einhver meiðsl/veikindi > einhver meiðsl eða veikindi
+orthography	punctuation	square4bracket	A square bracket used where a bracket should be	[börnin] > (börnin)
+orthography	punctuation	word4endash	A word used where an en dash should be	til > –
+orthography	punctuation	word4symbol	A word used instead of a symbol	140 kr. á kg > 140 kr/kg
+orthography	punctuation	wrong-quot	One part of a quotes pair is the wrong type of quote	takið þennan svarta“ > „takið þennan svarta“
+orthography	punctuation	wrong-quots	The wrong type of quotes used which do not conform with Icelandic rules	takið þennan svarta > „takið þennan svarta“
+orthography	punctuation	wrong-symbol	A wrong symbol used	woman´s  >  woman's
+orthography	spacing	extra-space	Redundant space	4 . > 4.
+orthography	spacing	merged-words	Words incorrectly joined	hinsvegar > hins vegar
+orthography	spacing	missing-endash	An en dash missing	Kuldinn getur farið niður fyrir 65 gráður > kuldinn getur farið niður fyrir –65 gráður
+orthography	spacing	missing-hyphen	A hyphen missing in a compound	Kyoto bókunin > Kyoto-bókunin
+orthography	spacing	missing-space	Space missing	eðlis-og efnafræði > eðlis- og efnafræði
+orthography	spacing	split-compound	A compound word split up	suðvestur horn > suðvesturhorn
+orthography	spacing	split-word	A word split in two parts	lang efstir > langefstir
+orthography	spacing	split-words	A word split into more than two parts	því um líkt > þvíumlíkt
+orthography	spelling	bad-contraction	An incorrect contraction	mæliru > mælir maður
+orthography	spelling	hv4kv	A word written with ‘hv’ instead of ‘kv’	hveðja > kveðja
+orthography	spelling	i4y	‘i’ written instead of ‘y’	skilda > skylda
+orthography	spelling	í4ý	‘í’ written instead of ‘ý’	bíður > býður
+orthography	spelling	kv4hv	A word written with ‘kv’ instead of ‘hv’	kvattir > hvattir
+orthography	spelling	n4nn	‘n’ written instead of ‘nn’, particularly in an inflectional ending	fjöldin > fjöldinn
+orthography	spelling	name-error	A proper name written incorrectly	Hjörtur Júlíusson Hjartarson > Hjörtur Júlíus Hjartarson
+orthography	spelling	ngnk	A broad vowel used before ‘ng’ or ‘nk’	eingin > engin
+orthography	spelling	nn4n	‘nn’ written instead of ‘n’, particularly in an inflectional ending	menntunnar > menntunar
+orthography	spelling	pronun-writing	A word written according to its pronunciation	kallar > karlar
+orthography	spelling	u4y	‘U’ written instead of ‘y’ in the two words demonstrated below	mundi > myndi
+orthography	spelling	y4i	‘y’ written instead of ‘i’	byðja > biðja
+orthography	spelling	ý4í	‘ý’ written instead of ‘í’	ýmynda > ímynda
+orthography	style	abbreviation4words	An abbreviation used instead of the full words	e. fjórar mínútur > eftir fjórar mínútur
+orthography	style	words4abbreviation	Words used instead of their abbreviation	til dæmis > t.d.
+orthography	typo	extra-accent	A redundant accent used with a letter	flétta > fletta
+orthography	typo	extra-letter	A redundant letter in a word	posturlín > postulín
+orthography	typo	extra-letters	More than one redundant letter in a word	margskonarar > margs konar
+orthography	typo	letter-rep	A letter within a word replaced with another letter	dæmu > dæmi
+orthography	typo	missing-accent	An accent missing from a letter	o > ö, i > í
+orthography	typo	missing-letter	A letter missing in a word	hafstaum > hafstraum
+orthography	typo	missing-letters	More than one letter missing in a word	tónlisastefnum > tónlistarstefnum
+orthography	typo	swapped-letters	Letters within a word swapped	einngi > einnig
+orthography	typo	wrong-accent	A wrong accent used with a letter or an accent used with an incorrect letter	óktober > október
+other	other	dep	An error dependent on another one	referal: depId
+style	exclusion	gendered	Gendered language	menn hugsa oft > fólk hugsar oft
+style	numbers	extra-number	A redundant number	139,0 > 139
+style	numbers	number-fail	An error relating to a number	123ja metra > 123 metra
+style	numbers	number4word	A numeral used instead of a word. All numbers below and including 10 should be written as a word, except when they appear as part of a date or before a unit of measurement. Ordinals which are part of a proper name are always written as numerals.	4 > fjórir
+style	numbers	symbol4number	A symbol used instead of a numeral	2 ½ > 2,5
+style	numbers	word4number	A word used instead of a numeral. All numbers higher than 10 should be written as a numeral, except when a number lower than 11 appears immediately before or after a number higher than that. Ordinals which are part of a proper name are always written as numerals.	fjórða öld > 4. öld
+style	other	extra-symbol	A redundant symbol	Dalvík + gaf... > Dalvík gaf...
+style	other	symbol4word	A symbol used where a word should be	stjórn ™ > stjórn TM
+style	style	fw4ice	A foreign word used instead of an Icelandic one	Elba > Saxelfur
+style	style	ice4fw	An Icelandic word used instead of a foreign one	Demókrata öldungarþings herferðarnefndina > Democratic Senatorial Campaign Committee
+style	style	it4nonit	A word in italic font which should be non-italic	Studdi Isma'il > Studdi Isma'il
+style	style	nonit4it	A word in non-italic font which should be italic	orðið qibt > orðið qibt
+style	style	style	A particular style in writing used	urðu ekkert frægir > urðu ekki frægir
+style	style	taboo-word	An inappropriate word used	hjúkrunarkona > hjúkrunarfræðingur
+style	style	unicelandic	Unicelandic usage in a sentence	...fer eftir persónunni... > ...fer eftir manneskjunni...
+style	wording	wording	Various errors regarding wording	...gerðum allt í raun... > ...gerðum í raun allt...
+vocabulary	aux	aux	Auxiliary verbs used incorrectly	mun verða eftirminnilegt > mun vera eftirminnilegt
+vocabulary	aux	have	Confusion in the use of ‘hafa’, ‘eiga’ and ‘vera með’	hafa fjölskyldu > eiga fjölskyldu
+vocabulary	collocation	collocation	An error in a collocation	fram á þennan dag > fram til þessa dags
+vocabulary	collocation	collocation-idiom	An error in a collocation with an opaque meaning	hélt hvorki vindi né vatni > hélt hvorki vatni né vindi
+vocabulary	collocation	though	Confusion between 'þó að' and 'þótt'	þótt að > þó að
+vocabulary	insertion	extra-word	A redundant word	augun á mótherja > augu mótherja
+vocabulary	insertion	extra-words	More than one redundant word	...ég fer að hugsa... > ...ég hugsa...
+vocabulary	insertion	repeat-word	A word repeated just after the other	maður sem sem fór > maður sem fór
+vocabulary	insertion	repeat-word-split	A word repeated with some other words in between	var eitt ár var eftir > eitt ár var eftir
+vocabulary	lexical	adj4noun	An adjective used where a noun should be used	Áhrif ensks > Áhrif enskunnar
+vocabulary	lexical	context	An incorrect word chosen for the particular context	Ísland verður afskekkt > Ísland verður einangrað
+vocabulary	lexical	noun4adj	A noun used where an adjective should be used	Það eru jafnmörg orð sem eru endingarleysi og   >  ...sem eru endingarlaus og
+vocabulary	lexical	það4þar	það í stað þar	það eru tvær árstíðir > þar eru tvær árstíðir
+vocabulary	lexical	þar4það	The adverb ‘þar’ used where ‘það’ should be	þar voru dæmi  (there were examples of...)
+vocabulary	omission	missing-word	A word missing	í Donalda > í þorpinu Donalda
+vocabulary	omission	missing-words	More than one word missing	því betri laun > því betri laun hlýtur maður
+vocabulary	pro	indef-pro	An indefinite pronoun used incorrectly	enginn > ekki neinn
+vocabulary	pro	interr-pro	An incorrect interrogative pronoun used	Hún spurði hvað ég vildi fara út > hún spurði hvort ég vildi fara út
+vocabulary	semantic	plural4singular	A plural word which should be singular	langtímaþurrkar > langtímaþurrkur
+vocabulary	semantic	singular4plural	A singular word which should be plural	í samræðu > í samræðum
