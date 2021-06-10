@@ -36,9 +36,15 @@
 <s n="1b">
   <w>Um</w>
   <w>samsettar</w>
-  <w>tíðar</w>
-  <w>með</w>
   <revision id="0b">
+    <original><w>tíðar</w></original>
+    <corrected><w>tíðir</w></corrected>
+      <errors>
+        <error xtype="nominal-inflection" eid="0" />
+      </errors>
+  </revision>
+  <w>með</w>
+  <revision id="0c">
     <original><c>“</c></original>
     <corrected><c>„</c></corrected>
       <errors>
