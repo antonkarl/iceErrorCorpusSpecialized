@@ -81,7 +81,13 @@
   </revision>
   <w>eitthvað</w>
   <w>á</w>
-  <w>seiði</w>
+  <revision id="4b">
+    <original><w>seiði</w></original>
+    <corrected><w>seyði</w></corrected>
+      <errors>
+        <error xtype="i4y" eid="0" />
+      </errors>
+  </revision>
   <c>.</c>
 </s>
 <s n="5">

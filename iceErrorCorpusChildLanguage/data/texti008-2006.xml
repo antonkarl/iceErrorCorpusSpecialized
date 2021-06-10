@@ -106,21 +106,15 @@
         <error xtype="split-word" idx="5b-1" eid="0" />
         <error xtype="n4nn" idx="5b-1" eid="0" />
         <error xtype="agreement-pred" idx="5b-1" eid="0" />
+        <error xtype="wording" idx="5b-2" eid="0" />
+        <error xtype="split-word" idx="5b-2" eid="0" />
       </errors>
-  </revision>
-  <revision id="5c">
-    <original><w>með</w><w>ljós</w><w>brúnar</w><w>skjótur</w></original>
-    <corrected></corrected>
-      <errors>
-        <error xtype="wording" idx="5c-1" eid="0" />
-      </errors>
-  </revision>
   <w>og</w>
   <revision id="6">
     <original></original>
     <corrected><w>ljósbrúnskjóttur</w></corrected>
       <errors>
-        <error xtype="dep" depId="5c-1" eid="0" />
+        <error xtype="dep" depId="5b-2" eid="0" />
       </errors>
   </revision>
   <w>með</w>
@@ -325,14 +319,8 @@
     <original><w>eitt</w><w>ég</w></original>
     <corrected><w>neitt</w><c>.</c><w>Ég</w></corrected>
       <errors>
-        <error xtype="missing-letter" eid="0" />
-      </errors>
-  </revision>
-  <revision id="24b">
-    <original><w>ég</w></original>
-    <corrected><c>.</c><w>Ég</w></corrected>
-      <errors>
-        <error xtype="missing-period" eid="0" />
+        <error xtype="missing-letter" idx="24-1" eid="0" />
+        <error xtype="missing-period" idx="24-2" eid="0" />
       </errors>
   </revision>
   <w>var</w>
@@ -465,14 +453,8 @@
     <original><w>ég</w><w>hitti</w></original>
     <corrected><c>.</c><w>Ég</w><w>hef</w><w>hitt</w></corrected>
       <errors>
-        <error xtype="missing-period" eid="0" />
-      </errors>
-  </revision>
-  <revision id="35c">
-    <original><w>hitti</w></original>
-    <corrected><w>hef</w><w>hitt</w></corrected>
-      <errors>
-        <error xtype="verb-inflection" eid="0" />
+        <error xtype="missing-period" idx="35b-1" eid="0" />
+        <error xtype="wording" idx="35b-2" eid="0" />
       </errors>
   </revision>
   <w>marga</w>
@@ -499,13 +481,7 @@
       <errors>
         <error xtype="lower4upper-initial" idx="37-1" eid="0" />
         <error xtype="def4ind" idx="37-1" eid="0" />
-      </errors>
-  </revision>
-  <revision id="37b">
-    <original><w>notuðu</w></original>
-    <corrected><w>notaði</w></corrected>
-      <errors>
-        <error xtype="agreement" eid="0" />
+        <error xtype="agreement" idx="37-2" eid="0" />
       </errors>
   </revision>
   <w>hesta</w>
@@ -526,14 +502,8 @@
     <original><w>Axlar</w><w>Björn</w><w>hann</w></original>
     <corrected><w>Axlar-Björn</w></corrected>
       <errors>
-        <error xtype="missing-hyphen" eid="0" />
-      </errors>
-  </revision>
-  <revision id="39b">
-    <original><w>hann</w></original>
-    <corrected></corrected>
-      <errors>
-        <error xtype="extra-word" eid="0" />
+        <error xtype="missing-dash" idx="39-1" eid="0" />
+        <error xtype="extra-word" idx="39-2" eid="0" />
       </errors>
   </revision>
   <w>leit</w>
@@ -705,7 +675,7 @@
     <original><w>Axlar</w><w>Björn</w><w>stal</w><w>hesta</w><w>það</w><w>var</w></original>
     <corrected><w>Axlar-Björn</w><w>stæli</w><w>hestum</w><c>.</c><w>Það</w><w>er</w></corrected>
       <errors>
-        <error xtype="missing-hyphen" idx="55-1" eid="0" />
+        <error xtype="missing-dash" idx="55-1" eid="0" />
         <error xtype="ind4sub" idx="55-2" eid="0" />
         <error xtype="nominal-inflection" idx="55-3" eid="0" />
         <error xtype="case-verb" idx="55-3" eid="0" />
@@ -763,7 +733,7 @@
     <original><w>Axlar</w><w>Björn</w></original>
     <corrected><w>Axlar-Björn</w></corrected>
       <errors>
-        <error xtype="missing-hyphen" eid="0" />
+        <error xtype="missing-dash" eid="0" />
       </errors>
   </revision>
   <c>.</c>

@@ -212,25 +212,25 @@
   <w>í</w>
   <w>London</w>
   <revision id="11">
-    <original><w>eye</w></original>
-    <corrected><w>Eye</w><c>,</c></corrected>
+    <original><w>eye</w><w>og</w><w>það</w></original>
+    <corrected><w>Eye</w><c>.</c><w>Það</w></corrected>
       <errors>
         <error xtype="lower4upper-proper" idx="11-1" eid="0" />
         <error xtype="foreign-name" idx="11-1" eid="0" />
-        <error xtype="missing-comma" idx="11-2" eid="0" />
+        <error xtype="conjunction4period" idx="11-2" eid="0" />
       </errors>
   </revision>
-  <w>og</w>
-  <w>það</w>
   <w>skemmtilegasta</w>
+  <w>við</w>
+  <w>ferðina</w>
+  <w>var</w>
   <revision id="12">
-    <original><w>við</w><w>ferðina</w></original>
-    <corrected></corrected>
+    <original></original>
+    <corrected>svo</corrected>
       <errors>
-        <error xtype="extra-words" eid="0" />
+        <error xtype="missing-word" eid="0" />
       </errors>
   </revision>
-  <w>var</w>
   <w>þegar</w>
   <revision id="13">
     <original><w>að</w></original>

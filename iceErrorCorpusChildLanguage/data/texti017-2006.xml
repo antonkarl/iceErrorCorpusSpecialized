@@ -82,7 +82,13 @@
   <w>seinna</w>
   <w>var</w>
   <w>ég</w>
-  <w>búin</w>
+  <revision id="3b">
+    <original><w>búin</w></original>
+    <corrected><w>búinn</w></corrected>
+      <errors>
+        <error xtype="agreement-pred" eid="0" />
+      </errors>
+  </revision>
   <w>að</w>
   <w>slaka</w>
   <w>á</w>
@@ -96,8 +102,13 @@
   </revision>
   <w>ná</w>
   <w>mér</w>
-  <w>til</w>
-  <w>baka</w>
+  <revision id="4b">
+    <original><w>til</w><w>baka</w></original>
+    <corrected><w></w></corrected>
+      <errors>
+        <error xtype="extra-words" eid="0" />
+      </errors>
+  </revision>
   <c>.</c>
 </s>
 <s n="6">
@@ -204,7 +215,7 @@
     <corrected><w>Nike-fötum</w></corrected>
       <errors>
         <error xtype="dep" depId="11-1" eid="0" />
-        <error xtype="missing-hyphen" idx="12-1" eid="0" />
+        <error xtype="missing-dash" idx="12-1" eid="0" />
       </errors>
   </revision>
   <w>og</w>
@@ -303,7 +314,13 @@
   <w>fórum</w>
   <w>við</w>
   <w>á</w>
-  <w>mosa</w>
+   <revision id="21b">
+    <original><w>mosa</w></original>
+    <corrected><w>Mosa</w></corrected>
+      <errors>
+        <error xtype="lower4upper-proper" eid="0" />
+      </errors>
+  </revision>
   <w>og</w>
   <revision id="22">
     <original><w>við</w><w>vorum</w></original>

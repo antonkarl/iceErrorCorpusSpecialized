@@ -850,7 +850,13 @@
   <w>kom</w>
   <w>mér</w>
   <w>ekki</w>
-  <w>að</w>
+  <revision id="50b">
+    <original><w>að</w></original>
+    <corrected><w>á</w></corrected>
+      <errors>
+        <error xtype="wrong-prep" eid="0" />
+      </errors>
+  </revision>
   <w>óvart</w>
   <c>.</c>
 </s>
@@ -1042,15 +1048,9 @@
     <original><w>sem</w><w>á</w></original>
     <corrected><w>þegar</w></corrected>
       <errors>
-        <error xtype="conjunction" eid="0" />
-      </errors>
-  </revision>
-  <revision id="66b">
-    <original><w>á</w></original>
-    <corrected></corrected>
-      <errors>
-        <error xtype="pres4past" idx="66b-1" eid="0" />
-        <error xtype="wording" idx="66b-1" eid="0" />
+        <error xtype="conjunction" idx="66-1" eid="0" />
+        <error xtype="pres4past" idx="66-2" eid="0" />
+        <error xtype="wording" idx="66-2" eid="0" />
       </errors>
   </revision>
   <w>slíta</w>
@@ -1058,14 +1058,9 @@
     <original><w>Axla</w><w>Björn</w></original>
     <corrected><w>átti</w><w>Axlar-Björn</w></corrected>
       <errors>
-        <error xtype="dep" depId="66b-1" eid="0" />
-      </errors>
-  </revision>
-  <revision id="67b">
-    <original><w>Axla</w><w>Björn</w></original>
-    <corrected><w>Axlar-Björn</w></corrected>
-      <errors>
-        <error xtype="missing-hyphen" eid="0" />
+        <error xtype="dep" depId="66-2" eid="0" />
+        <error xtype="compound-collocation" idx="67-1" eid="0" />
+        <error xtype="missing-hyphen" idx="67-1" eid="0" />
       </errors>
   </revision>
   <w>í</w>
@@ -1121,22 +1116,10 @@
     <original><c>,</c><w>Mér</w><w>hlakkar</w></original>
     <corrected><c>.</c><w>Ég</w><w>hlakkaði</w></corrected>
       <errors>
-        <error xtype="comma4period" eid="0" />
-      </errors>
-  </revision>
-  <revision id="73b">
-    <original><w>Mér</w><w>hlakkar</w></original>
-    <corrected><w>Ég</w><w>hlakkaði</w></corrected>
-      <errors>
-        <error xtype="dative-sub" eid="0" />
-      </errors>
-  </revision>
-  <revision id="73c">
-    <original><w>hlakkar</w></original>
-    <corrected><w>hlakkaði</w></corrected>
-      <errors>
-        <error xtype="pres4past" idx="73c-1" eid="0" />
-        <error xtype="agreement" idx="73c-1" eid="0" />
+        <error xtype="comma4period" idx="73-1" eid="0" />
+        <error xtype="dative-sub" idx="73-2" eid="0" />
+        <error xtype="agreement" idx="73-3" eid="0" />
+        <error xtype="pres4past" idx="73-3" eid="0" />
       </errors>
   </revision>
   <w>svo</w>
@@ -1263,7 +1246,7 @@
     <corrected><w>Axlar-Birni</w></corrected>
       <errors>
         <error xtype="missing-letter" idx="81c-1" eid="0" />
-        <error xtype="missing-hyphen" idx="81c-1" eid="0" />
+        <error xtype="missing-dash" idx="81c-1" eid="0" />
       </errors>
   </revision>
   <revision id="81b">
@@ -1373,14 +1356,8 @@
     <original><w>hún</w><w>er</w></original>
     <corrected></corrected>
       <errors>
-        <error xtype="extra-sub" eid="0" />
-      </errors>
-  </revision>
-  <revision id="87b">
-    <original><w>er</w></original>
-    <corrected></corrected>
-      <errors>
-        <error xtype="extra-word" eid="0" />
+        <error xtype="extra-sub" idx="87-1" eid="0" />
+        <error xtype="extra-fin-verb" idx="87-2" eid="0" />
       </errors>
   </revision>
   <w>mjög</w>
@@ -1402,7 +1379,7 @@
     <corrected><w>Axlar-Björn</w></corrected>
       <errors>
         <error xtype="missing-letter" idx="88-1" eid="0" />
-        <error xtype="missing-hyphen" idx="88-1" eid="0" />
+        <error xtype="missing-dash" idx="88-1" eid="0" />
       </errors>
   </revision>
   <revision id="88b">
@@ -1471,15 +1448,8 @@
         <error xtype="missing-accent" idx="92-1" eid="0" />
         <error xtype="nn4n" idx="92-1" eid="0" />
         <error xtype="nonword" idx="92-1" eid="0" />
+        <error xtype="missing-period" idx="92-2" eid="0" />
       </errors>
-  </revision>
-  <revision id="92b">
-    <original><w>einn</w></original>
-    <corrected><c>.</c><w>Einn</w></corrected>
-      <errors>
-        <error xtype="missing-period" eid="0" />
-      </errors>
-  </revision>
   <w>er</w>
   <w>eftir</w>
   <w>enn</w>
@@ -1517,22 +1487,17 @@
     <original><w>þegar</w><w>það</w><w>var</w><w>búið</w><w>að</w><w>toga</w><w>hann</w><w>í</w><w>sundur</w><w>og</w><w>höggva</w><w>af</w><w>honum</w><w>hausinn</w></original>
     <corrected><w>Þegar</w><w>yfir</w><w>lauk</w></corrected>
       <errors>
-        <error xtype="wording" eid="0" />
+        <error xtype="wording" idx="94-1" eid="0" />
+        <error xtype="lower4upper-initial" idx="94-1" eid="0" />
       </errors>
   </revision>
   <revision id="94b">
     <original><w>var</w><w>en</w><w>þá</w></original>
     <corrected><w>voru</w></corrected>
       <errors>
-        <error xtype="agreement" eid="0" />
-      </errors>
-  </revision>
-  <revision id="94c">
-    <original><w>en</w><w>þá</w></original>
-    <corrected></corrected>
-      <errors>
-        <error xtype="missing-letter" idx="94c-1" eid="0" />
-        <error xtype="extra-words" idx="94c-1" eid="0" />
+        <error xtype="agreement" idx="94b-1" eid="0" />
+        <error xtype="n4nn" idx="94b-2" eid="0" />
+        <error xtype="extra-words" idx="94b-2" eid="0" />
       </errors>
   </revision>
   <w>fætur</w>

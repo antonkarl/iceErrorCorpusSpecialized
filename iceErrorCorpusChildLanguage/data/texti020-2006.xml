@@ -211,7 +211,14 @@
       </errors>
   </revision>
   <w>um</w>
-  <w>nóttu</w>
+  <revision id="16b">
+    <original><w>nóttu</w></original>
+    <corrected><w>nótt</w></corrected>
+      <errors>
+        <error xtype="nominal-inflection" idx="16b-1" eid="0" />
+        <error xtype="style" idx="16b-1" eid="0" />
+      </errors>
+  </revision>
   <w>þannig</w>
   <w>ég</w>
   <w>fór</w>

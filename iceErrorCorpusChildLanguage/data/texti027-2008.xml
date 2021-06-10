@@ -250,9 +250,9 @@
   <w>að</w>
   <revision id="22">
     <original><w>reyna</w><w>finna</w><w>einhvað</w><w>út</w><w>úr</w><w>málinu</w></original>
-    <corrected><w>rannsaka</w></corrected>
+    <corrected><w>rannsaka</w><w>málið</w></corrected>
       <errors>
-        <error xtype="dep" depId="21-1" eid="0" />
+        <error xtype="wording" eid="0" />
       </errors>
   </revision>
   <w>því</w>
@@ -500,7 +500,7 @@
     <original><w>stjörf</w></original>
     <corrected><w>stjarfir</w></corrected>
       <errors>
-        <error xtype="agreement-concord" eid="0" />
+        <error xtype="agreement-pred" eid="0" />
       </errors>
   </revision>
   <w>á</w>

@@ -232,13 +232,13 @@
   <w>svo</w>
   <w>hratt</w>
   <w>að</w>
-  <w>hann</w>
-  <w>komst</w>
-  <revision id="13">
-    <original></original>
-    <corrected><w>yfir</w></corrected>
+   <revision id="13">
+    <original><w>hann</w><w>komst</w></original>
+    <corrected><w>malbikinu</w></corrected>
       <errors>
-        <error xtype="missing-word" eid="0" />
+        <error xtype="extra-sub" idx="13-1" eid="0" />
+        <error xtype="extra-fin-verb" idx="13-2" eid="0" />
+        <error xtype="missing-obj" idx="13-3" eid="0" />
       </errors>
   </revision>
   <w>en</w>
@@ -446,7 +446,13 @@
 <s n="18">
   <w>Svo</w>
   <w>datt</w>
-  <w>ég</w>
+  <revision id="24b">
+    <original><w>ég</w></original>
+    <corrected><w>hann</w></corrected>
+      <errors>
+        <error xtype="pro-inflection" eid="0" />
+      </errors>
+  </revision>
   <w>út</w>
   <c>.</c>
 </s>

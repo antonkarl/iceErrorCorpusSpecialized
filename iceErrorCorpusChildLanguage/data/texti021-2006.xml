@@ -240,8 +240,14 @@
   <w>meri</w>
   <w>sem</w>
   <w>hét</w>
-  <w>Ný</w>
-  <w>Gína</w>
+  <revision id="14b">
+    <original><w>Ný</w><w>Gína</w></original>
+    <corrected><w>Nýgína</w></corrected>
+      <errors>
+        <error xtype="split-word" idx="14b-1" eid="0" />
+        <error xtype="upper4lower-proper" idx="14b-1" eid="0" />
+      </errors>
+  </revision>
   <w>frá</w>
   <w>Hryggstekk</w>
   <c>.</c>
@@ -597,7 +603,13 @@
   <w>að</w>
   <w>láta</w>
   <w>rætast</w>
-  <w>í</w>
+   <revision id="39">
+    <original><w>í</w></original>
+    <corrected><w>úr</w></corrected>
+      <errors>
+        <error xtype="wording" eid="0" />
+      </errors>
+  </revision>
   <w>henni</w>
   <w>varð</w>
   <w>ég</w>

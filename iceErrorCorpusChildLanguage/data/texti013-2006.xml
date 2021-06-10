@@ -217,10 +217,12 @@
   <w>forrita</w>
   <revision id="10">
     <original><w>allskonar</w><w>í</w></original>
-    <corrected><c>,</c></corrected>
+    <corrected><c></c></corrected>
       <errors>
-        <error xtype="extra-words" idx="10-1" eid="0" />
-        <error xtype="missing-comma" idx="10-2" eid="0" />
+        <error xtype="merged-words" idx="10-1" eid="0" />
+        <error xtype="nonword" idx="10-1" eid="0" />
+        <error xtype="extra-word" idx="10-1" eid="0" />
+        <error xtype="extra-prep" idx="10-2" eid="0" />
       </errors>
   </revision>
   <w>og</w>
@@ -311,7 +313,13 @@
       </errors>
   </revision>
   <w>að</w>
-  <w>honum</w>
+  <revision id="16b">
+    <original><w>honum</w></original>
+    <corrected><w>hann</w></corrected>
+      <errors>
+        <error xtype="dative-sub" eid="0" />
+      </errors>
+  </revision>
   <w>langaði</w>
   <w>til</w>
   <w>þess</w>

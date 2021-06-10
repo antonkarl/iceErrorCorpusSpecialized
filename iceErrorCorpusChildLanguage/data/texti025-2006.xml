@@ -407,9 +407,10 @@
   <w>bíla</w>
   <revision id="21">
     <original><c>.</c><w>Og</w></original>
-    <corrected><c>,</c><w>og</w></corrected>
+    <corrected><w>og</w></corrected>
       <errors>
-        <error xtype="period4comma" eid="0" />
+        <error xtype="extra-period" idx="21-1" eid="0" />
+        <error xtype="period-plus-conjunction" idx="21-1" eid="0" />
       </errors>
   </revision>
   <w>það</w>

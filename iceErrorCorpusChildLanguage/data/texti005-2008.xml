@@ -380,27 +380,20 @@
       </errors>
   </revision>
   <w>aldur</w>
-  <c>,</c>
-  <revision id="24">
-    <original><w>en</w></original>
-    <corrected></corrected>
+  <revision id="23c">
+    <original><c>,</c><w>en</w></original>
+    <corrected><c>.</c></corrected>
       <errors>
-        <error xtype="comma-plus-conjunction" idx="24-1" eid="0" />
-        <error xtype="extra-conjunction" idx="24-1" eid="0" />
+        <error xtype="comma4period" idx="23c-1" eid="0" />
+        <error xtype="comma-plus-conjunction" idx="23c-2" eid="0" />
+        <error xtype="extra-conjunction" idx="23c-2" eid="0" />
       </errors>
   </revision>
   <revision id="24b">
-    <original><w>samt</w><w>sem</w><w>áður</w></original>
-    <corrected></corrected>
+    <original><w>samt</w><w>sem</w><w>áður</w><w>er</w><w>hann</w></original>
+    <corrected><w>Hann</w><w>er</w></corrected>
       <errors>
         <error xtype="extra-words" eid="0" />
-      </errors>
-  </revision>
-  <revision id="24c">
-    <original><w>er</w><w>hann</w></original>
-    <corrected><w>hann</w><w>er</w></corrected>
-      <errors>
-        <error xtype="wording" eid="0" />
       </errors>
   </revision>
   <w>bara</w>
@@ -716,7 +709,7 @@
     <corrected><w>strákarnir</w><w>væru</w></corrected>
       <errors>
         <error xtype="pro4noun" idx="49-1" eid="0" />
-        <error xtype="ind4sub" idx="49-2" eid="0" />
+        <error xtype="indæll" idx="49-2" eid="0" />
       </errors>
   </revision>
   <w>horfnir</w>
@@ -1624,7 +1617,7 @@
     <corrected><c>.</c><c>“</c><w>Ég</w></corrected>
       <errors>
         <error xtype="dep" depId="106-1" eid="0" />
-        <error xtype="misplaced-quot" idx="108-1" eid="0" />
+        <error xtype="misplaced-quots" idx="108-1" eid="0" />
         <error xtype="comma4period" idx="108-2" eid="0" />
       </errors>
   </revision>
@@ -2005,7 +1998,7 @@
       <errors>
         <error xtype="wording" idx="134-1" eid="0" />
         <error xtype="dep" depId="132-2" eid="0" />
-        <error xtype="misplaced-quot" idx="134-2" eid="0" />
+        <error xtype="misplaced-quots" idx="134-2" eid="0" />
       </errors>
   </revision>
   <c>.</c>
@@ -2097,7 +2090,7 @@
     <corrected></corrected>
       <errors>
         <error xtype="dep" depId="140-2" eid="0" />
-        <error xtype="misplaced-quot" idx="141-1" eid="0" />
+        <error xtype="misplaced-quots" idx="141-1" eid="0" />
       </errors>
   </revision>
   <c>.</c>
@@ -2879,7 +2872,7 @@
     <corrected></corrected>
       <errors>
         <error xtype="dep" depId="190-2" eid="0" />
-        <error xtype="misplaced-quot" idx="191-1" eid="0" />
+        <error xtype="misplaced-quots" idx="191-1" eid="0" />
       </errors>
   </revision>
   <c>.</c>

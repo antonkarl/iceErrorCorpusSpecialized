@@ -59,7 +59,13 @@
   <w>geltandi</w>
   <w>á</w>
   <w>eftir</w>
-  <w>Birki</w>
+   <revision id="1b">
+    <original><w>Birki</w></original>
+    <corrected><w>honum</w></corrected>
+      <errors>
+        <error xtype="noun4pro" eid="0" />
+      </errors>
+  </revision>
   <c>.</c>
 </s>
 <s n="5">
@@ -70,8 +76,7 @@
     <original><w>komin</w></original>
     <corrected><w>kominn</w></corrected>
       <errors>
-        <error xtype="n4nn" idx="2-1" eid="0" />
-        <error xtype="agreement-pred" idx="2-1" eid="0" />
+        <error xtype="agreement-pred" eid="0" />
       </errors>
   </revision>
   <w>langt</w>

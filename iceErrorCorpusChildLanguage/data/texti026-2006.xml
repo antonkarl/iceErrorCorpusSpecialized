@@ -89,7 +89,13 @@
   <w>hennar</w>
   <w>og</w>
   <w>pabbi</w>
-  <w>eru</w>
+  <revision id="3b">
+    <original><w>eru</w></original>
+    <corrected><w>voru</w></corrected>
+      <errors>
+        <error xtype="pres4past" eid="0" />
+      </errors>
+  </revision>
   <w>alltaf</w>
   <w>að</w>
   <w>tuða</w>
@@ -102,7 +108,13 @@
   <w>sína</w>
   <w>en</w>
   <w>henni</w>
-  <w>finnst</w>
+  <revision id="3c">
+    <original><w>finnst</w></original>
+    <corrected><w>fannst</w></corrected>
+      <errors>
+        <error xtype="pres4past" eid="0" />
+      </errors>
+  </revision>
   <w>það</w>
   <w>bara</w>
   <w>ekkert</w>

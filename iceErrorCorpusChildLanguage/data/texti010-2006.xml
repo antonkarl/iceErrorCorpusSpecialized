@@ -55,7 +55,13 @@
   <w>út</w>
   <w>á</w>
   <w>Keflavíkurflugvöll</w>
-  <w>sast</w>
+   <revision id="1b">
+    <original><w>sast</w></original>
+    <corrected><w>settist</w></corrected>
+      <errors>
+        <error xtype="verb-inflection" eid="0" />
+      </errors>
+  </revision>
   <w>ég</w>
   <w>niður</w>
   <w>við</w>
@@ -139,7 +145,13 @@
 </s>
 <s n="9">
   <w>Ég</w>
-  <w>sast</w>
+   <revision id="1c">
+    <original><w>sast</w></original>
+    <corrected><w>settist</w></corrected>
+      <errors>
+        <error xtype="verb-inflection" eid="0" />
+      </errors>
+  </revision>
   <w>niður</w>
   <w>og</w>
   <w>fljótlega</w>
@@ -439,7 +451,7 @@
     <original><w>Baltimore</w><w>flugvöll</w></original>
     <corrected><w>Baltimore-flugvöll</w></corrected>
       <errors>
-        <error xtype="missing-hyphen" eid="0" />
+        <error xtype="missing-dash" eid="0" />
       </errors>
   </revision>
   <w>og</w>

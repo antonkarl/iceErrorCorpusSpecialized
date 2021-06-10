@@ -23,7 +23,7 @@
     <original><w>Axlar</w><w>Björn</w></original>
     <corrected><w>Axlar-Björn</w></corrected>
       <errors>
-        <error xtype="missing-hyphen" eid="0" />
+        <error xtype="missing-dash" eid="0" />
       </errors>
   </revision>
   <c>.</c>
@@ -35,7 +35,7 @@
     <original><w>Axlar</w><w>Björn</w></original>
     <corrected><w>Axlar-Björn</w></corrected>
       <errors>
-        <error xtype="missing-hyphen" eid="0" />
+        <error xtype="missing-dash" eid="0" />
       </errors>
   </revision>
   <revision id="2b">
@@ -276,21 +276,9 @@
     <original><w>vel</w></original>
     <corrected><c>:</c><c>„</c><w>Vel</w></corrected>
       <errors>
-        <error xtype="missing-colon" eid="0" />
-      </errors>
-  </revision>
-  <revision id="24b">
-    <original></original>
-    <corrected><c>„</c></corrected>
-      <errors>
-        <error xtype="missing-quots" idx="24b-1" eid="0" />
-      </errors>
-  </revision>
-  <revision id="24c">
-    <original><w>vel</w></original>
-    <corrected><w>Vel</w></corrected>
-      <errors>
-        <error xtype="lower4upper-initial" eid="0" />
+        <error xtype="missing-colon" idx="24-1" eid="0" />
+        <error xtype="missing-quots" idx="24-2" eid="0" />
+        <error xtype="lower4upper-initial" idx="24-3" eid="0" />
       </errors>
   </revision>
   <w>gerðir</w>
@@ -376,7 +364,7 @@
     <original></original>
     <corrected><c>“</c></corrected>
       <errors>
-        <error xtype="dep" depId="24b-1" eid="0" />
+        <error xtype="dep" depId="24-2" eid="0" />
       </errors>
   </revision>
 </s>

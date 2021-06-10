@@ -20,7 +20,8 @@
 <text><body><p n="1">
 <s n="1">
   <w>Dagbókin</w>
-  <w>mín.</w>
+  <w>mín</w>
+  <c>.</c>
 </s>  
 <s n="2">
   <w>29. september 2020</w>
@@ -136,13 +137,7 @@
   <w>og</w>
   <w>fá</w>
   <w>mér</w>
-  <revision id="1b">
-    <original><w>frískt</w></original>
-    <corrected><w>ferskt</w></corrected>
-      <errors>
-        <error xtype="wording" eid="0" />
-      </errors>
-  </revision>
+  <w>frískt</w>
   <w>loft</w>
   <c>.</c>
 </s>
@@ -318,7 +313,13 @@
   <w>tvo</w>
   <w>stráka</w>
   <w>sem</w>
-  <w>eiga</w>
+  <revision id="9b">
+    <original><w>eiga</w></original>
+    <corrected><w>eru</w><w>með</w></corrected>
+      <errors>
+        <error xtype="have" eid="0" />
+      </errors>
+  </revision>
   <w>vondan</w>
   <w>skólastjóra</w>
   <revision id="10">

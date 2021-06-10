@@ -87,7 +87,13 @@
   <c>,</c>
   <w>hitta</w>
   <w>ísbirnina</w>
-  <c>,</c>
+  <revision id="2b">
+    <original><c>,</c></original>
+    <corrected><w>og</w></corrected>
+      <errors>
+        <error xtype="comma4conjunction" eid="0" />
+      </errors>
+  </revision>
   <w>sjá</w>
   <w>sleðahundana</w>
   <w>og</w>
