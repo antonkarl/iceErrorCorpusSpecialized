@@ -36,15 +36,16 @@
   <w>leiðinlega</w>
   <w>riddara</w>
   <revision id="2">
-    <original><w>og</w><w>þeir</w><w>eru</w><w>litlir</w><w>og</w><w>eru</w><w>jafn</w><w>ljótir</w></original>
-    <corrected><w>sem</w><w>voru</w><w>jafnljótir</w></corrected>
+    <original><w>og</w><w>þeir</w><w>eru</w><w>litlir</w><w>og</w><w>eru</w></original>
+    <corrected><w>sem</w><w>voru</w></corrected>
       <errors>
         <error xtype="dep" depId="1-1" eid="0" />
         <error xtype="conjunction" idx="2-1" eid="0" />
-        <error xtype="pres4past" idx="2-1" eid="0" />
-        <error xtype="split-word" idx="2-1" eid="0" />
+        <error xtype="pres4past" idx="2-2" eid="0" />
       </errors>
   </revision>
+  <w>jafn</w>
+  <w>ljótir</w>
   <w>og</w>
   <w>lampinn</w>
   <w>sem</w>

@@ -135,7 +135,7 @@
     <original><w>ís</w><w>kaldan</w><w>red</w><w>bull</w></original>
     <corrected><w>ískaldan</w><w>Red</w><w>Bull</w></corrected>
       <errors>
-        <error xtype="split-word" idx="10-1" eid="0" />
+        <error xtype="split-compound" idx="10-1" eid="0" />
         <error xtype="lower4upper-proper" idx="10-2" eid="0" />
         <error xtype="foreign-name" idx="10-2" eid="0" />
       </errors>

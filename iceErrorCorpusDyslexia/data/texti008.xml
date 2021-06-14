@@ -155,7 +155,7 @@
     <original><w>Grímur</w><w>notkun</w></original>
     <corrected><w>Notið</w><w>grímur</w></corrected>
       <errors>
-        <error xtype="nominal-inflection" idx="10-1" eid="0" />
+        <error xtype="compound-collocation" idx="10-1" eid="0" />
         <error xtype="split-compound" idx="10-1" eid="0" />
         <error xtype="wording" idx="10-1" eid="0" />
       </errors>
@@ -3914,7 +3914,7 @@
   <w>verður</w>
   <revision id="245">
     <original><w>core</w><w>bónus</w></original>
-    <corrected><w>magaæfingabónus</w></corrected>
+    <corrected><w>bolæfingabónus</w></corrected>
       <errors>
         <error xtype="fw4ice" idx="245-1" eid="0" />
         <error xtype="split-compound" idx="245-1" eid="0" />
@@ -4111,7 +4111,7 @@
       <errors>
         <error xtype="missing-sub" idx="254-1" eid="0" />
         <error xtype="missing-fin-verb" idx="254-2" eid="0" />
-        <error xtype="split-word" idx="254-3" eid="0" />
+        <error xtype="split-compound" idx="254-3" eid="0" />
         <error xtype="pronun-writing" idx="254-3" eid="0" />
       </errors>
   </revision>

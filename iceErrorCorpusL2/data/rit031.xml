@@ -3490,9 +3490,11 @@
   <w>listum</w>
   <revision id="152">
     <original><w>kvenkyns</w><w>útgafur</w></original>
-    <corrected><w>kvenkynsútgafur</w></corrected>
+    <corrected><w>kvenkynsútgáfur</w></corrected>
       <errors>
-        <error xtype="split-compound" eid="0" />
+        <error xtype="split-compound" idx="152-1" eid="0" />
+        <error xtype="missing-accent" idx="152-2" eid="0" />
+        <error xtype="nonword" idx="152-2" eid="0" />
       </errors>
   </revision>
   <c>,</c>
