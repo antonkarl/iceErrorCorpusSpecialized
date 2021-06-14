@@ -56,7 +56,14 @@
         <error xtype="cont4simple" idx="4-2" eid="0" />
       </errors>
   </revision>
-  <w>gera</w>
+   <revision id="4b">
+    <original><w>gera</w></original>
+    <corrected><w>grilla</w></corrected>
+      <errors>
+        <error xtype="extra-sub" idx="4-1" eid="0" />
+        <error xtype="cont4simple" idx="4-2" eid="0" />
+      </errors>
+  </revision>
   <w>sykurpúða</w>
   <revision id="5">
     <original><w>og</w><w>svo</w></original>
@@ -493,7 +500,7 @@
   </revision>
   <revision id="42">
     <original><w>en</w><w>svo</w><w>hugsði</w></original>
-    <corrected><c>.</c><w>En</w><w>þá</w><w>mundi</w></corrected>
+    <corrected><c>.</c><w>Þá</w><w>mundi</w></corrected>
       <errors>
         <error xtype="missing-period" idx="42-1" eid="0" />
         <error xtype="wording" idx="42-2" eid="0" />

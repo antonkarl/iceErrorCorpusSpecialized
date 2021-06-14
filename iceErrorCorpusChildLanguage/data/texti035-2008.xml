@@ -110,13 +110,8 @@
   <w>krakkarnir</w>
   <w>í</w>
   <w>rútunni</w>
-  <revision id="9">
-    <original><w>eru</w><w>að</w></original>
-    <corrected></corrected>
-      <errors>
-        <error xtype="cont4simple" eid="0" />
-      </errors>
-  </revision>
+  <w>eru</w>
+  <w>að</w>
   <w>syngja</w>
   <c>.</c>
 </s>
@@ -178,11 +173,12 @@
   <w>er</w>
   <revision id="12">
     <original><w>harð</w><w>ákveðinn</w></original>
-    <corrected><w>harðákveðin</w><w>í</w></corrected>
+    <corrected><w>harðákveðin</w><w>í</w><w>því</w></corrected>
       <errors>
         <error xtype="split-word" idx="12-1" eid="0" />
         <error xtype="agreement-pred" idx="12-1" eid="0" />
         <error xtype="missing-prep" idx="12-2" eid="0" />
+        <error xtype="missing-obj" idx="12-3" eid="0" />
       </errors>
   </revision>
   <w>að</w>
@@ -243,6 +239,13 @@
   <w>fara</w>
   <w>að</w>
   <w>rannsaka</w>
+  <revision id="16b">
+    <original></original>
+    <corrected><w>málið</w></corrected>
+      <errors>
+        <error xtype="missing-obj" eid="0" />
+      </errors>
+  </revision> 
   <c>.</c>
 </s>
 <s n="6">
@@ -504,26 +507,26 @@
   <w>með</w>
   <w>bekknum</w>
   <w>sínum</w>
-  <w>á</w>
   <revision id="36">
-    <original><w>reiki</w><w>svo</w><w>þegar</w></original>
-    <corrected><w>Reyki</w><c>.</c><w>Þegar</w></corrected>
+    <original><w>á</w><w>reiki</w><w>svo</w><w>þegar</w></original>
+    <corrected><w>að</w><w>Reykjum</w><c>.</c><w>Þegar</w></corrected>
       <errors>
-        <error xtype="lower4upper-proper" idx="36-1" eid="0" />
-        <error xtype="i4y" idx="36-1" eid="0" />
-        <error xtype="conjunction4period" idx="36-2" eid="0" />
+        <error xtype="wrong-prep" idx="36-1" eid="0" />
+        <error xtype="lower4upper-proper" idx="36-2" eid="0" />
+        <error xtype="i4y" idx="36-2" eid="0" />
+        <error xtype="conjunction4period" idx="36-3" eid="0" />
       </errors>
   </revision>
   <w>þau</w>
   <w>koma</w>
-  <w>á</w>
   <revision id="37">
-    <original><w>reykir</w></original>
-    <corrected><w>Reyki</w></corrected>
+    <original><w>á</w><w>reykir</w></original>
+    <corrected><w>að</w><w>Reykjum</w></corrected>
       <errors>
-        <error xtype="lower4upper-proper" idx="37-1" eid="0" />
-        <error xtype="nominal-inflection" idx="37-1" eid="0" />
-        <error xtype="case-prep" idx="37-1" eid="0" />
+        <error xtype="wrong-prep" idx="37-1" eid="0" />
+        <error xtype="lower4upper-proper" idx="37-2" eid="0" />
+        <error xtype="nominal-inflection" idx="37-2" eid="0" />
+        <error xtype="case-prep" idx="37-2" eid="0" />
       </errors>
   </revision>
   <w>hitta</w>
@@ -639,14 +642,26 @@
         <error xtype="lower4upper-initial" eid="0" />
       </errors>
   </revision>
-  <w>fóru</w>
+  <revision id="48b">
+  	<original><w>fóru</w></original>
+  	<corrected><w>fara</w></corrected>
+      <errors>
+        <error xtype="past4pres" eid="0" />
+      </errors>
+  </revision>
   <w>þau</w>
   <w>að</w>
   <w>skoða</w>
   <w>sig</w>
   <w>um</w>
   <w>og</w>
-  <w>fundu</w>
+  <revision id="48c">
+  	<original><w>fundu</w></original>
+  	<corrected><w>finna</w></corrected>
+      <errors>
+        <error xtype="past4pres" eid="0" />
+      </errors>
+  </revision>
   <w>mynd</w>
   <w>af</w>
   <w>stelpu</w>
@@ -707,40 +722,55 @@
 </s>
 <s n="16">
   <w>Svo</w>
-  <w>er</w>
   <revision id="54">
-    <original><w>líka</w></original>
-    <corrected></corrected>
+    <original><w>er</w><w>líka</w></original>
+    <corrected><w>eru</w></corrected>
       <errors>
-        <error xtype="extra-word" eid="0" />
+      	<error xtype="dep" depId="55-3" eid="0" />
+        <error xtype="extra-word" idx="54-2" eid="0" />
       </errors>
   </revision>
   <w>Garðar</w>
   <w>bílstjóri</w>
   <revision id="55">
     <original><w>sem</w><w>er</w></original>
-    <corrected></corrected>
+    <corrected><w>og</w><w>krakkarnir</w></corrected>
       <errors>
         <error xtype="extra-conjunction" idx="55-1" eid="0" />
         <error xtype="extra-fin-verb" idx="55-2" eid="0" />
+        <error xtype="wording" idx="55-3" eid="0" />
       </errors>
   </revision>
   <w>líka</w>
   <w>að</w>
   <w>leita</w>
   <revision id="56">
-    <original><w>af</w><w>einhverju</w><w>ljóni</w><w>sem</w><w>elísabet</w><w>drottning</w><w>skildi</w><w>eftir</w><w>á</w><w>reykjum</w><w>sem</w><w>krakkarnir</w><w>eru</w><w>líka</w><w>að</w><w>reyna</w></original>
-    <corrected></corrected>
+    <original><w>af</w><w>einhverju</w></original>
+    <corrected><w>að</w></corrected>
       <errors>
-        <error xtype="extra-words" eid="0" />
+        <error xtype="af4að" idx="56-1" eid="0" />
+        <error xtype="extra-word" idx="56-2" eid="0" />
       </errors>
   </revision>
-  <w>að</w>
-  <revision id="57">
-    <original><w>finna</w></original>
-    <corrected><w>ljóninu</w></corrected>
+  <w>ljóni</w>
+  <w>sem</w>
+  <revision id="56b">
+    <original><w>elísabet</w></original>
+    <corrected><w>Elísabet</w></corrected>
       <errors>
-        <error xtype="wording" eid="0" />
+        <error xtype="lower4upper-proper" eid="0" />
+      </errors>
+  </revision>
+  <w>drottning</w>
+  <w>skildi</w>
+  <w>eftir</w>
+  <revision id="57">
+    <original><w>á</w><w>reykjum</w><w>sem</w><w>krakkarnir</w><w>eru</w><w>líka</w><w>að</w><w>reyna</w><w>að</w><w>finna</w></original>
+    <corrected><w>að</w><w>Reykjum</w></corrected>
+      <errors>
+        <error xtype="wrong-prep" idx="57-1" eid="0" />
+        <error xtype="lower4upper-proper" idx="57-2" eid="0" />
+        <error xtype="extra-words" idx="57-3" eid="0" />
       </errors>
   </revision>
   <c>.</c>
@@ -771,13 +801,13 @@
         <error xtype="wording" idx="59-3" eid="0" />
       </errors>
   </revision>
-  <w>gerðu</w>
   <revision id="60">
-    <original><w>þau</w><w>eitthvað</w></original>
-    <corrected></corrected>
+  	<original><w>gerðu</w><w>þau</w><w>eitthvað</w></original>
+  	<corrected><w>gáfu</w><w>frá</w><w>sér</w></corrected>
       <errors>
+        <error xtype="wording" idx="60-1" eid="0" />
         <error xtype="dep" depId="59-3" eid="0" />
-        <error xtype="extra-word" idx="60-1" eid="0" />
+        <error xtype="extra-word" idx="60-2" eid="0" />
       </errors>
   </revision>
   <w>hljóð</w>
@@ -943,15 +973,16 @@
   <w>tekið</w>
   <w>en</w>
   <revision id="73">
-    <original><w>svo</w><w>klessti</w></original>
-    <corrected><w>hann</w><w>hafði</w><w>klesst</w></corrected>
+    <original><w>svo</w><w>klessti</w><w>bílnum</w></original>
+    <corrected><w>hann</w><w>hafði</w><w>klesst</w><w>bílinn</w></corrected>
       <errors>
         <error xtype="extra-word" idx="73-1" eid="0" />
         <error xtype="missing-sub" idx="73-2" eid="0" />
-        <error xtype="wording" idx="73-3" eid="0" />
+        <error xtype="verb-inflection" idx="73-3" eid="0" />
+        <error xtype="nominal-inflection" idx="73-4" eid="0" />
+        <error xtype="case-verb" idx="73-4" eid="0" />
       </errors>
   </revision>
-  <w>bílnum</w>
   <revision id="74">
     <original><w>en</w><w>svo</w><w>vitum</w></original>
     <corrected><c>.</c><w>En</w><w>krakkarnir</w><w>vita</w></corrected>
