@@ -162,7 +162,7 @@
     <corrected><w>selur</w></corrected>
       <errors>
         <error xtype="sub4ind" idx="7-1" eid="0" />
-        <error xtype="agreement" idx="7-1" eid="0" />
+        <error xtype="agreement-pred" idx="7-1" eid="0" />
       </errors>
   </revision>
   <w>mest</w>
@@ -283,7 +283,7 @@
     <corrected><w>vill</w></corrected>
       <errors>
         <error xtype="want" idx="13-1" eid="0" />
-        <error xtype="agreement" idx="13-1" eid="0" />
+        <error xtype="agreement-pred" idx="13-1" eid="0" />
       </errors>
   </revision>
   <w>að</w>
@@ -452,7 +452,7 @@
     <original><w>Axla</w><w>Björn</w><c>,</c></original>
     <corrected><w>Axlar-Björn</w></corrected>
       <errors>
-        <error xtype="missing-hyphen" idx="24-1" eid="0" />
+        <error xtype="missing-dash" idx="24-1" eid="0" />
         <error xtype="nominal-inflection" idx="24-1" eid="0" />
         <error xtype="missing-comma" idx="24-2" eid="0" />
       </errors>
@@ -512,7 +512,7 @@
     <original><w>Axla</w><w>Björn</w></original>
     <corrected><w>Axlar-Björn</w></corrected>
       <errors>
-        <error xtype="missing-hyphen" idx="27-1" eid="0" />
+        <error xtype="missing-dash" idx="27-1" eid="0" />
         <error xtype="nominal-inflection" idx="27-1" eid="0" />
       </errors>
   </revision>
@@ -638,9 +638,13 @@
   <w>hann</w>
   <w>hafi</w>
   <w>drepið</w>
-  <w>mikið</w>
-  <w>af</w>
-  <w>fólki</w>
+  <revision id="34b">
+    <original><w>mikið</w><w>af</w><w>fólki</w></original>
+    <corrected><w>margt</w><w>fólk</w></corrected>
+      <errors>
+        <error xtype="wording" eid="0" />
+      </errors>
+  </revision>
   <w>en</w>
   <w>ég</w>
   <w>trúi</w>
@@ -730,7 +734,7 @@
     <original><w>Axlar</w><w>Bjarnar</w></original>
     <corrected><w>Axlar-Bjarnar</w></corrected>
       <errors>
-        <error xtype="missing-hyphen" eid="0" />
+        <error xtype="missing-dash" eid="0" />
       </errors>
   </revision>
   <w>og</w>
@@ -759,7 +763,7 @@
     <corrected><w>gerir</w></corrected>
       <errors>
         <error xtype="plural4singular" idx="44-1" eid="0" />
-        <error xtype="agreement" idx="44-1" eid="0" />
+        <error xtype="agreement-pred" idx="44-1" eid="0" />
       </errors>
   </revision>
   <w>fólk</w>
@@ -819,7 +823,7 @@
     <original><w>Axla</w><w>Björn</w><w>er</w></original>
     <corrected><w>Axlar-Björn</w><w>sé</w></corrected>
       <errors>
-        <error xtype="missing-hyphen" idx="50-1" eid="0" />
+        <error xtype="missing-dash" idx="50-1" eid="0" />
         <error xtype="nominal-inflection" idx="50-1" eid="0" />
         <error xtype="ind4sub" idx="50-2" eid="0" />
       </errors>
@@ -897,7 +901,7 @@
     <original><w>Axla</w><w>Bjarnar</w></original>
     <corrected><w>Axlar-Birni</w></corrected>
       <errors>
-        <error xtype="missing-hyphen" idx="54-1" eid="0" />
+        <error xtype="missing-dash" idx="54-1" eid="0" />
         <error xtype="nominal-inflection" idx="54-1" eid="0" />
         <error xtype="nominal-inflection" idx="54-1" eid="0" />
         <error xtype="case-prep" idx="54-1" eid="0" />
@@ -1012,7 +1016,7 @@
     <original><w>Axlar</w><w>Bjarnar</w></original>
     <corrected><w>Axlar-Birni</w></corrected>
       <errors>
-        <error xtype="missing-hyphen" idx="64-1" eid="0" />
+        <error xtype="missing-dash" idx="64-1" eid="0" />
         <error xtype="nominal-inflection" idx="64-1" eid="0" />
         <error xtype="case-prep" idx="64-1" eid="0" />
       </errors>
