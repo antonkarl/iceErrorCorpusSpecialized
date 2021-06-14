@@ -28,7 +28,8 @@
     <original><w>falla</w></original>
     <corrected><w>fjallar</w></corrected>
       <errors>
-        <error xtype="agreement" eid="0" />
+        <error xtype="missing-letter" idx="1-1" eid="0" />
+        <error xtype="agreement" idx="1-1" eid="0" />
       </errors>
   </revision>
   <w>um</w>

@@ -88,13 +88,13 @@
   <w>að</w>
   <w>Chou-fólkið</w>
   <w>í</w>
-  <w>norður-Kína</w>
   <revision id="7">
-    <original><w>trúðu</w></original>
-    <corrected><w>trúði</w><w>því</w></corrected>
+    <original><w>norður-Kína</w><w>trúðu</w></original>
+    <corrected><w>Norður-Kína</w><w>trúði</w><w>því</w></corrected>
       <errors>
-        <error xtype="agreement" idx="7-1" eid="0" />
-        <error xtype="missing-word" idx="7-2" eid="0" />
+        <error xtype="lower4upper-proper" idx="7-1" eid="0" />
+        <error xtype="agreement" idx="7-2" eid="0" />
+        <error xtype="missing-obj" idx="7-3" eid="0" />
       </errors>
   </revision>
   <w>að</w>

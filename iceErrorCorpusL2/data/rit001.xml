@@ -214,7 +214,8 @@
     <original><w>með</w><w>því</w></original>
     <corrected></corrected>
       <errors>
-        <error xtype="extra-words" eid="0" />
+        <error xtype="extra-prep" idx="15-1" eid="0" />
+        <error xtype="extra-word" idx="15-2" eid="0" />
       </errors>
   </revision>
   <w>horft</w>
@@ -4330,6 +4331,8 @@
     <corrected></corrected>
       <errors>
         <error xtype="wording" idx="215-1" eid="0" />
+        <error xtype="missing-accent" idx="215-1" eid="0" />
+        <error xtype="nonword" idx="215-1" eid="0" />
       </errors>
   </revision>
   <w>að</w>

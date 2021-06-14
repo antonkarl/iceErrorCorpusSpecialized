@@ -2040,7 +2040,8 @@
     <corrected><w>er</w><w>yfirheyrð</w><w>á</w></corrected>
       <errors>
         <error xtype="agreement" idx="155-1" eid="0" />
-        <error xtype="wrong-prep" idx="155-2" eid="0" />
+        <error xtype="agreement-pred" idx="155-2" eid="0" />
+        <error xtype="wrong-prep" idx="155-3" eid="0" />
       </errors>
   </revision>
   <w>einhvern</w>
@@ -2516,11 +2517,10 @@
   <w>og</w>
   <revision id="195">
     <original><w>svo</w><w>öfluðu</w><w>þeir</w></original>
-    <corrected><w>afla</w><w>síðan</w><w>í</w><w>kjölfarið</w></corrected>
+    <corrected><w>afla</w><w>síðan</w></corrected>
       <errors>
         <error xtype="wording" idx="195-1" eid="0" />
-        <error xtype="agreement" idx="195-2" eid="0" />
-        <error xtype="extra-word" idx="195-3" eid="0" />
+        <error xtype="past4pres" idx="195-2" eid="0" />
       </errors>
   </revision>
   <w>ekki</w>
