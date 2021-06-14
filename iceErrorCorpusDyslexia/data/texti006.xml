@@ -572,7 +572,7 @@
       <errors>
         <error xtype="verb-inflection" idx="24-1" eid="0" />
         <error xtype="pres4past" idx="24-1" eid="0" />
-        <error xtype="agreement" idx="24-1" eid="0" />
+        <error xtype="agreement-pred" idx="24-1" eid="0" />
         <error xtype="extra-word" idx="24-2" eid="0" />
       </errors>
   </revision>
@@ -627,8 +627,8 @@
     <corrected><w>hvoru</w><w>foreldri</w></corrected>
       <errors>
         <error xtype="agreement-concord" idx="26-1" eid="0" />
-        <error xtype="nominal-inflection" idx="26-1" eid="0" />
-        <error xtype="plural4singular" idx="26-1" eid="0" />
+        <error xtype="letter-rep" idx="26-2" eid="0" />
+        <error xtype="nonword" idx="26-2" eid="0" />
       </errors>
   </revision>
   <w>er</w>
@@ -665,11 +665,11 @@
   <w>frá</w>
   <revision id="28">
     <original><w>sitthvorum</w><w>foreldra</w></original>
-    <corrected><w>sitthvoru</w><w>foreldri</w></corrected>
+    <corrected><w>hvoru</w><w>foreldri</w></corrected>
       <errors>
-        <error xtype="agreement-concord" idx="28-1" eid="0" />
-        <error xtype="nominal-inflection" idx="28-1" eid="0" />
-        <error xtype="plural4singular" idx="28-1" eid="0" />
+        <error xtype="each" idx="28-1" eid="0" />
+        <error xtype="letter-rep" idx="28-2" eid="0" />
+        <error xtype="nonword" idx="28-2" eid="0" />
       </errors>
   </revision>
   <w>og</w>
@@ -684,13 +684,7 @@
       </errors>
   </revision>
   <c>)</c>
-  <revision id="29b">
-    <original><w>er</w></original>
-    <corrected><w>sé</w></corrected>
-      <errors>
-        <error xtype="ind4sub" eid="0" />
-      </errors>
-  </revision>
+  <w>er</w>
   <w>tilviljanakennd</w>
   <c>.</c>
 </s>
@@ -945,6 +939,7 @@
     <corrected><w>aldamótin</w></corrected>
       <errors>
         <error xtype="compound-collocation" idx="41-1" eid="0" />
+        <error xtype="compound-nonword" idx="41-1" eid="0" />
         <error xtype="ind4def" idx="41-1" eid="0" />
       </errors>
   </revision>
@@ -1019,7 +1014,8 @@
     <original><w>vísindsamfélagsins</w></original>
     <corrected><w>vísindasamfélagsins</w></corrected>
       <errors>
-        <error xtype="compound-collocation" eid="0" />
+        <error xtype="compound-collocation" idx="47-1" eid="0" />
+        <error xtype="compound-nonword" idx="47-1" eid="0" />
       </errors>
   </revision>
   <w>fyrir</w>

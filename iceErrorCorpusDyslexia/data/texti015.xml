@@ -367,7 +367,13 @@
 <s n="6">
   <w>Ef</w>
   <w>notandi</w>
-  <w>valdi</w>
+  <revision id="32b">
+    <original><w>valdi</w></original>
+    <corrected><w>velur</w></corrected>
+      <errors>
+        <error xtype="past4pres" eid="0" />
+      </errors>
+  </revision>
   <revision id="33">
     <original><c>“</c></original>
     <corrected><c>„</c></corrected>
@@ -1119,7 +1125,13 @@
   <w>hvort</w>
   <w>hann</w>
   <w>vilji</w>
-  <w>koma</w>
+   <revision id="83b">
+    <original><w>koma</w></original>
+    <corrected><w>vera</w></corrected>
+      <errors>
+        <error xtype="wording" eid="0" />
+      </errors>
+  </revision>
   <w>í</w>
   <w>áskrift</w>
   <c>.</c>
@@ -1158,7 +1170,13 @@
 <s n="21">
   <w>Ef</w>
   <w>notandi</w>
-  <w>valdi</w>
+  <revision id="86b">
+    <original><w>valdi</w></original>
+    <corrected><w>velur</w></corrected>
+      <errors>
+        <error xtype="past4pres" eid="0" />
+      </errors>
+  </revision>
   <w>ekki</w>
   <revision id="87">
     <original><w>dag</w><w>til</w><w>að</w><w>fá</w><w>matin</w></original>

@@ -149,12 +149,11 @@
   <w>eru</w>
   <w>í</w>
   <w>trjánum</w>
-  <c>,</c>
   <revision id="11">
-    <original></original>
+    <original><c>,</c></original>
     <corrected><w>og</w></corrected>
       <errors>
-        <error xtype="missing-conjunction" eid="0" />
+        <error xtype="comma4conjunction" eid="0" />
       </errors>
   </revision>
   <w>skoða</w>
@@ -223,7 +222,13 @@
   <w>Á</w>
   <w>Engi</w>
   <w>getur</w>
-  <w>maður</w>
+  <revision id="15b">
+    <original><w>maður</w></original>
+    <corrected><w>fólk</w></corrected>
+      <errors>
+        <error xtype="wording" eid="0" />
+      </errors>
+  </revision>
   <w>rekist</w>
   <w>á</w>
   <w>tilvitnanir</w>
@@ -475,11 +480,35 @@
   <w>lofa</w>
   <w>því</w>
   <w>að</w>
-  <w>enginn</w>
-  <w>verður</w>
-  <w>svikinn</w>
+  <revision id="32c">
+    <original><w>enginn</w></original>
+    <corrected><w>engin</w></corrected>
+      <errors>
+        <error xtype="gendered" idx="32c-1" eid="0" />
+      </errors>
+  </revision>
+  <revision id="32d">
+    <original><w>verður</w></original>
+    <corrected><w>verða</w></corrected>
+      <errors>
+        <error xtype="dep" depId="32c-1" eid="0" />
+      </errors>
+  </revision>
+  <revision id="32e">
+    <original><w>svikinn</w></original>
+    <corrected><w>svikin</w></corrected>
+      <errors>
+        <error xtype="dep" depId="32c-1" eid="0" />
+      </errors>
+  </revision>
   <w>sem</w>
-  <w>kemur</w>
+  <revision id="32f">
+    <original><w>kemur</w></original>
+    <corrected><w>koma</w></corrected>
+      <errors>
+        <error xtype="dep" depId="32c-1" eid="0" />
+      </errors>
+  </revision>
   <w>á</w>
   <w>Engi</w>
   <w>og</w>

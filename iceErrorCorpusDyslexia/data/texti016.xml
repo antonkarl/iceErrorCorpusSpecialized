@@ -582,14 +582,25 @@
   </revision>
   <w>oft</w>
   <w>sem</w>
-  <w>óþekkjanlegur</w>
+  <revision id="33b">
+    <original><w>óþekkjanlegur</w></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="extra-word" eid="0" />
+      </errors>
+  </revision>
   <w>ferðalangur</w>
   <w>sem</w>
   <w>er</w>
-  <w>komin</w>
-  <w>langa</w>
-  <w>leið</w>
-  <w>af</w>
+  <revision id="33c">
+    <original><w>komin</w><w>langa</w><w>leið</w><w>af</w></original>
+    <corrected><w>kominn</w><w>langt</w><w>að</w></corrected>
+      <errors>
+        <error xtype="agreement-pred" idx="33c-1" eid="0" />
+        <error xtype="wording" idx="33c-2" eid="0" />
+        <error xtype="af4að" idx="33c-3" eid="0" />
+      </errors>
+  </revision>
   <w>og</w>
   <w>er</w>
   <w>óþekkjanlegur</w>

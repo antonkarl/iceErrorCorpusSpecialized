@@ -161,7 +161,7 @@
   <w>og</w>
   <revision id="12">
     <original><w>til</w><w>að</w><w>hjálpa</w><w>mönnunum</w><w>að</w><w>losa</w><w>sig</w><w>við</w><w>syndirnar</w></original>
-    <corrected><w>syndalausnar</w></corrected>
+    <corrected><w>syndaaflausnar</w></corrected>
       <errors>
         <error xtype="wording" eid="0" />
       </errors>
@@ -405,7 +405,14 @@
         <error xtype="extra-comma" idx="31-3" eid="0" />
       </errors>
   </revision>
-  <w>Liljulóð</w>
+  <revision id="31b">
+    <original><w>Liljulóð</w></original>
+    <corrected><w>Liljuljóð</w></corrected>
+      <errors>
+        <error xtype="missing-letter" idx="31b-1" eid="0" />
+        <error xtype="name-error" idx="31b-1" eid="0" />
+      </errors>
+  </revision>
   <w>er</w>
   <w>eitt</w>
   <revision id="32">
@@ -751,7 +758,13 @@
   <w>um</w>
   <w>að</w>
   <w>hjálpa</w>
-  <w>honum</w>
+  <revision id="63b">
+    <original> <w>honum</w></original>
+    <corrected><w>sér</w></corrected>
+      <errors>
+        <error xtype="pro4reflexive" eid="0" />
+      </errors>
+  </revision>
   <w>að</w>
   <w>yrkja</w>
   <w>ljóðið</w>

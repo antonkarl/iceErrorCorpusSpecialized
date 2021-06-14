@@ -205,7 +205,7 @@
     <original><w>Android</w><w>og</w><w>iPhone</w></original>
     <corrected><w>Android- og iPhone-stýrikerfi</w></corrected>
       <errors>
-        <error xtype="missing-hyphen" idx="8-1" eid="0" />
+        <error xtype="missing-dash" idx="8-1" eid="0" />
         <error xtype="missing-word" idx="8-1" eid="0" />
       </errors>
   </revision>
@@ -263,7 +263,7 @@
       <errors>
         <error xtype="wrong-prep" idx="12-1" eid="0" />
         <error xtype="lower4upper-proper" idx="12-2" eid="0" />
-        <error xtype="missing-hyphen" idx="12-2" eid="0" />
+        <error xtype="missing-dash" idx="12-2" eid="0" />
         <error xtype="missing-word" idx="12-2" eid="0" />
       </errors>
   </revision>
@@ -310,7 +310,7 @@
     <corrected><w>Android-stýrikerfi</w></corrected>
       <errors>
         <error xtype="lower4upper-proper" idx="15-1" eid="0" />
-        <error xtype="missing-hyphen" idx="15-1" eid="0" />
+        <error xtype="missing-dash" idx="15-1" eid="0" />
         <error xtype="missing-word" idx="15-1" eid="0" />
       </errors>
   </revision>
@@ -330,7 +330,7 @@
       <errors>
         <error xtype="dep" depId="16-1" eid="0" />
         <error xtype="missing-prep" idx="17-1" eid="0" />
-        <error xtype="missing-hyphen" idx="17-2" eid="0" />
+        <error xtype="missing-dash" idx="17-2" eid="0" />
         <error xtype="missing-word" idx="17-2" eid="0" />
       </errors>
   </revision>
@@ -412,7 +412,7 @@
     <original><w>Play</w><w>Store</w></original>
     <corrected><w>Play-versluninni</w></corrected>
       <errors>
-        <error xtype="missing-hyphen" idx="23-1" eid="0" />
+        <error xtype="missing-dash" idx="23-1" eid="0" />
         <error xtype="fw4ice" idx="23-2" eid="0" />
       </errors>
   </revision>
@@ -961,7 +961,7 @@
     <original><w>verðsamanburðaröpp</w></original>
     <corrected><w>verðsamanburðarsmáforrit</w></corrected>
       <errors>
-        <error xtype="fw4ice" eid="0" />
+        <error xtype="compound-nonword" eid="0" />
       </errors>
   </revision>
   <w>en</w>
@@ -1231,7 +1231,7 @@
     <original><w>Play</w><w>Store</w></original>
     <corrected><w>Play-verslunina</w></corrected>
       <errors>
-        <error xtype="missing-hyphen" idx="75-1" eid="0" />
+        <error xtype="missing-dash" idx="75-1" eid="0" />
         <error xtype="fw4ice" idx="75-1" eid="0" />
       </errors>
   </revision>
@@ -1411,7 +1411,7 @@
     <original><w>Matarkörfuapp</w></original>
     <corrected><w>Matarkörfusmáforrit</w></corrected>
       <errors>
-        <error xtype="fw4ice" eid="0" />
+        <error xtype="compound-nonword" eid="0" />
       </errors>
   </revision>
   <w>með</w>
@@ -1466,7 +1466,7 @@
     <original><w>Uppskriftarapp</w></original>
     <corrected><w>Uppskriftasmáforrit</w></corrected>
       <errors>
-        <error xtype="fw4ice" eid="0" />
+        <error xtype="compound-nonword" eid="0" />
       </errors>
   </revision>
   <w>með</w>
@@ -1660,7 +1660,7 @@
     <original><w>Android</w><w>appið</w></original>
     <corrected><w>Android-smáforritið</w></corrected>
       <errors>
-        <error xtype="missing-hyphen" idx="111-1" eid="0" />
+        <error xtype="missing-dash" idx="111-1" eid="0" />
         <error xtype="fw4ice" idx="111-1" eid="0" />
       </errors>
   </revision>
@@ -1718,7 +1718,7 @@
     <original><w>Android</w><w>snjallsíma</w></original>
     <corrected><w>Android-snjallsíma</w></corrected>
       <errors>
-        <error xtype="missing-hyphen" eid="0" />
+        <error xtype="missing-dash" eid="0" />
       </errors>
   </revision>
   <c>.</c>
@@ -1747,7 +1747,7 @@
     <original><w>Android</w><w>forritun</w></original>
     <corrected><w>Android-forritun</w><c>.</c></corrected>
       <errors>
-        <error xtype="missing-hyphen" idx="117-1" eid="0" />
+        <error xtype="missing-dash" idx="117-1" eid="0" />
         <error xtype="missing-period" idx="117-2" eid="0" />
       </errors>
   </revision>
@@ -1777,7 +1777,7 @@
         <error xtype="fw4ice" idx="119-1" eid="0" />
         <error xtype="split-compound" idx="119-2" eid="0" />
         <error xtype="wrong-prep" idx="119-3" eid="0" />
-        <error xtype="missing-hyphen" idx="119-4" eid="0" />
+        <error xtype="missing-dash" idx="119-4" eid="0" />
         <error xtype="missing-word" idx="119-4" eid="0" />
         <error xtype="missing-period" idx="119-5" eid="0" />
       </errors>

@@ -261,7 +261,13 @@
   <w>er</w>
   <w>gott</w>
   <w>fyrir</w>
-  <w>þá</w>
+  <revision id="13b">
+    <original><w>þá</w></original>
+    <corrected><w>þau</w></corrected>
+      <errors>
+        <error xtype="gendered" eid="0" />
+      </errors>
+  </revision>
   <w>sem</w>
   <w>gleyma</w>
   <w>sér</w>
@@ -469,6 +475,13 @@
   <w>hefði</w>
   <w>verið</w>
   <w>betra</w>
+   <revision id="26b">
+    <original></original>
+    <corrected><w>er</w></corrected>
+      <errors>
+        <error xtype="missing-fin-verb" eid="0" />
+      </errors>
+  </revision>
   <w>ef</w>
   <revision id="27">
     <original><w>það</w><w>væri</w><w>gefið</w></original>

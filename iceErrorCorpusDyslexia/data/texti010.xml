@@ -62,9 +62,23 @@
   <w>góður</w>
   <w>vinur</w>
   <w>minn</w>
+  <revision id="3b">
+    <original></original>
+    <corrected><c>,</c></corrected>
+      <errors>
+        <error xtype="missing-commas" idx="3b-1" eid="0" />
+      </errors>
+  </revision>
   <w>Ævar</w>
   <w>Karl</w>
   <w>Ævarsson</w>
+  <revision id="3c">
+    <original></original>
+    <corrected><c>,</c></corrected>
+      <errors>
+        <error xtype="dep" depId="3b-1" eid="0" />
+      </errors>
+  </revision>
   <w>fórum</w>
   <w>í</w>
   <w>Vök</w>
@@ -246,9 +260,13 @@
   <c>.</c>
 </s>
 <s n="7">
-  <w>Svo</w>
-  <w>við</w>
-  <w>fórum</w>
+  <revision id="17b">
+    <original><w>Svo</w><w>við</w><w>fórum</w></original>
+    <corrected><w>Við</w><w>fórum</w><w>því</w></corrected>
+      <errors>
+        <error xtype="wording" eid="0" />
+      </errors>
+  </revision>
   <w>og</w>
   <revision id="18">
     <original><w>spurðum</w><w>hann</w><w>til</w></original>
@@ -306,13 +324,7 @@
   </revision>
   <c>“</c>
   <w>því</w>
-  <revision id="23">
-    <original><w>að</w></original>
-    <corrected></corrected>
-      <errors>
-        <error xtype="extra-word" eid="0" />
-      </errors>
-  </revision>
+  <w>að</w>
   <w>hann</w>
   <w>talar</w>
   <w>ensku</w>

@@ -136,15 +136,21 @@
       </errors>
   </revision>
   <w>þjóðflutningaþjóðunum</w>
-  <c>,</c>
+   <revision id="10b">
+    <original><c>,</c></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="extra-comma" eid="0" />
+      </errors>
+  </revision>
   <w>Gotum</w>
   <w>og</w>
   <w>Húnum</w>
   <revision id="11">
     <original><c>.</c><w>Það</w></original>
-    <corrected><c>,</c><w>og</w><w>í</w><w>þeim</w></corrected>
+    <corrected><w>og</w><w>í</w><w>þeim</w></corrected>
       <errors>
-        <error xtype="period4comma" idx="11-1" eid="0" />
+        <error xtype="period4conjunction" idx="11-1" eid="0" />
         <error xtype="wording" idx="11-2" eid="0" />
       </errors>
   </revision>

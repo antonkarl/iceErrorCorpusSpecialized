@@ -51,7 +51,7 @@
     <corrected><w>útfærslu</w><w>af</w></corrected>
       <errors>
         <error xtype="swapped-letters" idx="1-1" eid="0" />
-        <error xtype="nonword" idx="1-1" eid="0" />
+        <error xtype="compound-nonword" idx="1-1" eid="0" />
         <error xtype="wrong-prep" idx="1-2" eid="0" />
       </errors>
   </revision>
@@ -88,18 +88,29 @@
   <w>viðskiptavini</w>
   <w>og</w>
   <w>einn</w>
-  <w>sem</w>
-  <w>mun</w>
-  <w>vera</w>
-  <revision id="3">
-    <original><w>metin</w></original>
-    <corrected><w>metinn</w></corrected>
+  <revision id="2c">
+    <original></original>
+    <corrected><w>kennara</w></corrected>
       <errors>
-        <error xtype="agreement-pred" eid="0" />
+        <error xtype="wording" idx="2c-1" eid="0" />
       </errors>
   </revision>
-  <w>af</w>
-  <w>kennara</w>
+  <w>sem</w>
+  <w>mun</w>
+  <revision id="3">
+    <original><w>vera</w><w>metin</w></original>
+    <corrected><w>meta</w><w>réttina</w></corrected>
+      <errors>
+        <error xtype="dep" depId="2c-1" eid="0" />
+      </errors>
+  </revision>
+  <revision id="3b">
+    <original><w>af</w><w>kennara</w></original>
+    <corrected><w></w></corrected>
+      <errors>
+        <error xtype="dep" depId="2c-1" eid="0" />
+      </errors>
+  </revision>
   <c>.</c>
 </s>
 <s n="4">
@@ -284,7 +295,7 @@
     <original><w>sviða</w><w>og</w><w>saltkjötspressu</w></original>
     <corrected><w>sviða- og saltkjötspressu</w></corrected>
       <errors>
-        <error xtype="missing-hyphen" eid="0" />
+        <error xtype="missing-dash" eid="0" />
       </errors>
   </revision>
   <c>.</c>
@@ -386,7 +397,7 @@
     <corrected><w>hann</w><w>ætlar</w></corrected>
       <errors>
         <error xtype="agreement-pro" idx="17b-1" eid="0" />
-        <error xtype="agreement" idx="17b-2" eid="0" />
+        <error xtype="agreement-pred" idx="17b-2" eid="0" />
       </errors>
   </revision>
   <w>að</w>
@@ -410,13 +421,25 @@
   <w>Baldur</w>
   <w>að</w>
   <w>sér</w>
-  <c>,</c>
+  <revision id="18b">
+    <original><c>,</c></original>
+    <corrected><c>;</c></corrected>
+      <errors>
+        <error xtype="comma4semicolon" eid="0" />
+      </errors>
+  </revision>
   <w>Rafn</w>
   <w>og</w>
   <w>Sigurþór</w>
   <w>tóku</w>
   <w>lönguna</w>
-  <c>,</c>
+   <revision id="18c">
+    <original><c>,</c></original>
+    <corrected><c>;</c></corrected>
+      <errors>
+        <error xtype="comma4semicolon" eid="0" />
+      </errors>
+  </revision>
   <w>Ágúst</w>
   <c>,</c>
   <w>Þorsteinn</w>
@@ -650,6 +673,13 @@
   <w>að</w>
   <w>og</w>
   <w>reyna</w>
+  <revision id="33b">
+    <original></original>
+    <corrected><w>að</w></corrected>
+      <errors>
+        <error xtype="missing-inf-part" eid="0" />
+      </errors>
+  </revision>
   <w>gera</w>
   <w>þetta</w>
   <w>eins</w>

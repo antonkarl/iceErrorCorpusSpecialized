@@ -328,13 +328,6 @@
   <w>ekki</w>
   <w>í</w>
   <w>ógöngum</w>
-  <revision id="20">
-    <original></original>
-    <corrected><c>,</c></corrected>
-      <errors>
-        <error xtype="missing-comma" eid="0" />
-      </errors>
-  </revision>
   <w>í</w>
   <revision id="21">
     <original><w>skóg</w></original>
@@ -394,8 +387,9 @@
   <w>gætu</w>
   <revision id="25">
     <original><w>einnhverjir</w></original>
-    <corrected><w>einhverjir</w></corrected>
+    <corrected><w>einhver</w></corrected>
       <errors>
+        <error xtype="gendered" idx="25-1" eid="0" />
         <error xtype="extra-letter" idx="25-1" eid="0" />
         <error xtype="nonword" idx="25-1" eid="0" />
       </errors>
@@ -416,7 +410,13 @@
   <w>til</w>
   <w>baka</w>
   <w>ef</w>
-  <w>þeir</w>
+   <revision id="26b">
+    <original><w>þeir</w></original>
+    <corrected><w>þau</w></corrected>
+      <errors>
+        <error xtype="dep" depId="25-1" eid="0" />
+      </errors>
+  </revision>
   <revision id="27">
     <original><w>ekki</w></original>
     <corrected></corrected>
@@ -452,7 +452,13 @@
   <w>máltíð</w>
   <w>þar</w>
   <w>sem</w>
-  <w>allir</w>
+  <revision id="28b">
+    <original><w>allir</w></original>
+    <corrected><w>öll</w></corrected>
+      <errors>
+        <error xtype="gendered" eid="0" />
+      </errors>
+  </revision>
   <w>leggja</w>
   <w>eitthvað</w>
   <w>til</w>
