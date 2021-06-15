@@ -509,34 +509,23 @@
   <w>nokkrum</w>
   <w>skrefum</w>
   <revision id="36">
-    <original><c>,</c><w>fyrst</w><w>er</w><w>það</w><w>látið</w><w>gerjast</w></original>
-    <corrected></corrected>
+    <original><c>,</c><w>fyrst</w><w>er</w><w>það</w><w>látið</w></original>
+    <corrected><c>.</c><w>Fyrst</w><w>eru</w><w>baunirnar</w><w>látnar</w></corrected>
       <errors>
-        <error xtype="extra-comma" idx="36-1" eid="0" />
-        <error xtype="style" idx="36-2" eid="0" />
+        <error xtype="comma4period" idx="36-1" eid="0" />
+		    <error xtype="pro4noun" idx="36-2" eid="0" />
       </errors>
   </revision>
-  <c>.</c>
-</s>
-<s n="16">
+  <w>gerjast</w>
   <revision id="37">
-    <original><w>Skeljarnar</w></original>
-    <corrected><w>Fyrst</w></corrected>
+    <original><c>.</c></original>
+    <corrected><c>;</c></corrected>
       <errors>
-        <error xtype="dep" depId="36-2" eid="0" />
-        <error xtype="style" idx="37-1" eid="0" />
+        <error xtype="period4semicolon" eid="0" />
       </errors>
   </revision>
+  <w>skeljarnar</w>
   <w>eru</w>
-  <revision id="38">
-    <original></original>
-    <corrected><w>baunirnar</w><w>látnar</w><w>gerjast</w><c>;</c><w>skeljarnar</w><w>eru</w></corrected>
-      <errors>
-        <error xtype="dep" depId="36-2" eid="0" />
-        <error xtype="missing-semicolon" idx="38-1" eid="0" />
-        <error xtype="dep" depId="37-1" eid="0" />
-      </errors>
-  </revision>
   <w>teknar</w>
   <w>niður</w>
   <w>af</w>
@@ -544,23 +533,25 @@
   <w>og</w>
   <w>settar</w>
   <w>saman</w>
-  <revision id="39">
+  <revision id="38">
     <original><w>sem</w><w>myndar</w><w>einsskonar</w></original>
     <corrected><w>í</w></corrected>
       <errors>
-        <error xtype="extra-words" idx="39-1" eid="0" />
-        <error xtype="missing-prep" idx="39-2" eid="0" />
+        <error xtype="extra-conjunction" idx="38-1" eid="0" />
+        <error xtype="extra-fin-verb" idx="38-2" eid="0" />
+        <error xtype="merged-words" idx="38-3" eid="0" />
+        <error xtype="nonword" idx="38-3" eid="0" />
+        <error xtype="missing-prep" idx="38-4" eid="0" />
       </errors>
   </revision>
   <w>hól</w>
   <w>og</w>
-  <revision id="40">
+  <revision id="39">
     <original><w>það</w><w>er</w><w>lagt</w></original>
     <corrected></corrected>
       <errors>
-        <error xtype="extra-words" idx="40-1" eid="0" />
-        <error xtype="agreement-pred" idx="40-2" eid="0" />
-        <error xtype="style" idx="40-2" eid="0" />
+        <error xtype="wording" idx="39-1" eid="0" />
+        <error xtype="style" idx="39-1" eid="0" />
       </errors>
   </revision>
   <w>yfir</w>
@@ -569,7 +560,7 @@
     <corrected><w>þær</w><w>lögð</w></corrected>
       <errors>
         <error xtype="agreement-pro" idx="41-1" eid="0" />
-        <error xtype="dep" depId="40-2" eid="0" />
+        <error xtype="dep" depId="39-1" eid="0" />
       </errors>
   </revision>
   <w>lauf</w>
