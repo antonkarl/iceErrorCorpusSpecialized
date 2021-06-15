@@ -108,14 +108,14 @@
   <w>Það</w>
   <w>eru</w>
   <revision id="7">
-    <original><w>sjö</w><w>þusund</w><w>og</w><w>sex</w><w>hundruð</w><w>og</w><w>fjörtíu</w><w>eyjum</w><w>á</w></original>
-    <corrected><w>7640</w><w>eyjar</w><w>í</w></corrected>
+    <original><w>sjö</w><w>þusund</w><w>og</w><w>sex</w><w>hundruð</w><w>og</w><w>fjörtíu</w><w>eyjum</w></original>
+    <corrected><w>7640</w><w>eyjar</w></corrected>
       <errors>
         <error xtype="word4number" idx="7-1" eid="0" />
         <error xtype="nominal-inflection" idx="7-2" eid="0" />
-        <error xtype="wrong-prep" idx="7-3" eid="0" />
       </errors>
   </revision>
+  <w>á</w>
   <w>Filippseyjum</w>
   <revision id="8">
     <original><w>og</w></original>
@@ -218,7 +218,13 @@
   <w>tungumálum</w>
   <w>á</w>
   <w>skrá</w>
-  <w>í</w>
+  <revision id="16b">
+    <original><w>í</w></original>
+    <corrected><w>á</w></corrected>
+      <errors>
+        <error xtype="wrong-prep" eid="0" />
+      </errors>
+  </revision>
   <w>Filippseyjum</w>
   <revision id="17">
     <original><c>.</c><w>Þetta</w></original>
@@ -336,12 +342,12 @@
         <error xtype="agreement-pred" eid="0" />
       </errors>
   </revision>
-  <w>í</w>
   <revision id="28">
-    <original><w>kring</w><w>um</w><w>Filippseyjar</w></original>
-    <corrected><w>Filippseyjum</w></corrected>
+    <original><w>í</w><w>kring</w><w>um</w><w>Filippseyjar</w></original>
+    <corrected><w>á</w><w>Filippseyjum</w></corrected>
       <errors>
-        <error xtype="extra-words" eid="0" />
+        <error xtype="wrong-prep" idx="28-1" eid="0" />
+        <error xtype="extra-words" idx="28-2" eid="0" />
       </errors>
   </revision>
   <c>.</c>
@@ -613,13 +619,13 @@
       </errors>
   </revision>
   <w>gera</w>
-  <w>í</w>
   <revision id="48">
-    <original><w>Filippseyjar</w></original>
-    <corrected><w>Filippseyjum</w></corrected>
+    <original><w>í</w><w>Filippseyjar</w></original>
+    <corrected><w>á</w><w>Filippseyjum</w></corrected>
       <errors>
-        <error xtype="nominal-inflection" idx="48-1" eid="0" />
-        <error xtype="case-prep" idx="48-1" eid="0" />
+        <error xtype="wrong-prep" idx="48-1" eid="0" />
+        <error xtype="nominal-inflection" idx="48-2" eid="0" />
+        <error xtype="case-prep" idx="48-2" eid="0" />
       </errors>
   </revision>
   <c>.</c>
