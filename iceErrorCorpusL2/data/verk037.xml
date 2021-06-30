@@ -334,7 +334,13 @@
   <w>í</w>
   <w>skólann</w>
   <w>á</w>
-  <w>föstudaginn</w>
+  <revision id="21b">
+    <original><w>föstudaginn</w></original>
+    <corrected><w>fimmtudaginn</w></corrected>
+      <errors>
+        <error xtype="wording" idx="21-1" eid="0" />
+      </errors>
+  </revision>
   <c>,</c>
   <w>því</w>
   <w>miður</w>

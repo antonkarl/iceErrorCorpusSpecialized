@@ -294,14 +294,14 @@
   <w>býr</w>
   <w>á</w>
   <w>Íslandi</w>
+  <w>á</w>
   <revision id="23">
-    <original><w>á</w><w>veturnar</w><c>,</c></original>
-    <corrected><w>yfir</w><w>veturna</w></corrected>
+    <original><w>veturnar</w><c>,</c></original>
+    <corrected><w>veturna</w></corrected>
       <errors>
-        <error xtype="wrong-prep" idx="23-1" eid="0" />
-        <error xtype="nonword" idx="23-2" eid="0" />
-        <error xtype="nominal-inflection" idx="23-2" eid="0" />
-        <error xtype="extra-comma" idx="23-3" eid="0" />
+        <error xtype="extra-letter" idx="23-1" eid="0" />
+        <error xtype="nonword" idx="23-1" eid="0" />
+        <error xtype="extra-comma" idx="23-2" eid="0" />
       </errors>
   </revision>
   <w>er</w>
@@ -1492,7 +1492,13 @@
 <s n="52">
   <w>Í</w>
   <w>nokkrum</w>
-  <w>hlutum</w>
+  <revision id="113b">
+    <original><w>hlutum</w></original>
+    <corrected><w>köflum</w></corrected>
+      <errors>
+        <error xtype="wording" eid="0" />
+      </errors>
+  </revision>
   <revision id="114">
     <original><c>,</c></original>
     <corrected><w>er</w></corrected>
@@ -1784,7 +1790,13 @@
   </revision>
   <w>í</w>
   <w>sumum</w>
-  <w>hlutum</w>
+  <revision id="136b">
+    <original><w>hlutum</w></original>
+    <corrected><w>köflum</w></corrected>
+      <errors>
+        <error xtype="wording" eid="0" />
+      </errors>
+  </revision>
   <c>.</c>
 </s>
 </p></body></text>

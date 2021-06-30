@@ -450,8 +450,13 @@
       </errors>
   </revision>
   <w>fyrir</w>
-  <w>hvítan</w>
-  <w>sand</w>
+  <revision id="34b">
+    <original><w>hvítan</w><w>sand</w></original>
+    <corrected><w>hvíta</w><w>sandinn</w></corrected>
+      <errors>
+        <error xtype="ind4def" eid="0" />
+      </errors>
+  </revision>
   <w>sinn</w>
   <w>og</w>
   <revision id="35">
@@ -504,10 +509,21 @@
 </s>
 <s n="21">
   <w>Það</w>
-  <w>eru</w>
+  <revision id="39b">
+    <original><w>eru</w></original>
+    <corrected><w>er</w></corrected>
+      <errors>
+        <error xtype="wording" idx="39b-1" eid="0" />
+      </errors>
+  </revision>
   <w>aðeins</w>
-  <w>tvö</w>
-  <w>veður</w>
+  <revision id="39c">
+    <original><w>tvö</w><w>veður</w></original>
+    <corrected><w>tvenns</w><w>konar</w><w>veðurfar</w></corrected>
+      <errors>
+        <error xtype="dep" depId="39b-1" eid="0" />
+      </errors>
+  </revision>
   <w>á</w>
   <w>Filippseyjum</w>
   <revision id="40">
@@ -643,7 +659,13 @@
 <s n="28">
   <w>Ég</w>
   <w>lofaði</w>
-  <w>sjálfri</w>
+  <revision id="48b">
+    <original><w>sjálfri</w></original>
+    <corrected><w>sjálfum</w></corrected>
+      <errors>
+        <error xtype="agreement-pro" eid="0" />
+      </errors>
+  </revision>
   <w>mér</w>
   <w>að</w>
   <w>ferðast</w>

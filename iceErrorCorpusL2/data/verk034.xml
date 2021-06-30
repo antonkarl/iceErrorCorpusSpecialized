@@ -39,22 +39,45 @@
 <s n="3">
   <revision id="2">
     <original><w>Það</w></original>
-    <corrected><w>Þar</w></corrected>
+    <corrected><w>Þær</w></corrected>
       <errors>
-        <error xtype="það4þar" eid="0" />
+        <error xtype="wording" idx="2-1" eid="0" />
+        <error xtype="noun4pro" idx="2-1" eid="0" />
       </errors>
   </revision>
   <w>eru</w>
   <w>margar</w>
-  <w>eyjar</w>
+  <revision id="2b">
+    <original><w>eyjar</w></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="dep" depId="2-1" eid="0" />
+      </errors>
+  </revision>
   <w>og</w>
+  <revision id="2c">
+    <original></original>
+    <corrected><w>á</w><w>þeim</w><w>eru</w><w>töluð</w></corrected>
+      <errors>
+        <error xtype="missing-prep" idx="2c-1" eid="0" />
+        <error xtype="missing-word" idx="2c-2" eid="0" />
+        <error xtype="missing-fin-verb" idx="2c-3" eid="0" />
+        <error xtype="missing-word" idx="2c-4" eid="0" />
+      </errors>
+  </revision>
   <w>mjög</w>
   <w>mörg</w>
   <w>tungumál</w>
   <c>.</c>
 </s>
 <s n="4">
-  <w>Þar</w>
+  <revision id="2d">
+    <original><w>Þar</w></original>
+    <corrected><w>Á</w><w>Filippseyjum</w></corrected>
+      <errors>
+        <error xtype="wording" eid="0" />
+      </errors>
+  </revision>
   <w>búa</w>
   <w>rúmlega</w>
   <revision id="3">
@@ -154,22 +177,20 @@
         <error xtype="wording" idx="11-4" eid="0" />
       </errors>
   </revision>
-  <c>,</c>
   <revision id="12">
-    <original><w>framleiða</w><w>sjötíu</w><w>prósent</w><w>skór</w><w>gert</w></original>
-    <corrected><w>og</w><w>framleiðir</w><w>70%</w><w>allra</w><w>skóa</w><w>sem</w><w>gerðir</w><w>eru</w></corrected>
+    <original><c>,</c><w>framleiða</w><w>sjötíu</w><w>prósent</w><w>skór</w><w>gert</w><w>í</w><w>landinu</w></original>
+    <corrected><w>og</w><w>framleiðir</w><w>70%</w><w>af</w><w>öllum</w><w>skóm</w><w>landsins</w></corrected>
       <errors>
-        <error xtype="missing-conjunction" idx="12-1" eid="0" />
+        <error xtype="comma4conjunction" idx="12-1" eid="0" />
         <error xtype="agreement" idx="12-2" eid="0" />
         <error xtype="number4word" idx="12-3" eid="0" />
         <error xtype="word4symbol" idx="12-4" eid="0" />
-        <error xtype="missing-word" idx="12-5" eid="0" />
-        <error xtype="missing-conjunction" idx="12-6" eid="0" />
-        <error xtype="verb-inflection" idx="12-7" eid="0" />
+        <error xtype="missing-prep" idx="12-5" eid="0" />
+        <error xtype="missing-word" idx="12-6" eid="0" />
+        <error xtype="extra-word" idx="12-7" eid="0" />
+        <error xtype="wording" idx="12-8" eid="0" />
       </errors>
   </revision>
-  <w>í</w>
-  <w>landinu</w>
   <c>.</c>
 </s>
 <s n="9">
@@ -184,9 +205,9 @@
   <w>er</w>
   <revision id="14">
     <original></original>
-    <corrected><w>í</w></corrected>
+    <corrected><w>á</w></corrected>
       <errors>
-        <error xtype="missing-prep" eid="0" />
+        <error xtype="missing-prep " eid="0" />
       </errors>
   </revision>
   <w>láglendi</w>
@@ -218,8 +239,15 @@
   </revision>
   <w>margar</w>
   <w>hátíðir</w>
-  <w>eins</w>
-  <w>og</w>
+  <revision id="16b">
+    <original><w>eins</w><w>og</w></original>
+    <corrected><c>,</c><w>til</w><w>dæmis</w><c>:</c></corrected>
+      <errors>
+        <error xtype="missing-comma" idx="16b-1" eid="0" />
+        <error xtype="wording" idx="16b-2" eid="0" />
+        <error xtype="missing-colon" idx="16b-3" eid="0" />
+      </errors>
+  </revision>
   <revision id="17">
     <original><w>Ati-Atihan</w><w>Sinulog</w><w>hátíð</w></original>
     <corrected><w><hi>Ati-Atihan</hi></w><w><hi>Sinulog</hi></w></corrected>
@@ -467,12 +495,13 @@
     <corrected><w>Þar</w></corrected>
       <errors>
         <error xtype="missing-word" idx="39-1" eid="0" />
+        <error xtype="wording" idx="39-1" eid="0" />
       </errors>
   </revision>
   <w>getur</w>
   <revision id="40">
     <original></original>
-    <corrected><w>þú</w></corrected>
+    <corrected><w>maður</w></corrected>
       <errors>
         <error xtype="dep" depId="39-1" eid="0" />
       </errors>

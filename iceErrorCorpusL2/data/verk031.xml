@@ -229,7 +229,13 @@
   <w>og</w>
   <w>þvæ</w>
   <w>andlitið</w>
-  <w>í</w>
+  <revision id="16b">
+    <original><w>í</w></original>
+    <corrected><w>á</w></corrected>
+      <errors>
+        <error xtype="wrong-prep" eid="0" />
+      </errors>
+  </revision>
   <w>baðherberginu</w>
   <c>.</c>
 </s>

@@ -253,7 +253,13 @@
 </s>
 <s n="11">
   <w>Hún</w>
-  <w>hafði</w>
+  <revision id="16b">
+    <original><w>hafði</w></original>
+    <corrected><w>átti</w></corrected>
+      <errors>
+        <error xtype="have" eid="0" />
+      </errors>
+  </revision>
   <w>eina</w>
   <w>kú</w>
   <c>,</c>
@@ -633,10 +639,15 @@
   <w>að</w>
   <w>æfa</w>
   <revision id="44">
-  	<original><w>sig</w><w>íslensku</w><w>skrífin</w><w>minn</w></original>
-    <corrected><w>íslenskuskrifin</w><w>mín</w><w>á</w></corrected>
+    <original><w>sig</w><w>íslensku</w><w>skrífin</w><w>minn</w></original>
+    <corrected><w>íslenskuskrifin</w><w>mín</w><c>.</c></corrected>
       <errors>
-        <error xtype="wording" eid="0" />
+        <error xtype="extra-word" idx="44-1" eid="0" />
+        <error xtype="split-compound" idx="44-2" eid="0" />
+        <error xtype="extra-accent" idx="44-3" eid="0" />
+        <error xtype="nonword" idx="44-3" eid="0" />
+        <error xtype="extra-word" idx="44-4" eid="0" />
+        <error xtype="missing-period" idx="44-5" eid="0" />
       </errors>
   </revision>
 </s>

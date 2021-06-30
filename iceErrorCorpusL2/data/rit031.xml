@@ -333,7 +333,14 @@
   <w>am</w>
   <w>basing</w>
   <w>my</w>
-  <w>clains</w>
+  <revision id="17b">
+    <original><w>clains</w></original>
+    <corrected><w>claims</w></corrected>
+      <errors>
+        <error xtype="letter-rep" idx="17b-1" eid="0" />
+        <error xtype="foreign-error" idx="17b-1" eid="0" />
+      </errors>
+  </revision>
   <w>have</w>
   <w>been</w>
   <w>gathered</w>
@@ -585,11 +592,12 @@
   <c>,</c>
   <revision id="28">
     <original><w>einhverskonars</w><w>bergmálsklefi</w></original>
-    <corrected><w>eins</w><w>konar</w><w>bergmálsklefa</w></corrected>
+    <corrected><w>eins</w><w>konar</w><w>bergmálsklefa</w><c>,</c></corrected>
       <errors>
         <error xtype="merged-words" idx="28-1" eid="0" />
         <error xtype="case-prep" idx="28-2" eid="0" />
         <error xtype="nominal-inflection" idx="28-2" eid="0" />
+        <error xtype="missing-comma" eid="0" />
       </errors>
   </revision>
   <w>sem</w>
@@ -635,7 +643,13 @@
   <w>efni</w>
   <w>er</w>
   <w>notendum</w>
-  <w>sjáanleg</w>
+  <revision id="30b">
+    <original><w>sjáanleg</w></original>
+    <corrected><w>sjáanlegt</w></corrected>
+      <errors>
+        <error xtype="agreement-pred" eid="0" />
+      </errors>
+  </revision>
   <c>,</c>
   <revision id="31">
     <original><w>einkum</w></original>
@@ -1106,10 +1120,13 @@
   <w>milli</w>
   <revision id="56">
     <original><w>kvenkyns- og karlkynsmáknotkun</w></original>
-    <corrected><w>kvenkyns- og karlkynsmálnotkun</w></corrected>
+    <corrected><w>kvenkyns- og karlkynsmálnotkunar</w></corrected>
       <errors>
         <error xtype="letter-rep" idx="56-1" eid="0" />
         <error xtype="nonword" idx="56-1" eid="0" />
+        <error xtype="nominal-inflection" idx="56-1" eid="0" />
+        <error xtype="case-prep" idx="56-1" eid="0" />
+        <error xtype="genitive" idx="56-1" eid="0" />
       </errors>
   </revision>
   <w>og</w>
@@ -1362,7 +1379,13 @@
   <w>ekki</w>
   <w>einungis</w>
   <w>orðaforði</w>
-  <w>en</w>
+  <revision id="69b">
+    <original><w>en</w></original>
+    <corrected><w>heldur</w></corrected>
+      <errors>
+        <error xtype="conjunction" eid="0" />
+      </errors>
+  </revision>
   <w>einnig</w>
   <w>notkun</w>
   <w>tungumálsins</w>
@@ -1476,8 +1499,7 @@
     <corrected><w>hinna</w><w>eldri</w></corrected>
       <errors>
         <error xtype="missing-dem-pro" idx="76-1" eid="0" />
-        <error xtype="adjective-inflection" idx="76-2" eid="0" />
-        <error xtype="case-prep" idx="76-2" eid="0" />
+        <error xtype="agreement-pred" idx="76-2" eid="0" />
       </errors>
   </revision>
   <w>og</w>
@@ -2063,21 +2085,13 @@
   <w>að</w>
   <w>því</w>
   <w>að</w>
-  <w>mæðrum</w>
-  <w>sé</w>
-  <w>ekki</w>
   <revision id="101">
-    <original><w>borið</w><w>meira</w><w>virðingu</w><w>frá</w></original>
-    <corrected><w>borin</w><w>meiri</w><w>virðing</w><w>af</w></corrected>
+    <original><w>mæðrum</w><w>sé</w><w>ekki</w><w>borið</w><w>meira</w><w>virðingu</w><w>frá</w><w>börnunum</w></original>
+    <corrected><w>börn</w><w>beri</w><w>minni</w><w>virðingu</w><w>fyrir</w><w>mæðrum</w></corrected>
       <errors>
-        <error xtype="agreement-pred" idx="101-1" eid="0" />
-        <error xtype="agreement-concord" idx="101-2" eid="0" />
-        <error xtype="case-verb" idx="101-3" eid="0" />
-        <error xtype="nominal-inflection" idx="101-3" eid="0" />
-        <error xtype="wrong-prep" idx="101-4" eid="0" />
+        <error xtype="wording" eid="0" />
       </errors>
   </revision>
-  <w>börnunum</w>
   <w>sínum</w>
   <w>sökum</w>
   <w>tungumálsins</w>
@@ -2093,7 +2107,13 @@
   <w>að</w>
   <w>endurtaka</w>
   <w>hér</w>
-  <w>það</w>
+  <revision id="101b">
+    <original><w>það</w></original>
+    <corrected><w>þar</w></corrected>
+      <errors>
+        <error xtype="það4þar" eid="0" />
+      </errors>
+  </revision>
   <w>sem</w>
   <w>að</w>
   <w>þau</w>
@@ -2351,7 +2371,14 @@
   <w>the</w>
   <w>drudgery</w>
   <c>,</c>
-  <w>the</w>
+  <revision id="105b">
+    <original><w>the</w></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="extra-word" idx="105b-1" eid="0" />
+        <error xtype="foreign-error" idx="105b-1" eid="0" />
+      </errors>
+  </revision>
   <w>the</w>
   <w>dangers</w>
   <w>of</w>
@@ -2599,7 +2626,13 @@
 <s n="70">
   <w>Gestur</w>
   <c>:</c>
-  <w>Þórbjörg</w>
+  <revision id="113b">
+    <original><w>Þórbjörg</w></original>
+    <corrected><w>Þorbjörg</w></corrected>
+      <errors>
+        <error xtype="extra-accent" eid="0" />
+      </errors>
+  </revision>
   <w>Þorvaldsdóttir</w>
   <c>.</c>
 </s>
@@ -2611,7 +2644,15 @@
   <w>að</w>
   <w>hlusta</w>
   <w>á</w>
-  <w>Þórbjörgu</w>
+  <revision id="113c">
+    <original><w>Þórbjörgu</w></original>
+    <corrected><w>Þorbjörgu</w></corrected>
+      <errors>
+        <error xtype="extra-accent" idx="113c-1" eid="0" />
+        <error xtype="nominal-inflection" idx="113c-1" eid="0" />
+        <error xtype="case-prep" idx="113c-1" eid="0" />
+      </errors>
+  </revision>
   <w>og</w>
   <w>hennar</w>
   <w>rannsóknarvinnu</w>
@@ -2712,7 +2753,13 @@
   </revision>
   <w>eins</w>
   <w>og</w>
-  <w>Þórbjörg</w>
+  <revision id="120b">
+    <original><w>Þórbjörg</w></original>
+    <corrected><w>Þorbjörg</w></corrected>
+      <errors>
+        <error xtype="extra-accent" eid="0" />
+      </errors>
+  </revision>
   <w>benti</w>
   <w>á</w>
   <w>í</w>
@@ -2802,7 +2849,13 @@
   <c>.</c>
 </s>
 <s n="78">
-  <w>Þórbjörg</w>
+  <revision id="123b">
+    <original><w>Þórbjörg</w></original>
+    <corrected><w>Þorbjörg</w></corrected>
+      <errors>
+        <error xtype="extra-accent" eid="0" />
+      </errors>
+  </revision>
   <w>nefndi</w>
   <w>að</w>
   <w>þriðji</w>
@@ -3490,11 +3543,9 @@
   <w>listum</w>
   <revision id="152">
     <original><w>kvenkyns</w><w>útgafur</w></original>
-    <corrected><w>kvenkynsútgáfur</w></corrected>
+    <corrected><w>kvenkynsútgafur</w></corrected>
       <errors>
-        <error xtype="split-compound" idx="152-1" eid="0" />
-        <error xtype="missing-accent" idx="152-2" eid="0" />
-        <error xtype="nonword" idx="152-2" eid="0" />
+        <error xtype="split-compound" eid="0" />
       </errors>
   </revision>
   <c>,</c>
@@ -3626,7 +3677,13 @@
       </errors>
   </revision>
   <w>til</w>
-  <w>kosningar</w>
+  <revision id="162b">
+    <original><w>kosningar</w></original>
+    <corrected><w>kosninga</w></corrected>
+      <errors>
+        <error xtype="singular4plural" eid="0" />
+      </errors>
+  </revision>
   <w>varðandi</w>
   <revision id="163">
     <original><w>þessu</w></original>
@@ -3685,7 +3742,13 @@
   </revision>
   <w>aðallega</w>
   <w>af</w>
-  <w>beygingaflokkum</w>
+  <revision id="165b">
+    <original><w>beygingaflokkum</w></original>
+    <corrected><w>beygingarflokkum</w></corrected>
+      <errors>
+        <error xtype="compound-collocation" eid="0" />
+      </errors>
+  </revision>
   <w>en</w>
   <w>þó</w>
   <w>líka</w>
@@ -3883,7 +3946,13 @@
   <c>,</c>
   <w>eins</w>
   <w>og</w>
-  <w>Þórbjörg</w>
+  <revision id="177b">
+    <original><w>Þórbjörg</w></original>
+    <corrected><w>Þorbjörg</w></corrected>
+      <errors>
+        <error xtype="extra-accent" eid="0" />
+      </errors>
+  </revision>
   <w>hefur</w>
   <w>sýnt</w>
   <w>fram</w>
@@ -3918,10 +3987,11 @@
   <w>19</w>
   <revision id="180">
     <original><w>málshöfum</w></original>
-    <corrected><w>málshafa</w></corrected>
+    <corrected><w>málhafa</w></corrected>
       <errors>
-        <error xtype="case-prep" idx="180-1" eid="0" />
+        <error xtype="compound-collocation" idx="180-1" eid="0" />
         <error xtype="nominal-inflection" idx="180-1" eid="0" />
+        <error xtype="case-prep" idx="180-1" eid="0" />
       </errors>
   </revision>
   <w>og</w>
@@ -3993,7 +4063,13 @@
   <c>.</c>
 </s>
 <s n="120">
-  <w>Þórbjörg</w>
+  <revision id="180b">
+    <original><w>Þórbjörg</w></original>
+    <corrected><w>Þorbjörg</w></corrected>
+      <errors>
+        <error xtype="extra-accent" eid="0" />
+      </errors>
+  </revision>
   <w>skrifar</w>
   <w>að</w>
   <w>orðið</w>
@@ -4011,7 +4087,7 @@
     <original><w>karlkynskyn</w></original>
     <corrected><w>karlkyn</w></corrected>
       <errors>
-        <error xtype="nonword" eid="0" />
+        <error xtype="compound-nonword" eid="0" />
       </errors>
   </revision>
   <c>.</c>
@@ -4284,14 +4360,27 @@
   <w>Eins</w>
   <w>og</w>
   <w>Klein</w>
+  <revision id="197b">
+    <original></original>
+    <corrected><c>,</c></corrected>
+      <errors>
+        <error xtype="missing-commas" idx="197b-1" eid="0" />
+      </errors>
+  </revision>
   <w>sem</w>
   <w>var</w>
   <w>nefnd</w>
   <w>í</w>
   <w>tímanum</w>
-  <w>sagði</w>
-  <c>,</c>
-  <w>þá</w>
+  <revision id="197c">
+    <original><w>sagði</w><c>,</c><w>þá</w></original>
+    <corrected><c>,</c><w>sagði</w></corrected>
+      <errors>
+        <error xtype="dep" depId="197b-1" eid="0" />
+        <error xtype="extra-comma" idx="197b-2" eid="0" />
+        <error xtype="extra-word" idx="197b-3" eid="0" />
+      </errors>
+  </revision>
   <w>er</w>
   <w>kyn</w>
   <w>oft</w>
@@ -4668,7 +4757,14 @@
   <w>this</w>
   <w>early</w>
   <w>life</w>
-  <w>stafe</w>
+  <revision id="216b">
+    <original><w>stafe</w></original>
+    <corrected><w>stage</w></corrected>
+      <errors>
+        <error xtype="letter-rep" idx="216b-1" eid="0" />
+        <error xtype="foreign-error" idx="216b-1" eid="0" />
+      </errors>
+  </revision>
   <w>that</w>
   <w>it</w>
   <w>is</w>
@@ -5012,7 +5108,13 @@
   <w>nefna</w>
   <w>rannsóknina</w>
   <w>hennar</w>
-  <w>Þórbjargar</w>
+  <revision id="234b">
+    <original><w>Þórbjargar</w></original>
+    <corrected><w>Þorbjargar</w></corrected>
+      <errors>
+        <error xtype="extra-accent" eid="0" />
+      </errors>
+  </revision>
   <w>um</w>
   <revision id="235">
     <original><w>skammtimaminni</w></original>
@@ -5055,7 +5157,13 @@
   <c>?</c>
 </s>
 <s n="147">
-  <w>Þórbjörg</w>
+  <revision id="237b">
+    <original><w>Þórbjörg</w></original>
+    <corrected><w>Þorbjörg</w></corrected>
+      <errors>
+        <error xtype="extra-accent" eid="0" />
+      </errors>
+  </revision>
   <w>skoðaði</w>
   <w>eftir</w>
   <w>Badecker</w>
@@ -5069,7 +5177,7 @@
     <corrected><w>aðdráttarvillur</w></corrected>
       <errors>
         <error xtype="missing-letter" idx="238-1" eid="0" />
-        <error xtype="nonword" idx="238-1" eid="0" />
+        <error xtype="compound-nonword" idx="238-1" eid="0" />
       </errors>
   </revision>
   <w>í</w>
@@ -6928,7 +7036,8 @@
     <original><w>mannréttindarmál</w></original>
     <corrected><w>mannréttindamál</w></corrected>
       <errors>
-        <error xtype="compound-collocation" eid="0" />
+        <error xtype="compound-collocation" idx="329-1" eid="0" />
+        <error xtype="compound-nonword" idx="329-1" eid="0" />
       </errors>
   </revision>
   <w>og</w>
@@ -7015,7 +7124,13 @@
   <w>að</w>
   <w>spyrja</w>
   <c>–</c>
-  <w>hvort</w>
+  <revision id="331b">
+    <original><w>hvort</w></original>
+    <corrected><w>hver</w></corrected>
+      <errors>
+        <error xtype="interr-pro" eid="0" />
+      </errors>
+  </revision>
   <w>hefur</w>
   <w>rétt</w>
   <w>fyrir</w>
@@ -7054,6 +7169,7 @@
         <error xtype="compound-collocation" idx="333-1" eid="0" />
         <error xtype="nominal-inflection" idx="333-1" eid="0" />
         <error xtype="acc4nom-sub" idx="333-1" eid="0" />
+        <error xtype="compound-nonword" idx="333-1" eid="0" />
       </errors>
   </revision>
   <w>stangast</w>
@@ -7510,7 +7626,7 @@
     <corrected><w>hafa</w></corrected>
       <errors>
         <error xtype="context" idx="361-1" eid="0" />
-        <error xtype="agreement" idx="361-1" eid="0" />
+        <error xtype="agreement-pred" idx="361-1" eid="0" />
       </errors>
   </revision>
   <w>að</w>
@@ -7574,7 +7690,7 @@
     <original><w>hafi</w></original>
     <corrected><w>eigi</w></corrected>
       <errors>
-        <error xtype="have" idx="364-1" eid="0" />
+        <error xtype="context" idx="364-1" eid="0" />
         <error xtype="collocation" idx="364-1" eid="0" />
       </errors>
   </revision>
@@ -8186,7 +8302,7 @@
     <original><w>er</w></original>
     <corrected><w>séu</w></corrected>
       <errors>
-        <error xtype="agreement" idx="397-1" eid="0" />
+        <error xtype="agreement-pred" idx="397-1" eid="0" />
         <error xtype="ind4sub" idx="397-1" eid="0" />
       </errors>
   </revision>
@@ -8366,7 +8482,7 @@
     <corrected><w>fyrirfinnast</w></corrected>
       <errors>
         <error xtype="verb-inflection" idx="403-1" eid="0" />
-        <error xtype="agreement" idx="403-1" eid="0" />
+        <error xtype="agreement-pred" idx="403-1" eid="0" />
         <error xtype="singular4plural" idx="403-1" eid="0" />
       </errors>
   </revision>
@@ -8942,7 +9058,8 @@
     <original><w>dómsstólar</w></original>
     <corrected><w>dómstólar</w></corrected>
       <errors>
-        <error xtype="compound-collocation" eid="0" />
+        <error xtype="compound-collocation" idx="428-1" eid="0" />
+        <error xtype="compound-nonword" idx="428-1" eid="0" />
       </errors>
   </revision>
   <w>oft</w>
@@ -9026,7 +9143,7 @@
     <original><w>sé</w></original>
     <corrected><w>séu</w></corrected>
       <errors>
-        <error xtype="agreement" eid="0" />
+        <error xtype="agreement-pred" eid="0" />
       </errors>
   </revision>
   <w>viðhorfin</w>
@@ -9566,7 +9683,7 @@
       <errors>
         <error xtype="extra-endash" idx="457-1" eid="0" />
         <error xtype="context" idx="457-1" eid="0" />
-        <error xtype="nonword" idx="457-1" eid="0" />
+        <error xtype="compound-nonword" idx="457-1" eid="0" />
       </errors>
   </revision>
   <w>fyrirfinnst</w>
@@ -9579,7 +9696,8 @@
     <original><w>dómsstólar</w></original>
     <corrected><w>dómstólar</w></corrected>
       <errors>
-        <error xtype="compound-collocation" eid="0" />
+        <error xtype="compound-collocation" idx="458-1" eid="0" />
+        <error xtype="compound-nonword" idx="458-1" eid="0" />
       </errors>
   </revision>
   <w>virðast</w>
@@ -9694,7 +9812,7 @@
     <original><w>virðist</w></original>
     <corrected><w>virðast</w></corrected>
       <errors>
-        <error xtype="agreement" idx="467-1" eid="0" />
+        <error xtype="agreement-pred" idx="467-1" eid="0" />
         <error xtype="verb-inflection" idx="467-1" eid="0" />
       </errors>
   </revision>
@@ -10004,6 +10122,7 @@
         <error xtype="að4af" idx="482-1" eid="0" />
         <error xtype="adj4noun" idx="482-2" eid="0" />
         <error xtype="compound-collocation" idx="482-3" eid="0" />
+        <error xtype="compound-nonword" idx="482-3" eid="0" />
       </errors>
   </revision>
   <w>og</w>
@@ -10294,7 +10413,8 @@
     <original><w>Dómsnefndin</w></original>
     <corrected><w>Dómnefndin</w></corrected>
       <errors>
-        <error xtype="compound-collocation" eid="0" />
+        <error xtype="compound-collocation" idx="488-1" eid="0" />
+        <error xtype="compound-nonword" idx="488-1" eid="0" />
       </errors>
   </revision>
   <w>telur</w>
@@ -10389,7 +10509,8 @@
     <original><w>dómsstóla</w></original>
     <corrected><w>dómstóla</w></corrected>
       <errors>
-        <error xtype="compound-collocation" eid="0" />
+        <error xtype="compound-collocation" idx="493-1" eid="0" />
+        <error xtype="compound-nonword" idx="493-1" eid="0" />
       </errors>
   </revision>
   <c>–</c>
@@ -10426,7 +10547,7 @@
     <original><w>geta</w></original>
     <corrected><w>getur</w></corrected>
       <errors>
-        <error xtype="agreement" idx="495-1" eid="0" />
+        <error xtype="agreement-pred" idx="495-1" eid="0" />
         <error xtype="verb-inflection" idx="495-1" eid="0" />
       </errors>
   </revision>
@@ -10522,6 +10643,7 @@
     <corrected><w>dómstóla</w></corrected>
       <errors>
         <error xtype="compound-collocation" idx="497-1" eid="0" />
+        <error xtype="compound-nonword" idx="497-1" eid="0" />
         <error xtype="nominal-inflection" idx="497-1" eid="0" />
         <error xtype="genitive" idx="497-1" eid="0" />
       </errors>
@@ -10582,7 +10704,8 @@
     <original><w>orðamyndun</w></original>
     <corrected><w>orðmyndun</w></corrected>
       <errors>
-        <error xtype="compound-collocation" eid="0" />
+        <error xtype="compound-collocation" idx="499-1" eid="0" />
+        <error xtype="compound-nonword" idx="499-1" eid="0" />
       </errors>
   </revision>
   <c>.</c>
@@ -10628,6 +10751,7 @@
     <corrected><w>málstaðallinn</w><w>endurspeglar</w></corrected>
       <errors>
         <error xtype="compound-collocation" idx="504-1" eid="0" />
+        <error xtype="compound-nonword" idx="504-1" eid="0" />
         <error xtype="verb-inflection" idx="504-2" eid="0" />
         <error xtype="nonword" idx="504-2" eid="0" />
       </errors>
@@ -10643,7 +10767,7 @@
     <original><w>þurfti</w></original>
     <corrected><w>þurftu</w></corrected>
       <errors>
-        <error xtype="agreement" idx="505-1" eid="0" />
+        <error xtype="agreement-pred" idx="505-1" eid="0" />
         <error xtype="verb-inflection" idx="505-1" eid="0" />
       </errors>
   </revision>
@@ -10737,7 +10861,8 @@
     <original><w>málsstaðalsins</w></original>
     <corrected><w>málstaðalsins</w></corrected>
       <errors>
-        <error xtype="compound-collocation" eid="0" />
+        <error xtype="compound-collocation" idx="510-1" eid="0" />
+        <error xtype="compound-nonword" idx="510-1" eid="0" />
       </errors>
   </revision>
   <w>má</w>
@@ -10918,7 +11043,7 @@
     <original><w>yrði</w></original>
     <corrected><w>yrðu</w></corrected>
       <errors>
-        <error xtype="agreement" idx="523-1" eid="0" />
+        <error xtype="agreement-pred" idx="523-1" eid="0" />
         <error xtype="verb-inflection" idx="523-1" eid="0" />
       </errors>
   </revision>
@@ -11210,7 +11335,8 @@
     <original><w>Egilson</w></original>
     <corrected><w>Egilsson</w></corrected>
       <errors>
-        <error xtype="compound-collocation" eid="0" />
+        <error xtype="compound-collocation" idx="538-1" eid="0" />
+        <error xtype="compound-nonword" idx="538-1" eid="0" />
       </errors>
   </revision>
   <w>og</w>
@@ -11224,7 +11350,8 @@
     <original><w>Egilson</w></original>
     <corrected><w>Egilsson</w></corrected>
       <errors>
-        <error xtype="compound-collocation" eid="0" />
+        <error xtype="compound-collocation" idx="539-1" eid="0" />
+        <error xtype="compound-nonword" idx="539-1" eid="0" />
       </errors>
   </revision>
   <w>kenndi</w>
@@ -11608,7 +11735,7 @@
     <original><w>ætti</w></original>
     <corrected><w>ættu</w></corrected>
       <errors>
-        <error xtype="agreement" idx="564-1" eid="0" />
+        <error xtype="agreement-pred" idx="564-1" eid="0" />
         <error xtype="verb-inflection" idx="564-1" eid="0" />
       </errors>
   </revision>
@@ -11925,6 +12052,7 @@
     <corrected><w>málstaðallinn</w><w>var</w><w>að</w><w>færast</w></corrected>
       <errors>
         <error xtype="compound-collocation" idx="584-1" eid="0" />
+        <error xtype="compound-nonword" idx="584-1" eid="0" />
         <error xtype="context" idx="584-2" eid="0" />
       </errors>
   </revision>
@@ -12096,7 +12224,13 @@
   </revision>
   <c>–</c>
   <w>hann</w>
-  <w>hafði</w>
+  <revision id="595b">
+    <original><w>hafði</w></original>
+    <corrected><w>átti</w></corrected>
+      <errors>
+        <error xtype="have" idx="595b-1" eid="0" />
+      </errors>
+  </revision>
   <w>allan</w>
   <revision id="596">
     <original><w>tíman</w></original>
@@ -12106,8 +12240,13 @@
         <error xtype="nonword" idx="596-1" eid="0" />
       </errors>
   </revision>
-  <w>náið</w>
-  <w>samband</w>
+  <revision id="596b">
+    <original><w>náið</w><w>samband</w></original>
+    <corrected><w>í</w><w>nánu</w><w>sambandi</w></corrected>
+      <errors>
+        <error xtype="dep" depId="595b-1" eid="0" />
+      </errors>
+  </revision>
   <w>við</w>
   <w>íslensku</w>
   <revision id="597">
@@ -12174,7 +12313,7 @@
     <original><w>fylgdu</w><w>svokölluðu</w></original>
     <corrected><w>fylgdi</w><w>svokallaðri</w></corrected>
       <errors>
-        <error xtype="agreement" idx="602-1" eid="0" />
+        <error xtype="agreement-pred" idx="602-1" eid="0" />
         <error xtype="verb-inflection" idx="602-1" eid="0" />
         <error xtype="agreement-concord" idx="602-2" eid="0" />
         <error xtype="adjective-inflection" idx="602-2" eid="0" />
@@ -12190,7 +12329,8 @@
     <original><w>Friðriksonar</w></original>
     <corrected><w>Friðrikssonar</w></corrected>
       <errors>
-        <error xtype="compound-collocation" eid="0" />
+        <error xtype="compound-collocation" idx="603-1" eid="0" />
+        <error xtype="compound-nonword" idx="603-1" eid="0" />
       </errors>
   </revision>
   <w>sem</w>
@@ -12817,7 +12957,7 @@
     <original><w>bættist</w></original>
     <corrected><w>bættust</w></corrected>
       <errors>
-        <error xtype="agreement" idx="636-1" eid="0" />
+        <error xtype="agreement-pred" idx="636-1" eid="0" />
         <error xtype="singular4plural" idx="636-1" eid="0" />
         <error xtype="verb-inflection" idx="636-1" eid="0" />
       </errors>
@@ -12902,7 +13042,8 @@
     <original><w>málsstöðlunar</w></original>
     <corrected><w>málstöðlunar</w></corrected>
       <errors>
-        <error xtype="compound-collocation" eid="0" />
+        <error xtype="compound-collocation" idx="643-1" eid="0" />
+        <error xtype="compound-nonword" idx="643-1" eid="0" />
       </errors>
   </revision>
   <w>og</w>
@@ -13092,7 +13233,7 @@
         <error xtype="ind4sub" idx="649-1" eid="0" />
         <error xtype="extra-word" idx="649-2" eid="0" />
         <error xtype="adjective-inflection" idx="649-3" eid="0" />
-        <error xtype="agreement-pred" idx="649-3" eid="0" />
+        <error xtype="agreement-concord" idx="649-3" eid="0" />
       </errors>
   </revision>
   <w>málbreytingum</w>
@@ -13107,7 +13248,8 @@
     <original><w>Málsstaðallinn</w></original>
     <corrected><w>Málstaðallinn</w></corrected>
       <errors>
-        <error xtype="compound-collocation" eid="0" />
+        <error xtype="compound-collocation" idx="650-1" eid="0" />
+        <error xtype="compound-nonword" idx="650-1" eid="0" />
       </errors>
   </revision>
   <w>á</w>

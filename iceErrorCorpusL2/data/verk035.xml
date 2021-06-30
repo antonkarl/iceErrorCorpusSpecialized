@@ -136,7 +136,14 @@
   <w>sagnorð</w>
   <c>,</c>
   <w>lýsingarorð</w>
-  <c>,</c>
+  <revision id="9b">
+    <original><c>,</c></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="extra-comma" idx="9b-1" eid="0" />
+        <error xtype="comma-plus-conjunction" idx="9b-1" eid="0" />
+      </errors>
+  </revision>
   <w>og</w>
   <revision id="10">
     <original><w>fallbeyging</w></original>
@@ -584,6 +591,13 @@
   <w>Ísland</w>
   <w>vegna</w>
   <w>þess</w>
+  <revision id="42b">
+    <original></original>
+    <corrected><w>að</w></corrected>
+      <errors>
+        <error xtype="missing-conjunction" eid="0" />
+      </errors>
+  </revision>
   <w>það</w>
   <revision id="43">
     <original><w>eru</w><w>smá</w></original>

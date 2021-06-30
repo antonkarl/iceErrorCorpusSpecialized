@@ -1843,13 +1843,14 @@
   <w>láta</w>
   <w>neinn</w>
   <w>annan</w>
-  <w>koma</w>
-  <w>við</w>
   <revision id="93">
-    <original><w>vold</w></original>
-    <corrected><w>völd</w></corrected>
+    <original><w>koma</w><w>við</w><w>vold</w></original>
+    <corrected><w>komast</w><w>til</w><w>valda</w></corrected>
       <errors>
-        <error xtype="missing-accent" eid="0" />
+        <error xtype="act4mid" idx="93-1" eid="0" />
+        <error xtype="wrong-prep" idx="93-2" eid="0" />
+        <error xtype="missing-accent" idx="93-3" eid="0" />
+        <error xtype="nonword" idx="93-3" eid="0" />
       </errors>
   </revision>
   <w>né</w>
@@ -2244,7 +2245,13 @@
   <c>,</c>
   <w>til</w>
   <w>dæmis</w>
-  <w>samstarfsmanns</w>
+  <revision id="105b">
+    <original><w>samstarfsmanns</w></original>
+    <corrected><w>samstarfsfélaga</w></corrected>
+      <errors>
+        <error xtype="gendered" eid="0" />
+      </errors>
+  </revision>
   <w>hans</w>
   <w>Úlfhildar</w>
   <w>sem</w>
@@ -2478,13 +2485,7 @@
   </revision>
   <w>þjóna</w>
   <w>sem</w>
-  <revision id="120">
-    <original><w>umkvörtun</w></original>
-    <corrected><w>kvörtun</w></corrected>
-      <errors>
-        <error xtype="context" eid="0" />
-      </errors>
-  </revision>
+  <w>umkvörtun</w>
   <w>vegna</w>
   <w>ástandsins</w>
   <c>,</c>
@@ -2655,14 +2656,13 @@
   <w>geta</w>
   <w>verið</w>
   <w>grimmar</w>
-  <w>gagnvart</w>
-  <w>hvor</w>
   <revision id="129">
-    <original><w>öðrum</w></original>
-    <corrected><w>annarri</w></corrected>
+    <original><w>gagnvart</w><w>hvor</w><w>öðrum</w></original>
+    <corrected><w>hver</w><w>gagnvart</w><w>annarri</w></corrected>
       <errors>
-        <error xtype="each" idx="129-1" eid="0" />
         <error xtype="agreement-pro" idx="129-1" eid="0" />
+        <error xtype="each" idx="129-2" eid="0" />
+        <error xtype="agreement-pro" idx="129-3" eid="0" />
       </errors>
   </revision>
   <w>þegar</w>

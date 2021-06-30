@@ -60,7 +60,7 @@
     <original></original>
     <corrected><c>,</c></corrected>
       <errors>
-        <error xtype="extra-comma" eid="0" />
+        <error xtype="missing-comma" eid="0" />
       </errors>
   </revision>
   <w>litað</w>
@@ -96,7 +96,13 @@
   <w>í</w>
   <w>búðir</w>
   <w>með</w>
-  <w>henni</w>
+  <revision id="3b">
+    <original><w>henni</w></original>
+    <corrected><w>sér</w></corrected>
+      <errors>
+        <error xtype="pro4reflexive" eid="0" />
+      </errors>
+  </revision>
   <w>og</w>
   <w>fata</w>
   <w>sig</w>
@@ -154,7 +160,13 @@
   <w>sjálf</w>
   <w>lítur</w>
   <w>þó</w>
-  <w>ekki</w>
+  <revision id="5b">
+    <original><w>ekki</w></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="extra-word" eid="0" />
+      </errors>
+  </revision>
   <w>mjög</w>
   <revision id="6">
     <original><w>gervileg</w></original>
@@ -412,8 +424,14 @@
   <w>mjög</w>
   <w>litsterkar</w>
   <w>og</w>
-  <w>sérlundaðar</w>
-  <c>:</c>
+  <revision id="19b">
+    <original><w>sérlundaðar</w><c>:</c></original>
+    <corrected><w>sérkennilegar</w><c>;</c></corrected>
+      <errors>
+        <error xtype="context" idx="19b-1" eid="0" />
+        <error xtype="colon4semicolon" idx="19b-2" eid="0" />
+      </errors>
+  </revision>
   <w>hann</w>
   <w>tekur</w>
   <w>fram</w>
@@ -430,8 +448,14 @@
   <w>með</w>
   <w>smekk</w>
   <w>og</w>
-  <w>bróderaða</w>
-  <w>fugla</w>
+  <revision id="19c">
+    <original><w>bróderaða</w><w>fugla</w></original>
+    <corrected><w>bróderuðum</w><w>fuglum</w></corrected>
+      <errors>
+        <error xtype="nominal-inflection" idx="19c-1" eid="0" />
+        <error xtype="case-prep" idx="19c-1" eid="0" />
+      </errors>
+  </revision>
   <c>,</c>
   <revision id="20">
     <original></original>
@@ -591,7 +615,14 @@
   <w>neitt</w>
   <w>borgar</w>
   <w>fötin</w>
-  <c>,</c>
+  <revision id="31b">
+    <original><c>,</c></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="extra-comma" idx="31b-1" eid="0" />
+        <error xtype="comma-plus-conjunction" idx="31b-1" eid="0" />
+      </errors>
+  </revision>
   <w>en</w>
   <w>hann</w>
   <w>virðist</w>

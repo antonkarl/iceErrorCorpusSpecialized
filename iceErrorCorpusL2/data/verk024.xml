@@ -255,13 +255,12 @@
   <w>börn</w>
   <w>og</w>
   <revision id="14">
-    <original><w>alla</w></original>
-    <corrected><w>ala</w></corrected>
+    <original><w>alla</w><w>fjölskyldu</w></original>
+    <corrected><w>aðra</w><w>fjölskyldumeðlimi</w></corrected>
       <errors>
-        <error xtype="extra-letter" eid="0" />
+        <error xtype="wording" eid="0" />
       </errors>
   </revision>
-  <w>fjölskyldu</w>
   <c>,</c>
   <w>elda</w>
   <w>mat</w>
@@ -361,7 +360,13 @@
   <w>Eftir</w>
   <w>að</w>
   <w>hún</w>
-  <w>fórst</w>
+  <revision id="20b">
+    <original><w>fórst</w></original>
+    <corrected><w>dó</w></corrected>
+      <errors>
+        <error xtype="wording" eid="0" />
+      </errors>
+  </revision>
   <revision id="21">
     <original><c>,</c><w>þarf</w><w>pabbi</w></original>
     <corrected><w>þurfti</w><w>pabbinn</w></corrected>
@@ -832,9 +837,10 @@
   <w>fullnægja</w>
   <revision id="40">
     <original><w>eftirvæntingunni</w><c>.</c><w>En</w></original>
-    <corrected><w>væntingunni</w><w>en</w></corrected>
+    <corrected><w>væntingunum</w><w>en</w></corrected>
       <errors>
         <error xtype="context" idx="40-1" eid="0" />
+        <error xtype="singular4plural" idx="40-1" eid="0" />
         <error xtype="extra-period" idx="40-2" eid="0" />
         <error xtype="period-plus-conjunction" idx="40-2" eid="0" />
       </errors>

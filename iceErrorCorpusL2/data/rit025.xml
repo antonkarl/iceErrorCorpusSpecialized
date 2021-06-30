@@ -194,7 +194,14 @@
   <w>gegnum</w>
   <w>þessi</w>
   <w>forlög</w>
-  <c>,</c>
+  <revision id="13b">
+    <original><c>,</c></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="extra-comma" idx="13b-1" eid="0" />
+        <error xtype="comma-plus-conjunction" idx="13b-1" eid="0" />
+      </errors>
+  </revision>
   <w>og</w>
   <w>þess</w>
   <w>vegna</w>
@@ -553,13 +560,16 @@
   </revision>
   <w>rætur</w>
   <revision id="37">
-    <original><w>sínar</w></original>
-    <corrected><w>að</w><w>rekja</w></corrected>
+    <original><w>sínar</w><w>í</w></original>
+    <corrected><w>að</w><w>rekja</w><w>til</w></corrected>
       <errors>
-        <error xtype="dep" depId="36-1" eid="0" />
+        <error xtype="collocation" idx="37-1" eid="0" />
+        <error xtype="extra-word" idx="37-2" eid="0" />
+        <error xtype="missing-inf-part" idx="37-3" eid="0" />
+        <error xtype="missing-word" idx="37-4" eid="0" />
+        <error xtype="wrong-prep" idx="37-5" eid="0" />
       </errors>
   </revision>
-  <w>í</w>
   <revision id="38">
     <original><w>framúrstefnunni</w><c>,</c></original>
     <corrected><w>framúrstefnu</w></corrected>
@@ -864,7 +874,14 @@
   <w>formidlingsinspektør</w>
   <c>“</c>
   <w>í</w>
-  <w>Listasafn</w>
+  <revision id="57b">
+    <original><w>Listasafn</w></original>
+    <corrected><w>Listasafni</w></corrected>
+      <errors>
+        <error xtype="nominal-inflection" idx="57b-1" eid="0" />
+        <error xtype="case-prep" idx="57b-1" eid="0" />
+      </errors>
+  </revision>
   <w>Nuuks</w>
   <w>í</w>
   <w>Grænlandi</w>
@@ -1616,8 +1633,13 @@
   </revision>
   <w>maður</w>
   <w>þarf</w>
-  <w>ekki</w>
-  <w>eiginlega</w>
+  <revision id="109b">
+    <original><w>ekki</w><w>eiginlega</w></original>
+    <corrected><w>eiginlega</w><w>ekki</w></corrected>
+      <errors>
+        <error xtype="syntax-other" eid="0" />
+      </errors>
+  </revision>
   <w>að</w>
   <w>tileinka</w>
   <w>sér</w>
@@ -1662,7 +1684,14 @@
   </revision>
   <w>á</w>
   <w>eftir</w>
-  <c>,</c>
+  <revision id="111b">
+    <original><c>,</c></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="extra-comma" idx="111b-1" eid="0" />
+        <error xtype="comma-plus-conjunction" idx="111b-1" eid="0" />
+      </errors>
+  </revision>
   <w>og</w>
   <w>gerist</w>
   <w>það</w>
@@ -1820,14 +1849,17 @@
   <w>ekki</w>
   <w>beinlínis</w>
   <w>þægilegur</w>
+  <w>að</w>
+  <w>hlusta</w>
+  <w>á</w>
   <revision id="122">
-    <original><w>að</w><w>hlusta</w><w>á</w></original>
-    <corrected><w>áhlustunar</w></corrected>
+    <original><c>,</c></original>
+    <corrected></corrected>
       <errors>
-        <error xtype="wording" eid="0" />
+        <error xtype="extra-comma" idx="122-1" eid="0" />
+        <error xtype="comma-plus-conjunction" idx="122-1" eid="0" />
       </errors>
   </revision>
-  <c>,</c>
   <w>en</w>
   <w>notkun</w>
   <w>eins</w>
@@ -1853,6 +1885,13 @@
       </errors>
   </revision>
   <w>taka</w>
+  <revision id="123b">
+    <original></original>
+    <corrected><w>í</w></corrected>
+      <errors>
+        <error xtype="missing-prep" eid="0" />
+      </errors>
+  </revision>
   <w>sundur</w>
   <revision id="124">
     <original><w>tungúmálið</w></original>
@@ -2851,7 +2890,13 @@
 <s n="59">
   <w>Kannski</w>
   <w>er</w>
-  <w>sagnamaðurinn</w>
+  <revision id="189b">
+    <original><w>sagnamaðurinn</w></original>
+    <corrected><w>sögumaðurinn</w></corrected>
+      <errors>
+        <error xtype="context" eid="0" />
+      </errors>
+  </revision>
   <w>á</w>
   <revision id="190">
     <original><w>einhverjum</w></original>
@@ -2942,7 +2987,14 @@
   <w>í</w>
   <w>lok</w>
   <w>bókarinnar</w>
-  <c>,</c>
+  <revision id="195b">
+    <original><c>,</c></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="extra-comma" idx="195b-1" eid="0" />
+        <error xtype="comma-plus-conjunction" idx="195b-1" eid="0" />
+      </errors>
+  </revision>
   <w>en</w>
   <revision id="196">
     <original><w>á</w></original>
@@ -2955,7 +3007,13 @@
   <w>minnsta</w>
   <w>kosti</w>
   <w>er</w>
-  <w>sagnamaðurinn</w>
+  <revision id="196b">
+    <original><w>sagnamaðurinn</w></original>
+    <corrected><w>sögumaðurinn</w></corrected>
+      <errors>
+        <error xtype="context" eid="0" />
+      </errors>
+  </revision>
   <w>orðinn</w>
   <c>„</c>
   <revision id="197">
@@ -3505,8 +3563,15 @@
   </revision>
   <w>fóstureyðingu</w>
   <w>á</w>
-  <w>sjálfa</w>
-  <w>sig</w>
+  <revision id="233b">
+    <original><w>sjálfa</w><w>sig</w></original>
+    <corrected><w>sjálfri</w><w>sér</w></corrected>
+      <errors>
+        <error xtype="pro-inflection" idx="233b-1" eid="0" />
+        <error xtype="case-prep" idx="233b-1" eid="0" />
+        <error xtype="agreement-concord" idx="233b-2" eid="0" />
+      </errors>
+  </revision>
   <revision id="234">
     <original></original>
     <corrected><c>,</c></corrected>
@@ -3858,7 +3923,13 @@
   <c>.</c>
 </s>
 <s n="82">
-  <w>Sagnamaðurinn</w>
+  <revision id="256b">
+    <original><w>Sagnamaðurinn</w></original>
+    <corrected><w>Sögumaðurinn</w></corrected>
+      <errors>
+        <error xtype="context" eid="0" />
+      </errors>
+  </revision>
   <revision id="257">
     <original><w>Korallbruna</w></original>
     <corrected><w>í</w><w><hi>Korallbruna</hi></w></corrected>
@@ -3897,13 +3968,14 @@
   <w>efni</w>
   <w>í</w>
   <revision id="259">
-    <original><w>cli-fi</w><w>og</w><w>sci-fi</w><w>ljóðlistinni</w></original>
+    <original><w>cli-fi</w><w>og</w><w>sci-fi</w><w>ljóðlistinni</w><c>,</c></original>
     <corrected><w>cli-fi- og sci-fi-ljóðlistinni</w></corrected>
       <errors>
-        <error xtype="missing-endash" eid="0" />
+        <error xtype="missing-hyphen" idx="259-1" eid="0" />
+        <error xtype="extra-comma" idx="259-2" eid="0" />
+        <error xtype="comma-plus-conjunction" idx="259-2" eid="0" />
       </errors>
   </revision>
-  <c>,</c>
   <w>og</w>
   <revision id="260">
     <original></original>
@@ -4068,7 +4140,7 @@
     <original><w>melankólíu</w></original>
     <corrected><w>þunglyndi</w></corrected>
       <errors>
-        <error xtype="fw4ice" eid="0" />
+        <error xtype="fw" eid="0" />
       </errors>
   </revision>
   <c>.</c>
@@ -4300,7 +4372,7 @@
     <original><w>spoila</w></original>
     <corrected><w>segja</w></corrected>
       <errors>
-        <error xtype="fw4ice" eid="0" />
+        <error xtype="fw" eid="0" />
       </errors>
   </revision>
   <w>neitt</w>
@@ -4309,6 +4381,13 @@
   <w>en</w>
   <w>get</w>
   <w>upplýst</w>
+  <revision id="288b">
+    <original></original>
+    <corrected><w>um</w></corrected>
+      <errors>
+        <error xtype="missing-prep" eid="0" />
+      </errors>
+  </revision>
   <w>nafn</w>
   <w>þáttanna</w>
   <revision id="289">
@@ -4655,10 +4734,10 @@
   <w>að</w>
   <revision id="304">
     <original><c>„</c><w>glórifíera</w><c>“</c></original>
-    <corrected><w>setja</w></corrected>
+    <corrected><w>upphefja</w></corrected>
       <errors>
         <error xtype="extra-quots" idx="304-1" eid="0" />
-        <error xtype="fw4ice" idx="304-2" eid="0" />
+        <error xtype="fw4ice" idx="304-1" eid="0" />
       </errors>
   </revision>
   <w>þessar</w>
@@ -4673,13 +4752,6 @@
   <w>persónurnar</w>
   <w>eru</w>
   <w>í</w>
-  <revision id="306">
-    <original></original>
-    <corrected><w>á</w><w>stall</w></corrected>
-      <errors>
-        <error xtype="missing-words" eid="0" />
-      </errors>
-  </revision>
   <c>.</c>
 </s>
 <s n="105">
@@ -4746,7 +4818,14 @@
   <c>.</c>
 </s>
 <s n="106">
-  <w>Pæltu</w>
+  <revision id="310b">
+    <original><w>Pæltu</w></original>
+    <corrected><w>Pældu</w></corrected>
+      <errors>
+        <error xtype="letter-rep" idx="310b-1" eid="0" />
+        <error xtype="nonword" idx="310b-1" eid="0" />
+      </errors>
+  </revision>
   <w>í</w>
   <w>því</w>
   <w>að</w>
@@ -4993,8 +5072,13 @@
   <w>barátta</w>
   <w>listamannsins</w>
   <w>að</w>
-  <w>alltaf</w>
-  <w>upphugsa</w>
+  <revision id="323">
+    <original><w>alltaf</w><w>upphugsa</w></original>
+    <corrected><w>upphugsa</w><w>alltaf</w></corrected>
+      <errors>
+        <error xtype="abbreviation-period" eid="0" />
+      </errors>
+  </revision>
   <w>eitthvað</w>
   <w>nýtt</w>
   <c>,</c>
@@ -5193,7 +5277,14 @@
   <c>„</c>
   <w>off-topic</w>
   <c>“</c>
-  <c>,</c>
+  <revision id="332b">
+    <original><c>,</c></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="extra-comma" idX="332b-1" eid="0" />
+        <error xtype="comma-plus-conjunction" idx="332b-1" eid="0" />
+      </errors>
+  </revision>
   <w>en</w>
   <w>ég</w>
   <w>verð</w>

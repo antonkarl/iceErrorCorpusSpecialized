@@ -81,7 +81,14 @@
   <w>fer</w>
   <w>venjulega</w>
   <w>í</w>
-  <w>frí</w>
+  <revision id="6b">
+    <original><w>frí</w></original>
+    <corrected><w>fríi</w></corrected>
+      <errors>
+        <error xtype="nominal-inflection" idx="6b-1" eid="0" />
+        <error xtype="case-prep" idx="6b-1" eid="0" />
+      </errors>
+  </revision>
   <c>.</c>
 </s>
 <s n="5">
@@ -103,11 +110,11 @@
 <s n="6">
   <revision id="7">
     <original><w>En</w><w>veðrið</w></original>
-    <corrected><w>Það</w><w>er</w></corrected>
+    <corrected><w>Það</w></corrected>
       <errors>
-        <error xtype="period-plus-conjunction" idx="7-1" eid="0" />
         <error xtype="extra-conjunction" idx="7-1" eid="0" />
-        <error xtype="wording" idx="7-2" eid="0" />
+        <error xtype="period-plus-conjunction" idx="7-1" eid="0" />
+        <error xtype="noun4pro" idx="7-2" eid="0" />
       </errors>
   </revision>
   <w>er</w>
@@ -193,10 +200,9 @@
   <w>húðkrem</w>
   <revision id="13b">
     <original></original>
-    <corrected><w>og</w><w>regnhlífar</w></corrected>
+    <corrected><w>og</w><w>sólhlífar</w></corrected>
       <errors>
         <error xtype="wording" idx="13b-1" eid="0" />
-        <error xtype="singular4plural" idx="13b-2" eid="0" />
       </errors>
   </revision>
   <w>til</w>

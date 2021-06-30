@@ -89,7 +89,14 @@
   <c>,</c>
   <w>smá</w>
   <w>kóresku</w>
-  <c>,</c>
+  <revision id="5b">
+    <original><c>,</c></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="extra-comma" idx="5b-1" eid="0" />
+        <error xtype="comma-plus-conjunction" idx="5b-1" eid="0" />
+      </errors>
+  </revision>
   <w>og</w>
   <w>smá</w>
   <w>íslensku</w>
@@ -420,10 +427,14 @@
   <w>mánudögum</w>
   <w>og</w>
   <w>fimmtudögum</w>
-  <w>ég</w>
-  <w>er</w>
-  <w>að</w>
-  <w>læra</w>
+  <revision id="30b">
+    <original><w>ég</w><w>er</w><w>að</w><w>læra</w></original>
+    <corrected><w>læri</w><w>ég</w></corrected>
+      <errors>
+        <error xtype="v3" idx="30b-1" eid="0" />
+        <error xtype="cont4simple" idx="30b-2" eid="0" />
+      </errors>
+  </revision>
   <w>íslensku</w>
   <w>á</w>
   <w>netinu</w>
@@ -628,8 +639,13 @@
   <c>,</c>
   <w>en</w>
   <w>oftast</w>
-  <w>ég</w>
-  <w>er</w>
+  <revision id="49b">
+    <original><w>ég</w><w>er</w></original>
+    <corrected><w>er</w><w>ég</w></corrected>
+      <errors>
+        <error xtype="v3" eid="0" />
+      </errors>
+  </revision>
   <w>að</w>
   <w>læra</w>
   <w>íslensku</w>

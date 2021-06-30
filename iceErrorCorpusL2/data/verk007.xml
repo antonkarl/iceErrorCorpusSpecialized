@@ -269,7 +269,13 @@
   </revision>
   <w>lítill</w>
   <w>strákur</w>
-  <w>sá</w>
+  <revision id="20b">
+    <original><w>sá</w></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="extra-sub" eid="0" />
+      </errors>
+  </revision>
   <w>sem</w>
   <w>segir</w>
   <w>söguna</w>
@@ -715,9 +721,9 @@
   <w>hún</w>
   <revision id="54">
     <original><w>setti</w></original>
-    <corrected><w>gekk</w><w>frá</w></corrected>
+    <corrected><w>hafði</w><w>gengið</w><w>frá</w></corrected>
       <errors>
-        <error xtype="context" eid="0" />
+        <error xtype="wording" eid="0" />
       </errors>
   </revision>
   <w>húsgögnunum</w>

@@ -110,10 +110,9 @@
   <w>t.d.</w>
   <revision id="5">
     <original><w>með</w><w>því</w><w>að</w><w>nota</w></original>
-    <corrected><w>er</w><w>notað</w></corrected>
+    <corrected><w>er</w></corrected>
       <errors>
         <error xtype="wording" idx="5-1" eid="0" />
-        <error xtype="act4pass" idx="5-1" eid="0" />
       </errors>
   </revision>
   <w>greinarmerkið</w>
@@ -127,9 +126,10 @@
   <c>:</c>
   <revision id="7">
     <original><c>“</c></original>
-    <corrected><c>‘</c></corrected>
+    <corrected><c>‘</c><w>notað</w></corrected>
       <errors>
         <error xtype="dep" depId="6-1" eid="0" />
+        <error xtype="dep" depId="5-1" eid="0" />
       </errors>
   </revision>
   <w>í</w>
@@ -352,6 +352,13 @@
       </errors>
   </revision>
   <w>nánar</w>
+  <revision id="21b">
+    <original></original>
+    <corrected><c>,</c></corrected>
+      <errors>
+        <error xtype="missing-comma" eid="0" />
+      </errors>
+  </revision>
   <w>kemur</w>
   <w>í</w>
   <w>ljós</w>
@@ -492,13 +499,12 @@
   <w>einkenni</w>
   <w>ljóðformsins</w>
   <revision id="32">
-    <original><c>,</c></original>
-    <corrected><c>;</c></corrected>
+    <original><c>,</c><w>sérstaklega</w></original>
+    <corrected><c>.</c><w>Sérstaklega</w></corrected>
       <errors>
-        <error xtype="comma4semicolon" eid="0" />
+        <error xtype="comma4period" eid="0" />
       </errors>
   </revision>
-  <w>sérstaklega</w>
   <w>er</w>
   <revision id="33">
     <original><w>byggingin</w></original>

@@ -557,21 +557,15 @@
   <w>kaupa</w>
   <w>föt</w>
   <revision id="49">
-    <original><c>,</c><w>af</w></original>
+    <original><c>,</c></original>
     <corrected></corrected>
       <errors>
-        <error xtype="extra-comma" idx="49-1" eid="0" />
-        <error xtype="extra-word" idx="49-2" eid="0" />
+        <error xtype="extra-comma" eid="0" />
       </errors>
   </revision>
+  <w>af</w>
   <w>því</w>
-  <revision id="50">
-    <original><w>að</w></original>
-    <corrected></corrected>
-      <errors>
-        <error xtype="extra-word" eid="0" />
-      </errors>
-  </revision>
+  <w>að</w>
   <w>kindurnar</w>
   <w>gáfu</w>
   <w>henni</w>
@@ -677,10 +671,15 @@
   <w>blómapotta</w>
   <revision id="60">
     <original><c>.</c><w>Annað</w><w>hún</w><w>vildi</w><w>að</w><w>fara</w></original>
-    <corrected><w>og</w><w>fer</w><w>svo</w></corrected>
+    <corrected><c>,</c><w>fer</w><w>svo</w></corrected>
       <errors>
-        <error xtype="period4conjunction" idx="60-1" eid="0" />
-        <error xtype="wording" idx="60-2" eid="0" />
+        <error xtype="period4comma" idx="60-1" eid="0" />
+        <error xtype="extra-word" idx="60-2" eid="0" />
+        <error xtype="extra-sub" idx="60-3" eid="0" />
+        <error xtype="wording" idx="60-4" eid="0" />
+        <error xtype="past4pres" idx="60-4" eid="0" />
+        <error xtype="extra-inf-part" idx="60-5" eid="0" />
+        <error xtype="missing-word" idx="60-6" eid="0" />
       </errors>
   </revision>
   <w>í</w>
@@ -907,11 +906,11 @@
   <w>hún</w>
   <revision id="81">
     <original><w>gerðist</w><w>skrítin</w><w>starfið</w></original>
-    <corrected><w>tekur</w><w>upp</w><w>skrítið</w><w>starf</w></corrected>
+    <corrected><w>tekur</w><w>upp</w><w>skrítin</w><w>störf</w></corrected>
       <errors>
-        <error xtype="wording" idx="81-1" eid="0" />
-        <error xtype="agreement-concord" idx="81-2" eid="0" />
-        <error xtype="def4ind" idx="81-3" eid="0" />
+        <error xtype="context" idx="81-1" eid="0" />
+        <error xtype="def4ind" idx="81-2" eid="0" />
+        <error xtype="singular4plural" idx="81-2" eid="0" />
       </errors>
   </revision>
   <w>í</w>

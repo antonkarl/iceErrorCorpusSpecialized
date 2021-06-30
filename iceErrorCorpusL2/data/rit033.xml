@@ -232,7 +232,6 @@
   <w>að</w>
   <w>reyna</w>
   <w>að</w>
-  <w>útmála</w>
   <revision id="14">
     <original><w>útmála</w><w>hlutfallið</w><w>þeirra</w></original>
     <corrected><w>útskýra</w><w>tengls</w><w>hans</w></corrected>
@@ -482,7 +481,14 @@
         <error xtype="ind4def" idx="31-5" eid="0" />
       </errors>
   </revision>
-  <c>,</c>
+  <revision id="31b">
+    <original><c>,</c></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="extra-comma" idx="31b-1" eid="0" />
+        <error xtype="comma-plus-conjunction" idx="31b-1" eid="0" />
+      </errors>
+  </revision>
   <w>en</w>
   <w>svo</w>
   <revision id="32">
@@ -693,7 +699,14 @@
       </errors>
   </revision>
   <w>tónleikana</w>
-  <c>,</c>
+  <revision id="46b">
+    <original><c>,</c></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="extra-comma" idx="46b-1" eid="0" />
+        <error xtype="comma-plus-conjunction" idx="46b-1" eid="0" />
+      </errors>
+  </revision>
   <w>en</w>
   <w>frændinn</w>
   <w>svaraði</w>
@@ -792,7 +805,13 @@
   <w>Þegar</w>
   <w>þeir</w>
   <w>eru</w>
-  <w>komin</w>
+  <revision id="52b">
+    <original><w>komin</w></original>
+    <corrected><w>komnir</w></corrected>
+      <errors>
+        <error xtype="agreement-pred" eid="0" />
+      </errors>
+  </revision>
   <revision id="53">
     <original><w>til</w><w>íbúðinni</w></original>
     <corrected><w>í</w><w>íbúðina</w></corrected>
@@ -836,13 +855,7 @@
   <w>nýþveginn</w>
   <w>eða</w>
   <w>kannski</w>
-  <revision id="57">
-    <original><w>nýrakaðan</w></original>
-    <corrected><w>nýrakaður</w></corrected>
-      <errors>
-        <error xtype="adjective-inflection" eid="0" />
-      </errors>
-  </revision>
+  <w>nýrakaðan</w>
   <w>og</w>
   <w>ilmandi</w>
   <w>af</w>
@@ -1006,15 +1019,16 @@
   <w>spila</w>
   <w>þeir</w>
   <revision id="69">
-    <original><w>á</w><w>sérkennilegt</w><w>orðaspil</w></original>
+    <original><w>á</w><w>sérkennilegt</w><w>orðaspil</w><c>,</c></original>
     <corrected><w>sérkennilegan</w><w>orðaleik</w></corrected>
       <errors>
         <error xtype="extra-prep" idx="69-1" eid="0" />
         <error xtype="case-verb" idx="69-2" eid="0" />
         <error xtype="wording" idx="69-3" eid="0" />
+        <error xtype="extra-comma" idx="69-4" eid="0" />
+        <error xtype="comma-plus-conjunction" idx="69-4" eid="0" />
       </errors>
   </revision>
-  <c>,</c>
   <w>sem</w>
   <w>snýst</w>
   <w>um</w>
@@ -1540,7 +1554,14 @@
   </revision>
   <w>í</w>
   <w>sumarbústaðnum</w>
-  <c>,</c>
+  <revision id="102b">
+    <original><c>,</c></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="extra-comma" idx="102b-1" eid="0" />
+        <error xtype="comma-plus-conjunction" idx="102b-1" eid="0" />
+      </errors>
+  </revision>
   <w>en</w>
   <w>pabbi</w>
   <w>hans</w>
@@ -2534,7 +2555,14 @@
   </revision>
   <w>son</w>
   <w>sinn</w>
-  <c>,</c>
+  <revision id="172b">
+    <original><c>,</c></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="extra-comma" idx="172b-1" eid="0" />
+        <error xtype="comma-plus-conjunction" idx="172b-1" eid="0" />
+      </errors>
+  </revision>
   <w>en</w>
   <revision id="173">
     <original><w>loks</w><w>stendur</w></original>

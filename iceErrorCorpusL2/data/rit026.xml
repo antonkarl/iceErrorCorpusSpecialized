@@ -82,8 +82,7 @@
 <s n="4">
   <w>Eins</w>
   <w>og</w>
-  <w><hi></hi></w>
-  <w>1984Z</w>
+  <w><hi>1984</hi></w>
   <w>eftir</w>
   <w>George</w>
   <w>Orwell</w>
@@ -1863,14 +1862,11 @@
         <error xtype="dep" depId="82-1" eid="0" />
       </errors>
   </revision>
-  <w>stig</w>
-  <w>af</w>
-  <w>stigi</w>
   <revision id="84">
-    <original></original>
-    <corrected><w>að</w></corrected>
+    <original><w>stig</w><w>af</w><w>stigi</w></original>
+    <corrected><w>smám</w><w>saman</w><w>að</w></corrected>
       <errors>
-        <error xtype="missing-prep" eid="0" />
+        <error xtype="wording" eid="0" />
       </errors>
   </revision>
   <w>martröð</w>

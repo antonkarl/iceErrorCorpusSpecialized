@@ -26,9 +26,10 @@
 <s n="2">
   <revision id="1">
     <original><w>Sæl</w></original>
-    <corrected><w>Komdu</w><w>sæl</w></corrected>
+    <corrected><w>Komdu</w><w>sæl</w><c>,</c></corrected>
       <errors>
-        <error xtype="style" eid="0" />
+        <error xtype="style" idx="1-1" eid="0" />
+		    <error xtype="missing-comma" idx="1-2" eid="0" />
       </errors>
   </revision>
   <w>Soffía</w>
@@ -884,7 +885,13 @@
   <w>ég</w>
   <w>hef</w>
   <w>ekki</w>
-  <w>engan</w>
+  <revision id="39b">
+    <original><w>engan</w></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="extra-word" eid="0" />
+      </errors>
+  </revision>
   <w>tíma</w>
   <w>fyrir</w>
   <w>íslensku</w>
@@ -1026,6 +1033,10 @@
         <error xtype="missing-comma" eid="0" />
       </errors>
   </revision>
+  <w>Perry</w>
+  <c>.</c>
+</s>
+<s n="48b">
   <w>Ritæfing</w>
   <w>3</w>
   <c>.</c>
@@ -1180,7 +1191,13 @@
   <w>apa</w>
   <w>eftir</w>
   <w>eftirrétti</w>
-  <w>sína</w>
+  <revision id="55b">
+    <original><w>sína</w></original>
+    <corrected><w>þeirra</w></corrected>
+      <errors>
+        <error xtype="reflexive4pro" eid="0" />
+      </errors>
+  </revision>
   <w>og</w>
   <revision id="56">
     <original><w>jafnvel</w></original>
@@ -1486,6 +1503,8 @@
         <error xtype="missing-comma" eid="0" />
       </errors>
   </revision>
+  <w>Perry</w>
+  <c>.</c>
 </s>
 </p></body></text>
 </TEI>

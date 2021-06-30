@@ -334,7 +334,14 @@
   <w>lesendur</w>
   <w>ekki</w>
   <w>á</w>
-  <w>snóðir</w>
+  <revision id="15b">
+    <original><w>snóðir</w></original>
+    <corrected><w>snoðir</w></corrected>
+      <errors>
+        <error xtype="extra-accent" idx="15b-1" eid="0" />
+        <error xtype="nonword" idx="15b-1" eid="0" />
+      </errors>
+  </revision>
   <w>um</w>
   <w>það</w>
   <w>tafarlaust</w>
@@ -343,11 +350,23 @@
 <s n="17">
   <w>En</w>
   <w>mikið</w>
-  <w>dylgjar</w>
+  <revision id="15b">
+    <original><w>dylgjar</w></original>
+    <corrected><w>er</w><w>dylgjað</w></corrected>
+      <errors>
+        <error xtype="act4pass" eid="0" />
+      </errors>
+  </revision>
   <w>um</w>
   <w>að</w>
   <w>það</w>
-  <w>er</w>
+  <revision id="15c">
+    <original><w>er</w></original>
+    <corrected><w>sé</w></corrected>
+      <errors>
+        <error xtype="ind4sub" eid="0" />
+      </errors>
+  </revision>
   <w>eitthvað</w>
   <w>skrýtið</w>
   <w>við</w>
@@ -665,14 +684,14 @@
   <w>séð</w>
   <w>merkilega</w>
   <w>vin</w>
+  <w>hennar</w>
   <revision id="25">
-    <original><w>hennar</w></original>
+    <original><w>Eyju</w></original>
     <corrected></corrected>
       <errors>
         <error xtype="extra-word" eid="0" />
       </errors>
   </revision>
-  <w>Eyju</w>
   <c>.</c>
 </s>
 <s n="33">

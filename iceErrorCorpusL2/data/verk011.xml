@@ -639,8 +639,13 @@
   <c>.</c>
 </s>
 <s n="28">
-  <w>Og</w>
-  <w>það</w>
+  <revision id="36b">
+    <original><w>Og</w><w>það</w></original>
+    <corrected><w>Það</w></corrected>
+      <errors>
+        <error xtype="dep" depId="35-1" eid="0" />
+      </errors>
+  </revision>
   <w>er</w>
   <w>stundum</w>
   <w>gaman</w>
@@ -708,13 +713,13 @@
   <w>kynntist</w>
   <w>ég</w>
   <revision id="40">
-    <original><w>yndislegt</w></original>
-    <corrected><w>yndislegu</w></corrected>
+    <original><w>yndislegt</w><w>fólk</w></original>
+    <corrected><w>yndislegu</w><w>fólki</w></corrected>
       <errors>
-        <error xtype="agreement-concord" eid="0" />
+        <error xtype="nominal-inflection" idx="40-1" eid="0" />
+        <error xtype="case-verb" idx="40-1" />
       </errors>
   </revision>
-  <w>fólk</w>
   <w>í</w>
   <w>skólanum</w>
   <w>sem</w>

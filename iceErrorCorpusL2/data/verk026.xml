@@ -678,7 +678,13 @@
   <w>þarf</w>
   <w>að</w>
   <w>vera</w>
-  <w>rökleg</w>
+  <revision id="32b">
+    <original><w>rökleg</w></original>
+    <corrected><w>rökrétt</w></corrected>
+      <errors>
+        <error xtype="context" eid="0" />
+      </errors>
+  </revision>
   <w>eða</w>
   <w>sannfærandi</w>
   <c>.</c>
@@ -700,8 +706,13 @@
   <w>sýna</w>
   <w>mann</w>
   <w>í</w>
-  <w>nútíma</w>
-  <w>samfélagi</w>
+  <revision id="33b">
+    <original><w>nútíma</w><w>samfélagi</w></original>
+    <corrected><w>nútímasamfélagi</w></corrected>
+      <errors>
+        <error xtype="split-compound" eid="0" />
+      </errors>
+  </revision>
   <c>.</c>
 </s>
 <s n="23">
