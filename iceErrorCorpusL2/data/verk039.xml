@@ -73,7 +73,13 @@
   <w>mörg</w>
   <w>tungumál</w>
   <w>í</w>
-  <w>heimalandi</w>
+  <revision id="3b">
+    <original><w>heimalandi</w></original>
+    <corrected><w>heimalandinu</w></corrected>
+      <errors>
+        <error xtype="ind4def" eid="0" />
+      </errors>
+  </revision>
   <w>mínu</w>
   <revision id="6">
     <original><c>,</c></original>
@@ -167,7 +173,13 @@
 </s>
 <s n="8">
   <w>Fólkið</w>
-  <w>gróðursetur</w>
+  <revision id="11b">
+    <original><w>gróðursetur</w></original>
+    <corrected><w>ræktar</w></corrected>
+      <errors>
+        <error xtype="wording" eid="0" />
+      </errors>
+  </revision>
   <w>alls</w>
   <w>konar</w>
   <w>grænmetisfræ</w>
@@ -197,9 +209,13 @@
 </s>
 <s n="11">
   <w>Íbúafjöldinn</w>
-  <w>í</w>
-  <w>heimalandi</w>
-  <w>mínu</w>
+  <revision id="11c">
+    <original><w>í</w><w>heimalandi</w><w>mínu</w></original>
+    <corrected><w>þar</w></corrected>
+      <errors>
+        <error xtype="wording" eid="0" />
+      </errors>
+  </revision>
   <w>er</w>
   <w>meiri</w>
   <w>en</w>
@@ -293,7 +309,7 @@
   <w>Það</w>
   <revision id="20">
     <original><w>er</w><w>margt</w><w>hátt</w><w>bygg</w></original>
-    <corrected><w>eru</w><w>háhýsi</w></corrected>
+    <corrected><w>eru</w><w>mörg</w><w>háhýsi</w></corrected>
       <errors>
         <error xtype="wording" eid="0" />
       </errors>
@@ -577,12 +593,12 @@
   <c>.</c>
 </s>
 <s n="26">
-  <w>Vötnin</w>
   <revision id="40">
-    <original><w>á</w></original>
-    <corrected><w>við</w></corrected>
+    <original><w>Vötnin</w><w>á</w></original>
+    <corrected><w>Sjórinn</w><w>við</w></corrected>
       <errors>
-        <error xtype="wrong-prep" eid="0" />
+        <error xtype="context" idx="40-1" eid="0" />
+        <error xtype="wrong-prep" idx="40-2" eid="0" />
       </errors>
   </revision>
   <w>strendur</w>
@@ -594,21 +610,22 @@
         <error xtype="ind4def" idx="41-2" eid="0" />
       </errors>
   </revision>
-  <w>eru</w>
   <revision id="42">
-    <original><w>heitara</w></original>
-    <corrected><w>heitari</w></corrected>
+    <original><w>eru</w><w>heitara</w></original>
+    <corrected><w>er</w><w>heitari</w></corrected>
       <errors>
+        <error xtype="dep" depId="40-1" eid="0" />
         <error xtype="agreement-pred" eid="0" />
       </errors>
   </revision>
   <w>en</w>
-  <w>vötn</w>
   <revision id="43">
-    <original><w>á</w></original>
-    <corrected><w>við</w></corrected>
+    <original><w>vötn</w><w>á</w></original>
+    <corrected><w>sjórinn</w><w>við</w></corrected>
       <errors>
-        <error xtype="wrong-prep" eid="0" />
+        <error xtype="context" idx="43-1" eid="0" />
+        <error xtype="ind4def" idx="43-1" eid="0" />
+        <error xtype="wrong-prep" idx="43-2" eid="0" />
       </errors>
   </revision>
   <w>strendur</w>
@@ -623,13 +640,7 @@
 </s>
 <s n="27">
   <w>Menningin</w>
-  <revision id="44b">
-    <original><w>í</w></original>
-    <corrected><w>á</w></corrected>
-      <errors>
-        <error xtype="wrong-prep" eid="0" />
-      </errors>
-  </revision>
+  <w>í</w>
   <w>Filippseyjum</w>
   <revision id="45">
     <original><w>eru</w></original>

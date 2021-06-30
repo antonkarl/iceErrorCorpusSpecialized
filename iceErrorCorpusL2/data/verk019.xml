@@ -347,7 +347,7 @@
     <corrected><w>heimabakað</w></corrected>
       <errors>
         <error xtype="missing-letter" idx="21-1" eid="0" />
-        <error xtype="nonword" idx="21-1" eid="0" />
+        <error xtype="compound-nonword" idx="21-1" eid="0" />
       </errors>
   </revision>
   <w>brauð</w>
@@ -847,7 +847,7 @@
     <original><w>séum</w></original>
     <corrected><w>værum</w></corrected>
       <errors>
-        <error xtype="pres4past" eid="0" />
+        <error xtype="agreement" eid="0" />
       </errors>
   </revision>
   <w>Pólverjar</w>
