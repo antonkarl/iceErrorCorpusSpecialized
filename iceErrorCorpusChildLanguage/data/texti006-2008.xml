@@ -162,7 +162,7 @@
     <corrected><w>selur</w></corrected>
       <errors>
         <error xtype="sub4ind" idx="7-1" eid="0" />
-        <error xtype="agreement" idx="7-1" eid="0" />
+        <error xtype="agreement-pred" idx="7-1" eid="0" />
       </errors>
   </revision>
   <w>mest</w>
@@ -283,7 +283,7 @@
     <corrected><w>vill</w></corrected>
       <errors>
         <error xtype="want" idx="13-1" eid="0" />
-        <error xtype="agreement" idx="13-1" eid="0" />
+        <error xtype="agreement-pred" idx="13-1" eid="0" />
       </errors>
   </revision>
   <w>að</w>
@@ -762,7 +762,8 @@
     <original><w>gera</w></original>
     <corrected><w>gerir</w></corrected>
       <errors>
-        <error xtype="agreement" eid="0" />
+        <error xtype="plural4singular" idx="44-1" eid="0" />
+        <error xtype="agreement-pred" idx="44-1" eid="0" />
       </errors>
   </revision>
   <w>fólk</w>
