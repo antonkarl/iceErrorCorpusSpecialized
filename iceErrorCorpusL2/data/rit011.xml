@@ -1180,7 +1180,14 @@
   <c>,</c>
   <w>mun</w>
   <w>leitun</w>
-  <w>á</w>
+  <revision id="69b">
+    <original><w>á</w></original>
+    <corrected><w>að</w></corrected>
+      <errors>
+        <error xtype="wrong-prep" idx="69b-1" eid="0" />
+        <error xtype="collocation" idx="69b-1" eid="0" />
+      </errors>
+  </revision>
   <w>öðru</w>
   <w>eins</w>
   <w>hnoði</w>
@@ -1195,7 +1202,13 @@
   <w>af</w>
   <w>ranghendum</w>
   <w>né</w>
-  <w>stuðlaskekkjum</w>
+  <revision id="69c">
+    <original><w>stuðlaskekkjum</w></original>
+    <corrected><w>rangri</w><w>stuðlasetningu</w></corrected>
+      <errors>
+        <error xtype="wording" eid="0" />
+      </errors>
+  </revision>
   <revision id="70">
     <original><c>,</c></original>
     <corrected></corrected>
@@ -1380,6 +1393,13 @@
       </errors>
   </revision>
   <w>og</w>
+  <revision id="78b">
+    <original><c>,</c></original>
+    <corrected><w>sýna</w><w>fram</w><w>á</w></corrected>
+      <errors>
+        <error xtype="comma-plus-conjunction" eid="0" />
+      </errors>
+  </revision>
   <w>hversu</w>
   <w>vel</w>
   <w>þær</w>
@@ -1644,7 +1664,7 @@
   <w>og</w>
   <revision id="95">
     <original><w>Sannar</w><w>Frásagnar</w></original>
-    <corrected><w>Sannrar</w><w>frásagnar</w></corrected>
+    <corrected><w>sannrar</w><w>frásagnar</w></corrected>
       <errors>
         <error xtype="agreement-concord" idx="95-1" eid="0" />
         <error xtype="genitive" idx="95-1" eid="0" />
@@ -1654,20 +1674,25 @@
   <c>.</c>
 </s>
 <s n="48">
-  <w>Sönn</w>
   <revision id="96">
-    <original><w>Frásögn</w></original>
-    <corrected><w>frásögn</w></corrected>
+    <original><w>Sönn</w><w>Frásögn</w><w>er</w><w>heimild</w></original>
+    <corrected><w>Sannar</w><w>frásagnir</w><w>eru</w><w>heimildir</w></corrected>
       <errors>
-        <error xtype="upper4lower-common" eid="0" />
+        <error xtype="singular4plural" idx="96-1" eid="0" />
+        <error xtype="upper4lower-common" idx="96-1" eid="0" />
+        <error xtype="singular4plural" idx="96-2" eid="0" />
       </errors>
   </revision>
-  <w>er</w>
-  <w>heimild</w>
   <w>sem</w>
   <w>mörgum</w>
   <w>finnst</w>
-  <w>verðmæt</w>
+  <revision id="96b">
+    <original><w>verðmæt</w></original>
+    <corrected><w>verðmætar</w></corrected>
+      <errors>
+        <error xtype="dep" depId="96-2" eid="0" />
+      </errors>
+  </revision>
   <revision id="97">
     <original><w>varðandi</w><w>rannsókn</w><w>um</w></original>
     <corrected><w>þegar</w><w>rannsaka</w><w>á</w></corrected>
@@ -2050,12 +2075,13 @@
       </errors>
   </revision>
   <w>nemendum</w>
-  <w>í</w>
-  <w>íslensku</w>
-  <w>sem</w>
-  <w>öðru</w>
-  <w>máli</w>
-  <w>sem</w>
+  <revision id="124b">
+    <original><w>í</w><w>íslensku</w><w>sem</w><w>öðru</w><w>máli</w><w>sem</w></original>
+    <corrected><w>sem</w><w>eru</w><w>eru</w><w>að</w><w>læra</w><w>íslensku</w><w>sem</w><w>annað</w><w>mál</w><w>og</w></corrected>
+      <errors>
+        <error xtype="agreement-pred" eid="0" />
+      </errors>
+  </revision>
   <w>eru</w>
   <w>að</w>
   <w>kynna</w>
@@ -2150,7 +2176,13 @@
   <w>hefur</w>
   <w>verið</w>
   <w>í</w>
-  <w>rímhraki</w>
+  <revision id="128b">
+    <original><w>rímhraki</w></original>
+    <corrected><w>vandræðum</w><w>með</w><w>að</w><w>ríma</w></corrected>
+      <errors>
+        <error xtype="wording" eid="0" />
+      </errors>
+  </revision>
   <c>”</c>
   <w>21</w>
   <c>.</c>
