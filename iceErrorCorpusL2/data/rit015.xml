@@ -131,8 +131,7 @@
     <original><w>Íslandsögunnar</w></original>
     <corrected><w>Íslandssögunnar</w></corrected>
       <errors>
-        <error xtype="missing-letter" idx="7-1" eid="0" />
-        <error xtype="compound-nonword" idx="7-1" eid="0" />
+        <error xtype="compound-collocation" eid="0" />
       </errors>
   </revision>
   <c>.</c>
@@ -1543,8 +1542,7 @@
     <original><w>mannskjöt</w></original>
     <corrected><w>mannakjöt</w></corrected>
       <errors>
-        <error xtype="letter-rep" idx="104-1" eid="0" />
-        <error xtype="compound-nonword" idx="104-1" eid="0" />
+        <error xtype="compound-collocation" eid="0" />
       </errors>
   </revision>
   <w>í</w>
@@ -2998,7 +2996,7 @@
     <original><w>hefndgirni</w></original>
     <corrected><w>hefndargirni</w></corrected>
       <errors>
-        <error xtype="compound-nonword" eid="0" />
+        <error xtype="compound-collocation" eid="0" />
       </errors>
   </revision>
   <w>og</w>
@@ -3488,8 +3486,7 @@
     <original><w>hefndgirndar</w><w>sem</w></original>
     <corrected><w>hefndargirndar</w><c>,</c><w>en</w></corrected>
       <errors>
-        <error xtype="missing-letters" idx="236-1" eid="0" />
-        <error xtype="compound-nonword" idx="236-1" eid="0" />
+        <error xtype="compound-collocation" idx="236-1" eid="0" />
         <error xtype="missing-comma" idx="236-2" eid="0" />
         <error xtype="conjunction" idx="236-3" eid="0" />
       </errors>

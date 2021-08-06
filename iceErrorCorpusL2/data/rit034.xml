@@ -1751,7 +1751,7 @@
     <corrected><w>danski</w><w>sjómaðurinn</w></corrected>
       <errors>
         <error xtype="noun4adj" idx="126-1" eid="0" />
-        <error xtype="lower4upper-common" idx="126-1" eid="0" />
+        <error xtype="upper4lower-common" idx="126-1" eid="0" />
         <error xtype="ind4def" idx="126-2" eid="0" />
       </errors>
   </revision>
@@ -2397,7 +2397,7 @@
     <original><w>sækja</w></original>
     <corrected><w>verið</w><w>sóttur</w></corrected>
       <errors>
-        <error xtype="depId" idx="172-1" eid="0" />
+        <error xtype="dep" depId="172-1" eid="0" />
       </errors>
   </revision>
   <w>til</w>

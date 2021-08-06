@@ -1816,7 +1816,7 @@
     <original><w>tungumála- og rannsakastofnanir</w></original>
     <corrected><w>tungumála- og rannsóknarstofnunum</w></corrected>
       <errors>
-        <error xtype="compound-nonword" idx="83-1" eid="0" />
+        <error xtype="nonword" idx="83-1" eid="0" />
         <error xtype="case-prep" idx="83-1" eid="0" />
       </errors>
   </revision>
@@ -3512,7 +3512,7 @@
     <corrected><w>atvinnugreinar</w></corrected>
       <errors>
         <error xtype="letter-rep" idx="162-1" eid="0" />
-        <error xtype="compound-nonword" idx="162-1" eid="0" />
+        <error xtype="nonword" idx="162-1" eid="0" />
       </errors>
   </revision>
   <w>sem</w>
@@ -4998,7 +4998,7 @@
     <original><w>ritunarvenja</w></original>
     <corrected><w>ritvenja</w></corrected>
       <errors>
-        <error xtype="compound-nonword" eid="0" />
+        <error xtype="compound-collocation" eid="0" />
       </errors>
   </revision>
   <w>er</w>
@@ -5397,8 +5397,7 @@
     <original><w>talmenn</w></original>
     <corrected><w>talsmenn</w></corrected>
       <errors>
-        <error xtype="missing-letter" idx="252-1" eid="0" />
-        <error xtype="compound-nonword" idx="252-1" eid="0" />
+        <error xtype="compound-collocation" eid="0" />
       </errors>
   </revision>
   <w>þessarar</w>
