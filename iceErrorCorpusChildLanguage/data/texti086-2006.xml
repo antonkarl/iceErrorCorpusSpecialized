@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>texti086-2006</title>
+    </titleStmt>
+    <publicationStmt>
+      <distributor>Rannsóknarstofan Mál og tækni</distributor>
+    </publicationStmt>
+    <sourceDesc>
+      <biblStruct>
+        <monogr>
+          <author>Anonymous</author>
+        </monogr>
+      </biblStruct>
+    </sourceDesc>
+  </fileDesc>
+</teiHeader>
+<text><body><p n="1">
+<s n="1">
+  <w>Hvar</w>
+  <w>sé</w>
+  <w>ég</w>
+  <w>mig</w>
+  <w>eftir</w>
+  <w>10</w>
+  <w>ár</w>
+  <revision id="1">
+    <original></original>
+    <corrected><c>?</c></corrected>
+      <errors>
+        <error xtype="missing-qm" eid="0" />
+      </errors>
+  </revision>
+</s>
+<s n="2">
+  <w>Hvar</w>
+  <w>sé</w>
+  <w>ég</w>
+  <w>mig</w>
+  <w>eftir</w>
+  <w>10</w>
+  <w>ár</w>
+  <w>þegar</w>
+  <w>ég</w>
+  <w>er</w>
+  <w>25</w>
+  <w>ára</w>
+  <w>gamall</w>
+  <revision id="2">
+    <original><c>.</c></original>
+    <corrected><c>?</c></corrected>
+      <errors>
+        <error xtype="period4qm" eid="0" />
+      </errors>
+  </revision>
+</s>
+<s n="3">
+  <w>Ég</w>
+  <w>sé</w>
+  <w>mig</w>
+  <w>sjálfan</w>
+  <w>sem</w>
+  <revision id="3">
+    <original><w>atvinnu</w><w>mann</w></original>
+    <corrected><w>atvinnumann</w></corrected>
+      <errors>
+        <error xtype="split-compound" eid="0" />
+      </errors>
+  </revision>
+  <w>í</w>
+  <w>fótbolta</w>
+  <c>.</c>
+</s>
+<s n="4">
+  <w>Ég</w>
+  <w>sé</w>
+  <w>mig</w>
+  <w>sjálfan</w>
+  <w>í</w>
+  <w>Svíþjóð</w>
+  <w>að</w>
+  <w>spila</w>
+  <w>fótbolta</w>
+  <w>þar</w>
+  <w>í</w>
+  <w>efstu</w>
+  <w>deild</w>
+  <w>og</w>
+  <w>í</w>
+  <revision id="4">
+    <original><w>lögfræði</w><w>námi</w></original>
+    <corrected><w>lögfræðinámi</w></corrected>
+      <errors>
+        <error xtype="split-compound" eid="0" />
+      </errors>
+  </revision>
+  <c>.</c>
+</s>
+<s n="5">
+  <w>Í</w>
+  <revision id="5">
+    <original><w>mínum</w></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="wording" idx="5-1" eid="0" />
+      </errors>
+  </revision>
+  <w>frítíma</w>
+  <revision id="6">
+    <original><w>utan</w><w>æfinga</w><w>sé</w></original>
+    <corrected><w>mínum</w><w>læri</w></corrected>
+      <errors>
+        <error xtype="dep" depId="5-1" eid="0" />
+        <error xtype="extra-words" idx="6-1" eid="0" />
+        <error xtype="wording" idx="6-2" eid="0" />
+      </errors>
+  </revision>
+  <w>ég</w>
+  <revision id="7">
+    <original><w>mig</w><w>vera</w><w>að</w><w>læra</w></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="dep" depId="6-2" eid="0" />
+      </errors>
+  </revision>
+  <w>og</w>
+  <revision id="8">
+    <original><w>eyða</w><w>tímanum</w></original>
+    <corrected><w>ver</w><w>tíma</w></corrected>
+      <errors>
+        <error xtype="wording" idx="8-1" eid="0" />
+        <error xtype="def4ind" idx="8-2" eid="0" />
+      </errors>
+  </revision>
+  <w>mínum</w>
+  <w>með</w>
+  <w>kærastanum</w>
+  <w>mínum</w>
+  <w>sem</w>
+  <w>er</w>
+  <revision id="9">
+    <original><w>vinnandi</w></original>
+    <corrected><w>heimavinnandi</w></corrected>
+      <errors>
+        <error xtype="wording" eid="0" />
+      </errors>
+  </revision>
+  <w>húsmóðir</w>
+  <c>.</c>
+</s>
+<s n="6">
+  <w>Ég</w>
+  <w>sé</w>
+  <revision id="10">
+    <original><w>mig</w></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="wording" idx="10-1" eid="0" />
+      </errors>
+  </revision>
+  <w>sjálfan</w>
+  <revision id="11">
+    <original></original>
+    <corrected><w>mig</w></corrected>
+      <errors>
+        <error xtype="dep" depId="10-1" eid="0" />
+      </errors>
+  </revision>
+  <w>líka</w>
+  <revision id="12">
+    <original><w>eyða</w><w>tímanum</w></original>
+    <corrected><w>verja</w><w>tíma</w></corrected>
+      <errors>
+        <error xtype="wording" idx="12-1" eid="0" />
+        <error xtype="def4ind" idx="12-2" eid="0" />
+      </errors>
+  </revision>
+  <w>mínum</w>
+  <w>með</w>
+  <w>börnunum</w>
+  <w>mínum</w>
+  <w>þremur</w>
+  <w>sem</w>
+  <w>ég</w>
+  <w>á</w>
+  <w>með</w>
+  <w>tveimur</w>
+  <w>hjákonum</w>
+  <c>.</c>
+</s>
+<s n="7">
+  <w>Daglega</w>
+  <w>rútínan</w>
+  <w>mín</w>
+  <revision id="13">
+    <original><w>mun</w><w>vera</w></original>
+    <corrected><w>er</w></corrected>
+      <errors>
+        <error xtype="wording" eid="0" />
+      </errors>
+  </revision>
+  <w>að</w>
+  <w>vakna</w>
+  <revision id="13b">
+    <original><w>kl níu</w></original>
+    <corrected><w>kl. 9</w></corrected>
+      <errors>
+        <error xtype="missing-period" idx="13b-1" eid="0" />
+        <error xtype="abbreviation-period" idx="13b-1" eid="0" />
+        <error xtype="word4number" idx="13b-2" eid="0" />
+      </errors>
+  </revision>
+  <c>,</c>
+  <w>borða</w>
+  <w>matinn</w>
+  <w>sem</w>
+  <w>kærastinn</w>
+  <w>minn</w>
+  <w>er</w>
+  <w>búinn</w>
+  <w>að</w>
+  <w>elda</w>
+  <c>,</c>
+  <w>kveðja</w>
+  <w>börnin</w>
+  <w>og</w>
+  <w>mæta</w>
+  <w>á</w>
+  <revision id="14">
+    <original><w>morgun</w><w>æfingu</w><w>klukkan tíu</w></original>
+    <corrected><w>morgunæfingu</w><w>klukkan 10</w></corrected>
+      <errors>
+        <error xtype="split-compound" idx="14-1" eid="0" />
+        <error xtype="word4number" idx="14-2" eid="0" />
+      </errors>
+  </revision>
+  <c>.</c>
+</s>
+<s n="8">
+  <w>Þegar</w>
+  <w>æfingin</w>
+  <w>er</w>
+  <w>búin</w>
+  <w>um</w>
+  <revision id="15">
+    <original><w>tólf</w><w>leitið</w></original>
+    <corrected><w>tólfeytið</w></corrected>
+      <errors>
+        <error xtype="split-compound" idx="15-1" eid="0" />
+        <error xtype="i4y" idx="15-1" eid="0" />
+      </errors>
+  </revision>
+  <w>fer</w>
+  <w>ég</w>
+  <w>heim</w>
+  <w>og</w>
+  <w>fæ</w>
+  <w>mér</w>
+  <w>að</w>
+  <w>borða</w>
+  <c>,</c>
+  <w>læri</w>
+  <w>í</w>
+  <w>um</w>
+  <w>þrjá</w>
+  <w>tíma</w>
+  <w>og</w>
+  <w>eyði</w>
+  <w>um</w>
+  <w>hálftíma</w>
+  <w>með</w>
+  <w>kærasta</w>
+  <w>og</w>
+  <w>börnum</w>
+  <c>.</c>
+</s>
+<s n="9">
+  <w>Síðan</w>
+  <w>mæti</w>
+  <w>ég</w>
+  <w>á</w>
+  <w>æfingu</w>
+  <revision id="15b">
+    <original><w>klukkan fjögur</w></original>
+    <corrected><w>klukkan 4</w></corrected>
+      <errors>
+        <error xtype="word4number" eid="0" />
+      </errors>
+  </revision>
+  <w>og</w>
+  <w>er</w>
+  <w>búinn</w>
+  <revision id="15c">
+    <original><w>klukkan sex</w></original>
+    <corrected><w>klukkan 6</w></corrected>
+      <errors>
+        <error xtype="word4number" eid="0" />
+      </errors>
+  </revision>
+  <c>,</c>
+  <w>eftir</w>
+  <w>það</w>
+  <w>fer</w>
+  <w>ég</w>
+  <w>heim</w>
+  <w>og</w>
+  <w>fæ</w>
+  <w>frábæran</w>
+  <w>mat</w>
+  <w>sem</w>
+  <w>minn</w>
+  <w>ástkæri</w>
+  <w>kærasti</w>
+  <w>eldaði</w>
+  <c>.</c>
+</s>
+<s n="10">
+  <w>Þegar</w>
+  <w>ég</w>
+  <w>er</w>
+  <w>búinn</w>
+  <w>að</w>
+  <w>borða</w>
+  <w>og</w>
+  <w>kærastinn</w>
+  <w>minn</w>
+  <w>er</w>
+  <w>farinn</w>
+  <w>að</w>
+  <w>ganga</w>
+  <w>frá</w>
+  <w>fer</w>
+  <w>ég</w>
+  <w>að</w>
+  <revision id="16">
+    <original><w>læri</w></original>
+    <corrected><w>læra</w></corrected>
+      <errors>
+        <error xtype="verb-inflection" eid="0" />
+      </errors>
+  </revision>
+  <w>í</w>
+  <w>um</w>
+  <w>tvær</w>
+  <revision id="16b">
+    <original><w>klst.</w></original>
+    <corrected><w>klukkustundir</w><c>.</c></corrected>
+      <errors>
+        <error xtype="abbreviation4words" eid="0" />
+      </errors>
+  </revision>
+</s>
+<s n="11">
+  <w>Þegar</w>
+  <w>lærdómurinn</w>
+  <w>er</w>
+  <w>búinn</w>
+  <w>fer</w>
+  <w>ég</w>
+  <w>að</w>
+  <w>leika</w>
+  <w>við</w>
+  <w>börnin</w>
+  <w>mín</w>
+  <w>og</w>
+  <w>eftir</w>
+  <w>góða</w>
+  <w>stund</w>
+  <w>af</w>
+  <revision id="17">
+    <original><w>skemmti</w><w>heitum</w></original>
+    <corrected><w>skemmtilegheitum</w></corrected>
+      <errors>
+        <error xtype="split-compound" idx="17-1" eid="0" />
+        <error xtype="nonword" idx="17-1" eid="0" />
+      </errors>
+  </revision>
+  <w>læt</w>
+  <w>ég</w>
+  <w>kærastann</w>
+  <w>minn</w>
+  <w>svæfa</w>
+  <w>börnin</w>
+  <w>og</w>
+  <w>fer</w>
+  <w>sjálfur</w>
+  <w>að</w>
+  <w>sofa</w>
+  <w>og</w>
+  <w>endurtek</w>
+  <w>síðan</w>
+  <w>sömu</w>
+  <w>rútínu</w>
+  <w>aftur</w>
+  <c>.</c>
+</s>
+</p></body></text>
+</TEI>
