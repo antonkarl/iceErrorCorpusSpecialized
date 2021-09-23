@@ -1,0 +1,58 @@
+Texti024
+Vika 1 . 
+Það var ákveðið að skoða virkni radarsins IWR 6842 Standard Antenna plug-in Module frá Texas Instruments . 
+Þriðjudagurinn 27.4.2021 . 
+Byrjað var á að finna leiðbeiningar og gagnablað fyrir radarinn og skoða þau . 
+Einnig voru skoðaðar upplýsingar um radarinn á vefsíðu Texas Instruments . 
+Með þessari yfirferð kom í ljós að hlaða þurfti niður „ mmWaveSkd “ - skrá . 
+Enn var ekki ljóst hvaða rekil þurfti til að ná sambandi við radarinn . Skrifuð var verkefnalýsing og ákveðið að hlaða niður SDK-skránni . 
+Miðvikudagur 28.4.2021 . 
+Áfram var reynt að ná samskiptum við radarinn . 
+„ mmWaveSDK “ - skráin var skoðuð betur . Athugað var hvort bæði þyrfti FTDI-rekil og XDS 110 - rekil til að geta náð samskiptum við radarinn . 
+Komist var að þeirri niðurstöðu að XDS 110 - rekillinn frá Texas Instruments væri sá rétti . 
+Smá lestur í leiðbeiningunum sýndi fram á að það væri ekki gott að hafa bæði FTDI og XDS 110 - reklana , eins og má sjá framarlega í leiðbeiningum á síðu Texas Instruments um radarinn . 
+Eftir að rekillinn var uppsettur birtist radarinn í tækjastjórnuninni . 
+Fimmtudagur 29.4.2021 . 
+Farið var að leita að fastbúnaðarpakka til að geta sett upp radarinn í SDK . 
+Þessi skrá þarf að vera bin-skrá og geta verið opnuð í mmWave Demo Visualizer-forritinu sem er í netútgáfu . Skránni verður síðan hlaðið inn gegnum UniFlash . 
+Uppgötvað var að til eru nokkrar útgáfur af fastbúnaðinum fyrir hvern hlut framleiddan með svona tækjabúnaði í . 
+Þó er ekki enn búið að finna útgáfu sem styður Visualizer-forritið . 
+Föstudagur 30. 04.2021 . 
+Haldið var áfram að leita að réttum fastbúnaði . Hann fannst sem „ xwr 68 xx _ mmw _ demo.bin “ . Þá var farið að hlaða fastbúnaðinum inn á IWR 6843 ISK-radarinn með UniFlash-forriti . 
+Það komu upp vandamál þegar verið var að hlaða skránni inn á radarinn . 
+Það kom alltaf sama villan sem má sjá á mynd 1 . 
+Mynd 1 : Villa sem kom upp . 
+Alls konar aðferðir voru prófaðar til að losna við villuna . 
+Til dæmis var prófað að breyta númerunum á tengjum í tækjastjórnun , skipta um USB-snúrur og keyra UniFlash-forritið sem stjórnanda . 
+Ekkert af þessu virkaði . 
+Á endanum kom í ljós að vitlaus rekill hafði verið settur upp . 
+Til þess að losna við villuna var reklinum skipt út fyrir annan sem heitir Silicon Labs CP2105 . 
+Mynd 2 : Vitlaus rekill . 
+Þegar reklinum hafði verið hlaðið niður þurfti að setja hann upp . Radarinn þurfti að tengja við tölvuna og svo taka aftur úr sambandi þegar rekillinn var uppsettur . 
+Áður en UniFlash var opnað og radarinn tengdur aftur við tölvuna þurfti að stilla rofa eins og á mynd 3 . 
+Mynd 3 : Rétt stilling rofa . 
+Þá þurfti að endurræsa radarinn með takka sem má sjá á mynd 4 . 
+Mynd 4 : -takki . 
+UniFlash . 
+UniFlash er forrit til að hlaða fastbúnaði á radarinn . 
+Þegar UniFlash er opnað þá þarf að velja IWR 6843 ISK undir og ýta á -hnappinn . 
+Síðan þarf að velja stillingar og velja sem er á efra tengi í tækjastjórnun . 
+Mynd 5 : Tengi sem á að vera í boði . 
+Þá var farið í og valið eins og á mynd 6 . 
+Mynd 6 : Hér er valin .bin-skrá úr „ mmWave SDK “ - skránni . 
+Þessi skrá sem var valin er í SDK-skránni sem var sótt á þriðjudaginn undir „ C : / to / mmwave / sdk / packages / to / demo / xwr 68 xx / mmw “ . 
+Þessa skrá þarf að velja til að geta tengst mmWave Demo Visualizer-forritinu sem er á netinu . 
+Síðan var fastbúnaðinum hlaðið inn á radarinn með UniFlash . 
+mmWave Demo Visualizer . 
+Þetta forrit var tengt við radarinn með því að velja og fara þar í . 
+Síðan þarf að stilla tengin eins og má sjá á mynd 7 . 
+Mynd 7 : Hér eru stillingarnar til að geta tengt forritið við radarinn . 
+Bitahraðinn var stilltur á 115200 á báðum tengjum , bæði í tækjastjórnun og í mmWave Demo Visualizer . 
+Síðan var bitahraðinn á seinna tenginu hækkaður í ráðlagðan hraða . 
+Prófun á radarnum . 
+Prófað var að kveikja á radarnum og sjá hvað kemur út í mmWave Demo Visualizer-forritinu . 
+Þar má sjá nokkur gröf , til dæmis „ grad “ sem sýnir hraða á vegalengd og annað graf sem sýnir fjarlægðina , eins og mynd 8 sýnir . 
+Mynd 8 : Gröfin sem birtast í Demo Visualizer . 
+Prófað var að ganga að og frá radarnum til sjá hvort mælingar breyttust . 
+Það komu nokkrir punktar á tveim gröfum sem sýna hraða og vegalengd annars vegar og fjarlægð á x- og y-ásum hins vegar . 
+Þessi gröf má sjá á mynd 8 . Eina vandamálið sem kom upp var að radarinn á það til að frjósa og er skýringin á því ekki þekkt eins og er . 

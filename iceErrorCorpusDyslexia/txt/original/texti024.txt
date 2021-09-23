@@ -1,0 +1,58 @@
+Texti024
+Vika 1 . 
+Það var ákveðið að skoða virkni radarinn IWR 6842 Standard Antenna plug in Modeule frá Texas Unstruments . 
+Þriðjudagurinn 27.4 2021 . 
+Byrjað var að finna leiðbeingar , datablaðið fyrir radarinn og skoða þau . 
+Síðan var líka skoðað um radarinn á texa Insruments vefsíðuni . 
+Eftir þessa yfir ferð var komist að það þarfti hlað niður mmWaveSkd skrá . 
+En var ekki ljóst hvað driver þurfi til geta ná sambndi við radarinn , Skrifuð var líka verkefnalýsing og ákveðip að hlað niður SKD skráni . 
+Miðvikudagur 28.4.2021 . 
+Haldið áfram að reyna ná samkiptum við Radarinn . 
+Skoða betur mmWaveSDK skrána Finna út hvort þarf bæði og FTDI driver og XDS 110 Driver til að geta ná samskiptum við radarinn . 
+Komst að niðurstöðu að það þarf XDS 110 driverinn sem er frá Texas Instruments . 
+Eftir smá lestur í leiðbeingnum kom þar fram það væri ekki gott að hafa báða FTDI og XDS 110 driverinn eins má sjá framlega í leiðbeingnum sem eru á síðu hjá Texas instuments um radarinn . 
+Eftir driverinn var kominn upp náðist að sjá portið fyrir radarinn í tækjastjónuinni . . 
+Fimmtudagur 29.4.2021 . 
+Varð farið að leita image til geta setja upp radarinn í SDK skránni fyrir IWR 6843 ISK radar og finna út hvað images á að setja upp radarinn . 
+Þessi er skár þarf að vera Bin skrá og geta stuði mmWave demo visualizer forritið sem er í net útgáfu , Skári verður síðan sett í uniFlash . 
+Upplýsingar sem er búið að finna er það til nokkra útgáfur á firmware ( image ) sum er gerið bara fyrir í framleiðsu á hlut með svona tækjabúnað í . 
+En það ekki búinn að finna útgafu sem styður visualoer forritið . 
+Föstudagur 30. 04.2021 . 
+Haldið áfram að finna réttu stýri forrit sem fannst og hún er xwr 68 xx _ mmw _ demo.bin . þá farið að Flash IWR 6843 ISK radarinn með UniFlash forriti . 
+Það komu vandmál upp þegar verið að flash radarinn . 
+Það koma alltaf sama villan sem má sjá mynd 1 . 
+Mynd 1 : Villa sem kom upp . 
+Eftir prófa allskonar aðferðir til að losna við villuna . 
+Til dæmis um aðferðir voru prófar eru að breyta númer á portnum í tækjastjórun , Skipta um usb snúri og keyra uniflash forritið sem stjórnandi . 
+En ekkert af þessu virkarði . 
+Á endum kom ljós það var villaus driver settur upp fyrir radarinn . 
+En sem var gert til þess að losna við villun . Skipta út driverinum í annan sem þarfti að hlaða niður driver og hann heitir . Silicon labs CP2105 , 
+Mynd 2 : Vill lausir driver . 
+Þegar driver var kominn þarfti að setja hann upp og hafa radarinn tengdan við tölvuna og var tekinn aftur úr sambandi þegar driverinn er kominn . 
+Áður en UniFlash var opnað og radarinn er tengdur aftur við tölvuna þarfa stilla rofa eins og mynd 3 . 
+Mynd 3 : Rétt stilling rofna . 
+Það var reset radarnu með takka sem má sjá myndi 4 . 
+Mynd 4 : Reset takki . 
+UniFlash . 
+UniFlash er forrit til að hlaða upp stýri forriti á radarinn . 
+Þegar uniFlash er opnað þá þarfi að velja IWR 6843 ISK undir new Configuration og ýtt var á start hnappinn . 
+Síðan þarfti að velja stillingar og velja comport sem er á efra porti í tækjastjórunni . 
+Mynd 5 : Porti sem á vera í boði . 
+Það ver farið í programs og valið eins og mynd 6 
+Mynd 6 : Hér er valinn bin skrá úr mmWave SDK skránni . 
+Þessi skrá sem var valinn Sdk skránni sem var sótt á þriðjudaginn . Þar undir C : / to / mmwave / sdk / packages / to / demo / xwr 68 xx / mmw . 
+Þessi skár varð fyrir valinu til geta tengst mmwave demo visualizer forritnu sem er netinu . 
+Síðan var stýri forritið sett upp á radarinn með uniflash . 
+mmwave demo visualizer . 
+það mmwave demo visualizer forritið var tengd við radarinn með því að velja options og þar í serial port . 
+Síðan stillt portinn og eins má sjá mynd 7 
+Mynd 7 : Hér eru stillingar til geta tengja forritið við radarinn . 
+Bita hraðinn var stilltur á 115200 á báðum portnum bæði í tækja stjórunni og í mmwave demo visualizer . 
+Síða var hækka bita hraðinn á seinna potinu í leiðbendi hraða bara á seini portinu í forritnu . 
+Test á radarnum . 
+Prófa var að kveikja á radarnum og sjá hvað kemur út í mmwave demo visualizer forritnu . 
+Þar má sjá nokkur gröf til dæmis grad sem sýnir fraða á veglengd og annar graf sem sýnir fjarlægðina eins mynd 8 sýnir , 
+Mynd 8 : Gröfinn sem birtast í Demo visualizer . 
+Það var prófa ganga að og frá radarnum til sjá hvort mælingar breytast einhvað . 
+Það komu nokkrir punktar á tveim gröfun sem sýna hrað og vegalengd og annara sem sýnir fjarlæð x og y átt . 
+Það má sjá þessi gröf á mynd 8 Eina vandamálið sem kom upp hann vildi stundum til að frjósa og það er ekki vitað skýringuna á því eins og er . 

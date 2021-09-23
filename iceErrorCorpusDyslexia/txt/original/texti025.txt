@@ -1,0 +1,74 @@
+Texti025
+Vika 2 . 
+Mánurdagur 3.5 , 2021 . 
+Vikan byrjaði á því að reyna að finna kóðan á bakvið mmw demo sem er fyrir mmWave demo Visualizer forritð . 
+Eina sem fannst er skrá með breytum heiti og með skýringum . 
+Það var farið að skoða betur hvernig scatter plottið sem sýnir veglengdina í láðrétti stefnu og lóðrétt stefnu og átta sig á punktnum sem koma birtast . Eins og má mynd 9 
+Það kom í ljós að radarin sýnir fullt af punktum en þeir er með miss sterkt merki . 
+Þau merki sem er sterkustu merkinn er stöðugu á meðan hinn koma og fara . 
+Það koma líka ljós það getur verið efitt að greina staðsetnigu á hlutum sem eru ekki á hreyfingu . Því að er erfitt greina staðsetningu punktana . 
+En auðveldar að greina sem er á hreyfingu Síðan var náð að láta kom Range-Azimuth Heatmap birtast í forritnu eins og með Nosie profeile . 
+Einnig var skoða lab og þar forrit sem tilheyrir hjartslátta og andadrátt mæligar demonu og lesa yfir öllum leiðbeinguma eða fylgjuskjöl sem var í möppuni sem heitir mmwave industrinal toolbox 4 7 0 Win og var sótt toolbox 4 7 0 , Það sem var áhugverðast við skoða kóðana að voru margir gerðir í Matlab . 
+Síðan voru aðrar kóðar sem voru gerðir í C forritinumáli . 
+Þriðjuadagur 4.5 2021 . 
+það var farið að finna upplýsingar um MMWAVEICBOOST . 
+Þettar er auka búnðaur sem þarf að hafa til geta gert demoið með hjartslátta og andadrátts mælingum með IWR 6843 ISK radar virki . 
+það var lika haldi áfram að skoðan Stykleika kort ( Heat map ) . 
+það er erfit að greina hlut úr þessu kort bæði kyrrstöðuga hluti . En aðeinsn léttara að greina hreyfingu á kortinu . 
+MIðvikudagur 4.5 2021 . 
+í dag var farið að tengja IWR 8643 ISK radarinn við MMWAVEICBOOST og setja hann upp í tölvuni . 
+Uppsetning . 
+Til þessa geta farið að prófa vital Singal Rader demo útgáfuna . Þurft gera eftirfarandi skref . 
+1 . 
+Sækja mmwave industrinal toolbox 4 7 0 Win sem er sótt toolbox 4 7 0 
+2 . 
+það var setja rofnar á MMWAVEICBOOSTmmwaveicboost eins og mynd 11 . 
+Mynd 11 : Hér sést stillingum á rofnum á MMWAVEICBOOSTmmwavebooster . 
+3 . 
+Síðan var sett tengt spennirbreytir sem var 5V og 3A og tengja hann líka við tölvuna með micro USB . 
+4 . 
+Það var sótt XDS 110 reset og ti emupack setup . 
+Þessir pakkar voru sóttir Hér , 5 . 
+Skoða var í tækjastjórunni hvort sé réttir driver og port eins og mynd . 
+6 . 
+Það var athugað hvort jumperinn er eins og mynd 12 áður en var flash boosteinn . 
+Mynd 12 : Jumper á réttum stað . 
+7 . 
+Opnað var uniFlash og farið var í settings og breyta númerinu á portinu í 11 8 . 
+Síðan var farið í program skrá sem heitir Vital signs demo 68 xx bin . 
+Mynd 13 : Hér skráinn sem var valinn . 
+9 . 
+Ýtt var síðan á load image 10.  Síðan var tekið jumperin af á tengi SOP2 þegar var búinn flash mmwavebooster . 
+11. þegar þetta var allat komið þá var hægt að opna VitalSignsRadar _ Demo í Tools möppuni undir vitarSigns / gui / gui _ exe . 
+12 . 
+Það var hlaða niður notepad + + 13 . 
+Opnað var skrá sem heitir xwr 1642 _ profile _ VitalSigns _ 20 fps _ Front.cfg í notepand + + . 
+14 . 
+Þessi skrá var stillt eftir myndir í Developers Guide Síðan Var start mælingum 15. það var resetað eftir hverja mæligu eða eftir breytingu skránni í Notepand + + . 
+Púlsmælir til samburðar . 
+Hannes raddaði púlsmælir til geta haft hann til samburðar sem radarainn mælir og púslmælirinn . 
+Það náðis tengjs honum með appi símanum sem heitir ViHealth gengum bluetooth . 
+Það náðis ekki láta mælirinn tengjas beint við tölvuna . 
+Mælirinn átti að tengst forrit O2 Insight og þar átti sjá gröf á púlsnum en virka ekki . 
+Pófun á öndunarmælingum . 
+Ákveiði að gera prófarnir á andadrætti með því finna myndband sem heitir 1 second inderval Timer inn á youtable . 
+Það var passa að radarin sé beint mót brjóstkassnum . 
+Þegar var startað mælinguni var haldið í sér andnum rétt áður radar byrjar að mæla . Til að kvaðra mælirinn í upphafi . 
+Síðan var látinn mæli andadráttinn og það andað með sekúndu milli bili . 
+Á meðan þetta var að prófa að breyta stillgu á TH breath bæði hærri og legra gildi og fylgjast hvor sveipa verður betri . 
+Eftir hafa prófað með mismunandi gildi var komist að því að besta sveiflan þegar TH breath er 10.000 . 
+En það kemur stundum yfirsveiplur skpti ekki máli hvað TH breath var . 
+Mynd 14 : Hér má sjá yfirsveilur sem koma í stutttan tím a og fara . 
+Fimmtudagur 6.5 2021 . 
+það var byrjað skoða áftur andardrátta mæligar skoða hvort sé örugglega rétti sínus sveiplu og passar við andadráttin . 
+Síðan var líka skoða niðurstöðan úr hjartsláttinn mæligunni . En var alltf og of lágar miða við púls mælirinn sem er notnaður til samanburðar . 
+Þess vegna var farið að leita á góðum ábendingum hvarð væri að á netinu . 
+Eftir smá tíma fannst ekkert þá var farið að halda áfram prófa sig áfram með gildi sem er hægt að breyta fyrir hjartsláttinn , Náði ekki stilla hjartsláttinn réttan í dag . 
+Síðan koma Hannes launchpadar til geta búa til forrit sem sýnir öndunar og lætur möglega vita þegar er líkt eftir kæfusvefn . 
+Möglega sýnir hjartslátt líka ef næst að stilla hann . 
+Föstudagur 7.5 2021 . 
+Haldið var áfram að reyna fá rétt mæligildinn fyrir hjartsláttinn sem radarin mældi . 
+Það var gert til með því að halda áfram að breyt gildum fyrir TH Breath og Alfa gilfi í Configuration skránni . 
+En mælinginn á hjartsláttinum breytis ekkert við breyting á gildnum Síða var athuga í matlab skránum til reyna skilja hvað er að . 
+Síðan var fari að lesa yfir leiðbeingar um LaunchPad ( MSP-EXP 430 G 2 ET ) . 
+Þar var komist að hvað driver þarfa og forrit til forritan launchpad og þau voru hlaðinn niður . 
