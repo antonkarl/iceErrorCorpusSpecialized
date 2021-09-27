@@ -1,6 +1,6 @@
 # Icelandic Specialized Error Corpora
 
-Version 0.1
+Version 1.0
 
 Copyright 2021 Anton Karl Ingason, Lilja Björk Stefánsdóttir, Þórunn Arnardóttir, Xindan Xu.
 
@@ -16,7 +16,7 @@ Anna Björk Nikulásdóttir, Jón Guðnason, Anton Karl Ingason, Hrafn Loftsson,
 
 # Íslenskar sérhæfðar villumálheildir
 
-Útgáfa 0.1
+Útgáfa 1.0
 
 Copyright 2021 Anton Karl Ingason, Lilja Björk Stefánsdóttir, Þórunn Arnardóttir, Xindan Xu.
 
