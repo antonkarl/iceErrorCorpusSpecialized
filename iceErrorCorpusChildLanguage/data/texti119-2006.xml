@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>texti119-2006</title>
+    </titleStmt>
+    <publicationStmt>
+      <distributor>Rannsóknarstofan Mál og tækni</distributor>
+    </publicationStmt>
+    <sourceDesc>
+      <biblStruct>
+        <monogr>
+          <author>Anonymous</author>
+        </monogr>
+      </biblStruct>
+    </sourceDesc>
+  </fileDesc>
+</teiHeader>
+<text><body><p n="1">
+<s n="1">
+  <w>Ég</w>
+  <w>eftir</w>
+  <w>10</w>
+  <w>ár</w>
+  <c>.</c>
+</s>
+<s n="2">
+  <w>Hæ</w>
+  <w>ég</w>
+  <w>heiti</w>
+  <w>N</w>
+  <w>I</w>
+  <w>og</w>
+  <w>ég</w>
+  <w>er</w>
+  <w>15</w>
+  <w>ára</w>
+  <w>gamall</w>
+  <c>.</c>
+</s>
+<s n="3">
+  <revision id="2">
+    <original><w>Upp</w><w>áhalds</w></original>
+    <corrected><w>Uppáhalds</w></corrected>
+      <errors>
+        <error xtype="split-compound" eid="0" />
+      </errors>
+  </revision>
+  <w>maturinn</w>
+  <w>minn</w>
+  <w>er</w>
+  <w>mexíkósk</w>
+  <revision id="3">
+    <original><w>kjúklinga</w><w>súpa</w></original>
+    <corrected><w>kjúklingasúpa</w></corrected>
+      <errors>
+        <error xtype="split-compound" eid="0" />
+      </errors>
+  </revision>
+  <w>með</w>
+  <w>snakki</w>
+  <c>.</c>
+</s>
+<s n="4">
+  <w>Ég</w>
+  <w>elska</w>
+  <w>að</w>
+  <revision id="4">
+    <original><w>hreifa</w></original>
+    <corrected><w>hreyfa</w></corrected>
+      <errors>
+        <error xtype="i4y" eid="0" />
+      </errors>
+  </revision>
+  <w>mig</w>
+  <w>og</w>
+  <w>spila</w>
+  <revision id="5">
+    <original><w>fótbollta</w></original>
+    <corrected><w>fótbolta</w></corrected>
+      <errors>
+        <error xtype="extra-letter" idx="5-1" eid="0" />
+        <error xtype="pronun-writing" idx="5-1" eid="0" />
+        <error xtype="nonword" idx="5-1" eid="0" />
+      </errors>
+  </revision>
+  <w>en</w>
+  <w>það</w>
+  <w>sem</w>
+  <w>ég</w>
+  <revision id="6">
+    <original><w>ellska</w></original>
+    <corrected><w>elska</w></corrected>
+      <errors>
+        <error xtype="extra-letter" idx="6-1" eid="0" />
+        <error xtype="pronun-writing" idx="6-1" eid="0" />
+        <error xtype="nonword" idx="6-1" eid="0" />
+      </errors>
+  </revision>
+  <w>mest</w>
+  <w>er</w>
+  <w>að</w>
+  <w>slást</w>
+  <c>.</c>
+</s>
+<s n="5">
+  <w>Eftir</w>
+  <w>tíu</w>
+  <w>ár</w>
+  <revision id="7">
+    <original><w>vona</w></original>
+    <corrected><w>vonast</w></corrected>
+      <errors>
+        <error xtype="act4mid" eid="0" />
+      </errors>
+  </revision>
+  <w>ég</w>
+  <revision id="8">
+    <original></original>
+    <corrected><w>til</w><w>þess</w></corrected>
+      <errors>
+        <error xtype="missing-words" eid="0" />
+      </errors>
+  </revision>
+  <w>að</w>
+  <w>vera</w>
+  <revision id="9">
+    <original><w>atvinnu</w><w>maður</w></original>
+    <corrected><w>orðinn</w><w>atvinnumaður</w></corrected>
+      <errors>
+        <error xtype="missing-word" idx="9-1" eid="0" />
+        <error xtype="split-compound" idx="9-2" eid="0" />
+      </errors>
+  </revision>
+  <w>í</w>
+  <revision id="10">
+    <original><w>bardaga</w><w>íþróttum</w></original>
+    <corrected><w>bardagaíþróttum</w></corrected>
+      <errors>
+        <error xtype="split-compound" eid="0" />
+      </errors>
+  </revision>
+  <w>og</w>
+  <w>að</w>
+  <w>ég</w>
+  <revision id="11">
+    <original><w>fæ</w></original>
+    <corrected><w>fái</w></corrected>
+      <errors>
+        <error xtype="ind4sub" eid="0" />
+      </errors>
+  </revision>
+  <w>samning</w>
+  <w>hjá</w>
+  <w>UFC</w>
+  <c>.</c>
+</s>
+<s n="6">
+  <w>Uppáhalds</w>
+  <revision id="12">
+    <original><w>bardaga</w><w>maður</w></original>
+    <corrected><w>bardagamaðurinn</w></corrected>
+      <errors>
+        <error xtype="split-compound" idx="12-1" eid="0" />
+        <error xtype="ind4def" idx="12-1" eid="0" />
+      </errors>
+  </revision>
+  <w>og</w>
+  <w>íþróttamaðurinn</w>
+  <w>minn</w>
+  <w>er</w>
+  <w>Khabib</w>
+  <c>.</c>
+</s>
+<s n="7">
+  <w>Khabib</w>
+  <w>er</w>
+  <w>besti</w>
+  <revision id="13">
+    <original><w>MMA</w><w>bardaga</w><w>maður</w></original>
+    <corrected><w>MMA-bardagamaður</w></corrected>
+      <errors>
+        <error xtype="missing-hyphen" idx="13-1" eid="0" />
+        <error xtype="split-compound" idx="13-2" eid="0" />
+      </errors>
+  </revision>
+  <w>allra</w>
+  <w>tíma</w>
+  <revision id="14">
+    <original></original>
+    <corrected><c>,</c></corrected>
+      <errors>
+        <error xtype="missing-comma" eid="0" />
+      </errors>
+  </revision>
+  <w>hann</w>
+  <w>hefur</w>
+  <revision id="15">
+    <original><w>keft</w></original>
+    <corrected><w>keppt</w></corrected>
+      <errors>
+        <error xtype="pronun-writing" eid="0" />
+      </errors>
+  </revision>
+  <w>29</w>
+  <revision id="16">
+    <original><w>bardaga</w></original>
+    <corrected><w>sinnum</w></corrected>
+      <errors>
+        <error xtype="wording" eid="0" />
+      </errors>
+  </revision>
+  <w>í</w>
+  <w>UFC</w>
+  <w>og</w>
+  <revision id="18">
+    <original><w>hann</w><w>vann</w><w>þá</w></original>
+    <corrected><w>unnið</w></corrected>
+      <errors>
+        <error xtype="extra-sub" idx="18-1" eid="0" />
+        <error xtype="verb-inflection" idx="18-2" eid="0" />
+        <error xtype="wording" idx="18-3" eid="0" />
+      </errors>
+  </revision>
+  <w>alla</w>
+  <revision id="19">
+    <original></original>
+    <corrected><w>bardaga</w><w>sína</w></corrected>
+      <errors>
+        <error xtype="dep" depId="18-3" eid="0" />
+      </errors>
+  </revision>
+  <w>en</w>
+  <w>því</w>
+  <w>miður</w>
+  <w>hætti</w>
+  <w>hann</w>
+  <w>að</w>
+  <w>slást</w>
+  <c>.</c>
+</s>
+<s n="8">
+  <w>Ég</w>
+  <w>veit</w>
+  <w>að</w>
+  <w>MMA</w>
+  <w>er</w>
+  <w>hættuleg</w>
+  <w>íþrótt</w>
+  <w>og</w>
+  <revision id="20">
+    <original></original>
+    <corrected><w>að</w></corrected>
+      <errors>
+        <error xtype="missing-conjunction" eid="0" />
+      </errors>
+  </revision>
+  <w>maður</w>
+  <revision id="21">
+    <original><w>gæti</w></original>
+    <corrected><w>getur</w></corrected>
+      <errors>
+        <error xtype="past4pres" idx="21-1" eid="0" />
+        <error xtype="sub4ind" idx="21-1" eid="0" />
+      </errors>
+  </revision>
+  <w>fengið</w>
+  <revision id="22">
+    <original><w>heila</w><w>skaða</w></original>
+    <corrected><w>heilaskaða</w></corrected>
+      <errors>
+        <error xtype="split-compound" eid="0" />
+      </errors>
+  </revision>
+  <w>eða</w>
+  <w>önnur</w>
+  <revision id="23">
+    <original><w>langtíma</w><w>meiðsli</w></original>
+    <corrected><w>langtímameiðsli</w></corrected>
+      <errors>
+        <error xtype="split-compound" eid="0" />
+      </errors>
+  </revision>
+  <w>en</w>
+  <w>það</w>
+  <revision id="24">
+    <original><w>gæti</w></original>
+    <corrected><w>getur</w></corrected>
+      <errors>
+        <error xtype="past4pres" idx="24-1" eid="0" />
+        <error xtype="sub4ind" idx="24-1" eid="0" />
+      </errors>
+  </revision>
+  <w>gerst</w>
+  <w>í</w>
+  <w>öllum</w>
+  <w>íþróttum</w>
+  <revision id="24b">
+    <original></original>
+    <corrected><c>,</c></corrected>
+      <errors>
+        <error xtype="missing-comma" eid="0" />
+      </errors>
+  </revision>
+  <w>t.d.</w>
+  <w>í</w>
+  <w>rúbbí</w>
+  <c>,</c>
+  <w>íshokkí</w>
+  <c>,</c>
+  <w>og</w>
+  <revision id="25">
+    <original><w>fótbollta</w></original>
+    <corrected><w>fótbolta</w></corrected>
+      <errors>
+        <error xtype="extra-letter" idx="25-1" eid="0" />
+        <error xtype="pronun-writing" idx="25-1" eid="0" />
+        <error xtype="nonword" idx="25-1" eid="0" />
+      </errors>
+  </revision>
+  <c>.</c>
+</s>
+<s n="9">
+  <w>Ef</w>
+  <w>ég</w>
+  <revision id="25b">
+    <original><w>kemmst</w></original>
+    <corrected><w>kemst</w></corrected>
+      <errors>
+        <error xtype="extra-letter" idx="25b-1" eid="0" />
+        <error xtype="pronun-writing" idx="25b-1" eid="0" />
+        <error xtype="nonword" idx="25b-1" eid="0" />
+      </errors>
+  </revision>
+  <w>ekki</w>
+  <w>í</w>
+  <w>UFC</w>
+  <c>(</c>
+  <w>sem</w>
+  <w>er</w>
+  <w>mjög</w>
+  <w>líklegt</w>
+  <c>)</c>
+  <w>þá</w>
+  <w>mun</w>
+  <w>ég</w>
+  <revision id="26">
+    <original><w>reina</w></original>
+    <corrected><w>reyna</w></corrected>
+      <errors>
+        <error xtype="i4y" eid="0" />
+      </errors>
+  </revision>
+  <w>að</w>
+  <w>verða</w>
+  <revision id="27">
+    <original><w>atvinnu</w><w>fótbollta</w><w>maður</w></original>
+    <corrected><w>atvinnumaður</w><w>í</w><w>fótbolta</w></corrected>
+      <errors>
+        <error xtype="split-compound" idx="27-1" eid="0" />
+        <error xtype="extra-letter" idx="27-2" eid="0" />
+        <error xtype="pronun-writing" idx="27-2" eid="0" />
+        <error xtype="nonword" idx="27-2" eid="0" />
+        <error xtype="wording" idx="27-3" eid="0" />
+      </errors>
+  </revision>
+  <c>.</c>
+</s>
+<s n="10">
+  <w>Ég</w>
+  <w>æfi</w>
+  <revision id="28">
+    <original><w>fótbollta</w></original>
+    <corrected><w>fótbolta</w></corrected>
+      <errors>
+        <error xtype="extra-letter" idx="28-1" eid="0" />
+        <error xtype="pronun-writing" idx="28-1" eid="0" />
+        <error xtype="nonword" idx="28-1" eid="0" />
+      </errors>
+  </revision>
+  <w>í</w>
+  <w>KR</w>
+  <w>og</w>
+  <w>er</w>
+  <w>í</w>
+  <w>þriðja</w>
+  <w>flokki</w>
+  <revision id="29">
+    <original><w>uppáhalds</w></original>
+    <corrected><c>.</c><w>Uppáhalds</w></corrected>
+      <errors>
+        <error xtype="missing-period" eid="0" />
+      </errors>
+  </revision>
+  <w>liðið</w>
+  <w>mitt</w>
+  <w>fyrir</w>
+  <w>utan</w>
+  <w>KR</w>
+  <w>er</w>
+  <w>Liverpool</w>
+  <c>.</c>
+</s>
+<s n="11">
+  <w>Ég</w>
+  <w>byrjaði</w>
+  <w>að</w>
+  <w>halda</w>
+  <w>með</w>
+  <w>Liverpool</w>
+  <w>þegar</w>
+  <w>ég</w>
+  <w>var</w>
+  <w>í</w>
+  <revision id="30">
+    <original><w>þrjiðja</w></original>
+    <corrected><w>3.</w></corrected>
+      <errors>
+        <error xtype="extra-letter" idx="30-1" eid="0" />
+        <error xtype="nonword" idx="30-1" eid="0" />
+        <error xtype="word4number" idx="30-1" eid="0" />
+      </errors>
+  </revision>
+  <w>bekk</w>
+  <w>af</w>
+  <w>því</w>
+  <w>að</w>
+  <revision id="31">
+    <original><w>merkið</w></original>
+    <corrected><w>merki</w><w>liðsins</w></corrected>
+      <errors>
+        <error xtype="def4ind" idx="31-1" eid="0" />
+        <error xtype="missing-word" idx="31-2" eid="0" />
+      </errors>
+  </revision>
+  <w>var</w>
+  <w>svo</w>
+  <w>flott</w>
+  <c>.</c>
+</s>
+  <revision id="32">
+    <original><w>Ég</w></original>
+    <corrected></corrected>
+      <errors>
+        <error xtype="extra-word" eid="0" />
+      </errors>
+  </revision>
+</p></body></text>
+</TEI>
