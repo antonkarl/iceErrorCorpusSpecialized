@@ -1,4 +1,4 @@
-Linguistic field	Subfield	Error code	Description	Example
+Main category	Subcategory	Error code	Description	Example
 coherence	accuracy	dem4noun	A demonstrative pronoun used where a noun should be	hinn > maðurinn
 coherence	accuracy	noun4dem	A noun used where a demonstrative pronoun should be	stærsta klukkan > sú stærsta
 coherence	pro	dem-pro	An incorrect demonstrative pronoun used	hinn > sá
@@ -43,8 +43,12 @@ grammar	inflection	pro-inflection	A pronoun inflected incorrectly	Á þann tíma
 grammar	inflection	verb-inflection	A verb inflected incorrectly	Samt sem áður kröfðu þau > Samt sem áður kröfðust þau
 grammar	inflection	want	The third person singular ‘vill’ used where the first person singular ‘vil’ should be used, and the opposite	ég vill > ég vil
 grammar	insertion	extra-prep	A redundant preposition	Á þetta bendir Katrín á í umfjölluninni > Á þetta bendir Katrín í umfjölluninni
-grammar	mood	ind4sub	A verb in the indicative mood which should be in the subjunctive mood	Þrátt fyrir að konfúsíanismi er upprunninn > Þrátt fyrir að konfúsíanismi sé upprunninn
-grammar	mood	sub4ind	A verb in the subjunctive mood which should be in the indicative mood	Stjórnvöld vildu auka rétt borgara og geri þeim kleift > Stjórnvöld vildu auka rétt borgara og gera þeim kleift
+grammar	mood	ind4sub	A verb in the indicative mood which should be in the subjunctive mood for semantic reasons	Enginn hafði þá haft hugmynd um hvað gerðist > Enginn hefði þá haft hugmynd um hvað gerðist
+grammar	mood	ind4sub-conj	A verb in the indicative mood which should be in the subjunctive mood because of a conjunction (e.g. ef, þótt) 	Þrátt fyrir að konfúsíanismi er upprunninn > Þrátt fyrir að konfúsíanismi sé upprunninn
+grammar	mood	ind4sub-verb	A verb in the indicative mood which should be in the subjunctive mood because of another verb (e.g. segja, spyrja, trúa, halda)	Það má því segja að með hverjum degi er heimurinn að sameinast > Það má því segja að með hverjum degi sé heimurinn að sameinast
+grammar	mood	sub4ind	A verb in the indicative mood which should be in the subjunctive mood for semantic reasons	Ef þú hringir mikið til útlanda gæti símareikingurinn orðið frekar hár > Ef þú hringir mikið til útlanda getur símareikingurinn orðið frekar hár 
+grammar	mood	sub4ind-conj	A verb in the subjunctive mood which should be in the indicative mood because of a conjunction (e.g. þegar)	Hjónaband fyrir mér er þegar maður gifti sig ... > Hjónaband fyrir mér er þegar maður giftir sig ...
+grammar	mood	sub4ind-verb	A verb in the subjunctive mood which should be in the indicative mood because of another verb (e.g. vita, sýna)	Rannsóknir sýna að strákar drekki meira en stúlkur > Rannsóknir sýna að strákar drekka meira en stúlkur
 grammar	omission	missing-prep	A preposition missing	Hann fór Parísar > hann fór til Parísar
 grammar	prep	að4af	The preposition ‘að’ used instead of the preposition ‘af’	að hafa gaman að > að hafa gaman af
 grammar	prep	af4að	The preposition ‘af’ used instead of the preposition ‘að’	gert grín af > gert grín að
