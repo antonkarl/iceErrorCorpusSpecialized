@@ -289,8 +289,7 @@
         <error xtype="collocation" idx="10-1" eid="0" />
         <error xtype="missing-word" idx="10-1" eid="0" />
         <error xtype="nominal-inflection" idx="10-1" eid="0" />
-        <error xtype="verb-inflection" idx="10-1" eid="0" />
-		    <error xtype="extra-comma" eid="0" />
+        <error xtype="verb-inflection" idx="10-1" eid="0" /><error xtype="extra-comma" eid="0" />
       </errors>
   </revision>
   <w>geta</w>
@@ -781,7 +780,7 @@
       <errors>
         <error xtype="abbreviation4words" idx="32-1" eid="0" />
         <error xtype="extra-comma" idx="32-2" eid="0" />
-		    <error xtype="plural4singular" eid="0" />
+        <error xtype="plural4singular" eid="0" />
       </errors>
   </revision>
   <c>‘</c>
@@ -938,7 +937,7 @@
     <corrected><w>undantekningum</w><w>sem</w><w>nefndar</w><w>voru</w></corrected>
       <errors>
         <error xtype="wording" eid="0" />
-		    <error xtype="missing-conjunction" idx="39-1" eid="0" />
+        <error xtype="missing-conjunction" idx="39-1" eid="0" />
         <error xtype="verb-inflection" idx="39-2" eid="0" />
       </errors>
   </revision>
@@ -1152,7 +1151,7 @@
     <corrected><w>mynduð</w></corrected>
       <errors>
         <error xtype="extra-word" idx="42c-1" eid="0" />
-		    <error xtype="dep" depId="42b-1" eid="0" />
+        <error xtype="dep" depId="42b-1" eid="0" />
       </errors>
   </revision>
   <w>sérstök</w>
@@ -1387,7 +1386,7 @@
         <error xtype="merged-words" idx="52-1" eid="0" />
         <error xtype="nonword" idx="52-1" eid="0" />
         <error xtype="singular4plural" idx="52-1" eid="0" />
-		    <error xtype="missing-conjunction" idx="52-2" eid="0" />
+        <error xtype="missing-conjunction" idx="52-2" eid="0" />
       </errors>
   </revision>
   <w>komust</w>
@@ -2030,7 +2029,7 @@
     <corrected><w>en</w><w>hinn</w></corrected>
       <errors>
         <error xtype="extra-colon" idx="76-1" eid="0" />
-		    <error xtype="missing-conjunction" idx="76-1" eid="0" />
+        <error xtype="missing-conjunction" idx="76-1" eid="0" />
         <error xtype="context" idx="76-2" eid="0" />
       </errors>
   </revision>
@@ -2061,7 +2060,7 @@
     <corrected><c>,</c></corrected>
       <errors>
         <error xtype="conjunction4comma" eid="0" />
-		    <error xtype="extra-prep" eid="0" />
+        <error xtype="extra-prep" eid="0" />
       </errors>
   </revision>
   <w>notkun</w>
