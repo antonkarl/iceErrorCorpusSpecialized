@@ -1176,7 +1176,7 @@
     <corrected><w>Vogi</w><c>,</c></corrected>
       <errors>
         <error xtype="lower4upper-proper" idx="90-1" eid="0" />
-        <error xtype="dep" dep="89-1" eid="0" />
+        <error xtype="dep" depId="89-1" eid="0" />
       </errors>
   </revision>
   <w>segir</w>
@@ -2177,7 +2177,7 @@
     <original><w>allt</w><w>frá</w></original>
     <corrected><w>umhverfisþættir</w><w>eins</w><w>og</w></corrected>
       <errors>
-        <error xtype="dep" dep="155-1" eid="0" />
+        <error xtype="dep" depId="155-1" eid="0" />
       </errors>
   </revision>
   <w>uppeldi</w>
@@ -2251,7 +2251,7 @@
     <original><w>nota</w></original>
     <corrected></corrected>
       <errors>
-        <error xtype="dep" dep="159-1" eid="0" />
+        <error xtype="dep" depId="159-1" eid="0" />
       </errors>
   </revision>
   <w>tóbak</w>
