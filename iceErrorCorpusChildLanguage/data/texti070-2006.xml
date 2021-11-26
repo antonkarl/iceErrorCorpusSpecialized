@@ -74,7 +74,7 @@
     <original><w>verð</w><w>ennþá</w></original>
     <corrected><w>verði</w><w>enn</w><w>þá</w></corrected>
       <errors>
-        <error xtype="ind4sub" idx="3-1" eid="0" />
+        <error xtype="ind4sub-verb" idx="3-1" eid="0" />
         <error xtype="merged-words" idx="3-2" eid="0" />
         <error xtype="nonword" idx="3-2" eid="0" />
       </errors>
@@ -135,7 +135,7 @@
     <original><w>verð</w></original>
     <corrected><w>verði</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>búin</w>
@@ -147,7 +147,7 @@
     <original><w>verð</w></original>
     <corrected><w>verði</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>að</w>
