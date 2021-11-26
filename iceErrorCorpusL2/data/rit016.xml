@@ -472,7 +472,7 @@
     <original><w>var</w></original>
     <corrected><w>væri</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>galdur</w>
@@ -1036,7 +1036,7 @@
     <original><w>voru</w></original>
     <corrected><w>væru</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>galdrastafir</w>
@@ -1053,7 +1053,7 @@
     <original><w>voru</w></original>
     <corrected><w>hefðu</w><w>verið</w></corrected>
       <errors>
-        <error xtype="ind4sub" idx="74-1" eid="0" />
+        <error xtype="ind4sub-conj" idx="74-1" eid="0" />
         <error xtype="tense4perfect" idx="74-1" eid="0"/>
       </errors>
   </revision>
@@ -2216,7 +2216,7 @@
     <original><w>felst</w></original>
     <corrected><w>felist</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>að</w>

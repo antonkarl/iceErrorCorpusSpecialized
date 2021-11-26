@@ -1196,7 +1196,7 @@
     <original><w>endurspeglast</w></original>
     <corrected><w>endurspeglist</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>í</w>
@@ -1320,7 +1320,7 @@
     <original><w>mótar</w><w>hugsunar</w></original>
     <corrected><w>móti</w><w>hugsanir</w></corrected>
       <errors>
-        <error xtype="ind4sub" idx="52-1" eid="0" />
+        <error xtype="ind4sub-verb" idx="52-1" eid="0" />
         <error xtype="nominal-inflection" idx="52-2" eid="0" />
         <error xtype="case-verb" idx="52-2" eid="0" />
       </errors>
@@ -1335,7 +1335,7 @@
     <original><w>gerir</w></original>
     <corrected><w>geri</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>íslensku</w>
@@ -1467,7 +1467,7 @@
     <original><w>er</w></original>
     <corrected><w>sé</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-conj" eid="0" />
       </errors>
   </revision>
   <w>annars</w>
@@ -1824,7 +1824,7 @@
     <original><w>mótar</w><w>hugsunar</w></original>
     <corrected><w>móti</w><w>hugsanir</w></corrected>
       <errors>
-        <error xtype="ind4sub" idx="85-1" eid="0" />
+        <error xtype="ind4sub-conj" idx="85-1" eid="0" />
         <error xtype="nominal-inflection" idx="85-2" eid="0" />
         <error xtype="case-verb" idx="85-2" eid="0" />
       </errors>
@@ -3089,7 +3089,7 @@
     <original><w>eru</w></original>
     <corrected><w>séu</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-conj" eid="0" />
       </errors>
   </revision>
   <w>málfræðilega</w>
@@ -3177,7 +3177,7 @@
     <original><w>samræmast</w><w>sjadnast</w><w>með</w></original>
     <corrected><w>samræmist</w><w>sjaldnast</w></corrected>
       <errors>
-        <error xtype="ind4sub" idx="137-1" eid="0" />
+        <error xtype="ind4sub-verb" idx="137-1" eid="0" />
         <error xtype="missing-letter" idx="137-2" eid="0" />
         <error xtype="nonword" idx="137-2" eid="0" />
         <error xtype="extra-prep" idx="137-3" eid="0" />

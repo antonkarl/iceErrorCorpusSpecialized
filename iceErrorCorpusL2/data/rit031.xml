@@ -3855,7 +3855,7 @@
     <original><w>muna</w><w>eftir</w><w>því</w></original>
     <corrected><w>muni</w><w>þau</w></corrected>
       <errors>
-        <error xtype="ind4sub" idx="171-1" eid="0" />
+        <error xtype="ind4sub-verb" idx="171-1" eid="0" />
         <error xtype="extra-prep" idx="171-2" eid="0" />
         <error xtype="agreement-pro" idx="171-3" eid="0" /> 
       </errors>
@@ -3867,7 +3867,7 @@
       <errors>
         <error xtype="extra-conjunction" idx="172-1" eid="0" />
         <error xtype="extra-word" idx="172-2" eid="0" />
-        E<reframing xtype="ind4sub" idx="172-3" eid="0" />
+        <error xtype="ind4sub-verb" idx="172-3" eid="0" />
       </errors>
   </revision>
   <w>reglur</w>
@@ -6568,7 +6568,7 @@
     <original><w>býr</w></original>
     <corrected><w>búi</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>við</w>
@@ -6779,7 +6779,7 @@
       <errors>
         <error xtype="nominal-inflection" idx="317-1" eid="0" />
         <error xtype="case-verb" idx="317-1" eid="0" />
-        <error xtype="ind4sub" idx="317-2" eid="0" />
+        <error xtype="ind4sub-verb" idx="317-2" eid="0" />
       </errors>
   </revision>
   <w>gefa</w>
@@ -7274,7 +7274,7 @@
     <original><w>á</w><w>af</w></original>
     <corrected><w>eigi</w><w>að</w></corrected>
       <errors>
-        <error xtype="ind4sub" idx="339-1" eid="0" />
+        <error xtype="ind4sub-verb" idx="339-1" eid="0" />
         <error xtype="af4að" idx="339-2" eid="0" />
       </errors>
   </revision>
@@ -7740,7 +7740,7 @@
     <original><w>getur</w></original>
     <corrected><w>geti</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>haft</w>
@@ -8523,7 +8523,7 @@
     <original><w>átti</w></original>
     <corrected><w>ætti</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-conj" eid="0" />
       </errors>
   </revision>
   <w>ekki</w>
@@ -9043,7 +9043,7 @@
     <original><w>var</w></original>
     <corrected><w>séu</w></corrected>
       <errors>
-        <error xtype="ind4sub" idx="427-1" eid="0" />
+        <error xtype="ind4sub-conj" idx="427-1" eid="0" />
         <error xtype="past4pres" idx="427-1" eid="0" />
       </errors>
   </revision>

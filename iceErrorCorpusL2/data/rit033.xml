@@ -614,7 +614,7 @@
     <original><w>gat</w></original>
     <corrected><w>gæti</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-conj" eid="0" />
       </errors>
   </revision>
   <w>tekið</w>
@@ -687,7 +687,7 @@
     <original><w>hafði</w></original>
     <corrected><w>hefði</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-conj" eid="0" />
       </errors>
   </revision>
   <w>farið</w>
@@ -1110,7 +1110,7 @@
     <corrected><w>hafi</w><w>verið</w></corrected>
       <errors>
         <error xtype="tense4perfect" idx="75-1" eid="0" />
-        <error xtype="ind4sub" idx="75-1" eid="0" />
+        <error xtype="ind4sub-conj" idx="75-1" eid="0" />
       </errors>
   </revision>
   <w>í</w>
@@ -1183,7 +1183,7 @@
     <original><w>höfðu</w></original>
     <corrected><w>hefðu</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>séð</w>
@@ -1207,7 +1207,7 @@
     <corrected><w>hafi</w><w>verið</w></corrected>
       <errors>
         <error xtype="tense4perfect" idx="82-1" eid="0" />
-        <error xtype="ind4sub" idx="82-1" eid="0" />
+        <error xtype="ind4sub-conj" idx="82-1" eid="0" />
       </errors>
   </revision>
   <w>þar</w>
@@ -1549,7 +1549,7 @@
     <original><w>voru</w></original>
     <corrected><w>væru</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-conj" eid="0" />
       </errors>
   </revision>
   <w>í</w>
@@ -1578,7 +1578,7 @@
     <original><w>voru</w><w>í</w><w>svæðinu</w><w>sumarhússins</w></original>
     <corrected><w>væru</w><w>á</w><w>sumarhúsasvæðinu</w></corrected>
       <errors>
-        <error xtype="ind4sub" idx="103-1" eid="0" />
+        <error xtype="ind4sub-verb" idx="103-1" eid="0" />
         <error xtype="wrong-prep" idx="103-2" eid="0" />
         <error xtype="wording" idx="103-3" eid="0" />
       </errors>
@@ -2042,7 +2042,7 @@
     <original><w>hefur</w></original>
     <corrected><w>hafi</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-conj" eid="0" />
       </errors>
   </revision>
   <w>séð</w>
@@ -2200,7 +2200,7 @@
     <original><w>er</w><w>sennilega</w></original>
     <corrected><w>sé</w></corrected>
       <errors>
-        <error xtype="ind4sub" idx="153-1" eid="0" />
+        <error xtype="ind4sub-conj" idx="153-1" eid="0" />
         <error xtype="extra-word" idx="153-2" eid="0" />
       </errors>
   </revision>
@@ -2239,7 +2239,7 @@
     <original><w>er</w></original>
     <corrected><w>sé</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>akkúrat</w>
@@ -2415,7 +2415,7 @@
     <original><w>er</w></original>
     <corrected><w>séu</w></corrected>
       <errors>
-        <error xtype="ind4sub" idx="164-1" eid="0" />
+        <error xtype="ind4sub-verb" idx="164-1" eid="0" />
         <error xtype="agreement" idx="164-1" eid="0" />
       </errors>
   </revision>
@@ -2579,7 +2579,7 @@
       <errors>
         <error xtype="interr-pro" idx="174-1" eid="0" />
         <error xtype="syntax-other" idx="174-2" eid="0" />
-        <error xtype="ind4sub" idx="174-2" eid="0" />
+        <error xtype="ind4sub-conj" idx="174-2" eid="0" />
       </errors>
   </revision>
   <w>þessi</w>

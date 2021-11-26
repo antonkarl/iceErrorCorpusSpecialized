@@ -185,7 +185,7 @@
     <corrected><w>sé</w><w>að</w><w>tala</w></corrected>
       <errors>
         <error xtype="simple4cont" idx="14-1" eid="0" />
-        <error xtype="ind4sub" idx="14-1" eid="0" />
+        <error xtype="ind4sub-verb" idx="14-1" eid="0" />
       </errors>
   </revision>
   <w>um</w>
@@ -195,7 +195,7 @@
     <original><w>er</w></original>
     <corrected><w>sé</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>yfirskilvitleg</w>
@@ -1163,7 +1163,7 @@
     <original><w>hugsa</w><w>af</w></original>
     <corrected><w>halda</w><w>að</w></corrected>
       <errors>
-        <error xtype="wording" idx="88-1" eid="0" />
+        <error xtype="context" idx="88-1" eid="0" />
         <error xtype="af4að" idx="88-2" eid="0" />
       </errors>
   </revision>
@@ -1172,7 +1172,7 @@
     <original><w>er</w><w>eing</w></original>
     <corrected><w>sé</w><w>eins</w></corrected>
       <errors>
-        <error xtype="ind4sub" idx="89-1" eid="0" />
+        <error xtype="dep" depId="88-1" eid="0" />
         <error xtype="letter-rep" idx="89-2" eid="0" />
         <error xtype="nonword" idx="89-2" eid="0" />
       </errors>

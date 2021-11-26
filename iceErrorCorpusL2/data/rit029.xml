@@ -501,7 +501,7 @@
     <corrected><w>verið</w><w>sé</w></corrected>
       <errors>
         <error xtype="act4pass" idx="33-1" eid="0" />
-        <error xtype="ind4sub" idx="33-1" eid="0" />
+        <error xtype="ind4sub-conj" idx="33-1" eid="0" />
       </errors>
   </revision>
   <w>að</w>
@@ -569,7 +569,7 @@
     <original><w>felst</w></original>
     <corrected><w>felist</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-conj" eid="0" />
       </errors>
   </revision>
   <w>í</w>
@@ -588,7 +588,7 @@
     <original><w>er</w></original>
     <corrected><w>sé</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-conj" eid="0" />
       </errors>
   </revision>
   <w>hægt</w>
@@ -683,7 +683,7 @@
     <original><w>felst</w></original>
     <corrected><w>fælist</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>ekki</w>
@@ -716,7 +716,7 @@
     <corrected><w>væri</w><w>hægt</w><w>að</w><w>ná</w></corrected>
       <errors>
         <error xtype="wording" idx="50-1" eid="0" />
-        <error xtype="ind4sub" idx="50-1" eid="0" />
+        <error xtype="ind4sub-verb" idx="50-1" eid="0" />
       </errors>
   </revision>
   <w>á</w>
@@ -839,7 +839,7 @@
     <original><w>eru</w></original>
     <corrected><w>séu</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>alveg</w>
@@ -850,7 +850,7 @@
     <original><w>eru</w></original>
     <corrected><w>sé</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>engin</w>
@@ -1909,7 +1909,7 @@
     <original><w>er</w></original>
     <corrected><w>sé</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-conj" eid="0" />
       </errors>
   </revision>
   <w>stundum</w>
@@ -1954,7 +1954,8 @@
     <original><w>á</w><w>að</w></original>
     <corrected><w>skuli</w></corrected>
       <errors>
-        <error xtype="aux" eid="0" />
+        <error xtype="aux" idx="140-1" eid="0" />
+        <error xtype="ind4sub" idx="140-1" eid="0" />
       </errors>
   </revision>
   <w>vera</w>
@@ -2721,7 +2722,7 @@
     <corrected><w>tilgangur</w><w>þýðenda</w><w>sé</w></corrected>
       <errors>
         <error xtype="dep" depId="190-1" eid="0" />
-        <error xtype="ind4sub" idx="191-1" eid="0" />
+        <error xtype="ind4sub-verb" idx="191-1" eid="0" />
       </errors>
   </revision>
   <w>svipaður</w>
@@ -3028,7 +3029,7 @@
     <corrected><w>þýðingartexta</w><w>geti</w></corrected>
       <errors>
         <error xtype="compound-collocation" idx="212-1" eid="0" />
-        <error xtype="ind4sub" idx="212-2" eid="0" />
+        <error xtype="ind4sub-conj" idx="212-2" eid="0" />
       </errors>
   </revision>
   <w>séð</w>
@@ -3229,7 +3230,7 @@
     <original><w>þurfa</w></original>
     <corrected><w>þurfi</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-conj" eid="0" />
       </errors>
   </revision>
   <w>að</w>
@@ -3357,7 +3358,7 @@
         <error xtype="compound-collocation" idx="235-1" eid="0" />
         <error xtype="adjective-inflection" idx="235-2" eid="0" />
         <error xtype="case-verb" idx="235-2" eid="0" />
-        <error xtype="ind4sub" idx="235-3" eid="0" />
+        <error xtype="ind4sub-verb" idx="235-3" eid="0" />
       </errors>
   </revision>
   <w>þýðendur</w>
@@ -3476,7 +3477,7 @@
     <original><w>geta</w><w>fari</w></original>
     <corrected><w>geti</w><w>farið</w></corrected>
       <errors>
-        <error xtype="ind4sub" idx="246-1" eid="0" />
+        <error xtype="ind4sub-verb" idx="246-1" eid="0" />
         <error xtype="verb-inflection" idx="246-2" eid="0" />
       </errors>
   </revision>
@@ -3501,7 +3502,7 @@
     <corrected><w>verði</w></corrected>
       <errors>
         <error xtype="aux" idx="248-1" eid="0" />
-        <error xtype="ind4sub" idx="248-1" eid="0" />
+        <error xtype="ind4sub-verb" idx="248-1" eid="0" />
       </errors>
   </revision>
   <revision id="249">
@@ -3581,7 +3582,7 @@
     <corrected><w>hafi</w></corrected>
       <errors>
         <error xtype="tense4perfect" idx="256-1" eid="0" />
-        <error xtype="ind4sub" idx="256-1" eid="0" />
+        <error xtype="ind4sub-verb" idx="256-1" eid="0" />
         <error xtype="act4mid" idx="256-1" eid="0" />
       </errors>
   </revision>
@@ -3801,7 +3802,7 @@
     <original><w>tókst</w></original>
     <corrected><w>tækist</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-conj" eid="0" />
       </errors>
   </revision>
   <w>að</w>
@@ -4419,7 +4420,7 @@
     <original><w>getur</w></original>
     <corrected><w>geti</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-conj" eid="0" />
       </errors>
   </revision>
   <w>tungumál</w>
@@ -4852,7 +4853,7 @@
       <errors>
         <error xtype="missing-sub" idx="347-1" eid="0" />
         <error xtype="tense4perfect" idx="347-2" eid="0" />
-        <error xtype="ind4sub" idx="347-2" eid="0" />
+        <error xtype="ind4sub-verb" idx="347-2" eid="0" />
         <error xtype="aux" idx="347-2" eid="0" />
       </errors>
   </revision>
@@ -4925,7 +4926,7 @@
     <original><w>hefur</w></original>
     <corrected><w>hafi</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>eitthvað</w>
@@ -4999,7 +5000,7 @@
     <corrected></corrected>
       <errors>
         <error xtype="syntax-other" idx="355-1" eid="0" />
-        <error xtype="ind4sub" idx="355-1" eid="0" />
+        <error xtype="ind4sub-conj" idx="355-1" eid="0" />
       </errors>
   </revision>
   <w>oft</w>

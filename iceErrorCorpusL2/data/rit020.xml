@@ -212,7 +212,7 @@
     <original><w>geta</w></original>
     <corrected><w>geti</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>náð</w>
@@ -232,7 +232,7 @@
     <original><w>fari</w></original>
     <corrected><w>fer</w></corrected>
       <errors>
-        <error xtype="sub4ind" eid="0" />
+        <error xtype="sub4ind-conj" eid="0" />
       </errors>
   </revision>
   <w>fram</w>
@@ -253,7 +253,7 @@
     <corrected><w>þau</w><w>fá</w></corrected>
       <errors>
       	<error xtype="missing-sub" eid="0" />
-        <error xtype="sub4ind" eid="0" />
+        <error xtype="sub4ind-conj" eid="0" />
       </errors>
   </revision>
   <w>nægt</w>
@@ -454,7 +454,7 @@
     <original><w>geti</w></original>
     <corrected><w>getur</w></corrected>
       <errors>
-        <error xtype="sub4ind" eid="0" />
+        <error xtype="sub4ind-verb" eid="0" />
       </errors>
   </revision>
   <w>haft</w>
@@ -889,7 +889,7 @@
     <original><w>gefa</w></original>
     <corrected><w>gefi</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-conj" eid="0" />
       </errors>
   </revision>
   <w>til</w>
@@ -1249,7 +1249,7 @@
     <original><w>byrja</w></original>
     <corrected><w>byrji</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>börn</w>
@@ -4803,7 +4803,7 @@
     <original><w>hefur</w></original>
     <corrected><w>hafi</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-conj" eid="0" />
       </errors>
   </revision>
   <w>áhrif</w>
@@ -5041,7 +5041,7 @@
     <original><w>hafi</w></original>
     <corrected><w>hafa</w></corrected>
       <errors>
-        <error xtype="sub4ind" eid="0" />
+        <error xtype="sub4ind-conj" eid="0" />
       </errors>
   </revision>
   <w>sambærilegar</w>
@@ -5065,7 +5065,7 @@
     <original><w>séu</w></original>
     <corrected><w>eru</w></corrected>
       <errors>
-        <error xtype="sub4ind" eid="0" />
+        <error xtype="sub4ind-conj" eid="0" />
       </errors>
   </revision>
   <w>mjög</w>
@@ -5092,7 +5092,7 @@
     <original><w>hafi</w></original>
     <corrected><w>hefur</w></corrected>
       <errors>
-        <error xtype="sub4ind" eid="0" />
+        <error xtype="sub4ind-conj" eid="0" />
       </errors>
   </revision>
   <w>málfræðilegt</w>
@@ -5127,7 +5127,7 @@
     <original><w>hafi</w></original>
     <corrected><w>hefur</w></corrected>
       <errors>
-        <error xtype="sub4ind" eid="0" />
+        <error xtype="sub4ind-conj" eid="0" />
       </errors>
   </revision>
   <w>ekki</w>
@@ -5159,7 +5159,7 @@
     <original><w>sýni</w></original>
     <corrected><w>sýnir</w></corrected>
       <errors>
-        <error xtype="sub4ind" eid="0" />
+        <error xtype="sub4ind-conj" eid="0" />
       </errors>
   </revision>
   <w>samræmi</w>
@@ -5506,7 +5506,7 @@
     <original><w>séu</w></original>
     <corrected><w>eru</w></corrected>
       <errors>
-        <error xtype="sub4ind" eid="0" />
+        <error xtype="sub4ind-conj" eid="0" />
       </errors>
   </revision>
   <w>svipuð</w>
@@ -5719,7 +5719,7 @@
     <original><w>sé</w></original>
     <corrected><w>er</w></corrected>
       <errors>
-        <error xtype="sub4ind" eid="0" />
+        <error xtype="sub4ind-conj" eid="0" />
       </errors>
   </revision>
   <w>að</w>
@@ -6156,7 +6156,7 @@
     <original><w>hafa</w></original>
     <corrected><w>hafi</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>börn</w>
@@ -7092,7 +7092,7 @@
     <original><w>sé</w></original>
     <corrected><w>er</w></corrected>
       <errors>
-        <error xtype="sub4ind" eid="0" />
+        <error xtype="sub4ind-conj" eid="0" />
       </errors>
   </revision>
   <w>að</w>
@@ -8745,7 +8745,7 @@
     <original><w>sé</w></original>
     <corrected><w>eru</w></corrected>
       <errors>
-        <error xtype="sub4ind" idx="416-1" eid="0" />
+        <error xtype="sub4ind-conj" idx="416-1" eid="0" />
         <error xtype="singular4plural" idx="416-1" eid="0" />
       </errors>
   </revision>

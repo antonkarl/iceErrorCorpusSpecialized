@@ -436,7 +436,7 @@
     <original><w>er</w></original>
     <corrected><w>sé</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="dep" depId="34-3" eid="0" />
       </errors>
   </revision>
   <w>orðin</w>
@@ -483,7 +483,8 @@
     <corrected><w>bréfinu</w><w>talar</w><w>hún</w></corrected>
       <errors>
         <error xtype="extra-comma" idx="42-1" eid="0" />
-        <error xtype="missing-words" idx="42-2" eid="0" />
+        <error xtype="missing-fin-verb" idx="42-2" eid="0" />
+        <error xtype="missing-sub" idx="42-3" eid="0" />
       </errors>
   </revision>
   <w>um</w>
@@ -499,7 +500,7 @@
     <original><w>saknar</w></original>
     <corrected><w>sakni</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="dep" depId="42-2" eid="0" />
       </errors>
   </revision>
   <w>frænda</w>
@@ -1078,7 +1079,7 @@
     <corrected><w>þá</w><w>hafi</w></corrected>
       <errors>
         <error xtype="missing-conjunction" idx="97-1" eid="0" />
-        <error xtype="ind4sub" idx="97-2" eid="0" />
+        <error xtype="dep" depId="95-1" eid="0" />
       </errors>
   </revision>
   <w>tungumálið</w>

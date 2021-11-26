@@ -89,7 +89,7 @@
     <original><w>er</w></original>
     <corrected><w>sé</w><w>jafn</w></corrected>
       <errors>
-        <error xtype="ind4sub" idx="3-1" eid="0" />
+        <error xtype="ind4sub-verb" idx="3-1" eid="0" />
         <error xtype="dep" depId="4-1" eid="0" />
       </errors>
   </revision>
@@ -1103,7 +1103,7 @@
     <original><w>er</w><w>annað</w><w>hvort</w></original>
     <corrected><w>sé</w></corrected>
       <errors>
-        <error xtype="ind4sub" idx="73-1" eid="0" />
+        <error xtype="ind4sub-conj" idx="73-1" eid="0" />
         <error xtype="extra-words" idx="73-2" eid="0" />
       </errors>
   </revision>
@@ -1235,7 +1235,7 @@
     <original><w>er</w></original>
     <corrected><w>sé</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-conj" eid="0" />
       </errors>
   </revision>
   <w>konan</w>
@@ -1287,7 +1287,7 @@
     <original><w>er</w></original>
     <corrected><w>sé</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-conj" eid="0" />
       </errors>
   </revision>
   <w>af</w>
