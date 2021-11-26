@@ -159,7 +159,7 @@
     <original><c>-</c></original>
     <corrected><c>–</c></corrected>
       <errors>
-        <error xtype="sub4ind" eid="0" />
+        <error xtype="hyphen4endash" eid="0" />
       </errors>
   </revision>
   <w>30</w>
@@ -326,7 +326,7 @@
     <original><w>hafa</w></original>
     <corrected><w>hafi</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>ekki</w>
@@ -2092,7 +2092,7 @@
     <corrected><w>sé</w></corrected>
       <errors>
         <error xtype="agreement" idx="95-1" eid="0" />
-        <error xtype="ind4sub" idx="95-1" eid="0" />
+        <error xtype="ind4sub-verb" idx="95-1" eid="0" />
       </errors>
   </revision>
   <w>mjög</w>
@@ -2355,7 +2355,7 @@
     <corrected><w>hafi</w><w>verið</w></corrected>
       <errors>
         <error xtype="verb-inflection" idx="117-1" eid="0" />
-        <error xtype="ind4sub" idx="117-1" eid="0" />
+        <error xtype="ind4sub-conj" idx="117-1" eid="0" />
       </errors>
   </revision>
   <w>yfir</w>
@@ -4020,7 +4020,7 @@
     <corrected><w>forvarna</w><w>hafi</w></corrected>
       <errors>
         <error xtype="singular4plural" idx="199-1" eid="0" />
-        <error xtype="ind4sub" idx="199-2" eid="0" />
+        <error xtype="ind4sub-verb" idx="199-2" eid="0" />
       </errors>
   </revision>
   <w>dregið</w>

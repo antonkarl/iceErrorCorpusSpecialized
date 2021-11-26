@@ -211,7 +211,7 @@
     <corrected><w>umönnunaraðilar</w><w>gæfu</w></corrected>
       <errors>
         <error xtype="nominal-inflection" idx="11-1" eid="0" />
-        <error xtype="ind4sub" idx="11-2" eid="0" />
+        <error xtype="ind4sub-conj" idx="11-2" eid="0" />
       </errors>
   </revision>
   <w>þeim</w>
@@ -268,7 +268,7 @@
     <original><w>verður</w></original>
     <corrected><w>yrði</w></corrected>
       <errors>
-        <error xtype="ind4sub" idx="16-1" eid="0" />
+        <error xtype="ind4sub-verb" idx="16-1" eid="0" />
         <error xtype="pres4past" idx="16-1" eid="0" />
       </errors>
   </revision>
@@ -283,7 +283,7 @@
     <original><w>er</w></original>
     <corrected><w>væri</w></corrected>
       <errors>
-        <error xtype="ind4sub" idx="17-1" eid="0" />
+        <error xtype="ind4sub-verb" idx="17-1" eid="0" />
         <error xtype="pres4past" idx="17-1" eid="0" />
       </errors>
   </revision>
@@ -293,7 +293,7 @@
     <original><w>gefur</w></original>
     <corrected><w>gæfi</w></corrected>
       <errors>
-        <error xtype="ind4sub" idx="18-1" eid="0" />
+        <error xtype="ind4sub-verb" idx="18-1" eid="0" />
         <error xtype="pres4past" idx="18-1" eid="0" />
       </errors>
   </revision>
@@ -811,7 +811,7 @@
     <original><w>læri</w></original>
     <corrected><w>læra</w></corrected>
       <errors>
-        <error xtype="sub4ind" eid="0" />
+        <error xtype="sub4ind-verb" eid="0" />
       </errors>
   </revision>
   <w>yfirleitt</w>
@@ -920,7 +920,7 @@
     <original><w>mótast</w></original>
     <corrected><w>mótist</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>af</w>
@@ -1202,7 +1202,7 @@
     <corrected><w>menningarviðmið</w><w>ýti</w></corrected>
       <errors>
         <error xtype="split-compound" idx="62-1" eid="0" />
-        <error xtype="ind4sub" idx="62-2" eid="0" />
+        <error xtype="ind4sub-verb" idx="62-2" eid="0" />
       </errors>
   </revision>
   <w>undir</w>
@@ -2080,7 +2080,7 @@
     <original><w>voru</w></original>
     <corrected><w>væru</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-conj" eid="0" />
       </errors>
   </revision>
   <w>afbrotamenn</w>
@@ -2160,7 +2160,7 @@
     <corrected><w>hefðu</w></corrected>
       <errors>
         <error xtype="have" idx="115-1" eid="0" />
-        <error xtype="ind4sub" idx="115-1" eid="0" />
+        <error xtype="ind4sub-verb" idx="115-1" eid="0" />
       </errors>
   </revision>
   <w>sterk</w>
@@ -3723,7 +3723,7 @@
     <original><w>hafa</w></original>
     <corrected><w>hafi</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-conj" eid="0" />
       </errors>
   </revision>
   <w>verið</w>
@@ -4346,7 +4346,7 @@
     <original><w>skiptir</w></original>
     <corrected><w>skipti</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>engu</w>
@@ -4359,7 +4359,7 @@
     <original><w>skiptir</w></original>
     <corrected><w>skipti</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>öllu</w>
@@ -5153,7 +5153,7 @@
     <original></original>
     <corrected><w>verður</w></corrected>
       <errors>
-        <error xtype="sub4ind" idx="310-1" eid="0" />
+        <error xtype="sub4ind-conj" idx="310-1" eid="0" />
         <error xtype="wording" idx="310-1" eid="0" />
       </errors>
   </revision>
@@ -5351,7 +5351,7 @@
     <original><w>hafa</w></original>
     <corrected><w>hafi</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-conj" eid="0" />
       </errors>
   </revision>
   <w>verið</w>
