@@ -392,7 +392,7 @@
     <original><w>gera</w><w>einhvað</w></original>
     <corrected><w>geri</w><w>eitthvað</w></corrected>
       <errors>
-        <error xtype="ind4sub" idx="19-1" eid="0" />
+        <error xtype="ind4sub-conj" idx="19-1" eid="0" />
         <error xtype="nonword" idx="19-2" eid="0" />
         <error xtype="pronun-writing" idx="19-2" eid="0" />
       </errors>
@@ -466,7 +466,7 @@
     <corrected><w>væri</w></corrected>
       <errors>
         <error xtype="pres4past" idx="25-1" eid="0" />
-        <error xtype="ind4sub" idx="25-1" eid="0" />
+        <error xtype="ind4sub-verb" idx="25-1" eid="0" />
         <error xtype="extra-word" idx="25-2" eid="0" />
         <error xtype="pronun-writing" idx="25-2" eid="0" />
         <error xtype="nonword" idx="25-2" eid="0" />
@@ -565,7 +565,7 @@
     <original><w>er</w></original>
     <corrected><w>sé</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>bara</w>
@@ -605,7 +605,7 @@
     <original><w>sagði</w></original>
     <corrected><w>segði</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-conj" eid="0" />
       </errors>
   </revision>
   <w>þeim</w>
@@ -825,7 +825,7 @@
       <errors>
         <error xtype="missing-hyphen" idx="50-1" eid="0" />
         <error xtype="nominal-inflection" idx="50-1" eid="0" />
-        <error xtype="ind4sub" idx="50-2" eid="0" />
+        <error xtype="ind4sub-verb" idx="50-2" eid="0" />
       </errors>
   </revision>
   <w>ekki</w>
@@ -985,7 +985,7 @@
     <original><w>er</w></original>
     <corrected><w>sé</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>ekki</w>
@@ -1087,7 +1087,7 @@
     <original><w>er</w></original>
     <corrected><w>sé</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>að</w>
@@ -1113,7 +1113,7 @@
     <original><w>er</w></original>
     <corrected><w>sé</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>góður</w>

@@ -1698,7 +1698,8 @@
     <original><w>voru</w></original>
     <corrected><w>hafi</w><w>verið</w></corrected>
       <errors>
-        <error xtype="verb-inflection" eid="0" />
+        <error xtype="tense4perfect" idx="107-1" eid="0" />
+        <error xtype="ind4sub" idx="107-1" eid="0" />
       </errors>
   </revision>
   <w>sameinandi</w>
@@ -2836,7 +2837,7 @@
     <original><w>er</w></original>
     <corrected><w>sé</w></corrected>
       <errors>
-        <error xtype="sub4ind" eid="0" />
+        <error xtype="sub4ind-verb" eid="0" />
       </errors>
   </revision>
   <w>lykilþáttur</w>
@@ -3792,7 +3793,7 @@
     <corrected><w>hinn</w><w>almenni</w><w>Íslendingur</w><w>vilji</w></corrected>
       <errors>
         <error xtype="wording" idx="233-1" eid="0" />
-        <error xtype="ind4sub" idx="233-2" eid="0" />
+        <error xtype="ind4sub-conj" idx="233-2" eid="0" />
       </errors>
   </revision>
   <w>ekki</w>
@@ -4521,7 +4522,7 @@
     <original><w>er</w></original>
     <corrected><w>sé</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-conj" eid="0" />
       </errors>
   </revision>
   <w>ekki</w>
@@ -6018,7 +6019,7 @@
     <original><w>er</w></original>
     <corrected><w>sé</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-conj" eid="0" />
       </errors>
   </revision>
   <w>að</w>
@@ -8105,7 +8106,7 @@
     <original><w>skiptir</w></original>
     <corrected><w>skipti</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>verulegu</w>
@@ -12648,7 +12649,7 @@
     <original><w>valdi</w></original>
     <corrected><w>olli</w></corrected>
       <errors>
-        <error xtype="sub4ind" idx="839-1" eid="0" />
+        <error xtype="sub4ind-conj" idx="839-1" eid="0" />
         <error xtype="pres4past" idx="839-1" eid="0" />
       </errors>
   </revision>
@@ -14545,7 +14546,7 @@
         <error xtype="extra-conjunction" idx="976-1" eid="0" />
         <error xtype="though" idx="976-1" eid="0" />
         <error xtype="def4ind" idx="976-2" eid="0" />
-        <error xtype="ind4sub" idx="976-3" eid="0" />
+        <error xtype="ind4sub-conj" idx="976-3" eid="0" />
       </errors>
   </revision>
   <w>mikilvægt</w>
@@ -14741,7 +14742,7 @@
     <original><w>er</w></original>
     <corrected><w>sé</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>mikilvægur</w>
@@ -14827,7 +14828,7 @@
     <original><w>getur</w><w>vel</w></original>
     <corrected><w>geti</w></corrected>
       <errors>
-        <error xtype="ind4sub" idx="1002-1" eid="0" />
+        <error xtype="ind4sub-verb" idx="1002-1" eid="0" />
         <error xtype="extra-word" idx="1002-2" eid="0" />
       </errors>
   </revision>
@@ -15151,7 +15152,7 @@
     <original><w>telja</w><w>ennþá</w></original>
     <corrected><w>telji</w><w>enn</w><w>þá</w></corrected>
       <errors>
-        <error xtype="ind4sub" idx="1026-1" eid="0" />
+        <error xtype="ind4sub-conj" idx="1026-1" eid="0" />
         <error xtype="merged-words" idx="1026-2" eid="0" />
         <error xtype="nonword" idx="1026-2" eid="0" />
       </errors>
@@ -15221,7 +15222,7 @@
     <original><w>bera</w></original>
     <corrected><w>beri</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-conj" eid="0" />
       </errors>
   </revision>
   <w>gæti</w>
@@ -15471,7 +15472,7 @@
     <original><w>koma</w></original>
     <corrected><w>komi</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-conj" eid="0" />
       </errors>
   </revision>
   <w>ekki</w>
@@ -15537,7 +15538,7 @@
     <original><w>hafa</w></original>
     <corrected><w>hafi</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-conj" eid="0" />
       </errors>
   </revision>
   <w>ávallt</w>
@@ -16572,7 +16573,7 @@
     <original><w>ber</w></original>
     <corrected><w>beri</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>töluvert</w>
@@ -18933,7 +18934,7 @@
     <original><w>var</w></original>
     <corrected><w>væri</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-conj" eid="0" />
       </errors>
   </revision>
   <w>mikilvægur</w>
@@ -19093,7 +19094,7 @@
     <original><w>var</w></original>
     <corrected><w>væri</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>að</w>
@@ -24877,7 +24878,7 @@
     <original><w>veitir</w></original>
     <corrected><w>veiti</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-conj" eid="0" />
       </errors>
   </revision>
   <w>dæmi</w>
@@ -25458,7 +25459,7 @@
     <original><w>verða</w></original>
     <corrected><w>verði</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>að</w>

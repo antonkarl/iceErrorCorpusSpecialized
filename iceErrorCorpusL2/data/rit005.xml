@@ -26,7 +26,7 @@
       <errors>
         <error xtype="verb-inflection" idx="1-1" eid="0" />
         <error xtype="nonword" idx="1-1" eid="0" />
-        <error xtype="ind4sub" idx="1-2" eid="0" />
+        <error xtype="ind4sub-conj" idx="1-2" eid="0" />
       </errors>
   </revision>
   <w>við</w>
@@ -125,7 +125,7 @@
     <original><w>eru</w></original>
     <corrected><w>séu</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>ekki</w>
@@ -143,14 +143,14 @@
     <original><w>missa</w></original>
     <corrected><w>missi</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <revision id="9b">
     <original><w>hluta</w></original>
     <corrected><w>eitthvað</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="wording" eid="0" />
       </errors>
   </revision>
   <w>af</w>
@@ -804,7 +804,7 @@
     <original><w>nefna</w></original>
     <corrected><w>telja</w><w>vera</w><w>fyrir</w><w>því</w></corrected>
       <errors>
-        <error xtype="wording" eid="0" />
+        <error xtype="wording" idx="35-1" eid="0" />
       </errors>
   </revision>
   <w>að</w>
@@ -813,7 +813,7 @@
     <original><w>hika</w></original>
     <corrected><w>hiki</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="dep" depId="35-1" eid="0" />
       </errors>
   </revision>
   <w>við</w>
@@ -1487,7 +1487,7 @@
       <errors>
         <error xtype="wording" idx="74-1" eid="0" />
         <error xtype="v3" idx="74-2" eid="0" />
-        <error xtype="ind4sub" idx="74-2" eid="0" />
+        <error xtype="ind4sub-verb" idx="74-2" eid="0" />
       </errors>
   </revision>
   <w>að</w>
@@ -1787,7 +1787,7 @@
     <corrected><c>,</c><w>sé</w></corrected>
       <errors>
         <error xtype="dep" depId="90-1" eid="0" />
-        <error xtype="ind4sub" idx="91-1" eid="0" />
+        <error xtype="ind4sub-conj" idx="91-1" eid="0" />
       </errors>
   </revision>
   <w>einnig</w>
@@ -2046,7 +2046,7 @@
     <original><w>eru</w></original>
     <corrected><w>séu</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>neikvæð</w>

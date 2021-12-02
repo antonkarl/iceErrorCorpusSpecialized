@@ -1360,7 +1360,7 @@
     <corrected><w>það</w></corrected>
       <errors>
         <error xtype="extra-words" idx="70-1" eid="0" />
-        <error xtype="sub4ind" idx="70-2" eid="0" />
+        <error xtype="sub4ind-conj" idx="70-2" eid="0" />
         <error xtype="wording" idx="70-3" eid="0" />
       </errors>
   </revision>
@@ -2047,7 +2047,7 @@
     <original><w>eru</w></original>
     <corrected><w>séu</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>annars</w>
@@ -2091,7 +2091,7 @@
     <original><w>er</w></original>
     <corrected><w>sé</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>góður</w>
@@ -3818,7 +3818,7 @@
     <corrected><w>eru</w></corrected>
       <errors>
         <error xtype="aux" idx="194-1" eid="0" />
-        <error xtype="sub4ind" idx="194-1" eid="0" />
+        <error xtype="sub4ind-conj" idx="194-1" eid="0" />
       </errors>
   </revision>
   <w>þau</w>

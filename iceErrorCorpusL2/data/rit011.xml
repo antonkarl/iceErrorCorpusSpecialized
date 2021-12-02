@@ -52,7 +52,7 @@
     <original><w>lýsa</w><w>einhverju</w></original>
     <corrected><w>lýsi</w></corrected>
       <errors>
-        <error xtype="ind4sub" idx="3-1" eid="0" />
+        <error xtype="ind4sub-conj" idx="3-1" eid="0" />
         <error xtype="extra-word" idx="3-2" eid="0" />
       </errors>
   </revision>
@@ -691,7 +691,7 @@
     <corrected><w>þeir</w><w>hafi</w></corrected>
       <errors>
         <error xtype="tense4perfect" idx="40-1" eid="0" />
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>mögulega</w>
@@ -1732,7 +1732,7 @@
       <errors>
         <error xtype="though" idx="100-1" eid="0" />
         <error xtype="noun4pro" idx="100-2" eid="0" />
-        <error xtype="ind4sub" idx="100-3" eid="0" />
+        <error xtype="ind4sub-conj" idx="100-3" eid="0" />
       </errors>
   </revision>
   <w>ekki</w>
@@ -2431,7 +2431,7 @@
     <original><w>er</w></original>
     <corrected><w>sé</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-conj" eid="0" />
       </errors>
   </revision>
   <w>ekki</w>

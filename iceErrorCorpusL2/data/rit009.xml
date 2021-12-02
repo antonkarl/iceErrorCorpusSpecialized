@@ -317,7 +317,7 @@
     <corrected><w>litar</w><w>almenningsálitið</w></corrected>
       <errors>
         <error xtype="agreement" idx="19-1" eid="0" />
-        <error xtype="sub4ind" idx="19-1" eid="0" />
+        <error xtype="sub4ind-verb" idx="19-1" eid="0" />
         <error xtype="wording" idx="19-2" eid="0" />
       </errors>
   </revision>
@@ -1503,7 +1503,7 @@
     <original><w>verða</w></original>
     <corrected><w>verði</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>oftast</w>
@@ -1520,7 +1520,7 @@
     <original><w>er</w></original>
     <corrected><w>sé</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>M1</w>
@@ -5044,7 +5044,7 @@
     <original><w>er</w></original>
     <corrected><w>sé</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>að</w>
@@ -5613,7 +5613,7 @@
     <original><w>telja</w></original>
     <corrected><w>telji</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>vera</w>
@@ -5628,7 +5628,7 @@
     <original><w>reyna</w></original>
     <corrected><w>reyni</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>að</w>
@@ -5644,7 +5644,7 @@
     <original><w>finnst</w></original>
     <corrected><w>finnist</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>um</w>
@@ -5874,7 +5874,7 @@
     <original><w>er</w></original>
     <corrected><w>væri</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-conj" eid="0" />
       </errors>
   </revision>
   <c>,</c>
@@ -6226,7 +6226,7 @@
     <original><w>telst</w></original>
     <corrected><w>teljist</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-conj" eid="0" />
       </errors>
   </revision>
   <w>vera</w>
@@ -7238,7 +7238,7 @@
     <original><w>þótti</w></original>
     <corrected><w>þyki</w></corrected>
       <errors>
-        <error xtype="ind4sub" idx="307-1" eid="0" />
+        <error xtype="ind4sub-conj" idx="307-1" eid="0" />
         <error xtype="past4pres" idx="307-1" eid="0" />
       </errors>
   </revision>
@@ -7300,7 +7300,7 @@
     <original><w>voru</w></original>
     <corrected><w>væru</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>notuð</w>
@@ -7426,7 +7426,7 @@
     <original><w>er</w></original>
     <corrected><w>sé</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>ófullkomið</w>
@@ -8077,7 +8077,7 @@
     <original><w>tekst</w></original>
     <corrected><w>tekist</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>að</w>

@@ -65,7 +65,7 @@
     <original><w>er</w><w>ólíklegasta</w></original>
     <corrected><w>séu</w><w>ólíklegustu</w><w>kringumstæðurnar</w></corrected>
       <errors>
-        <error xtype="ind4sub" idx="4-1" eid="0" />
+        <error xtype="ind4sub-verb" idx="4-1" eid="0" />
         <error xtype="agreement" idx="4-2" eid="0" />
         <error xtype="wording" idx="4-3" eid="0" />
       </errors>
@@ -161,7 +161,7 @@
     <original><w>vill</w></original>
     <corrected><w>vilji</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>ekki</w>
@@ -497,7 +497,7 @@
     <corrected><w>að</w><w>væri</w></corrected>
       <errors>
         <error xtype="missing-conjunction" idx="39-1" eid="0" />
-        <error xtype="ind4sub" idx="39-2" eid="0" />
+        <error xtype="ind4sub-verb" idx="39-2" eid="0" />
         <error xtype="pres4past" idx="39-2" eid="0" />
       </errors>
   </revision>

@@ -104,7 +104,7 @@
     <original><w>var</w></original>
     <corrected><w>væri</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>miðpunktur</w>
@@ -893,7 +893,7 @@
     <corrected><w>hvort</w><w>væri</w></corrected>
       <errors>
         <error xtype="wording" idx="70-1" eid="0" />
-        <error xtype="ind4sub" idx="70-2" eid="0" />
+        <error xtype="ind4sub-conj" idx="70-2" eid="0" />
       </errors>
   </revision>
   <w>átt</w>
@@ -1575,7 +1575,7 @@
     <corrected><w>heimur</w><w>sé</w></corrected>
       <errors>
         <error xtype="dep" depId="128-1" eid="0" />
-        <error xtype="ind4sub" idx="129-1" eid="0" />
+        <error xtype="ind4sub-conj" idx="129-1" eid="0" />
       </errors>
   </revision>
   <w>ört</w>

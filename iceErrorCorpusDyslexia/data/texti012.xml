@@ -282,7 +282,7 @@
     <corrected><w>ljóðið</w><w>sé</w></corrected>
       <errors>
         <error xtype="missing-letter" idx="22-1" eid="0" />
-        <error xtype="ind4sub" idx="22-2" eid="0" />
+        <error xtype="ind4sub-verb" idx="22-2" eid="0" />
       </errors>
   </revision>
   <w>eintal</w>
@@ -1161,7 +1161,7 @@
     <original><w>hefði</w><w>tekið</w><w>ein</w></original>
     <corrected><w>hafði</w><w>haldið</w></corrected>
       <errors>
-        <error xtype="sub4ind" idx="100-1" eid="0" />
+        <error xtype="sub4ind-verb" idx="100-1" eid="0" />
         <error xtype="wording" idx="100-2" eid="0" />
       </errors>
   </revision>
@@ -1992,7 +1992,7 @@
     <original><w>hafa</w></original>
     <corrected><w>hafi</w></corrected>
       <errors>
-        <error xtype="ind4sub" eid="0" />
+        <error xtype="ind4sub-verb" eid="0" />
       </errors>
   </revision>
   <w>gerst</w>
