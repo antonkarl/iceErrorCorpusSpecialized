@@ -42,14 +42,14 @@ grammar	inflection	numeral-inflection	A numeral inflected incorrectly	Í fjórð
 grammar	inflection	pro-inflection	A pronoun inflected incorrectly	Á þann tíma > á þeim tíma
 grammar	inflection	verb-inflection	A verb inflected incorrectly	Samt sem áður kröfðu þau > Samt sem áður kröfðust þau
 grammar	inflection	want	The third person singular ‘vill’ used where the first person singular ‘vil’ should be used, and the opposite	ég vill > ég vil
-grammar	insertion	extra-prep	A redundant preposition	Á þetta bendir Katrín á í umfjölluninni > Á þetta bendir Katrín í umfjölluninni
+grammar	prep	extra-prep	A redundant preposition	Á þetta bendir Katrín á í umfjölluninni > Á þetta bendir Katrín í umfjölluninni
 grammar	mood	ind4sub	A verb in the indicative mood which should be in the subjunctive mood for semantic reasons	Enginn hafði þá haft hugmynd um hvað gerðist > Enginn hefði þá haft hugmynd um hvað gerðist
 grammar	mood	ind4sub-conj	A verb in the indicative mood which should be in the subjunctive mood because of a conjunction (e.g. ef, þótt) 	Þrátt fyrir að konfúsíanismi er upprunninn > Þrátt fyrir að konfúsíanismi sé upprunninn
 grammar	mood	ind4sub-verb	A verb in the indicative mood which should be in the subjunctive mood because of another verb (e.g. segja, spyrja, trúa, halda)	Það má því segja að með hverjum degi er heimurinn að sameinast > Það má því segja að með hverjum degi sé heimurinn að sameinast
 grammar	mood	sub4ind	A verb in the indicative mood which should be in the subjunctive mood for semantic reasons	Ef þú hringir mikið til útlanda gæti símareikingurinn orðið frekar hár > Ef þú hringir mikið til útlanda getur símareikingurinn orðið frekar hár 
 grammar	mood	sub4ind-conj	A verb in the subjunctive mood which should be in the indicative mood because of a conjunction (e.g. þegar)	Hjónaband fyrir mér er þegar maður gifti sig ... > Hjónaband fyrir mér er þegar maður giftir sig ...
 grammar	mood	sub4ind-verb	A verb in the subjunctive mood which should be in the indicative mood because of another verb (e.g. vita, sýna)	Rannsóknir sýna að strákar drekki meira en stúlkur > Rannsóknir sýna að strákar drekka meira en stúlkur
-grammar	omission	missing-prep	A preposition missing	Hann fór Parísar > hann fór til Parísar
+grammar	prep	missing-prep	A preposition missing	Hann fór Parísar > hann fór til Parísar
 grammar	prep	að4af	The preposition ‘að’ used instead of the preposition ‘af’	að hafa gaman að > að hafa gaman af
 grammar	prep	af4að	The preposition ‘af’ used instead of the preposition ‘að’	gert grín af > gert grín að
 grammar	prep	wrong-prep	An incorrect preposition used	Ég bý í Íslandi > Ég bý á Íslandi
@@ -209,8 +209,8 @@ orthography	spelling	pronun-writing	A word written according to its pronunciatio
 orthography	spelling	u4y	‘U’ written instead of ‘y’ in the two words demonstrated below	mundi > myndi
 orthography	spelling	y4i	‘y’ written instead of ‘i’	byðja > biðja
 orthography	spelling	ý4í	‘ý’ written instead of ‘í’	ýmynda > ímynda
-orthography	style	abbreviation4words	An abbreviation used instead of the full words	e. fjórar mínútur > eftir fjórar mínútur
-orthography	style	words4abbreviation	Words used instead of their abbreviation	til dæmis > t.d.
+style	style	abbreviation4words	An abbreviation used instead of the full words	e. fjórar mínútur > eftir fjórar mínútur
+style	style	words4abbreviation	Words used instead of their abbreviation	til dæmis > t.d.
 orthography	typo	extra-accent	A redundant accent used with a letter	flétta > fletta
 orthography	typo	extra-letter	A redundant letter in a word	posturlín > postulín
 orthography	typo	extra-letters	More than one redundant letter in a word	margskonarar > margs konar
@@ -220,7 +220,7 @@ orthography	typo	missing-letter	A letter missing in a word	hafstaum > hafstraum
 orthography	typo	missing-letters	More than one letter missing in a word	tónlisastefnum > tónlistarstefnum
 orthography	typo	swapped-letters	Letters within a word swapped	einngi > einnig
 orthography	typo	wrong-accent	A wrong accent used with a letter or an accent used with an incorrect letter	óktober > október
-other	other	dep	An error dependent on another one	referal: depId
+other	miscellaneous	dep	An error dependent on another one	referal: depId
 style	exclusion	gendered	Gendered language	menn hugsa oft > fólk hugsar oft
 style	numbers	extra-number	A redundant number	139,0 > 139
 style	numbers	number-fail	An error relating to a number	123ja metra > 123 metra
