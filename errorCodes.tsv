@@ -42,16 +42,16 @@ grammar	inflection	numeral-inflection	A numeral inflected incorrectly	Í fjórð
 grammar	inflection	pro-inflection	A pronoun inflected incorrectly	Á þann tíma > á þeim tíma
 grammar	inflection	verb-inflection	A verb inflected incorrectly	Samt sem áður kröfðu þau > Samt sem áður kröfðust þau
 grammar	inflection	want	The third person singular ‘vill’ used where the first person singular ‘vil’ should be used, and the opposite	ég vill > ég vil
-grammar	prep	extra-prep	A redundant preposition	Á þetta bendir Katrín á í umfjölluninni > Á þetta bendir Katrín í umfjölluninni
 grammar	mood	ind4sub	A verb in the indicative mood which should be in the subjunctive mood for semantic reasons	Enginn hafði þá haft hugmynd um hvað gerðist > Enginn hefði þá haft hugmynd um hvað gerðist
-grammar	mood	ind4sub-conj	A verb in the indicative mood which should be in the subjunctive mood because of a conjunction (e.g. ef, þótt) 	Þrátt fyrir að konfúsíanismi er upprunninn > Þrátt fyrir að konfúsíanismi sé upprunninn
+grammar	mood	ind4sub-conj	A verb in the indicative mood which should be in the subjunctive mood because of a conjunction (e.g. ef, þótt)	Þrátt fyrir að konfúsíanismi er upprunninn > Þrátt fyrir að konfúsíanismi sé upprunninn
 grammar	mood	ind4sub-verb	A verb in the indicative mood which should be in the subjunctive mood because of another verb (e.g. segja, spyrja, trúa, halda)	Það má því segja að með hverjum degi er heimurinn að sameinast > Það má því segja að með hverjum degi sé heimurinn að sameinast
-grammar	mood	sub4ind	A verb in the indicative mood which should be in the subjunctive mood for semantic reasons	Ef þú hringir mikið til útlanda gæti símareikingurinn orðið frekar hár > Ef þú hringir mikið til útlanda getur símareikingurinn orðið frekar hár 
+grammar	mood	sub4ind	A verb in the indicative mood which should be in the subjunctive mood for semantic reasons	Ef þú hringir mikið til útlanda gæti símareikingurinn orðið frekar hár > Ef þú hringir mikið til útlanda getur símareikingurinn orðið frekar hár
 grammar	mood	sub4ind-conj	A verb in the subjunctive mood which should be in the indicative mood because of a conjunction (e.g. þegar)	Hjónaband fyrir mér er þegar maður gifti sig ... > Hjónaband fyrir mér er þegar maður giftir sig ...
 grammar	mood	sub4ind-verb	A verb in the subjunctive mood which should be in the indicative mood because of another verb (e.g. vita, sýna)	Rannsóknir sýna að strákar drekki meira en stúlkur > Rannsóknir sýna að strákar drekka meira en stúlkur
-grammar	prep	missing-prep	A preposition missing	Hann fór Parísar > hann fór til Parísar
 grammar	prep	að4af	The preposition ‘að’ used instead of the preposition ‘af’	að hafa gaman að > að hafa gaman af
 grammar	prep	af4að	The preposition ‘af’ used instead of the preposition ‘að’	gert grín af > gert grín að
+grammar	prep	extra-prep	A redundant preposition	Á þetta bendir Katrín á í umfjölluninni > Á þetta bendir Katrín í umfjölluninni
+grammar	prep	missing-prep	A preposition missing	Hann fór Parísar > hann fór til Parísar
 grammar	prep	wrong-prep	An incorrect preposition used	Ég bý í Íslandi > Ég bý á Íslandi
 grammar	syntax	adj4adv	An adjective used where an adverb should be	krefst ekki meira > krefst ekki meir
 grammar	syntax	adv4adj	An adverb used where an adjective should be	hafa það betur > hafa það betra
@@ -209,8 +209,6 @@ orthography	spelling	pronun-writing	A word written according to its pronunciatio
 orthography	spelling	u4y	‘U’ written instead of ‘y’ in the two words demonstrated below	mundi > myndi
 orthography	spelling	y4i	‘y’ written instead of ‘i’	byðja > biðja
 orthography	spelling	ý4í	‘ý’ written instead of ‘í’	ýmynda > ímynda
-style	style	abbreviation4words	An abbreviation used instead of the full words	e. fjórar mínútur > eftir fjórar mínútur
-style	style	words4abbreviation	Words used instead of their abbreviation	til dæmis > t.d.
 orthography	typo	extra-accent	A redundant accent used with a letter	flétta > fletta
 orthography	typo	extra-letter	A redundant letter in a word	posturlín > postulín
 orthography	typo	extra-letters	More than one redundant letter in a word	margskonarar > margs konar
@@ -229,6 +227,7 @@ style	numbers	symbol4number	A symbol used instead of a numeral	2 ½ > 2,5
 style	numbers	word4number	A word used instead of a numeral. All numbers higher than 10 should be written as a numeral, except when a number lower than 11 appears immediately before or after a number higher than that. Ordinals which are part of a proper name are always written as numerals.	fjórða öld > 4. öld
 style	other	extra-symbol	A redundant symbol	Dalvík + gaf... > Dalvík gaf...
 style	other	symbol4word	A symbol used where a word should be	stjórn ™ > stjórn TM
+style	style	abbreviation4words	An abbreviation used instead of the full words	e. fjórar mínútur > eftir fjórar mínútur
 style	style	fw4ice	A foreign word used instead of an Icelandic one	Elba > Saxelfur
 style	style	ice4fw	An Icelandic word used instead of a foreign one	Demókrata öldungarþings herferðarnefndina > Democratic Senatorial Campaign Committee
 style	style	it4nonit	A word in italic font which should be non-italic	Studdi Isma'il > Studdi Isma'il
@@ -236,6 +235,7 @@ style	style	nonit4it	A word in non-italic font which should be italic	orðið qi
 style	style	style	A particular style in writing used	urðu ekkert frægir > urðu ekki frægir
 style	style	taboo-word	An inappropriate word used	hjúkrunarkona > hjúkrunarfræðingur
 style	style	unicelandic	Unicelandic usage in a sentence	...fer eftir persónunni... > ...fer eftir manneskjunni...
+style	style	words4abbreviation	Words used instead of their abbreviation	til dæmis > t.d.
 style	wording	wording	Various errors regarding wording	...gerðum allt í raun... > ...gerðum í raun allt...
 vocabulary	aux	aux	Auxiliary verbs used incorrectly	mun verða eftirminnilegt > mun vera eftirminnilegt
 vocabulary	aux	have	Confusion in the use of ‘hafa’, ‘eiga’ and ‘vera með’	hafa fjölskyldu > eiga fjölskyldu
