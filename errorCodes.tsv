@@ -131,7 +131,6 @@ orthography	punctuation	extra-brackets	Redundant brackets	((í júní)) > (í j�
 orthography	punctuation	extra-colon	A redundant colon	Kristján: Grindvíkingar eru... > Kristján segir Grindvíkinga vera
 orthography	punctuation	extra-comma	Redundant comma	stríð, við náttúruna > stríð við náttúruna
 orthography	punctuation	extra-commas	Redundant commas used around an insertion	Lárus Dagur, framkvæmdastjóri, ... > Lárus Dagur framkvæmdastjóri ...
-orthography	punctuation	extra-conjunction	A redundant conjunction	hvort sem að > hvort sem
 orthography	punctuation	extra-endash	A redundant en dash used	barna–skapur > barnaskapur
 orthography	punctuation	extra-hyphen	A redundant hyphen used	Komust í 16-liða úrslit > komust í 16 liða úrslit
 orthography	punctuation	extra-period	Redundant period	á morgun. Og ... > á morgun og...
@@ -154,7 +153,6 @@ orthography	punctuation	missing-bracket	A single bracket missing	(í júní > (�
 orthography	punctuation	missing-colon	A colon missing	Hann sagði við þá „Komið til mín“ > Hann sagði við þá: „Komið til mín“
 orthography	punctuation	missing-comma	A comma missing	Hún vex á Íslandi Grænlandi og Færeyjum > Hún vex á Íslandi, Grænlandi og Færeyjum
 orthography	punctuation	missing-commas	Commas missing around insertion	Hún er jafn verðmæt ef ekki verðmætari en háskólapróf > Hún er verðmæt, ef ekki verðmætari, en háskólapróf
-orthography	punctuation	missing-conjunction	A conjunction missing	í Noregi suður að Gíbraltarsundi > í Noregi og suður að Gíbraltarsundi
 orthography	punctuation	missing-ex	An exclamation mark missing	Viti menn ég komst af > Viti menn! Ég komst af
 orthography	punctuation	missing-period	A period missing	Tónlistin varð ekki vinsæl strax það var ekki fyrr en > Tónlistin varð ekki vinsæl strax. Það var ekki fyrr en
 orthography	punctuation	missing-qm	A question mark missing	„Skilur þú mig“ spurði Halldór > „Skilur þú mig?“ spurði Halldór
@@ -242,6 +240,7 @@ vocabulary	aux	have	Confusion in the use of ‘hafa’, ‘eiga’ and ‘vera m
 vocabulary	collocation	collocation	An error in a collocation	fram á þennan dag > fram til þessa dags
 vocabulary	collocation	collocation-idiom	An error in a collocation with an opaque meaning	hélt hvorki vindi né vatni > hélt hvorki vatni né vindi
 vocabulary	collocation	though	Confusion between 'þó að' and 'þótt'	þótt að > þó að
+vocabulary	insertion	extra-conjunction	A redundant conjunction	hvort sem að > hvort sem
 vocabulary	insertion	extra-word	A redundant word	augun á mótherja > augu mótherja
 vocabulary	insertion	extra-words	More than one redundant word	...ég fer að hugsa... > ...ég hugsa...
 vocabulary	insertion	repeat-word	A word repeated just after the other	maður sem sem fór > maður sem fór
@@ -251,6 +250,7 @@ vocabulary	lexical	context	An incorrect word chosen for the particular context	�
 vocabulary	lexical	noun4adj	A noun used where an adjective should be used	Það eru jafnmörg orð sem eru endingarleysi og   >  ...sem eru endingarlaus og
 vocabulary	lexical	það4þar	það í stað þar	það eru tvær árstíðir > þar eru tvær árstíðir
 vocabulary	lexical	þar4það	The adverb ‘þar’ used where ‘það’ should be	þar voru dæmi  (there were examples of...)
+vocabulary	omission	missing-conjunction	A conjunction missing	í Noregi suður að Gíbraltarsundi > í Noregi og suður að Gíbraltarsundi
 vocabulary	omission	missing-word	A word missing	í Donalda > í þorpinu Donalda
 vocabulary	omission	missing-words	More than one word missing	því betri laun > því betri laun hlýtur maður
 vocabulary	pro	indef-pro	An indefinite pronoun used incorrectly	enginn > ekki neinn
