@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>verk052.xml</title>
+    </titleStmt>
+    <publicationStmt>
+      <distributor>Rannsóknarstofan Mál og tækni</distributor>
+    </publicationStmt>
+    <sourceDesc>
+      <biblStruct>
+        <monogr>
+          <author>Anonymous</author>
+        </monogr>
+      </biblStruct>
+    </sourceDesc>
+  </fileDesc>
+</teiHeader>
+<text><body><p n="1">
+<s n="1">
+  <w>Hver</w>
+  <w>var</w>
+  <w>þessi</w>
+  <w>Jón</w>
+  <w>Arason</w>
+  <c>?</c>
+</s>
+<s n="2">
+  <w>Jón</w>
+  <w>Arason</w>
+  <w>var</w>
+  <w>fæddur</w>
+  <w>árið 1484</w>
+  <c>.</c>
+</s>
+<s n="3">
+  <w>Hann</w>
+  <w>ólst</w>
+  <w>upp</w>
+  <w>nálægt</w>
+  <w>Möðruvallaklaustrinu</w>
+  <w>á</w>
+  <w>Norðurlandi</w>
+  <w>og</w>
+  <w>var</w>
+  <w>í</w>
+  <w>þjónustu</w>
+  <w>Gottskálks</w>
+  <w>biskups</w>
+  <w>Nikulássonar</w>
+  <w>á</w>
+  <w>Hólum</w>
+  <c>.</c>
+</s>
+<s n="4">
+  <w>Jón</w>
+  <w>var</w>
+  <w>vígður</w>
+  <w>til</w>
+  <w>prests</w>
+  <w>árið 1507</w>
+  <w>og</w>
+  <w>kosinn</w>
+  <w>biskup</w>
+  <w>á</w>
+  <w>Hólum</w>
+  <w>1520</w>
+  <c>.</c>
+</s>
+<s n="5">
+  <w>Fyrstu</w>
+  <w>árin</w>
+  <w>sem</w>
+  <w>hann</w>
+  <w>var</w>
+  <w>biskup</w>
+  <revision id="1">
+    <original><w>voru</w></original>
+    <corrected><w>áttu</w></corrected>
+      <errors>
+        <error xtype="context" eid="0" />
+      </errors>
+  </revision>
+  <w>biskupsdæmin</w>
+  <w>á</w>
+  <w>Hólum</w>
+  <w>og</w>
+  <revision id="2">
+    <original><w>á</w></original>
+    <corrected><w>í</w></corrected>
+      <errors>
+        <error xtype="wrong-prep" eid="0" />
+      </errors>
+  </revision>
+  <w>Skálholti</w>
+  <w>í</w>
+  <w>miklum</w>
+  <revision id="3">
+    <original><w>ófriði</w></original>
+    <corrected><w>deilum</w></corrected>
+      <errors>
+        <error xtype="context" eid="0" />
+      </errors>
+  </revision>
+  <c>,</c>
+  <w>en</w>
+  <w>það</w>
+  <revision id="4">
+    <original><w>leysist</w></original>
+    <corrected><w>leystist</w></corrected>
+      <errors>
+        <error xtype="pres4past" eid="0" />
+      </errors>
+  </revision>
+  <w>þegar</w>
+  <w>Gissur</w>
+  <w>Einarsson</w>
+  <w>varð</w>
+  <w>biskup</w>
+  <revision id="5">
+    <original><w>á</w></original>
+    <corrected><w>í</w></corrected>
+      <errors>
+        <error xtype="wrong-prep" eid="0" />
+      </errors>
+  </revision>
+  <w>Skálholti</w>
+  <w>árið 1542</w>
+  <c>.</c>
+</s>
+<s n="6">
+  <w>Gissur</w>
+  <w>var</w>
+  <w>þá</w>
+  <w>nýkominn</w>
+  <w>heim</w>
+  <w>frá</w>
+  <w>Danmörku</w>
+  <w>og</w>
+  <w>var</w>
+  <revision id="6">
+    <original><w>nú</w></original>
+    <corrected><w>þá</w></corrected>
+      <errors>
+        <error xtype="wording" idx="6-1" eid="0" />
+        <error xtype="pres4past" idx="6-1" eid="0" />
+      </errors>
+  </revision>
+  <w>þegar</w>
+  <revision id="7">
+    <original></original>
+    <corrected><w>orðinn</w></corrected>
+      <errors>
+        <error xtype="aux" idx="7-1" eid="0" />
+        <error xtype="missing-word" idx="7-1" eid="0" />
+      </errors>
+  </revision>
+  <w>lútherskur</w>
+  <c>,</c>
+  <w>því</w>
+  <w>Danir</w>
+  <w>tóku</w>
+  <w>upp</w>
+  <w>lútherstrú</w>
+  <w>árið 1537</w>
+  <c>.</c>
+</s>
+<s n="7">
+  <w>Skálholt</w>
+  <w>varð</w>
+  <w>því</w>
+  <w>lútherskt</w>
+  <w>biskupsdæmi</w>
+  <w>en</w>
+  <w>Jón</w>
+  <w>á</w>
+  <w>Hólum</w>
+  <w>var</w>
+  <w>kaþólskur</w>
+  <w>og</w>
+  <w>barðist</w>
+  <w>fyrir</w>
+  <w>því</w>
+  <w>að</w>
+  <w>Hólar</w>
+  <c>(</c>
+  <w>og</w>
+  <w>Ísland</w>
+  <c>)</c>
+  <w>væru</w>
+  <w>áfram</w>
+  <revision id="8">
+    <original><w>kaþólsks</w><w>trús</w></original>
+    <corrected><w>kaþólskrar</w><w>trúar</w></corrected>
+      <errors>
+        <error xtype="nominal-inflection" idx="8-1" eid="0" />
+        <error xtype="genitive" idx="8-1" eid="0" />
+      </errors>
+  </revision>
+  <c>.</c>
+</s>
+<s n="8">
+  <revision id="9">
+    <original><w>Danakonungurinn</w></original>
+    <corrected><w>Danakonungur</w></corrected>
+      <errors>
+        <error xtype="def4ind" eid="0" />
+      </errors>
+  </revision>
+  <w>skipti</w>
+  <w>sér</w>
+  <w>ekki</w>
+  <w>mikið</w>
+  <w>af</w>
+  <w>því</w>
+  <w>til</w>
+  <w>að</w>
+  <w>byrja</w>
+  <w>með</w>
+  <c>,</c>
+  <w>en</w>
+  <w>þegar</w>
+  <w>Gissur</w>
+  <w>dó</w>
+  <w>árið 1548</w>
+  <w>og</w>
+  <w>Jón</w>
+  <c>„</c>
+  <w>lét</w>
+  <w>jafnframt</w>
+  <w>víggirða</w>
+  <w>biskupssetrið</w>
+  <w>á</w>
+  <w>Hólum</w>
+  <c>“</c>
+  <w>1</w>
+  <w>tók</w>
+  <w>konungurinn</w>
+  <w>ákvörðun</w>
+  <revision id="10">
+    <original></original>
+    <corrected><w>um</w></corrected>
+      <errors>
+        <error xtype="missing-prep" eid="0" />
+      </errors>
+  </revision>
+  <w>að</w>
+  <w>láta</w>
+  <w>Daða</w>
+  <w>Guðmundsson</w>
+  <w>sýslumann</w>
+  <w>handtaka</w>
+  <w>Jón</w>
+  <c>.</c>
+</s>
+<s n="9">
+  <w>Fyrst</w>
+  <w>hikaði</w>
+  <w>Daði</w>
+  <w>af</w>
+  <w>því</w>
+  <w>að</w>
+  <w>hann</w>
+  <w>var</w>
+  <w>hræddur</w>
+  <w>við</w>
+  <w>Norðlendinga</w>
+  <w>en</w>
+  <w>svo</w>
+  <w>handtók</w>
+  <w>hann</w>
+  <w>Jón</w>
+  <w>og</w>
+  <w>tvo</w>
+  <revision id="11">
+    <original><w>sýni</w></original>
+    <corrected><w>syni</w></corrected>
+      <errors>
+        <error xtype="extra-accent" idx="11-1" eid="0" />
+        <error xtype="context" idx="11-1" eid="0" />
+      </errors>
+  </revision>
+  <w>hans</w>
+  <w>haustið</w>
+  <w>1550</w>
+  <c>.</c>
+</s>
+<s n="10">
+  <w>Jón</w>
+  <w>var</w>
+  <w>hálshöggvinn</w>
+  <w>í</w>
+  <revision id="12">
+    <original><w>Skálholt</w></original>
+    <corrected><w>Skálholti</w></corrected>
+      <errors>
+        <error xtype="dir4loc" idx="12-1" eid="0" />
+        <error xtype="nominal-inflection" idx="12-1" eid="0" />
+      </errors>
+  </revision>
+  <w>7. nóvember</w>
+  <w>1550</w>
+  <c>.</c>
+</s>
+<s n="11">
+  <w>Aftakan</w>
+  <w>Jóns</w>
+  <w>leiddi</w>
+  <w>til</w>
+  <w>þess</w>
+  <w>að</w>
+  <w>60</w>
+  <w>menn</w>
+  <w>komu</w>
+  <w>suður</w>
+  <w>frá</w>
+  <w>Norðurlandi</w>
+  <w>og</w>
+  <c>„</c>
+  <w>drápu</w>
+  <w>alla</w>
+  <w>Dani</w>
+  <w>sem</w>
+  <w>þeir</w>
+  <w>fundu</w>
+  <c>,</c>
+  <w>hvort</w>
+  <w>sem</w>
+  <w>þeir</w>
+  <w>höfðu</w>
+  <w>átt</w>
+  <w>þátt</w>
+  <w>í</w>
+  <w>aftöku</w>
+  <w>Hólafeðga</w>
+  <w>eða</w>
+  <w>ekki</w>
+  <c>.</c>
+  <c>“</c>
+</s>
+<s n="12">
+  <w>2</w>
+  <revision id="13">
+    <original><w>Danakonungurinn</w></original>
+    <corrected><w>Danakonungur</w></corrected>
+      <errors>
+        <error xtype="def4ind" eid="0" />
+      </errors>
+  </revision>
+  <w>bældi</w>
+  <w>þá</w>
+  <w>uppreisnina</w>
+  <w>niður</w>
+  <w>með</w>
+  <w>því</w>
+  <w>að</w>
+  <w>senda</w>
+  <w>nokkur</w>
+  <w>hundruð</w>
+  <w>manns</w>
+  <w>til</w>
+  <w>Íslands</w>
+  <c>.</c>
+</s>
+<s n="13">
+  <w>Jón</w>
+  <w>Arason</w>
+  <w>varð</w>
+  <w>að</w>
+  <w>þjóðhetju</w>
+  <w>á</w>
+  <w>19.</w>
+  <w>öld</w>
+  <w>þegar</w>
+  <w>sjálfstæðisbaráttan</w>
+  <w>hófst</w>
+  <revision id="14">
+    <original><w>á</w></original>
+    <corrected><w>að</w></corrected>
+      <errors>
+        <error xtype="wrong-prep" eid="0" />
+      </errors>
+  </revision>
+  <w>nýju</w>
+  <w>á</w>
+  <w>Íslandi</w>
+  <c>.</c>
+</s>
+<s n="14">
+  <w>Mótmæli</w>
+  <w>Jóns</w>
+  <w>gegn</w>
+  <revision id="15">
+    <original><w>lútherska</w><w>trúi</w><w>var</w><w>túlkað</w></original>
+    <corrected><w>lútherskri</w><w>trú</w><w>voru</w><w>túlkuð</w></corrected>
+      <errors>
+        <error xtype="nominal-inflection" idx="15-1" eid="0" />
+        <error xtype="agreement" idx="15-2" eid="0" />
+        <error xtype="singular4plural" idx="15-2" eid="0" />
+        <error xtype="agreement-pred" idx="15-3" eid="0" />
+      </errors>
+  </revision>
+  <w>sem</w>
+  <w>mótmæli</w>
+  <w>gegn</w>
+  <w>Danmörku</w>
+  <w>og</w>
+  <revision id="16">
+    <original><w>konungsvaldi</w></original>
+    <corrected><w>konungsvaldinu</w></corrected>
+      <errors>
+        <error xtype="ind4def" eid="0" />
+      </errors>
+  </revision>
+  <c>.</c>
+</s>
+<s n="15">
+  <w>1</w>
+  <w>https://www.visindavefur.is/svar.php?id=6473</w>
+  <c>.</c>
+</s>
+<s n="16">
+  <w>2</w>
+  <w>https://www.visindavefur.is/svar.php?id=6473</w>
+  <c>.</c>
+</s>
+</p></body></text>
+</TEI>
